@@ -47,6 +47,6 @@ public class SceneChange: MonoBehaviour
         /* This makes sure buttons aren't interactable while fading out. */
         canvasGroup.interactable = false;
         canvasGroupMenu.interactable = false;
-        yield return null;
+        yield return new WaitForSeconds( 1 );
     }
 }
