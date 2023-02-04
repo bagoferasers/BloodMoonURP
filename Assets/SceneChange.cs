@@ -39,9 +39,9 @@ public class SceneChange: MonoBehaviour
 
         while( canvasGroup.alpha < 1 )
         {
-            canvasGroup.alpha += Time.deltaTime * (float)0.9;
+            canvasGroup.alpha += Time.deltaTime * (float)0.8;
             //canvasGroupMenu.alpha -= Time.deltaTime / 2;
-            canvasGroupMenu.alpha -= Time.deltaTime * (float)0.9;
+            canvasGroupMenu.alpha -= Time.deltaTime * (float)0.8;
             yield return null;
         }
 
