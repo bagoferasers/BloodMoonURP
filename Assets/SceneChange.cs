@@ -39,14 +39,15 @@ public class SceneChange: MonoBehaviour
 
         while( canvasGroup.alpha < 1 )
         {
-            canvasGroup.alpha += Time.deltaTime / 2;
-            canvasGroupMenu.alpha -= Time.deltaTime / 2;
+            canvasGroup.alpha += Time.deltaTime * (float)0.4;
+            //canvasGroupMenu.alpha -= Time.deltaTime / 2;
+            canvasGroupMenu.alpha -= Time.deltaTime * (float)0.4;
             yield return null;
         }
 
         /* This makes sure buttons aren't interactable while fading out. */
         canvasGroup.interactable = false;
         canvasGroupMenu.interactable = false;
-        yield return new WaitForSeconds( 1 );
+        yield return null;
     }
 }
