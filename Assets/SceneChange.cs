@@ -33,11 +33,12 @@ public class SceneChange: MonoBehaviour
     /* Fades scene to black by decrementing alpha over time. */
     IEnumerator FadeOut( )
     {
-        CanvasGroup canvasGroup = GetComponent< CanvasGroup >( );
+        GameObject g = GameObject.Find( "darkyboi" );
+        CanvasGroup canvasGroup = g.GetComponentInParent< CanvasGroup >( );
 
-        while( canvasGroup.alpha > 0 )
+        while( canvasGroup.alpha < 1 )
         {
-            canvasGroup.alpha -= Time.deltaTime / 2;
+            canvasGroup.alpha += Time.deltaTime / 2;
             yield return null;
         }
 
