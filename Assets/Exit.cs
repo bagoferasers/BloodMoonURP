@@ -11,7 +11,7 @@ public class Exit : MonoBehaviour
     
     public IEnumerator goodbye( )
     {
-        yield return new WaitForSeconds( 3 );
+        yield return new WaitForSeconds( 2 );
         Debug.Log( "exitgame" );
         Application.Quit( );
     }
