@@ -37,7 +37,7 @@ public class SceneChange: MonoBehaviour
         CanvasGroup canvasGroup = g.GetComponentInParent< CanvasGroup >( );
         CanvasGroup canvasGroupMenu = GetComponent< CanvasGroup >( );
 
-        while( canvasGroup.alpha < 1 || canvasGroupMenu.alpha > 0 )
+        while( canvasGroup.alpha < 1 )
         {
             canvasGroup.alpha += Time.deltaTime / 3;
             canvasGroupMenu.alpha -= Time.deltaTime / 3;
@@ -49,4 +49,4 @@ public class SceneChange: MonoBehaviour
         canvasGroupMenu.interactable = false;
         yield return null;
     }
-} 
+}
