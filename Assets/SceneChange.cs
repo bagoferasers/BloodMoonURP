@@ -35,15 +35,18 @@ public class SceneChange: MonoBehaviour
     {
         GameObject g = GameObject.Find( "darkyboi" );
         CanvasGroup canvasGroup = g.GetComponentInParent< CanvasGroup >( );
+        CanvasGroup canvasGroupMenu = GetComponent< CanvasGroup >( );
 
-        while( canvasGroup.alpha < 1 )
+        while( canvasGroup.alpha < 1 || canvasGroupMenu.alpha > 0 )
         {
-            canvasGroup.alpha += Time.deltaTime / 2;
+            canvasGroup.alpha += Time.deltaTime / 3;
+            canvasGroupMenu.alpha -= Time.deltaTime / 3;
             yield return null;
         }
 
         /* This makes sure buttons aren't interactable while fading out. */
         canvasGroup.interactable = false;
+        canvasGroupMenu.interactable = false;
         yield return null;
     }
 } 
