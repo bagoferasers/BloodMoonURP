@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class cloudScroll : MonoBehaviour
 {
-    [ Header( "buff out that cloudboi" ) ]
+    [ Header( "(float) buff out that cloudboi" ) ]
     public float buffer;
 
-    [ Header( "min/max Y axis spawn" ) ]
+    [ Header( "(float) min/max Y axis spawn" ) ]
     public float minY;
     public float maxY;
 
-    [ Header( "min/max speed" ) ]
-    public int min;
-    public int max;
+    [ Header( "(float) min/max speed" ) ]
+    public float min;
+    public float max;
 
-    int speed;
+    float speed;
     float origXlocation;
     Vector3 v2;
 
