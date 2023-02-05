@@ -12,11 +12,6 @@ public class SceneChange: MonoBehaviour
         StartCoroutine( ChangeToScene( "MainMenu" ) );
     }
 
-    public void village( ) 
-    {  
-        StartCoroutine( ChangeToScene( "Village" ) );
-    }
-
     /* Changes scenes while implementing a fade-out for 3 seconds. */
     public IEnumerator ChangeToScene( string sceneToChangeTo )
     {
