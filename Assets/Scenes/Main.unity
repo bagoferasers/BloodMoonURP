@@ -363,7 +363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 550622692941337143, guid: 41480dd7d224c9344b6406c7e6553de6, type: 3}
       propertyPath: startDelay.scalar
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 550622692941337143, guid: 41480dd7d224c9344b6406c7e6553de6, type: 3}
       propertyPath: InitialModule.size3D
