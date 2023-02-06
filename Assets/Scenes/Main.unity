@@ -195,7 +195,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 550622692941337143, guid: 41480dd7d224c9344b6406c7e6553de6, type: 3}
       propertyPath: startDelay.scalar
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 550622692941337143, guid: 41480dd7d224c9344b6406c7e6553de6, type: 3}
       propertyPath: InitialModule.size3D
@@ -211,7 +211,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 550622692941337143, guid: 41480dd7d224c9344b6406c7e6553de6, type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 550622692941337143, guid: 41480dd7d224c9344b6406c7e6553de6, type: 3}
       propertyPath: InitialModule.startSpeed.scalar
@@ -219,7 +219,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 550622692941337143, guid: 41480dd7d224c9344b6406c7e6553de6, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 828381972057220030, guid: 41480dd7d224c9344b6406c7e6553de6, type: 3}
       propertyPath: m_Pivot.x
