@@ -4,26 +4,28 @@ using UnityEngine;
 
 public class cloudScroll : MonoBehaviour
 {
-    [ Header( "buff out that cloudboi" ) ]
+    [ Header( "(float) buff out that cloudboi" ) ]
     public float buffer;
 
-    [ Header( "min/max Y axis spawn" ) ]
+    [ Header( "(float) min/max Y axis spawn" ) ]
     public float minY;
     public float maxY;
 
-    [ Header( "min/max speed" ) ]
-    public int min;
-    public int max;
+    [ Header( "(float) min/max speed" ) ]
+    public float min;
+    public float max;
 
-    int speed;
+    float speed;
     float origXlocation;
+    float origZlocation;
     Vector3 v2;
 
     void Start( ) 
     {
         /* Get current x position and set speed to random range between the min and max speed. */
-        Vector3 v = GetComponent<RectTransform>( ).localPosition;
-        origXlocation = v.x;
+        //Vector3 v = GetComponent<RectTransform>( ).localPosition;
+        origXlocation = transform.position.x;
+        origZlocation = transform.position.z;
         speed = Random.Range( min, max );
     }
 
@@ -40,9 +42,9 @@ public class cloudScroll : MonoBehaviour
         transform.Translate( v2 * Time.deltaTime * speed, Space.World );
 
         /* If cloud is outside of screen width, reset position and randomize Y axis and speed. */
-        if( transform.position.x > ( Screen.width + buffer ) ) 
+        if( transform.position.x > ( buffer ) ) 
         {
-            transform.position = new Vector3( origXlocation - buffer,  Random.Range( minY, maxY ), 0 );
+            transform.position = new Vector3(  -buffer,  Random.Range( minY, maxY ), origZlocation );
             speed = Random.Range( min, max );
         }
     }
