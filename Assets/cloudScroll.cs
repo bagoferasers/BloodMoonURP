@@ -15,36 +15,37 @@ public class cloudScroll : MonoBehaviour
     public float min;
     public float max;
 
+    float origZlocation;
     float speed;
     float origXlocation;
-    float origZlocation;
-    Vector3 v2;
+    Vector3 v;
+    
 
     void Start( ) 
     {
         /* Get current x position and set speed to random range between the min and max speed. */
-        //Vector3 v = GetComponent<RectTransform>( ).localPosition;
-        origXlocation = transform.position.x;
-        origZlocation = transform.position.z;
+        v = transform.position;
+        origXlocation = v.x;
+        //Debug.Log( "origZlocation at start is " + origZlocation );
         speed = Random.Range( min, max );
     }
 
     void Update( ) 
     {
-        /* I don't know what these transform.localScale.x do and I'm too afraid to ask. */
-        if( transform.localScale.x > 0 ) 
-            v2 = new Vector3( 4, 0, 0 );
-
-        if( transform.localScale.x < 0 ) 
-            v2 = new Vector3( -4, 0, 0 );
-        
-        /* Move clouds to the right. */
-        transform.Translate( v2 * Time.deltaTime * speed, Space.World );
+        //Debug.Log( "origZlocation before translate is " + origZlocation );
+        //Vector3 temp = new Vector3( 1, 0, 0 );
+        //transform.Translate( temp * Time.deltaTime * speed, Space.World );
+        transform.position += new Vector3( Time.deltaTime * speed, 0, 0 );
+        //temp.z = 0;
+        //transform.position += temp;
+        //Debug.Log( "origZlocation after translate is " + origZlocation );
 
         /* If cloud is outside of screen width, reset position and randomize Y axis and speed. */
         if( transform.position.x > ( buffer ) ) 
         {
-            transform.position = new Vector3(  -buffer,  Random.Range( minY, maxY ), origZlocation );
+            v.x = origXlocation - buffer;
+            v.y = Random.Range( minY, maxY );
+            transform.position = v;
             speed = Random.Range( min, max );
         }
     }
