@@ -10,7 +10,7 @@ public class SceneChange: MonoBehaviour
     public void mainMenu( )
     {
         FadeMainOut( );
-        StartCoroutine( ChangeToScene( "MainMenu" ) );
+        StartCoroutine( ChangeToScene( "Main" ) );
     }
 
     public void village( )
@@ -22,7 +22,7 @@ public class SceneChange: MonoBehaviour
     /* Changes scenes while implementing a fade-out for 3 seconds. */
     public IEnumerator ChangeToScene( string sceneToChangeTo )
     {
-        yield return new WaitForSeconds( 3 );
+        yield return new WaitForSeconds( 2 );
         SceneManager.LoadScene( sceneToChangeTo );
     }
 
@@ -45,9 +45,9 @@ public class SceneChange: MonoBehaviour
 
         while( canvasGroup.alpha < 1 )
         {
-            canvasGroup.alpha += Time.deltaTime * (float)0.3;
+            canvasGroup.alpha += Time.deltaTime / (float)2.08;
             //canvasGroupMenu.alpha -= Time.deltaTime / 2;
-            canvasGroupMenu.alpha -= Time.deltaTime * (float)0.3;
+            canvasGroupMenu.alpha -= Time.deltaTime / (float)2.08;
             yield return null;
         }
 
