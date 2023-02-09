@@ -381,7 +381,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 16
     mipBias: 0
     wrapU: 1
@@ -395,7 +395,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -2984,11 +2984,11 @@ TextureImporter:
       cave_tileset_6: -75281284
       cave_tileset_49: 145603460
       cave_tileset_58: 1824880839
-      cave_tileset_56: 1777642630
-      cave_tileset_46: -618966993
       cave_tileset_63: 264088857
-      cave_tileset_9: -326825185
+      cave_tileset_46: -618966993
       cave_tileset_74: 566875955
+      cave_tileset_56: 1777642630
+      cave_tileset_9: -326825185
       cave_tileset_50: 1402693627
       cave_tileset_101: 554298549
       cave_tileset_16: 1468311351
