@@ -41,9 +41,9 @@ public class character : MonoBehaviour
 
         ///if(Input.GetKeyDown(KeyCode.E))
         ///{
-            ///if(myBox != null)
-            ///{
-                ///myBox.ChangeColor(Color.black);
+            ///if(myBox != null) 
+            ///
+                ///myBox.ChangeColor(Color.blac);
             ///}
         ///}
     }
