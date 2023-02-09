@@ -19,16 +19,18 @@ public class character : MonoBehaviour
     // Update is called once per frame
     void Update( )
     {
-        if( Input.GetKey( KeyCode.RightArrow ) || Input.GetAxis("Horizontal") > 0 )
-        {
-            Debug.Log( "Moving right." );
-            transform.position += Vector3.right * speed * Time.deltaTime;
-        }
-        if( Input.GetAxis( "Horizontal" ) < 0 )
-        {
-            Debug.Log( "Moving left." );
-            transform.position += Vector3.left * speed * Time.deltaTime;
-        }
         //rb2d.MovePosition( transform.position + ( new Vector3( Input.GetAxisRaw( "Horizontal" ),Input.GetAxisRaw( "Vertical" ) ) * Time.deltaTime * speed ) );
+    }
+
+    public void goRight( )
+    {
+        Debug.Log( "Moving right." );
+        transform.position += Vector3.right * speed * Time.deltaTime;
+    }
+
+    public void goLeft( )
+    {
+        Debug.Log( "Moving left." );
+        transform.position += Vector3.left * speed * Time.deltaTime;
     }
 }
