@@ -19,7 +19,6 @@ public class character : MonoBehaviour
     // Update is called once per frame
     void Update( )
     {
-                ///myBox.ChangeColor(Color.blac);
         if( Input.GetKey( KeyCode.RightArrow ) || Input.GetAxis("Horizontal") > 0 )
         {
             Debug.Log( "Moving right." );
