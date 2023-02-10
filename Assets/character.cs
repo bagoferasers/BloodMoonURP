@@ -35,7 +35,8 @@ public class character : MonoBehaviour
             Debug.Log( "Moving left." );
             transform.position += Vector3.left * speed * Time.deltaTime;
         }
-        else if( goJump )
+        
+        if( goJump )
         {
             if( rb2d.velocity.y == 0 )
             {
