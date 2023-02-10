@@ -8,7 +8,6 @@ public class character : MonoBehaviour
     [ Header( "Movement" ) ]
     public float speed;
     public float jumpForce;
-    public float forceMultiplier;
 
     Rigidbody2D rb2d;
     private bool moveLeft, moveRight, goJump;
@@ -23,32 +22,20 @@ public class character : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update( )
-    {
-            //rb2d.MovePosition( transform.position + ( new Vector3( Input.GetAxisRaw( "Horizontal" ),Input.GetAxisRaw( "Vertical" ) ) * Time.deltaTime * speed ) );
-            if( moveRight )
-            {
-                Debug.Log( "Moving right." );
-                transform.position += Vector3.right * speed * Time.deltaTime;
-            }
-            else if( moveLeft )
-            {
-                Debug.Log( "Moving left." );
-                transform.position += Vector3.left * speed * Time.deltaTime;
-            }
-            //else if( goJump )
-            //{
-                //if( rb2d.velocity.y == 0 )
-                //{
-                //    rb2d.AddForce( Vector3.up * jumpForce * speed * Time.deltaTime );
-                //}
-                //goJump = false;
-            //}
-    }
-
     void FixedUpdate( )
     {
-        if( goJump )
+        //rb2d.MovePosition( transform.position + ( new Vector3( Input.GetAxisRaw( "Horizontal" ),Input.GetAxisRaw( "Vertical" ) ) * Time.deltaTime * speed ) );
+        if( moveRight )
+        {
+            Debug.Log( "Moving right." );
+            transform.position += Vector3.right * speed * Time.deltaTime;
+        }
+        else if( moveLeft )
+        {
+            Debug.Log( "Moving left." );
+            transform.position += Vector3.left * speed * Time.deltaTime;
+        }
+        else if( goJump )
         {
             if( rb2d.velocity.y == 0 )
             {
