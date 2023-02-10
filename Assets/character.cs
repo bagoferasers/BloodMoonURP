@@ -36,14 +36,26 @@ public class character : MonoBehaviour
                 Debug.Log( "Moving left." );
                 transform.position += Vector3.left * speed * Time.deltaTime;
             }
-            else if( goJump )
+            //else if( goJump )
+            //{
+                //if( rb2d.velocity.y == 0 )
+                //{
+                //    rb2d.AddForce( Vector3.up * jumpForce * speed * Time.deltaTime );
+                //}
+                //goJump = false;
+            //}
+    }
+
+    void FixedUpdate( )
+    {
+        if( goJump )
+        {
+            if( rb2d.velocity.y == 0 )
             {
-                if( rb2d.velocity.y == 0 )
-                {
-                    rb2d.AddForce( Vector3.up * jumpForce * Time.deltaTime );
-                }
-                goJump = false;
+                rb2d.AddForce( Vector3.up * jumpForce * speed * Time.deltaTime );
             }
+            goJump = false;
+        }
     }
 
     public void goRight( )
