@@ -7,20 +7,19 @@ public class character : MonoBehaviour
 {
     [ Header( "Movement" ) ]
     public float speed;
-
-    Rigidbody2D rb2d;
+    public float jumpForce;
     public float forceMultiplier;
 
-    private bool moveLeft, moveRight;
-    private float jumpForce;
-
+    Rigidbody2D rb2d;
+    private bool moveLeft, moveRight, goJump;
+    
     // Start is called before the first frame update
     void Start( )
     {
         rb2d = GetComponent<Rigidbody2D>();
-        jumpForce = 1000;
         moveLeft = false;
         moveRight = false;
+        goJump = false;
     }
 
     // Update is called once per frame
@@ -37,6 +36,14 @@ public class character : MonoBehaviour
                 Debug.Log( "Moving left." );
                 transform.position += Vector3.left * speed * Time.deltaTime;
             }
+            else if( goJump )
+            {
+                if( rb2d.velocity.y == 0 )
+                {
+                    rb2d.AddForce( Vector3.up * jumpForce * Time.deltaTime );
+                }
+                goJump = false;
+            }
     }
 
     public void goRight( )
@@ -51,16 +58,14 @@ public class character : MonoBehaviour
 
     public void jump( )
     {
-        if( rb2d.velocity.y == 0 )
-        {
-            rb2d.AddForce( Vector2.up * jumpForce * Time.deltaTime );
-        }
+        goJump = true;
     }
 
     public void stopMoving( )
     {
         moveLeft = false;
         moveRight = false;
+        goJump = false;
         rb2d.velocity = Vector2.zero;
     }
 }
