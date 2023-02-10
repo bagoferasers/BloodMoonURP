@@ -68,4 +68,18 @@ public class character : MonoBehaviour
         goJump = false;
         rb2d.velocity = Vector2.zero;
     }
+
+    public void onPause( )
+    {
+        GameObject menu = GameObject.Find( "Template" );
+        CanvasGroup c = menu.GetComponent< CanvasGroup >( );
+        c.alpha = 1;
+    }
+
+    public void onExitPause( )
+    {
+        GameObject menu = GameObject.Find( "Template" );
+        CanvasGroup c = menu.GetComponent< CanvasGroup >( );
+        c.alpha = 0;
+    }
 }
