@@ -41,19 +41,19 @@ public class character : MonoBehaviour
         if( !arePaused && moveRight )
         {
             Debug.Log( "Moving right." );
-            transform.position += Vector3.right * speed * Time.deltaTime;
+            transform.position += new Vector3(1,0,0) * speed * Time.deltaTime;
         }
         else if( !arePaused && moveLeft )
         {
             Debug.Log( "Moving left." );
-            transform.position += Vector3.left * speed * Time.deltaTime;
+            transform.position += new Vector3(-1,0,0) * speed * Time.deltaTime;
         }
         
-        if( !arePaused && goJump )
+        if( ( !arePaused && goJump ) || ( !arePaused && Input.GetKeyDown( "space" ) ) )
         {
             if( rb2d.velocity.y == 0 )
             {
-                rb2d.AddForce( Vector3.up * jumpForce * speed * Time.deltaTime );
+                rb2d.AddForce( Vector3.up * jumpForce * Time.deltaTime, ForceMode2D.Impulse );
             }
             goJump = false;
         }
@@ -71,7 +71,8 @@ public class character : MonoBehaviour
 
     public void jump( )
     {
-        goJump = true;
+        if( !arePaused )
+            goJump = true;
     }
 
     public void stopMoving( )
@@ -122,10 +123,5 @@ public class character : MonoBehaviour
         l.interactable = true;
         r.interactable = true;
         u.interactable = true;
-    }
-
-    public void hideTitle( )
-    {
-
     }
 }
