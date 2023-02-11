@@ -6,8 +6,10 @@ using UnityEngine.UI;
 public class character : MonoBehaviour
 {
     [ Header( "Movement" ) ]
-    public float speed;
-    public float jumpForce;
+    public float speedOriginal;
+    public float speedTablet;
+    public float jumpForceOriginal;
+    public float jumpForceTablet;
 
     Rigidbody2D rb2d;
     private bool moveLeft, moveRight, goJump, arePaused;
@@ -36,24 +38,51 @@ public class character : MonoBehaviour
 
     void FixedUpdate( )
     {
-        if( !arePaused && moveRight || ( !arePaused &&  goJump && Input.GetKeyDown( KeyCode.D ) ) )
+        if( Screen.height <= 1080 )
         {
-            Debug.Log( "Moving right." );
-            transform.position += new Vector3(1,0,0) * speed * Time.deltaTime;
-        }
-        else if( !arePaused && moveLeft || ( !arePaused &&  goJump && Input.GetKeyDown( KeyCode.A ) ) )
-        {
-            Debug.Log( "Moving left." );
-            transform.position += new Vector3(-1,0,0) * speed * Time.deltaTime;
-        }
-        
-        if( ( !arePaused && goJump ) || ( !arePaused && goJump && Input.GetKeyDown( "space" ) ) )
-        {
-            if( rb2d.velocity.y == 0 )
+            if( !arePaused && moveRight  )
             {
-                rb2d.AddForce( Vector3.up * jumpForce * Time.deltaTime, ForceMode2D.Impulse );
+                Debug.Log( "Moving right." );
+                transform.position += Vector3.right * speedOriginal * Time.deltaTime;
             }
-            goJump = false;
+            else if( !arePaused && moveLeft )
+            {
+                Debug.Log( "Moving left." );
+                transform.position += Vector3.left * speedOriginal * Time.deltaTime;
+            }
+            
+            if( !arePaused && goJump )
+            {
+                if( rb2d.velocity.y == 0 )
+                {
+                    Debug.Log("Time.deltaTime = " + Time.deltaTime + "\n" );
+                    rb2d.AddForce( Vector3.up * jumpForceOriginal * Time.deltaTime, ForceMode2D.Impulse );
+                }
+                goJump = false;
+            }            
+        }
+        else
+        {
+            if( !arePaused && moveRight  )
+            {
+                Debug.Log( "Moving right." );
+                transform.position += Vector3.right * speedTablet * Time.deltaTime;
+            }
+            else if( !arePaused && moveLeft )
+            {
+                Debug.Log( "Moving left." );
+                transform.position += Vector3.left * speedTablet * Time.deltaTime;
+            }
+            
+            if( !arePaused && goJump )
+            {
+                if( rb2d.velocity.y == 0 )
+                {
+                    Debug.Log("Time.deltaTime = " + Time.deltaTime + "\n" );
+                    rb2d.AddForce( Vector3.up * jumpForceTablet * Time.deltaTime, ForceMode2D.Impulse );
+                }
+                goJump = false;
+            }       
         }
     }
 
