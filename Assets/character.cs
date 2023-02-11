@@ -34,22 +34,20 @@ public class character : MonoBehaviour
         title = GameObject.Find( "Title" );
     }
 
-    // Update is called once per frame
     void FixedUpdate( )
     {
-        //rb2d.MovePosition( transform.position + ( new Vector3( Input.GetAxisRaw( "Horizontal" ),Input.GetAxisRaw( "Vertical" ) ) * Time.deltaTime * speed ) );
-        if( !arePaused && moveRight )
+        if( !arePaused && moveRight || ( !arePaused &&  goJump && Input.GetKeyDown( KeyCode.D ) ) )
         {
             Debug.Log( "Moving right." );
             transform.position += new Vector3(1,0,0) * speed * Time.deltaTime;
         }
-        else if( !arePaused && moveLeft )
+        else if( !arePaused && moveLeft || ( !arePaused &&  goJump && Input.GetKeyDown( KeyCode.A ) ) )
         {
             Debug.Log( "Moving left." );
             transform.position += new Vector3(-1,0,0) * speed * Time.deltaTime;
         }
         
-        if( ( !arePaused && goJump ) || ( !arePaused && Input.GetKeyDown( "space" ) ) )
+        if( ( !arePaused && goJump ) || ( !arePaused && goJump && Input.GetKeyDown( "space" ) ) )
         {
             if( rb2d.velocity.y == 0 )
             {
