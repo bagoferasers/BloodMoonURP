@@ -16,6 +16,7 @@ public class character : MonoBehaviour
     GameObject leftButton;
     GameObject rightButton;
     GameObject upButton;
+    GameObject title;
     
     // Start is called before the first frame update
     void Start( )
@@ -30,6 +31,7 @@ public class character : MonoBehaviour
         leftButton = GameObject.Find( "LeftBlackButton" );
         rightButton = GameObject.Find( "RightBlackButton" );
         upButton = GameObject.Find( "UpBlackButton" );
+        title = GameObject.Find( "Title" );
     }
 
     // Update is called once per frame
@@ -120,5 +122,10 @@ public class character : MonoBehaviour
         l.interactable = true;
         r.interactable = true;
         u.interactable = true;
+    }
+
+    public void hideTitle( )
+    {
+
     }
 }
