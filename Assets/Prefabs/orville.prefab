@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2747685514798557954}
   - component: {fileID: 2747685514798557980}
   - component: {fileID: 2747685514798557955}
-  - component: {fileID: 6155161360827130245}
+  - component: {fileID: 1108285275032027387}
   m_Layer: 0
   m_Name: orville
   m_TagString: Untagged
@@ -106,8 +106,8 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
---- !u!68 &6155161360827130245
-EdgeCollider2D:
+--- !u!61 &1108285275032027387
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -119,42 +119,16 @@ EdgeCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.31666666}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.93333334, y: 0.6333333}
+    newSize: {x: 0.875, y: 0.59375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.93333334, y: 0.6333333}
   m_EdgeRadius: 0
-  m_Points:
-  - {x: -0.36854684, y: 0.6326551}
-  - {x: -0.25435868, y: 0.7005787}
-  - {x: -0.13040651, y: 0.6342722}
-  - {x: -0.10618171, y: 0.5702085}
-  - {x: -0.10009443, y: 0.56205505}
-  - {x: -0.07176879, y: 0.46910518}
-  - {x: -0.12883684, y: 0.6369563}
-  - {x: 0.38799924, y: 0.1952328}
-  - {x: -0.13602005, y: 0.43199903}
-  - {x: -0.13471317, y: 0.3703281}
-  - {x: -0.099939175, y: 0.36868432}
-  - {x: -0.09937071, y: 0.19819745}
-  - {x: -0.06554953, y: 0.19968957}
-  - {x: 0.38592142, y: 0.19615215}
-  - {x: 0.3882193, y: -0.00093320827}
-  - {x: 0.20157243, y: -0.0009358556}
-  - {x: 0.03231637, y: 0.00006719539}
-  - {x: -0.46445018, y: 0.0014990196}
-  - {x: -0.46713635, y: 0.1347516}
-  - {x: -0.43365058, y: 0.13480406}
-  - {x: -0.43537226, y: 0.19936451}
-  - {x: -0.40166703, y: 0.19970977}
-  - {x: -0.40225068, y: 0.3679448}
-  - {x: -0.36931756, y: 0.36864}
-  - {x: -0.366485, y: 0.43261057}
-  - {x: -0.4699077, y: 0.12410283}
-  - {x: -0.43500683, y: 0.46318105}
-  - {x: -0.40045255, y: 0.46930304}
-  - {x: -0.40774247, y: 0.5352951}
-  - {x: -0.40261742, y: 0.5656994}
-  - {x: -0.43630525, y: 0.46482515}
-  - {x: -0.36947963, y: 0.62963665}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
