@@ -133,8 +133,6 @@ public class character : MonoBehaviour
 
     public void onExitPause( )
     {
-        arePaused = false;
-        
         // get canvas group from menu and button objects
         CanvasGroup m = menu.GetComponent< CanvasGroup >( );
         Button p = pauseButton.GetComponent<Button>( );
@@ -142,13 +140,34 @@ public class character : MonoBehaviour
         Button r = pauseButton.GetComponent<Button>( );
         Button u = pauseButton.GetComponent<Button>( );
 
-        // show menu
-        m.alpha = 0;
+        // hide menu
+        FadePauseMenu( );
 
-        // can't interact with game buttons while paused
+        // now interact with buttons
         p.interactable = true;
         l.interactable = true;
         r.interactable = true;
         u.interactable = true;
+        m.interactable = true;
+        arePaused = false;
+    }
+
+    public void FadePauseMenu( )
+    {
+        StartCoroutine( FadeMeOut( ) );
+    }
+
+    /* Fades scene to black by decrementing alpha over time. */
+    IEnumerator FadeMeOut( )
+    {
+        GameObject template = GameObject.Find( "Template" );
+        CanvasGroup canvasGroup = template.GetComponent< CanvasGroup >( );
+
+        while( canvasGroup.alpha > 0 )
+        {
+            canvasGroup.alpha -= Time.deltaTime;
+            yield return null;
+        }
+        yield return null;
     }
 }
