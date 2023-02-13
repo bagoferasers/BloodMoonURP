@@ -66,12 +66,12 @@ public class character : MonoBehaviour
             if( !arePaused && moveRight  )
             {
                 Debug.Log( "Moving right." );
-                transform.position += Vector3.right * speedTablet * Time.deltaTime;
+                transform.position += new Vector3(1,0,0) * speedTablet * Time.deltaTime;
             }
             else if( !arePaused && moveLeft )
             {
                 Debug.Log( "Moving left." );
-                transform.position += Vector3.left * speedTablet * Time.deltaTime;
+                transform.position += new Vector3(-1,0,0) * speedTablet * Time.deltaTime;
             }
             
             if( !arePaused && goJump )
@@ -79,7 +79,7 @@ public class character : MonoBehaviour
                 if( rb2d.velocity.y == 0 )
                 {
                     Debug.Log("Time.deltaTime = " + Time.deltaTime + "\n" );
-                    rb2d.AddForce( Vector3.up * jumpForceTablet * Time.deltaTime, ForceMode2D.Impulse );
+                    rb2d.AddForce( new Vector3(0,1,0) * jumpForceTablet * Time.deltaTime, ForceMode2D.Impulse );
                 }
                 goJump = false;
             }       

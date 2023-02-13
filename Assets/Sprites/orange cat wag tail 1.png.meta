@@ -132,10 +132,10 @@ TextureImporter:
       name: orange cat wag tail 1_0
       rect:
         serializedVersion: 2
-        x: 4
+        x: 3
         y: 0
         width: 28
-        height: 19
+        height: 22
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +153,10 @@ TextureImporter:
       name: orange cat wag tail 1_1
       rect:
         serializedVersion: 2
-        x: 36
+        x: 35
         y: 0
         width: 28
-        height: 19
+        height: 22
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,10 +174,10 @@ TextureImporter:
       name: orange cat wag tail 1_2
       rect:
         serializedVersion: 2
-        x: 68
+        x: 67
         y: 0
         width: 28
-        height: 19
+        height: 22
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,10 +195,10 @@ TextureImporter:
       name: orange cat wag tail 1_3
       rect:
         serializedVersion: 2
-        x: 100
+        x: 99
         y: 0
         width: 28
-        height: 19
+        height: 22
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +216,10 @@ TextureImporter:
       name: orange cat wag tail 1_4
       rect:
         serializedVersion: 2
-        x: 132
+        x: 131
         y: 0
         width: 28
-        height: 19
+        height: 22
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,10 +237,10 @@ TextureImporter:
       name: orange cat wag tail 1_5
       rect:
         serializedVersion: 2
-        x: 164
+        x: 163
         y: 0
         width: 28
-        height: 19
+        height: 22
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,7 +261,7 @@ TextureImporter:
         x: 195
         y: 0
         width: 28
-        height: 19
+        height: 22
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,10 +279,10 @@ TextureImporter:
       name: orange cat wag tail 1_7
       rect:
         serializedVersion: 2
-        x: 228
+        x: 227
         y: 0
         width: 28
-        height: 19
+        height: 22
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,10 +300,10 @@ TextureImporter:
       name: orange cat wag tail 1_8
       rect:
         serializedVersion: 2
-        x: 260
+        x: 259
         y: 0
         width: 28
-        height: 19
+        height: 22
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,10 +321,10 @@ TextureImporter:
       name: orange cat wag tail 1_9
       rect:
         serializedVersion: 2
-        x: 292
+        x: 291
         y: 0
         width: 28
-        height: 19
+        height: 22
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
