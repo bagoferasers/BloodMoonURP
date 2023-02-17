@@ -41,3 +41,36 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background Clouds
+    uniqueID: 2237014725
+    locked: 0
+  - name: Mountains
+    uniqueID: 15498221
+    locked: 0
+  - name: Foreground Clouds
+    uniqueID: 3568927075
+    locked: 0
+  - name: Trees
+    uniqueID: 3268425605
+    locked: 0
+  - name: Bushes
+    uniqueID: 2812731071
+    locked: 0
+  - name: Buildings
+    uniqueID: 3285682249
+    locked: 0
+  - name: NPC
+    uniqueID: 3528548751
+    locked: 0
+  - name: Player
+    uniqueID: 953648509
+    locked: 0
+  - name: UI
+    uniqueID: 2124250127
+    locked: 0
+  - name: Fade
+    uniqueID: 3826992613
+    locked: 0
+  - name: Camera
+    uniqueID: 2171675607
+    locked: 0

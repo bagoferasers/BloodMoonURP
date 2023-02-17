@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class character : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class character : MonoBehaviour
     GameObject rightButton;
     GameObject upButton;
     GameObject title;
+    private Animator animator;
     
     // Start is called before the first frame update
     void Start( )
@@ -36,54 +38,49 @@ public class character : MonoBehaviour
         title = GameObject.Find( "Title" );
     }
 
-    void FixedUpdate( )
+    void Update( )
     {
-        if( Screen.height <= 1080 )
+
+    }
+
+    void FixedUpdate( )
+    {        
+        /* player direction animation */
+        float directX = Input.GetAxisRaw( "Horizontal" );
+        animator = GetComponent< Animator >( );
+
+        if( !arePaused && moveRight  )
         {
-            if( !arePaused && moveRight  )
-            {
-                Debug.Log( "Moving right." );
-                transform.position += Vector3.right * speedOriginal * Time.deltaTime;
-            }
-            else if( !arePaused && moveLeft )
-            {
-                Debug.Log( "Moving left." );
-                transform.position += Vector3.left * speedOriginal * Time.deltaTime;
-            }
-            
-            if( !arePaused && goJump )
-            {
-                if( rb2d.velocity.y == 0 )
-                {
-                    Debug.Log("Time.deltaTime = " + Time.deltaTime + "\n" );
-                    rb2d.AddForce( Vector3.up * jumpForceOriginal * Time.deltaTime, ForceMode2D.Impulse );
-                }
-                goJump = false;
-            }            
+            animator.SetBool( "right", true );
+            animator.SetBool( "left", false ); 
+            animator.SetBool( "forwardidle", false );
+            Debug.Log( "Moving right." );
+            transform.position += Vector3.right * speedOriginal * Time.deltaTime;
+        }
+        else if( !arePaused && moveLeft )
+        {
+            animator.SetBool( "left", true );
+            animator.SetBool( "right", false );
+            animator.SetBool( "forwardidle", false );
+            Debug.Log( "Moving left." );
+            transform.position += Vector3.left * speedOriginal * Time.deltaTime;
         }
         else
         {
-            if( !arePaused && moveRight  )
-            {
-                Debug.Log( "Moving right." );
-                transform.position += new Vector3(1,0,0) * speedTablet * Time.deltaTime;
-            }
-            else if( !arePaused && moveLeft )
-            {
-                Debug.Log( "Moving left." );
-                transform.position += new Vector3(-1,0,0) * speedTablet * Time.deltaTime;
-            }
-            
-            if( !arePaused && goJump )
-            {
-                if( rb2d.velocity.y == 0 )
-                {
-                    Debug.Log("Time.deltaTime = " + Time.deltaTime + "\n" );
-                    rb2d.AddForce( new Vector3(0,1,0) * jumpForceTablet * Time.deltaTime, ForceMode2D.Impulse );
-                }
-                goJump = false;
-            }       
+            animator.SetBool( "forwardidle", true );
+            animator.SetBool( "left", false ); 
+            animator.SetBool( "right", false ); 
         }
+
+        if( !arePaused && goJump )
+        {
+            if( rb2d.velocity.y == 0 )
+            {
+                Debug.Log("Time.deltaTime = " + Time.deltaTime + "\n" );
+                rb2d.AddForce( Vector3.up * jumpForceOriginal * Time.deltaTime, ForceMode2D.Impulse );
+            }
+            goJump = false;
+        }                
     }
 
     public void goRight( )
