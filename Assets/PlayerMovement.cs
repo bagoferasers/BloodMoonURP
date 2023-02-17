@@ -4,13 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class character : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     [ Header( "Movement" ) ]
-    public float speedOriginal;
-    public float speedTablet;
-    public float jumpForceOriginal;
-    public float jumpForceTablet;
+    public float speed;
+    public float jumpForce;
 
     Rigidbody2D rb2d;
     private bool moveLeft, moveRight, goJump, arePaused;
@@ -55,7 +53,7 @@ public class character : MonoBehaviour
             animator.SetBool( "left", false ); 
             animator.SetBool( "forwardidle", false );
             Debug.Log( "Moving right." );
-            transform.position += Vector3.right * speedOriginal * Time.deltaTime;
+            transform.position += Vector3.right * speed * Time.deltaTime;
         }
         else if( !arePaused && moveLeft )
         {
@@ -63,7 +61,7 @@ public class character : MonoBehaviour
             animator.SetBool( "right", false );
             animator.SetBool( "forwardidle", false );
             Debug.Log( "Moving left." );
-            transform.position += Vector3.left * speedOriginal * Time.deltaTime;
+            transform.position += Vector3.left * speed * Time.deltaTime;
         }
         else
         {
@@ -77,7 +75,7 @@ public class character : MonoBehaviour
             if( rb2d.velocity.y == 0 )
             {
                 Debug.Log("Time.deltaTime = " + Time.deltaTime + "\n" );
-                rb2d.AddForce( Vector3.up * jumpForceOriginal * Time.deltaTime, ForceMode2D.Impulse );
+                rb2d.AddForce( Vector3.up * jumpForce * Time.deltaTime, ForceMode2D.Impulse );
             }
             goJump = false;
         }                
