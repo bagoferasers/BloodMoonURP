@@ -54,8 +54,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buffer: 30
   minY: 1
-  maxY: 4
-  min: 0.2
+  maxY: 5
+  min: 0.4
   max: 0.5
 --- !u!222 &1193987412187000091
 CanvasRenderer:
@@ -370,4 +370,4 @@ MonoBehaviour:
   - {x: -2.5620117, y: -0.80178833, z: 0}
   m_ShapePathHash: -588433753
   m_Mesh: {fileID: 0}
-  m_InstanceId: 59718
+  m_InstanceId: 49908
