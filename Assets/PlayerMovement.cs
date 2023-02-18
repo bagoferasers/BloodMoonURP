@@ -10,15 +10,16 @@ public class PlayerMovement : MonoBehaviour
     public float speed;
     public float jumpForce;
 
-    Rigidbody2D rb2d;
+    private Rigidbody2D rb2d;
     private bool moveLeft, moveRight, goJump, arePaused;
-    GameObject menu;
-    GameObject pauseButton;
-    GameObject leftButton;
-    GameObject rightButton;
-    GameObject upButton;
-    GameObject title;
+    private GameObject menu;
+    private GameObject pauseButton;
+    private GameObject leftButton;
+    private GameObject rightButton;
+    private GameObject upButton;
+    private GameObject title;
     private Animator animator;
+    private float directX;
     
     // Start is called before the first frame update
     void Start( )
@@ -44,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate( )
     {        
         /* player direction animation */
-        float directX = Input.GetAxisRaw( "Horizontal" );
+        directX = Input.GetAxisRaw( "Horizontal" );
         animator = GetComponent< Animator >( );
 
         if( !arePaused && moveRight  )
@@ -53,7 +54,11 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool( "left", false ); 
             animator.SetBool( "forwardidle", false );
             Debug.Log( "Moving right." );
-            transform.position += Vector3.right * speed * Time.deltaTime;
+            //transform.position += Vector3.right * ( speed * ( Screen.width / Screen.height ) ) * Time.deltaTime;
+            //transform.Translate( Vector3.right * speed * Time.fixedDeltaTime );
+            rb2d.velocity = new Vector2( 1 * speed * Time.deltaTime, rb2d.velocity.y);
+            rb2d.velocity.Normalize( );
+
         }
         else if( !arePaused && moveLeft )
         {
@@ -61,7 +66,10 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool( "right", false );
             animator.SetBool( "forwardidle", false );
             Debug.Log( "Moving left." );
-            transform.position += Vector3.left * speed * Time.deltaTime;
+            //transform.position += Vector3.left * ( speed * ( Screen.width / Screen.height ) ) * Time.deltaTime;
+            //transform.Translate( Vector3.left * speed * Time.fixedDeltaTime );
+            rb2d.velocity = new Vector2( -1 * speed * Time.deltaTime, rb2d.velocity.y);
+            rb2d.velocity.Normalize( );
         }
         else
         {
@@ -76,6 +84,8 @@ public class PlayerMovement : MonoBehaviour
             {
                 Debug.Log("Time.deltaTime = " + Time.deltaTime + "\n" );
                 rb2d.AddForce( Vector3.up * jumpForce * Time.deltaTime, ForceMode2D.Impulse );
+                rb2d.velocity.Normalize( );
+                //transform.Translate( Vector3.up * speed * Time.deltaTime );
             }
             goJump = false;
         }                
