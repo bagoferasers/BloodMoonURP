@@ -53,10 +53,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buffer: 30
-  minY: -1.5
-  maxY: 0.8
-  min: 0.2
-  max: 0.3
+  minY: -1
+  maxY: 1
+  min: 0.05
+  max: 0.15
 --- !u!222 &1193987412187000091
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_UseRendererSilhouette: 1
   m_CastsShadows: 1
   m_SelfShadows: 1
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: 00000000c52256856381b9d48537d0c2bfdea6a74988d7c38f6151d27d85d738
   m_ShapePath:
   - {x: -2.8049316, y: -0.8001709, z: 0}
   - {x: -2.8033447, y: -0.7203064, z: 0}
@@ -370,4 +370,4 @@ MonoBehaviour:
   - {x: -2.5620117, y: -0.80178833, z: 0}
   m_ShapePathHash: -588433753
   m_Mesh: {fileID: 0}
-  m_InstanceId: 48540
+  m_InstanceId: 286584

@@ -29,9 +29,14 @@ public class cloudScroll : MonoBehaviour
         speed = Random.Range( min, max );
     }
 
-    void Update( ) 
+    void FixedUpdate( ) 
     {
-        transform.position += new Vector3( Time.deltaTime * speed, 0, 0 );
+        StartCoroutine( moveClouds( ) );
+    }
+
+    private IEnumerator moveClouds( )
+    {
+        transform.position += new Vector3( Time.fixedDeltaTime * speed, 0, 0 );
 
         /* If cloud is outside of screen width, reset position and randomize Y axis and speed. */
         if( transform.position.x > ( buffer ) ) 
@@ -41,5 +46,6 @@ public class cloudScroll : MonoBehaviour
             transform.position = v;
             speed = Random.Range( min, max );
         }
+        yield return null;
     }
 }
