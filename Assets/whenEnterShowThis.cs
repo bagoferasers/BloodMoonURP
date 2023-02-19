@@ -12,29 +12,26 @@ public class whenEnterShowThis : MonoBehaviour
     private CanvasGroup canvasGroup;
     private SpriteRenderer spriteRend;
     private Color color;
+    private SceneChange sc;
+    private GameObject menuCanvas;
 
     void Start( )
     {
+        
         p = false;
         c.SetActive( false );
         canvasGroup = GetComponent< CanvasGroup >( );
         spriteRend = c.GetComponent< SpriteRenderer >( );
         color = spriteRend.color;
+        menuCanvas = GameObject.Find( "MenuCanvas" );
+        sc = menuCanvas.GetComponent< SceneChange >( );
     }    
 
     void Update( )
     {
         if( c.activeSelf && p )
-        {
-            goToScene( );
-        }
+            sc.apartment( );
     }    
-
-    public void goToScene( )
-    {
-        FadeOutSceneThisWay( );
-        SceneManager.LoadScene( nameOfSceneToChangeTo );
-    }
 
     private void OnTriggerEnter2D( Collider2D thisCollider )
     {
@@ -98,27 +95,6 @@ public class whenEnterShowThis : MonoBehaviour
             yield return null;
         }
         c.SetActive( false );
-        yield return null;
-    }
-
-    public void FadeOutScene( )
-    {
-        StartCoroutine ( FadeOutSceneThisWay( ) );
-    }
-
-    /* Fades scene to black by decrementing alpha over time. */
-    IEnumerator FadeOutSceneThisWay( )
-    {
-        CanvasGroup canvasGroup = GameObject.Find( "darkyboi" ).GetComponent< CanvasGroup >( );
-
-        while( canvasGroup.alpha > 0 )
-        {
-            canvasGroup.alpha -= Time.deltaTime / 2;
-            yield return null;
-        }
-
-        /* This makes sure buttons aren't interactable while fading out. */
-        canvasGroup.interactable = false;
         yield return null;
     }
 }
