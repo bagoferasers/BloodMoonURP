@@ -31,14 +31,14 @@ public class whenEnterShowThis : MonoBehaviour
     void OnTriggerEnter( Collider thisCollider )
     {
         Debug.Log( "entered ontrigger" );
-        if( thisCollider.gameObject.CompareTag( "Player" ) )
+        if( thisCollider.gameObject.CompareTag( "showMe" ) )
             objectToInteractWith.gameObject.SetActive( true );
     }
 
     void OnTriggerExit( Collider thisCollider )
     {
         Debug.Log( "exited ontrigger" );
-        if( thisCollider.gameObject.CompareTag( "Player" ) )
+        if( thisCollider.gameObject.CompareTag( "showMe" ) )
             objectToInteractWith.gameObject.SetActive( false );
     }
 
