@@ -29,23 +29,27 @@ public class whenEnterShowThis : MonoBehaviour
 
     void OnTriggerEnter( Collider thisCollider )
     {
+        Debug.Log( "entered ontrigger" );
         if( thisCollider.gameObject.CompareTag( "Player" ) )
             objectToInteractWith.gameObject.SetActive( true );
     }
 
     void OnTriggerExit( Collider thisCollider )
     {
+        Debug.Log( "exited ontrigger" );
         if( thisCollider.gameObject.CompareTag( "Player" ) )
             objectToInteractWith.gameObject.SetActive( false );
     }
 
-    void isPressed( )
+    public void isPressed( )
     {
+        Debug.Log( "p is pressed" );
         p = true;
     }
 
-    void isNotPressed( )
+    public void isNotPressed( )
     {
+        Debug.Log( "p is not pressed" );
         p = false;
     }
 }

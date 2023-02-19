@@ -192,8 +192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameOfSceneToChangeTo: ApartmentScene
-  aButton: {fileID: 0}
-  objectToInteractWith: {fileID: 2872407234323304455}
+  objectToInteractWith: {fileID: 2168573911707119354}
 --- !u!225 &2088087031690921810
 CanvasGroup:
   m_ObjectHideFlags: 0
