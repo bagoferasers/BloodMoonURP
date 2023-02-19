@@ -8,7 +8,6 @@ using TMPro;
 public class whenEnterShowThis : MonoBehaviour
 {
     public string nameOfSceneToChangeTo;
-    public Button aButton;
     public GameObject objectToInteractWith;
     private bool p;
 
@@ -30,13 +29,13 @@ public class whenEnterShowThis : MonoBehaviour
 
     void OnTriggerEnter( Collider thisCollider )
     {
-        if( thisCollider.gameObject.CompareTag( "showMe" ) )
+        if( thisCollider.gameObject.CompareTag( "Player" ) )
             objectToInteractWith.gameObject.SetActive( true );
     }
 
     void OnTriggerExit( Collider thisCollider )
     {
-        if( thisCollider.gameObject.CompareTag( "showMe" ) )
+        if( thisCollider.gameObject.CompareTag( "Player" ) )
             objectToInteractWith.gameObject.SetActive( false );
     }
 
