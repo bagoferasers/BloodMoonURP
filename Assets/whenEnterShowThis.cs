@@ -10,12 +10,16 @@ public class whenEnterShowThis : MonoBehaviour
     private bool p;
     public GameObject c;
     private CanvasGroup canvasGroup;
+    private SpriteRenderer spriteRend;
+    private Color color;
 
     void Start( )
     {
         p = false;
         c.SetActive( false );
         canvasGroup = GetComponent< CanvasGroup >( );
+        spriteRend = c.GetComponent< SpriteRenderer >( );
+        color = spriteRend.color;
     }    
 
     void Update( )
@@ -35,13 +39,18 @@ public class whenEnterShowThis : MonoBehaviour
         if( thisCollider.tag == "showMe" || thisCollider.tag == "Player" )
         {
             c.SetActive( true );
+            FadeMeIn( );
+        }
     }
 
     private void OnTriggerExit2D( Collider2D thisCollider )
     {
         Debug.Log( "exited ontrigger" );
         if( thisCollider.tag == "showMe" || thisCollider.tag == "Player" )
+        {
             c.SetActive( false );
+            FadeMeOut( );
+        }
     }
 
     public void isPressed( )
@@ -71,6 +80,8 @@ public class whenEnterShowThis : MonoBehaviour
         while( canvasGroup.alpha < 0 )
         {
             canvasGroup.alpha += Time.deltaTime / 2;
+            color.a += Time.deltaTime / 2;
+            spriteRend.color = color;
             yield return null;
         }
     }

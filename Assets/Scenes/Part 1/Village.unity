@@ -9574,53 +9574,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2168573911707119354, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
   m_PrefabInstance: {fileID: 8855935825414814495}
   m_PrefabAsset: {fileID: 0}
---- !u!50 &1056675018
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1056675014}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
---- !u!61 &1056675019
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1056675014}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -2.4133081, y: 1.396616}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 16.424934, y: 9.251274}
-  m_EdgeRadius: 0
 --- !u!1001 &1057192619
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23109,7 +23062,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2088087031690921810, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
       propertyPath: m_Alpha
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088087031690921810, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+      propertyPath: m_IgnoreParentGroups
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2168573911707119354, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
       propertyPath: m_Layer
@@ -23164,6 +23121,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4513628918411432966, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513628918411432966, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513628918411432966, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
       propertyPath: m_SortingLayer
       value: 9
       objectReference: {fileID: 0}
@@ -23175,6 +23140,14 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: 953648509
       objectReference: {fileID: 0}
+    - target: {fileID: 4513628918411432966, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860814719754520982, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5860814719754520982, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
       propertyPath: m_SortingOrder
       value: 0
@@ -23182,6 +23155,10 @@ PrefabInstance:
     - target: {fileID: 5860814719754520982, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
       propertyPath: m_SortingLayerID
       value: 953648509
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860814719754520982, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+      propertyPath: m_OverrideSorting
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5860814719754520982, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
