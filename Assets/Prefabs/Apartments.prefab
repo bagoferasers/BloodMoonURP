@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5860814719754520982}
   m_Layer: 0
   m_Name: Circle
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122,12 +122,12 @@ GameObject:
   m_Component:
   - component: {fileID: 8954161022443212432}
   - component: {fileID: 7236945035581392986}
-  - component: {fileID: 7422159726490572136}
   - component: {fileID: 2088087031690921810}
   - component: {fileID: 3635830674402420306}
+  - component: {fileID: 2350851784171004871}
   m_Layer: 0
   m_Name: OpenDoor
-  m_TagString: showMe
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -179,20 +179,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.2507334, y: 4.973507}
   m_EdgeRadius: 0
---- !u!114 &7422159726490572136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2872407234323304455}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c65cd5b90879bc74d812b5be9e34b7ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameOfSceneToChangeTo: ApartmentScene
-  objectToInteractWith: {fileID: 2168573911707119354}
 --- !u!225 &2088087031690921810
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -226,6 +212,20 @@ Canvas:
   m_SortingLayerID: 2124250127
   m_SortingOrder: 5
   m_TargetDisplay: 0
+--- !u!114 &2350851784171004871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2872407234323304455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c65cd5b90879bc74d812b5be9e34b7ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameOfSceneToChangeTo: ApartmentScene
+  objectToInteractWith: {fileID: 2168573911707119354}
 --- !u!1 &7226657627192226630
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,7 +240,7 @@ GameObject:
   - component: {fileID: 3135987946230123242}
   m_Layer: 5
   m_Name: Text (TMP)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

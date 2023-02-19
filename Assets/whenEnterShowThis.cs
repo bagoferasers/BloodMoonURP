@@ -14,11 +14,12 @@ public class whenEnterShowThis : MonoBehaviour
     void Start( )
     {
         p = false;
+        objectToInteractWith.gameObject.SetActive( false );
     }    
 
     void Update( )
     {
-        if( objectToInteractWith != null && p )
+        if( objectToInteractWith.activeSelf && p )
             goToScene( );
     }    
 
