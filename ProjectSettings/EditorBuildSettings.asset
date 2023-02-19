@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Part 1/Village.unity
     guid: aed9d442a3d469c4e849ae7456c9e37c
+  - enabled: 1
+    path: Assets/Scenes/Part 1/ApartmentScene.unity
+    guid: a2b1982d911c4914188b636d48b8baf7
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 227c43bc127192d46b97084ad6f2ccce, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 8a3ebfc17c1fee74ba25aa34b19e1add, type: 2}

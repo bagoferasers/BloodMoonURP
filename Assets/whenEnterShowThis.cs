@@ -7,21 +7,20 @@ using TMPro;
 
 public class whenEnterShowThis : MonoBehaviour
 {
-    //public TextMeshProUGUI showText;
-    //public string textToShow;
     public string nameOfSceneToChangeTo;
     public Button aButton;
     public GameObject objectToInteractWith;
+    private bool p;
 
     void Start( )
     {
-        aButton.onClick.AddListener( Interact );
+        p = false;
     }    
 
     void Update( )
     {
-        if( objectToInteractWith != null && Input.GetKeyDown( 0 ) )
-            Interact( );
+        if( objectToInteractWith != null && p )
+            goToScene( );
     }    
 
     public void goToScene( )
@@ -32,7 +31,7 @@ public class whenEnterShowThis : MonoBehaviour
     void OnTriggerEnter( Collider thisCollider )
     {
         if( thisCollider.gameObject.CompareTag( "showMe" ) )
-            aButton.gameObject.SetActive( true );
+            objectToInteractWith.gameObject.SetActive( true );
     }
 
     void OnTriggerExit( Collider thisCollider )
@@ -41,9 +40,13 @@ public class whenEnterShowThis : MonoBehaviour
             objectToInteractWith.gameObject.SetActive( false );
     }
 
-    void Interact( )
+    void isPressed( )
     {
-        Debug.Log( "Changing scene" );
-        goToScene( );
+        p = true;
+    }
+
+    void isNotPressed( )
+    {
+        p = false;
     }
 }

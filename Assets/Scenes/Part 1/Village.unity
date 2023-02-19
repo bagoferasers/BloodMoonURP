@@ -9544,6 +9544,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4937185737836265887, guid: 9609e9c74a36e58418c45c5699a4bda5, type: 3}
   m_PrefabInstance: {fileID: 1051616910}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1056675014 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2168573911707119354, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+  m_PrefabInstance: {fileID: 8855935825414814495}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1057192619
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13189,6 +13194,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1376389549 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4255545773476868268, guid: e8aebf145e575cb4f9a1b06bfff37333, type: 3}
+  m_PrefabInstance: {fileID: 18870710}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1377888462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22831,10 +22847,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 860492899}
     m_Modifications:
+    - target: {fileID: 2088087031690921810, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+      propertyPath: m_Alpha
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2168573911707119354, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2872407234323304455, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635830674402420306, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1009285047
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635830674402420306, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+      propertyPath: m_OverrideSorting
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860814719754520982, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1009285047
+      objectReference: {fileID: 0}
     - target: {fileID: 5860814719754520982, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 7422159726490572136, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+      propertyPath: aButton
+      value: 
+      objectReference: {fileID: 1376389549}
+    - target: {fileID: 7422159726490572136, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+      propertyPath: objectToInteractWith
+      value: 
+      objectReference: {fileID: 1056675014}
     - target: {fileID: 8855935825010799462, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
       propertyPath: m_RootOrder
       value: 2
