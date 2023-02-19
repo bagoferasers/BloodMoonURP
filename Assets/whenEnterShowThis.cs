@@ -32,7 +32,7 @@ public class whenEnterShowThis : MonoBehaviour
 
     public void goToScene( )
     {
-        FadeOutScene( );
+        FadeOutSceneThisWay( );
         SceneManager.LoadScene( nameOfSceneToChangeTo );
     }
 
