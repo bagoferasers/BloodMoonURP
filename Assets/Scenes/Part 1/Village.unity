@@ -13220,6 +13220,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1376389549 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4255545773476868268, guid: e8aebf145e575cb4f9a1b06bfff37333, type: 3}
+  m_PrefabInstance: {fileID: 18870710}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538527945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1376389552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13237,7 +13248,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1712352043}
           m_TargetAssemblyTypeName: whenEnterShowThis, Assembly-CSharp
           m_MethodName: isPressed
           m_Mode: 1
@@ -13253,7 +13264,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1712352043}
           m_TargetAssemblyTypeName: whenEnterShowThis, Assembly-CSharp
           m_MethodName: isNotPressed
           m_Mode: 1
@@ -16601,7 +16612,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.9364176, y: 0.23086941}
+  m_Offset: {x: -1.8703356, y: 0.2308693}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -16612,7 +16623,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.958996, y: 4.5321198}
+  m_Size: {x: 7.902355, y: 4.5321198}
   m_EdgeRadius: 0
 --- !u!50 &1712352042
 Rigidbody2D:
@@ -16649,6 +16660,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfSceneToChangeTo: ApartmentScene
   c: {fileID: 1056675014}
+  b: {fileID: 1376389549}
 --- !u!1001 &1716979532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23122,7 +23134,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4513628918411432966, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
       propertyPath: m_Color.a
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4513628918411432966, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
       propertyPath: m_Enabled

@@ -25,11 +25,14 @@ public class whenEnterShowThis : MonoBehaviour
     void Update( )
     {
         if( c.activeSelf && p )
+        {
             goToScene( );
+        }
     }    
 
     public void goToScene( )
     {
+        FadeOutScene( );
         SceneManager.LoadScene( nameOfSceneToChangeTo );
     }
 
@@ -38,7 +41,6 @@ public class whenEnterShowThis : MonoBehaviour
         Debug.Log( "entered ontrigger" );
         if( thisCollider.tag == "showMe" || thisCollider.tag == "Player" )
         {
-            c.SetActive( true );
             FadeMeIn( );
         }
     }
@@ -48,7 +50,6 @@ public class whenEnterShowThis : MonoBehaviour
         Debug.Log( "exited ontrigger" );
         if( thisCollider.tag == "showMe" || thisCollider.tag == "Player" )
         {
-            c.SetActive( false );
             FadeMeOut( );
         }
     }
@@ -77,21 +78,47 @@ public class whenEnterShowThis : MonoBehaviour
 
     IEnumerator fadeIn( )
     {
-        while( canvasGroup.alpha < 0 )
+        c.SetActive( true );
+        while( canvasGroup.alpha < 1 )
         {
-            canvasGroup.alpha += Time.deltaTime / 2;
-            color.a += Time.deltaTime / 2;
+            color.a += Time.deltaTime;
+            canvasGroup.alpha += Time.deltaTime;
             spriteRend.color = color;
             yield return null;
-        }
+        }        
     }
 
     IEnumerator fadeOut( )
     {
-        while( canvasGroup.alpha < 0 )
+        while( canvasGroup.alpha > 0 )
+        {
+            canvasGroup.alpha -= Time.deltaTime;
+            color.a = canvasGroup.alpha;
+            spriteRend.color = color;
+            yield return null;
+        }
+        c.SetActive( false );
+        yield return null;
+    }
+
+    public void FadeOutScene( )
+    {
+        StartCoroutine ( FadeOutSceneThisWay( ) );
+    }
+
+    /* Fades scene to black by decrementing alpha over time. */
+    IEnumerator FadeOutSceneThisWay( )
+    {
+        CanvasGroup canvasGroup = GameObject.Find( "darkyboi" ).GetComponent< CanvasGroup >( );
+
+        while( canvasGroup.alpha > 0 )
         {
             canvasGroup.alpha -= Time.deltaTime / 2;
             yield return null;
         }
+
+        /* This makes sure buttons aren't interactable while fading out. */
+        canvasGroup.interactable = false;
+        yield return null;
     }
 }
