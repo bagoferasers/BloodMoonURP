@@ -335,6 +335,10 @@ PrefabInstance:
       value: oButton
       objectReference: {fileID: 0}
     - target: {fileID: 5628072339996506768, guid: e8aebf145e575cb4f9a1b06bfff37333, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5628072339996506768, guid: e8aebf145e575cb4f9a1b06bfff37333, type: 3}
       propertyPath: m_TagString
       value: showMe
       objectReference: {fileID: 0}
@@ -1302,7 +1306,7 @@ GameObject:
   - component: {fileID: 133554727}
   - component: {fileID: 133554725}
   - component: {fileID: 133554726}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: MenuCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2200,6 +2204,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RightBlackButton
       objectReference: {fileID: 0}
+    - target: {fileID: 5292826285764798047, guid: d20ea113b1db3fc40892e3e6419edb97, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8414677862203948181, guid: d20ea113b1db3fc40892e3e6419edb97, type: 3}
       propertyPath: m_Color.a
       value: 0.50980395
@@ -2644,6 +2652,10 @@ PrefabInstance:
     - target: {fileID: 6833936514532407409, guid: 74a24059a5b7c764c9098f5858345cdd, type: 3}
       propertyPath: m_Name
       value: BlackOptionsButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833936514532407409, guid: 74a24059a5b7c764c9098f5858345cdd, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6833936514532407437, guid: 74a24059a5b7c764c9098f5858345cdd, type: 3}
       propertyPath: m_Maskable
@@ -4668,6 +4680,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UpBlackButton
       objectReference: {fileID: 0}
+    - target: {fileID: 7205833323206081477, guid: 7841b45ffe1a21446a4f041cdae97841, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7841b45ffe1a21446a4f041cdae97841, type: 3}
 --- !u!224 &546634827 stripped
@@ -5843,7 +5859,7 @@ GameObject:
   - component: {fileID: 752130729}
   - component: {fileID: 752130728}
   - component: {fileID: 752130727}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6739,7 +6755,7 @@ GameObject:
   - component: {fileID: 839719302}
   - component: {fileID: 839719301}
   - component: {fileID: 839719300}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Viewport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7245,7 +7261,7 @@ GameObject:
   - component: {fileID: 896496785}
   - component: {fileID: 896496784}
   - component: {fileID: 896496786}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Template
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7593,7 +7609,7 @@ GameObject:
   - component: {fileID: 922950968}
   - component: {fileID: 922950970}
   - component: {fileID: 922950969}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7898,6 +7914,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseBlackButton
       objectReference: {fileID: 0}
+    - target: {fileID: 7365806501627089555, guid: 8eadad2b1f6f4cc4897ffc7ab66ca0a1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8eadad2b1f6f4cc4897ffc7ab66ca0a1, type: 3}
 --- !u!1 &928953006
@@ -7910,7 +7930,7 @@ GameObject:
   m_Component:
   - component: {fileID: 928953007}
   - component: {fileID: 928953008}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: continue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9582,7 +9602,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1056675014}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -9723,7 +9743,7 @@ GameObject:
   - component: {fileID: 1065883882}
   - component: {fileID: 1065883884}
   - component: {fileID: 1065883883}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9882,7 +9902,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1071060548}
   - component: {fileID: 1071060549}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10233,7 +10253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1088885223}
   - component: {fileID: 1088885224}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: quit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10822,7 +10842,7 @@ GameObject:
   - component: {fileID: 1133331745}
   - component: {fileID: 1133331744}
   - component: {fileID: 1133331748}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: darkyboi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12255,7 +12275,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1251821847}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12726,7 +12746,7 @@ GameObject:
   - component: {fileID: 1318630676}
   - component: {fileID: 1318630677}
   - component: {fileID: 1318630678}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -13264,7 +13284,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1712352043}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: whenEnterShowThis, Assembly-CSharp
           m_MethodName: isPressed
           m_Mode: 1
@@ -13280,7 +13300,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1712352043}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: whenEnterShowThis, Assembly-CSharp
           m_MethodName: isNotPressed
           m_Mode: 1
@@ -14322,6 +14342,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlackQuitButton
       objectReference: {fileID: 0}
+    - target: {fileID: 3312291582102142079, guid: 4b7807c5c47345a4b82698b8bcdd3334, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3312291582102142083, guid: 4b7807c5c47345a4b82698b8bcdd3334, type: 3}
       propertyPath: m_Maskable
       value: 0
@@ -15251,7 +15275,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!1001 &1597724417
 PrefabInstance:
@@ -15925,7 +15949,7 @@ GameObject:
   - component: {fileID: 1668666227}
   - component: {fileID: 1668666226}
   - component: {fileID: 1668666230}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cameraussy (1)
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -16511,6 +16535,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlackContinueButton
       objectReference: {fileID: 0}
+    - target: {fileID: 4734682517923185046, guid: 63d7c69aa20338a47bb86bb24bbb8107, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4734682517923185047, guid: 63d7c69aa20338a47bb86bb24bbb8107, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -16602,17 +16630,72 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2968632059139635298, guid: 1ce62990a270ef94bb6a52235eabae93, type: 3}
   m_PrefabInstance: {fileID: 1079436728}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1712352043 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2350851784171004871, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+--- !u!1 &1712352037 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2872407234323304455, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
   m_PrefabInstance: {fileID: 8855935825414814495}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+--- !u!61 &1712352041
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712352037}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.9364176, y: 0.23086941}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.958996, y: 4.5321198}
+  m_EdgeRadius: 0
+--- !u!50 &1712352042
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712352037}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &1712352043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712352037}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c65cd5b90879bc74d812b5be9e34b7ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nameOfSceneToChangeTo: ApartmentScene
+  c: {fileID: 1056675014}
 --- !u!1001 &1716979532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16769,6 +16852,10 @@ PrefabInstance:
     - target: {fileID: 1676810426863724115, guid: c8fcdb537d37ee14c8257ffa2625a06c, type: 3}
       propertyPath: m_Name
       value: LeftBlackButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676810426863724115, guid: c8fcdb537d37ee14c8257ffa2625a06c, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3094025355090738329, guid: c8fcdb537d37ee14c8257ffa2625a06c, type: 3}
       propertyPath: m_Color.a
@@ -19487,7 +19574,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1864516497}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Blocks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19566,7 +19653,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1874342459}
   - component: {fileID: 1874342460}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: GameButtons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20645,7 +20732,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1974113496}
   - component: {fileID: 1974113497}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: playerVisionLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23048,17 +23135,45 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
+    - target: {fileID: 3135987946230123242, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+      propertyPath: m_SortingLayer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135987946230123242, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135987946230123242, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 953648509
+      objectReference: {fileID: 0}
     - target: {fileID: 3635830674402420306, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3635830674402420306, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635830674402420306, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
       propertyPath: m_SortingLayerID
-      value: -1009285047
+      value: 953648509
       objectReference: {fileID: 0}
     - target: {fileID: 3635830674402420306, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
       propertyPath: m_OverrideSorting
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513628918411432966, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+      propertyPath: m_SortingLayer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513628918411432966, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513628918411432966, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 953648509
       objectReference: {fileID: 0}
     - target: {fileID: 5860814719754520982, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
       propertyPath: m_SortingOrder

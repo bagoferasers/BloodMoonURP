@@ -7,18 +7,18 @@ using UnityEngine.SceneManagement;
 public class whenEnterShowThis : MonoBehaviour
 {
     public string nameOfSceneToChangeTo;
-    public GameObject objectToInteractWith;
     private bool p;
+    public GameObject c;
 
     void Start( )
     {
         p = false;
-        objectToInteractWith.gameObject.SetActive( false );
+        c.SetActive( false );
     }    
 
     void Update( )
     {
-        if( objectToInteractWith.activeSelf && p )
+        if( c.activeSelf && p )
             goToScene( );
     }    
 
@@ -30,15 +30,15 @@ public class whenEnterShowThis : MonoBehaviour
     private void OnTriggerEnter2D( Collider2D thisCollider )
     {
         Debug.Log( "entered ontrigger" );
-        if( thisCollider.tag == "showMe" )
-            objectToInteractWith.gameObject.SetActive( true );
+        if( thisCollider.tag == "showMe" || thisCollider.tag == "Player" )
+            c.SetActive( true );
     }
 
     private void OnTriggerExit2D( Collider2D thisCollider )
     {
         Debug.Log( "exited ontrigger" );
-        if( thisCollider.tag == "showMe" )
-            objectToInteractWith.gameObject.SetActive( false );
+        if( thisCollider.tag == "showMe" || thisCollider.tag == "Player" )
+            c.SetActive( false );
     }
 
     public void isPressed( )

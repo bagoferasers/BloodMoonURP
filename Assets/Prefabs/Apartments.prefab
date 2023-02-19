@@ -123,7 +123,6 @@ GameObject:
   - component: {fileID: 8954161022443212432}
   - component: {fileID: 2088087031690921810}
   - component: {fileID: 3635830674402420306}
-  - component: {fileID: 2350851784171004871}
   m_Layer: 0
   m_Name: OpenDoor
   m_TagString: Player
@@ -185,20 +184,6 @@ Canvas:
   m_SortingLayerID: 2124250127
   m_SortingOrder: 5
   m_TargetDisplay: 0
---- !u!114 &2350851784171004871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2872407234323304455}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c65cd5b90879bc74d812b5be9e34b7ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameOfSceneToChangeTo: ApartmentScene
-  objectToInteractWith: {fileID: 2168573911707119354}
 --- !u!1 &7226657627192226630
 GameObject:
   m_ObjectHideFlags: 0
