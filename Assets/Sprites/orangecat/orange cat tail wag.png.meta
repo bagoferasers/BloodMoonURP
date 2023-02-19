@@ -266,12 +266,12 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       orange cat tail wag_0: -1231594375
-      orange cat tail wag_4: -452858682
-      orange cat tail wag_6: 484002180
       orange cat tail wag_1: 928780155
-      orange cat tail wag_5: -910668613
       orange cat tail wag_2: -1931628686
       orange cat tail wag_3: -553008220
+      orange cat tail wag_4: -452858682
+      orange cat tail wag_5: -910668613
+      orange cat tail wag_6: 484002180
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
