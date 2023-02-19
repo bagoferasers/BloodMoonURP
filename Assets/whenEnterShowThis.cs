@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using TMPro;
 
 public class whenEnterShowThis : MonoBehaviour
 {
@@ -28,17 +27,17 @@ public class whenEnterShowThis : MonoBehaviour
         SceneManager.LoadScene( nameOfSceneToChangeTo );
     }
 
-    void OnTriggerEnter( Collider thisCollider )
+    private void OnTriggerEnter2D( Collider2D thisCollider )
     {
         Debug.Log( "entered ontrigger" );
-        if( thisCollider.gameObject.CompareTag( "showMe" ) )
+        if( thisCollider.tag == "showMe" )
             objectToInteractWith.gameObject.SetActive( true );
     }
 
-    void OnTriggerExit( Collider thisCollider )
+    private void OnTriggerExit2D( Collider2D thisCollider )
     {
         Debug.Log( "exited ontrigger" );
-        if( thisCollider.gameObject.CompareTag( "showMe" ) )
+        if( thisCollider.tag == "showMe" )
             objectToInteractWith.gameObject.SetActive( false );
     }
 

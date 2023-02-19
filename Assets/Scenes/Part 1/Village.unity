@@ -9574,7 +9574,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1056675019
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23061,8 +23061,12 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5860814719754520982, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860814719754520982, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
       propertyPath: m_SortingLayerID
-      value: -1009285047
+      value: 953648509
       objectReference: {fileID: 0}
     - target: {fileID: 5860814719754520982, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
@@ -23123,6 +23127,10 @@ PrefabInstance:
     - target: {fileID: 8855935825010799463, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
       propertyPath: m_Name
       value: Apartments
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954161022443212432, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 047081a243befc34d826a39a5c1d0ac0, type: 3}
