@@ -25,9 +25,9 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2168573911707119354}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.4875, y: 0.5125, z: 1}
+  m_LocalScale: {x: 0.48750007, y: 0.5125, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6612577387189921685}
@@ -36,7 +36,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.717, y: -0.69}
+  m_AnchoredPosition: {x: -0.717, y: -0.6899996}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &4513628918411432966
@@ -141,7 +141,7 @@ RectTransform:
   m_GameObject: {fileID: 2872407234323304455}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 947839742747388969}
@@ -151,7 +151,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 9.943, y: -4.799}
+  m_AnchoredPosition: {x: 9.943001, y: -4.7990003}
   m_SizeDelta: {x: 2208, y: 1768}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &7236945035581392986
@@ -192,8 +192,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c65cd5b90879bc74d812b5be9e34b7ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showText: {fileID: 501387907082458657}
-  textToShow: A
   nameOfSceneToChangeTo: ApartmentScene
   aButton: {fileID: 0}
   objectToInteractWith: {fileID: 2872407234323304455}
@@ -266,7 +264,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.218, y: -0.005}
+  m_AnchoredPosition: {x: 0.275, y: 0.018}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8121535281180312285
@@ -297,7 +295,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A
+  m_text: o
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -411,7 +409,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.719, y: -0.712}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5823141060643938503
