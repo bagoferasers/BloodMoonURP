@@ -56,6 +56,9 @@ TagManager:
   - name: Bushes
     uniqueID: 2812731071
     locked: 0
+  - name: BuildingsBackground'
+    uniqueID: 376570377
+    locked: 0
   - name: Buildings
     uniqueID: 3285682249
     locked: 0
