@@ -30,7 +30,20 @@ public class whenEnterShowThis : MonoBehaviour
     void Update( )
     {
         if( c.activeSelf && p )
-            sc.apartment( );
+        {
+            Debug.Log( "c is active and p is pressed" );
+            if( string.Equals( nameOfSceneToChangeTo, "ApartmentScene" ) )
+            {
+                Debug.Log( "passed appartment scene" );
+                sc.apartment( );
+            }
+                
+            else if( string.Equals( nameOfSceneToChangeTo, "9LivesScene" ) )
+            {
+                Debug.Log( "passed 9 lives scene" );
+                sc.nineLives( );
+            }
+        }
     }    
 
     private void OnTriggerEnter2D( Collider2D thisCollider )
