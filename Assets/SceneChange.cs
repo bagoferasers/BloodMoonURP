@@ -19,6 +19,18 @@ public class SceneChange: MonoBehaviour
         StartCoroutine( ChangeToScene( "Village" ) );
     }
 
+    public void apartment( )
+    {
+        FadeMainOut( );
+        StartCoroutine( ChangeToScene( "ApartmentScene" ) );
+    }
+
+    public void nineLives( )
+    {
+        FadeMainOut( );
+        StartCoroutine( ChangeToScene( "NineScene" ) );
+    }
+
     /* Changes scenes while implementing a fade-out for 3 seconds. */
     public IEnumerator ChangeToScene( string sceneToChangeTo )
     {
