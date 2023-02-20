@@ -56,36 +56,29 @@ public class PlayerMovement : MonoBehaviour
         /* player direction animation */
         animator = GetComponent< Animator >( );
 
-
         //////////////////////////////////////////////////////////////////////////////////////////
         // handle double tap movement to start running... need to find a way to integrate this with
         // a new character animation
         if( !arePaused && ( moveRight || moveLeft ) )
         {
             Debug.Log( "entered if statement for moving and double tapping" );
-            if( buttonPressed == 1 && timeBetweenTaps < 0.3f )
+            if( buttonPressed == 1 && timeBetweenTaps < 0.4f )
             {
                 Debug.Log( "increasing speed" );
                 speed = increasedSpeed;
             }
-            //else
-            //{
-                //Debug.Log( "timebetweentaps is > 0.3f");
-                //speed = originalSpeed;
-            //}
         }
 
         timeBetweenTaps += Time.deltaTime;
 
         if( timeBetweenTaps > 0.3f && buttonPressed != 1  )
         {
-            Debug.Log( " timebetweentaps > 0.3f");
+            Debug.Log( " timebetweentaps > 0.4f");
             speed = originalSpeed;
             buttonPressed = 0;
             timeBetweenTaps = 0f;
         }
         ///////////////////////////////////////////////////////////////////////////////////////////
-
 
         if( !arePaused && moveRight  )
         {

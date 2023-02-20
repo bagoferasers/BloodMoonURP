@@ -11071,7 +11071,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpForce: 300
   speed: 150
-  increasedSpeed: 500
+  increasedSpeed: 400
   maxSpeedIncreaseDuration: 200
 --- !u!95 &1318630676
 Animator:
