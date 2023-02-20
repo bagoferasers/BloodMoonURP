@@ -7,8 +7,15 @@ using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {
     [ Header( "Movement" ) ]
-    public float speed;
     public float jumpForce;
+    
+    public float speed;
+    public float increasedSpeed;
+    private float speedIncreaseDurationLeft;
+    public float maxSpeedIncreaseDuration;
+    private float originalSpeed;
+    private float timeBetweenTaps;
+    private int buttonPressed;
 
     private Rigidbody2D rb2d;
     private bool moveLeft, moveRight, goJump, arePaused;
@@ -19,8 +26,10 @@ public class PlayerMovement : MonoBehaviour
     private GameObject upButton;
     private GameObject title;
     private Animator animator;
-    private float directX;
+
+    //private float directX;
     
+
     // Start is called before the first frame update
     void Start( )
     {
@@ -35,18 +44,48 @@ public class PlayerMovement : MonoBehaviour
         rightButton = GameObject.Find( "RightBlackButton" );
         upButton = GameObject.Find( "UpBlackButton" );
         title = GameObject.Find( "Title" );
-    }
 
-    void Update( )
-    {
-
+        buttonPressed = 0;
+        timeBetweenTaps = 0f;
+        originalSpeed = speed;
+        speedIncreaseDurationLeft = 0f;
     }
 
     void FixedUpdate( )
     {        
         /* player direction animation */
-        directX = Input.GetAxisRaw( "Horizontal" );
         animator = GetComponent< Animator >( );
+
+
+        //////////////////////////////////////////////////////////////////////////////////////////
+        // handle double tap movement to start running... need to find a way to integrate this with
+        // a new character animation
+        if( !arePaused && ( moveRight || moveLeft ) )
+        {
+            Debug.Log( "entered if statement for moving and double tapping" );
+            if( buttonPressed > 0 && timeBetweenTaps < 0.3f )
+            {
+                Debug.Log( "increasing speed" );
+                speed = increasedSpeed;
+            }
+            //else
+            //{
+                //Debug.Log( "timebetweentaps is > 0.3f");
+                //speed = originalSpeed;
+            //}
+        }
+
+        timeBetweenTaps += Time.deltaTime;
+
+        if( timeBetweenTaps > 0.3f && buttonPressed != 1  )
+        {
+            Debug.Log( " timebetweentaps > 0.3f");
+            speed = originalSpeed;
+            buttonPressed = 0;
+            timeBetweenTaps = 0f;
+        }
+        ///////////////////////////////////////////////////////////////////////////////////////////
+
 
         if( !arePaused && moveRight  )
         {
@@ -54,8 +93,6 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool( "left", false ); 
             animator.SetBool( "forwardidle", false );
             Debug.Log( "Moving right." );
-            //transform.position += Vector3.right * ( speed * ( Screen.width / Screen.height ) ) * Time.deltaTime;
-            //transform.Translate( Vector3.right * speed * Time.fixedDeltaTime );
             rb2d.velocity = new Vector2( 1 * speed * Time.deltaTime, rb2d.velocity.y);
             rb2d.velocity.Normalize( );
 
@@ -66,8 +103,6 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool( "right", false );
             animator.SetBool( "forwardidle", false );
             Debug.Log( "Moving left." );
-            //transform.position += Vector3.left * ( speed * ( Screen.width / Screen.height ) ) * Time.deltaTime;
-            //transform.Translate( Vector3.left * speed * Time.fixedDeltaTime );
             rb2d.velocity = new Vector2( -1 * speed * Time.deltaTime, rb2d.velocity.y);
             rb2d.velocity.Normalize( );
         }
@@ -85,7 +120,6 @@ public class PlayerMovement : MonoBehaviour
                 Debug.Log("Time.deltaTime = " + Time.deltaTime + "\n" );
                 rb2d.AddForce( Vector3.up * jumpForce * Time.deltaTime, ForceMode2D.Impulse );
                 rb2d.velocity.Normalize( );
-                //transform.Translate( Vector3.up * speed * Time.deltaTime );
             }
             goJump = false;
         }                
@@ -101,6 +135,12 @@ public class PlayerMovement : MonoBehaviour
         moveLeft = true;
     }
 
+    public void buttonClick( )
+    {
+        buttonPressed += 1;
+        Debug.Log( "button pressed = " + buttonPressed );
+    }
+
     public void jump( )
     {
         if( !arePaused )
@@ -113,6 +153,7 @@ public class PlayerMovement : MonoBehaviour
         moveRight = false;
         goJump = false;
         rb2d.velocity = Vector2.zero;
+        speed = originalSpeed;
     }
 
     public void onPause( )
