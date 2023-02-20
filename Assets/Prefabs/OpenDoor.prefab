@@ -344,5 +344,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c65cd5b90879bc74d812b5be9e34b7ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameOfSceneToChangeTo: 
+  nameOfSceneToChangeTo: 9LivesScene
   c: {fileID: 0}

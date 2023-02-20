@@ -7,17 +7,17 @@ using UnityEngine.SceneManagement;
 public class whenEnterShowThis : MonoBehaviour
 {
     public string nameOfSceneToChangeTo;
-    private bool p;
     public GameObject c;
+
     private CanvasGroup canvasGroup;
     private SpriteRenderer spriteRend;
     private Color color;
     private SceneChange sc;
     private GameObject menuCanvas;
+    private bool p;
 
     void Start( )
     {
-        
         p = false;
         c.SetActive( false );
         canvasGroup = GetComponent< CanvasGroup >( );
@@ -29,16 +29,16 @@ public class whenEnterShowThis : MonoBehaviour
 
     void Update( )
     {
-        if( c.activeSelf && p )
+        if( c.activeInHierarchy && p )
         {
+            Debug.Log( nameOfSceneToChangeTo );
             Debug.Log( "c is active and p is pressed" );
             if( string.Equals( nameOfSceneToChangeTo, "ApartmentScene" ) )
             {
                 Debug.Log( "passed appartment scene" );
                 sc.apartment( );
-            }
-                
-            else if( string.Equals( nameOfSceneToChangeTo, "9LivesScene" ) )
+            } 
+            else if( string.Equals( nameOfSceneToChangeTo, "NineScene" ) )
             {
                 Debug.Log( "passed 9 lives scene" );
                 sc.nineLives( );
@@ -78,6 +78,7 @@ public class whenEnterShowThis : MonoBehaviour
 
     private void FadeMeIn( )
     {
+        c.SetActive( true );
         StartCoroutine( fadeIn( ) );
     }
 
@@ -88,11 +89,12 @@ public class whenEnterShowThis : MonoBehaviour
 
     IEnumerator fadeIn( )
     {
+        Debug.Log( "Setting active." );
         c.SetActive( true );
         while( canvasGroup.alpha < 1 )
         {
             color.a += Time.deltaTime;
-            canvasGroup.alpha += Time.deltaTime;
+            canvasGroup.alpha += Time.deltaTime * 2;
             spriteRend.color = color;
             yield return null;
         }        
@@ -102,7 +104,7 @@ public class whenEnterShowThis : MonoBehaviour
     {
         while( canvasGroup.alpha > 0 )
         {
-            canvasGroup.alpha -= Time.deltaTime;
+            canvasGroup.alpha -= Time.deltaTime * 2;
             color.a = canvasGroup.alpha;
             spriteRend.color = color;
             yield return null;
