@@ -28,7 +28,7 @@ public class SceneChange: MonoBehaviour
     public void nineLives( )
     {
         FadeMainOut( );
-        StartCoroutine( ChangeToScene( "9LivesScene" ) );
+        StartCoroutine( ChangeToScene( "NineScene" ) );
     }
 
     /* Changes scenes while implementing a fade-out for 3 seconds. */

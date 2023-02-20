@@ -29,6 +29,10 @@ public class whenEnterShowThis : MonoBehaviour
 
     void Update( )
     {
+        if( p )
+            Debug.Log( "p" );
+        if( c.activeInHierarchy )
+            Debug.Log( "c.activeInHierarchy" );
         if( c.activeInHierarchy && p )
         {
             Debug.Log( nameOfSceneToChangeTo );

@@ -11499,11 +11499,35 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 1670684933}
+          m_TargetAssemblyTypeName: whenEnterShowThis, Assembly-CSharp
+          m_MethodName: isPressed
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 3
     callback:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1712352043}
+          m_TargetAssemblyTypeName: whenEnterShowThis, Assembly-CSharp
+          m_MethodName: isNotPressed
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1670684933}
           m_TargetAssemblyTypeName: whenEnterShowThis, Assembly-CSharp
           m_MethodName: isNotPressed
           m_Mode: 1
@@ -13838,10 +13862,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.179082
-    y: 0
-    width: 0.64208674
-    height: 1
+    x: 0
+    y: 0.14875567
+    width: 1
+    height: 0.7024887
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -14093,7 +14117,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3630955483101979929, guid: 25e2bccac9a7be64e840c01c68093b3e, type: 3}
       propertyPath: nameOfSceneToChangeTo
-      value: ApartmentScene
+      value: NineScene
       objectReference: {fileID: 0}
     - target: {fileID: 3771188754393941707, guid: 25e2bccac9a7be64e840c01c68093b3e, type: 3}
       propertyPath: m_Layer
@@ -14264,6 +14288,17 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &1670684933 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3630955483101979929, guid: 25e2bccac9a7be64e840c01c68093b3e, type: 3}
+  m_PrefabInstance: {fileID: 1670684924}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670684927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c65cd5b90879bc74d812b5be9e34b7ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1680805613
 PrefabInstance:
   m_ObjectHideFlags: 0
