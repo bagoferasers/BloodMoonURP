@@ -63,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
         if( !arePaused && ( moveRight || moveLeft ) )
         {
             Debug.Log( "entered if statement for moving and double tapping" );
-            if( buttonPressed > 0 && timeBetweenTaps < 0.3f )
+            if( buttonPressed == 1 && timeBetweenTaps < 0.3f )
             {
                 Debug.Log( "increasing speed" );
                 speed = increasedSpeed;
