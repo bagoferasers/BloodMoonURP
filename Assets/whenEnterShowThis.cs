@@ -47,6 +47,11 @@ public class whenEnterShowThis : MonoBehaviour
                 Debug.Log( "passed 9 lives scene" );
                 sc.nineLives( );
             }
+            else if( string.Equals( nameOfSceneToChangeTo, "SpiritTavernScene" ) )
+            {
+                Debug.Log( "passed SpiritTavernScene scene" );
+                sc.spiritTavern( );
+            }
         }
     }    
 

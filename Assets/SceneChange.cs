@@ -31,6 +31,12 @@ public class SceneChange: MonoBehaviour
         StartCoroutine( ChangeToScene( "NineScene" ) );
     }
 
+    public void spiritTavern( )
+    {
+        FadeMainOut( );
+        StartCoroutine( ChangeToScene( "SpiritTavernScene" ) );
+    }
+
     /* Changes scenes while implementing a fade-out for 3 seconds. */
     public IEnumerator ChangeToScene( string sceneToChangeTo )
     {
