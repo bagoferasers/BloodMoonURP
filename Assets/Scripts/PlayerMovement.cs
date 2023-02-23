@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
         upButton = GameObject.Find( "UpBlackButton" );
         attackButton = GameObject.Find( "Attack" );
         //title = GameObject.Find( "Title" );
-
+        animator = GetComponent< Animator >( );
         buttonPressedLeft = 0;
         buttonPressedRight = 0;
         timeBetweenTapsLeft = 0f;
@@ -99,25 +99,25 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate( )
     {        
         /* player direction animation */
-        animator = GetComponent< Animator >( );
+        //animator.SetInteger( "motionX", ( int )rb2d.velocity.x );
 
         if( !arePaused && moveRight  )
         {
             animator.SetBool( "right", true );
             animator.SetBool( "left", false ); 
-            animator.SetBool( "forwardidle", false );
+            //animator.SetBool( "forwardidle", false );
             rb2d.velocity = new Vector2( 1 * speed * Time.deltaTime, rb2d.velocity.y);
         }
         else if( !arePaused && moveLeft )
         {
             animator.SetBool( "left", true );
             animator.SetBool( "right", false );
-            animator.SetBool( "forwardidle", false );
+            //animator.SetBool( "forwardidle", false );
             rb2d.velocity = new Vector2( -1 * speed * Time.deltaTime, rb2d.velocity.y);
         }
         else
         {
-            animator.SetBool( "forwardidle", true );
+            //animator.SetBool( "forwardidle", true );
             animator.SetBool( "left", false ); 
             animator.SetBool( "right", false ); 
         }
@@ -130,14 +130,18 @@ public class PlayerMovement : MonoBehaviour
         }                
     }
 
+    
+
     public void goRight( )
     {
         moveRight = true;
+        animator.SetInteger( "motionX", 1 );
     }
 
     public void goLeft( )
     {
         moveLeft = true;
+        animator.SetInteger( "motionX", -1 );
     }
 
     public void buttonClickLeft( )
@@ -163,6 +167,7 @@ public class PlayerMovement : MonoBehaviour
         goJump = false;
         rb2d.velocity = Vector2.zero;
         speed = originalSpeed;
+        animator.SetInteger( "motionX", 0 );
     }
 
     public void onPause( )
