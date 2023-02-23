@@ -26,7 +26,6 @@ public class PlayerMovement : MonoBehaviour
     private GameObject rightButton;
     private GameObject upButton;
     private GameObject attackButton;
-   // private GameObject title;
     private Animator animator;
 
     // Start is called before the first frame update
@@ -43,7 +42,6 @@ public class PlayerMovement : MonoBehaviour
         rightButton = GameObject.Find( "RightBlackButton" );
         upButton = GameObject.Find( "UpBlackButton" );
         attackButton = GameObject.Find( "Attack" );
-        //title = GameObject.Find( "Title" );
         animator = GetComponent< Animator >( );
         buttonPressedLeft = 0;
         buttonPressedRight = 0;
@@ -61,7 +59,7 @@ public class PlayerMovement : MonoBehaviour
         // double tap for left
         if( !arePaused && ( moveLeft ) )
         {
-            if( buttonPressedLeft == 1 && timeBetweenTapsLeft < 0.3f )
+            if( buttonPressedLeft == 1 && timeBetweenTapsLeft < 0.4f )
             {
                 Debug.Log( "increasing speed" );
                 speed = increasedSpeed;
@@ -69,7 +67,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else if( !arePaused && ( moveRight ) )
         {
-            if( buttonPressedRight == 1 && timeBetweenTapsRight < 0.3f )
+            if( buttonPressedRight == 1 && timeBetweenTapsRight < 0.4f )
             {
                 Debug.Log( "increasing speed" );
                 speed = increasedSpeed;
@@ -79,14 +77,14 @@ public class PlayerMovement : MonoBehaviour
         timeBetweenTapsLeft += Time.deltaTime;
         timeBetweenTapsRight += Time.deltaTime;
 
-        if( timeBetweenTapsLeft > 0.3f && buttonPressedLeft != 1 && moveRight != true  )
+        if( timeBetweenTapsLeft > 0.4f && buttonPressedLeft != 1 && moveRight != true  )
         {
             Debug.Log( " timebetweentaps > 0.4f for left");
             speed = originalSpeed;
             buttonPressedLeft = 0;
             timeBetweenTapsLeft = 0f;
         }
-        if( timeBetweenTapsRight > 0.3f && buttonPressedRight != 1 && moveLeft != true  )
+        if( timeBetweenTapsRight > 0.4f && buttonPressedRight != 1 && moveLeft != true  )
         {
             Debug.Log( " timebetweentaps > 0.4f for right");
             speed = originalSpeed;
@@ -100,25 +98,21 @@ public class PlayerMovement : MonoBehaviour
     {        
         animator.SetBool( "attack", false );
         /* player direction animation */
-        //animator.SetInteger( "motionX", ( int )rb2d.velocity.x );
-        //animator.SetBool( "attack", false );
+
         if( !arePaused && moveRight  )
         {
             animator.SetBool( "right", true );
             animator.SetBool( "left", false ); 
-            //animator.SetBool( "forwardidle", false );
             rb2d.velocity = new Vector2( 1 * speed * Time.deltaTime, rb2d.velocity.y);
         }
         else if( !arePaused && moveLeft )
         {
             animator.SetBool( "left", true );
             animator.SetBool( "right", false );
-            //animator.SetBool( "forwardidle", false );
             rb2d.velocity = new Vector2( -1 * speed * Time.deltaTime, rb2d.velocity.y);
         }
         else
         {
-            //animator.SetBool( "forwardidle", true );
             animator.SetBool( "left", false ); 
             animator.SetBool( "right", false ); 
         }
