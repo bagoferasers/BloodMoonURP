@@ -98,9 +98,10 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate( )
     {        
+        animator.SetBool( "attack", false );
         /* player direction animation */
         //animator.SetInteger( "motionX", ( int )rb2d.velocity.x );
-
+        //animator.SetBool( "attack", false );
         if( !arePaused && moveRight  )
         {
             animator.SetBool( "right", true );
@@ -130,8 +131,6 @@ public class PlayerMovement : MonoBehaviour
         }                
     }
 
-    
-
     public void goRight( )
     {
         moveRight = true;
@@ -152,6 +151,16 @@ public class PlayerMovement : MonoBehaviour
     public void buttonClickRight( )
     {
         buttonPressedRight += 1;
+    }
+
+    public void attack( )
+    {
+        animator.SetBool( "attack", true );
+    }
+
+    public void noAttack( )
+    {
+        animator.SetBool( "attack", false );
     }
 
     public void jump( )
