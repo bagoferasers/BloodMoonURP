@@ -107,8 +107,6 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool( "left", false ); 
             animator.SetBool( "forwardidle", false );
             rb2d.velocity = new Vector2( 1 * speed * Time.deltaTime, rb2d.velocity.y);
-            //rb2d.velocity.Normalize( );
-
         }
         else if( !arePaused && moveLeft )
         {
@@ -116,7 +114,6 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool( "right", false );
             animator.SetBool( "forwardidle", false );
             rb2d.velocity = new Vector2( -1 * speed * Time.deltaTime, rb2d.velocity.y);
-            //rb2d.velocity.Normalize( );
         }
         else
         {
@@ -127,12 +124,8 @@ public class PlayerMovement : MonoBehaviour
 
         if( !arePaused && goJump )
         {
-            
             if( rb2d.velocity.y == 0 )
-            {
                 rb2d.AddForce( Vector3.up * jumpForce * Time.deltaTime, ForceMode2D.Impulse );
-                //rb2d.velocity.Normalize( );
-            }
             goJump = false;
         }                
     }
