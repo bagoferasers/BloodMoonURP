@@ -2008,7 +2008,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1970459793151722178, guid: d20ea113b1db3fc40892e3e6419edb97, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1970459793151722178, guid: d20ea113b1db3fc40892e3e6419edb97, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -2198,6 +2198,18 @@ MonoBehaviour:
         - m_Target: {fileID: 1318630674}
           m_TargetAssemblyTypeName: character, Assembly-CSharp
           m_MethodName: goRight
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1318630674}
+          m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+          m_MethodName: buttonClickRight
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -14657,7 +14669,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: debe4ff3b3115af4d96fb3f59c6c1613, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -18723,6 +18735,10 @@ MonoBehaviour:
   speed: 150
   increasedSpeed: 300
   maxSpeedIncreaseDuration: 200
+  timeBetweenTapsLeft: 0
+  timeBetweenTapsRight: 0
+  buttonPressedLeft: 0
+  buttonPressedRight: 0
 --- !u!95 &1318630676
 Animator:
   serializedVersion: 5
@@ -19918,8 +19934,20 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1318630674}
-          m_TargetAssemblyTypeName: character, Assembly-CSharp
+          m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
           m_MethodName: goLeft
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1318630674}
+          m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+          m_MethodName: buttonClickLeft
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -23780,7 +23808,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5003118728322335438, guid: c8fcdb537d37ee14c8257ffa2625a06c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5003118728322335438, guid: c8fcdb537d37ee14c8257ffa2625a06c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -23792,6 +23820,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5003118728322335438, guid: c8fcdb537d37ee14c8257ffa2625a06c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1318630674}
+    - target: {fileID: 5003118728322335438, guid: c8fcdb537d37ee14c8257ffa2625a06c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1318630674}
     - target: {fileID: 5003118728322335438, guid: c8fcdb537d37ee14c8257ffa2625a06c, type: 3}
@@ -23807,15 +23839,23 @@ PrefabInstance:
       value: buttonClickLeft
       objectReference: {fileID: 0}
     - target: {fileID: 5003118728322335438, guid: c8fcdb537d37ee14c8257ffa2625a06c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: goLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 5003118728322335438, guid: c8fcdb537d37ee14c8257ffa2625a06c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PlayerMovement, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5003118728322335438, guid: c8fcdb537d37ee14c8257ffa2625a06c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: character, Assembly-CSharp
+      value: PlayerMovement, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5003118728322335438, guid: c8fcdb537d37ee14c8257ffa2625a06c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5003118728322335438, guid: c8fcdb537d37ee14c8257ffa2625a06c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8116686128717607029, guid: c8fcdb537d37ee14c8257ffa2625a06c, type: 3}
@@ -29726,7 +29766,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: debe4ff3b3115af4d96fb3f59c6c1613, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
