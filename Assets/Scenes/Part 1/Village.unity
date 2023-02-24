@@ -18687,7 +18687,7 @@ SpriteRenderer:
   m_SortingLayerID: 953648509
   m_SortingLayer: 10
   m_SortingOrder: 1
-  m_Sprite: {fileID: -399854897, guid: 73b468b7c63f1b2489e0b6f236a9eca1, type: 3}
+  m_Sprite: {fileID: -169035820, guid: c4fb122e79aa52f488fb57506ac90f94, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -18735,10 +18735,6 @@ MonoBehaviour:
   speed: 150
   increasedSpeed: 300
   maxSpeedIncreaseDuration: 200
-  timeBetweenTapsLeft: 0
-  timeBetweenTapsRight: 0
-  buttonPressedLeft: 0
-  buttonPressedRight: 0
 --- !u!95 &1318630676
 Animator:
   serializedVersion: 5
@@ -18808,7 +18804,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -5.373993}
+  m_AnchoredPosition: {x: 0, y: -5.3740234}
   m_SizeDelta: {x: -99.2381, y: -98.85715}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1325437192

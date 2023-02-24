@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 73b468b7c63f1b2489e0b6f236a9eca1
+guid: c4fb122e79aa52f488fb57506ac90f94
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -113,23 +113,11 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: characterStart_0
+      name: mainCharacterShirtless_0
       rect:
         serializedVersion: 2
         x: 0
@@ -143,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 726d4abbfc0058e46936838f75c4649c
-      internalID: -128132515
+      spriteID: dde6f41f322aff9499231c96289d895e
+      internalID: -1246786611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_1
+      name: mainCharacterShirtless_1
       rect:
         serializedVersion: 2
         x: 64
@@ -164,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8cbf428c504517439bc32b0ab52a13b
-      internalID: 2105996352
+      spriteID: d8ddc1641a4d7f54da7176ca4b656ef8
+      internalID: 1918564149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_2
+      name: mainCharacterShirtless_2
       rect:
         serializedVersion: 2
         x: 128
@@ -185,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56734db7d0fdc7f44a6fd3fc58c7ed7d
-      internalID: -1635887683
+      spriteID: 4e1e8ce5e0822d147a1d59328e5bac72
+      internalID: -1493816423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_3
+      name: mainCharacterShirtless_3
       rect:
         serializedVersion: 2
         x: 192
@@ -206,14 +194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a85f0f6f5b878fa4e97710397b435cda
-      internalID: 1259461734
+      spriteID: 03876d1bb2ca7ef42b33721b80fcbca9
+      internalID: 444904257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_4
+      name: mainCharacterShirtless_4
       rect:
         serializedVersion: 2
         x: 256
@@ -227,14 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8c61820065d11341ba435745703e431
-      internalID: 571920523
+      spriteID: a132ba844a617d34ab0c23916ee1b19c
+      internalID: 1363916562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_5
+      name: mainCharacterShirtless_5
       rect:
         serializedVersion: 2
         x: 320
@@ -248,14 +236,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84116bd59767a7247b78132b00d1c858
-      internalID: -1901913694
+      spriteID: 99b6b91d7a35390428ea1d3d4a15f139
+      internalID: 881070652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_6
+      name: mainCharacterShirtless_6
       rect:
         serializedVersion: 2
         x: 384
@@ -269,14 +257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f6e09f89360b3948857c7ab922c082c
-      internalID: -2019879131
+      spriteID: 68481437b42f1144ba19fa92d32c9fbb
+      internalID: 1589247711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_7
+      name: mainCharacterShirtless_7
       rect:
         serializedVersion: 2
         x: 448
@@ -290,14 +278,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c4b37c9fdaf92a44a368036205b75aa
-      internalID: 132475811
+      spriteID: 50ec0d31049d08341b1c6b7c2eb0cd96
+      internalID: 1697109870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_8
+      name: mainCharacterShirtless_8
       rect:
         serializedVersion: 2
         x: 0
@@ -311,14 +299,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2daa9389f2e164940bc231d04d11b243
-      internalID: -2025957015
+      spriteID: 391b5681ee6b8d34eb1a1431dd52e7b4
+      internalID: -317998494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_9
+      name: mainCharacterShirtless_9
       rect:
         serializedVersion: 2
         x: 64
@@ -332,14 +320,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6e9ea860c583b94aa61e50902e14588
-      internalID: 46761028
+      spriteID: ddbdf194869a5c8448d21b80ca7925bb
+      internalID: 2067608041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_10
+      name: mainCharacterShirtless_10
       rect:
         serializedVersion: 2
         x: 128
@@ -353,14 +341,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2dada6e3d9f337243a58b0df2402e612
-      internalID: -300630134
+      spriteID: 12f1cb2d301cc8149a269513be67bce9
+      internalID: 447233432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_11
+      name: mainCharacterShirtless_11
       rect:
         serializedVersion: 2
         x: 192
@@ -374,14 +362,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b23e8b48fbb58b4eb14ff176358b1af
-      internalID: 1478850117
+      spriteID: d0fd88602a82a5e499d28d0dbe41e6cc
+      internalID: -1049019915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_12
+      name: mainCharacterShirtless_12
       rect:
         serializedVersion: 2
         x: 256
@@ -395,14 +383,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 205fb869a1ed2384a907e014fa72f51b
-      internalID: -1032568963
+      spriteID: 71e4dd90eaa85a64ca6669a0251bea6e
+      internalID: 1091227739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_13
+      name: mainCharacterShirtless_13
       rect:
         serializedVersion: 2
         x: 320
@@ -416,14 +404,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26a68a4e0bd7f844f868257f38eaff0b
-      internalID: -1309066774
+      spriteID: 6b88b8f4adea80b42816ada3020c1fe7
+      internalID: 1897705022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_14
+      name: mainCharacterShirtless_14
       rect:
         serializedVersion: 2
         x: 384
@@ -437,14 +425,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42e3830bacb83064d98a47fb331685c1
-      internalID: -1687610132
+      spriteID: 47dc011118f78bb4f869b5c33e7e3c5e
+      internalID: -183459915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_15
+      name: mainCharacterShirtless_15
       rect:
         serializedVersion: 2
         x: 0
@@ -458,14 +446,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 630a047a8a9bc31429f0f05756ab2ff3
-      internalID: 257061497
+      spriteID: cdd824a84d12e174fafcedf2e36a250d
+      internalID: 719644533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_16
+      name: mainCharacterShirtless_16
       rect:
         serializedVersion: 2
         x: 64
@@ -479,14 +467,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47ce3c7ea61d92149afbe68d48fa7769
-      internalID: 924377111
+      spriteID: 60065cb07c882e94d930e5ce48beaae6
+      internalID: -124179892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_17
+      name: mainCharacterShirtless_17
       rect:
         serializedVersion: 2
         x: 128
@@ -500,14 +488,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96640c62516402943bd75a94b01eea6f
-      internalID: -189880996
+      spriteID: 69408c1b704414544baea956cc89320f
+      internalID: 1526964337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_18
+      name: mainCharacterShirtless_18
       rect:
         serializedVersion: 2
         x: 192
@@ -521,14 +509,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0382cf513e62d8542866ce7125a9f665
-      internalID: -1687226333
+      spriteID: 0796aa4a5e6d37f47a8568eeb8676f94
+      internalID: -588038283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_19
+      name: mainCharacterShirtless_19
       rect:
         serializedVersion: 2
         x: 256
@@ -542,14 +530,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00c92f08293503a41a729040fcf86673
-      internalID: -1288877312
+      spriteID: 6a487316ef5cd504cb6d61016a131ce8
+      internalID: 934363994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_20
+      name: mainCharacterShirtless_20
       rect:
         serializedVersion: 2
         x: 320
@@ -563,14 +551,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31eeed59b9232e54a915f6d79cf1f514
-      internalID: 1120588519
+      spriteID: c264afc985e282441874dd4d1476e7ae
+      internalID: 1586815056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_21
+      name: mainCharacterShirtless_21
       rect:
         serializedVersion: 2
         x: 384
@@ -584,14 +572,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3eb04edcee121d64d98ef4045498d249
-      internalID: -1863153555
+      spriteID: 3d73f342e6b1046438c9836541828847
+      internalID: 1142914778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_22
+      name: mainCharacterShirtless_22
       rect:
         serializedVersion: 2
         x: 0
@@ -605,14 +593,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c09faac05acd7c458d88cf59a3824e2
-      internalID: -1456535445
+      spriteID: 4859e6759c34fba4ca42c071ff76053c
+      internalID: -426255474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_23
+      name: mainCharacterShirtless_23
       rect:
         serializedVersion: 2
         x: 64
@@ -626,14 +614,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc4dc42e7b6979c4797f406e919c273d
-      internalID: 241307777
+      spriteID: 71356e67c8b4ece479ccc56779992213
+      internalID: -731502741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_24
+      name: mainCharacterShirtless_24
       rect:
         serializedVersion: 2
         x: 128
@@ -647,14 +635,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd748b22ae990814a80e8c4a67ecca6a
-      internalID: 732420802
+      spriteID: 451505b8a0143194f9b516480de4765e
+      internalID: 60296453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_25
+      name: mainCharacterShirtless_25
       rect:
         serializedVersion: 2
         x: 192
@@ -668,14 +656,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38448fcdfd6cd104b95b1d60ba8a52c4
-      internalID: -1240040436
+      spriteID: 9c6d60d31bca731469e6b140349f8532
+      internalID: 440714617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_26
+      name: mainCharacterShirtless_26
       rect:
         serializedVersion: 2
         x: 256
@@ -689,14 +677,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 367d423bd84d5a34594f867360e76e2a
-      internalID: -1066308435
+      spriteID: 1ddbfc958b8cc9843b8ed090737191b6
+      internalID: -753139683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_27
+      name: mainCharacterShirtless_27
       rect:
         serializedVersion: 2
         x: 320
@@ -710,14 +698,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 199f3812f7848244e8fb04352004eb49
-      internalID: -457116122
+      spriteID: 2a103a15db002b2488f9431e7bdbd622
+      internalID: 382175360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_28
+      name: mainCharacterShirtless_28
       rect:
         serializedVersion: 2
         x: 384
@@ -731,14 +719,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d74b89c4356be843972fb4461572720
-      internalID: 1263167697
+      spriteID: f3e2963704b567349b8d957fa108e639
+      internalID: 1067312780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_29
+      name: mainCharacterShirtless_29
       rect:
         serializedVersion: 2
         x: 0
@@ -752,14 +740,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b577fbd3fd0fa64419bed065466b439e
-      internalID: 647199225
+      spriteID: b9e17d3a8ee532346bf8d1712a0955b2
+      internalID: 2032528763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_30
+      name: mainCharacterShirtless_30
       rect:
         serializedVersion: 2
         x: 64
@@ -773,14 +761,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 827147d98e5a3ff4ba0ec0a2051356f7
-      internalID: 1809618079
+      spriteID: 3da0a89b48b9e124c85e45b528481de7
+      internalID: -1993621667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_31
+      name: mainCharacterShirtless_31
       rect:
         serializedVersion: 2
         x: 128
@@ -794,14 +782,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b7d23ea15d5907419037b2a3e10aab9
-      internalID: 1501909854
+      spriteID: e5e118a588f954847aceefae2f72388c
+      internalID: 1680129647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_32
+      name: mainCharacterShirtless_32
       rect:
         serializedVersion: 2
         x: 192
@@ -815,14 +803,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b67e44586e5ba647b6c27288249b2f5
-      internalID: -1305363391
+      spriteID: da3ddf326383e3a488b6c85f6c67e565
+      internalID: 871428217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_33
+      name: mainCharacterShirtless_33
       rect:
         serializedVersion: 2
         x: 256
@@ -836,14 +824,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 053c027a5e9d17d4fa5fb360ea38f483
-      internalID: -137180568
+      spriteID: f1bc76dfffecaac47989f2e976913b92
+      internalID: -662047096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_34
+      name: mainCharacterShirtless_34
       rect:
         serializedVersion: 2
         x: 320
@@ -857,14 +845,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07cae9c183ce2e04ab2b4f6f2e6314ba
-      internalID: -1436214584
+      spriteID: bb7abc7b39adef54d8274683fb80b847
+      internalID: 157620226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_35
+      name: mainCharacterShirtless_35
       rect:
         serializedVersion: 2
         x: 384
@@ -878,14 +866,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bc70fecf3f3d8a41a05c5054cd0b409
-      internalID: 1543404694
+      spriteID: aa193310c68bc1d4da2d39c7d7004bb8
+      internalID: 1946007778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_36
+      name: mainCharacterShirtless_36
       rect:
         serializedVersion: 2
         x: 448
@@ -899,14 +887,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bb85e64d28b122418240c39b952ee09
-      internalID: 1127926604
+      spriteID: 94302064865775a4bb538fe7d771f8e7
+      internalID: 984584935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_37
+      name: mainCharacterShirtless_37
       rect:
         serializedVersion: 2
         x: 0
@@ -920,14 +908,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5e813f3b87489949b0cd644a41a6b15
-      internalID: 565344647
+      spriteID: c3e9b722e326dca4d9d90e69420ac74d
+      internalID: 880844431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_38
+      name: mainCharacterShirtless_38
       rect:
         serializedVersion: 2
         x: 64
@@ -941,14 +929,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d109c86503a44e640b412df81bbfdbf0
-      internalID: -1682960528
+      spriteID: c69d31300329807458c15cb07fcc32c0
+      internalID: 1004972530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_39
+      name: mainCharacterShirtless_39
       rect:
         serializedVersion: 2
         x: 128
@@ -962,14 +950,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16442f906b9e0e741a81b726b631d230
-      internalID: 1803659597
+      spriteID: 09f31e87a67166a44961795c821499f7
+      internalID: 1185217286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_40
+      name: mainCharacterShirtless_40
       rect:
         serializedVersion: 2
         x: 192
@@ -983,14 +971,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1eeafd8573b4c84a9bdebfdea25b2ab
-      internalID: 1670408800
+      spriteID: f77b53fd780d2aa44ac443568f4eca85
+      internalID: 1605812664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_41
+      name: mainCharacterShirtless_41
       rect:
         serializedVersion: 2
         x: 256
@@ -1004,14 +992,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce8effac5232e054fadc5551f3ddef90
-      internalID: 810276125
+      spriteID: 68abc688ceb43444491096fb66ffab83
+      internalID: 496168240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_42
+      name: mainCharacterShirtless_42
       rect:
         serializedVersion: 2
         x: 320
@@ -1025,14 +1013,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89a94bd26c196094a8a2a1bf3a2e2cae
-      internalID: 327965791
+      spriteID: 20d6be66f10a62d4abe33997e3bf4b4d
+      internalID: 1491397761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_43
+      name: mainCharacterShirtless_43
       rect:
         serializedVersion: 2
         x: 384
@@ -1046,14 +1034,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dafb77f43cd49344295d0bd119bca084
-      internalID: -913138751
+      spriteID: 24e235c45ae57f74abaa755073f5c277
+      internalID: 67552642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_44
+      name: mainCharacterShirtless_44
       rect:
         serializedVersion: 2
         x: 448
@@ -1067,14 +1055,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 451c44b36830db241bf4a16009c1b04c
-      internalID: -1363846017
+      spriteID: 59cc2faea92bf0f41bc617ec68fb0c52
+      internalID: 1554204576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_45
+      name: mainCharacterShirtless_45
       rect:
         serializedVersion: 2
         x: 0
@@ -1088,14 +1076,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a32e5ce6155c53a468968ef45cea390b
-      internalID: -2102913784
+      spriteID: 316f84797db0a3e488985d1e0cf42c1e
+      internalID: 1524112968
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_46
+      name: mainCharacterShirtless_46
       rect:
         serializedVersion: 2
         x: 64
@@ -1109,14 +1097,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 751b05b65072cde41a5ed628b64abe2a
-      internalID: 1705877408
+      spriteID: ec37f11c4fdfc60489927be05044e387
+      internalID: -1754422241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_47
+      name: mainCharacterShirtless_47
       rect:
         serializedVersion: 2
         x: 128
@@ -1130,14 +1118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebc5c49099d286d4ab710317801ff792
-      internalID: 1815578109
+      spriteID: eaa43bcdaec80644f88ae6d5651ef510
+      internalID: 1671243377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_48
+      name: mainCharacterShirtless_48
       rect:
         serializedVersion: 2
         x: 192
@@ -1151,14 +1139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e5a7788148e7834797a2a15f157a063
-      internalID: 56903021
+      spriteID: 96982b0bd61069f4e916379380be9a43
+      internalID: 1553083910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_49
+      name: mainCharacterShirtless_49
       rect:
         serializedVersion: 2
         x: 256
@@ -1172,14 +1160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4abeee581d76a34ca990a282b322c9b
-      internalID: 1533321583
+      spriteID: 244acf67e9e4a3845b5cf9bda98fc51c
+      internalID: 1400191575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_50
+      name: mainCharacterShirtless_50
       rect:
         serializedVersion: 2
         x: 320
@@ -1193,14 +1181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e3cd6c832c3d104e81feb00b21ba55b
-      internalID: 1301359780
+      spriteID: f61d8adad1980c645bb441c2d409942a
+      internalID: 1771422394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_51
+      name: mainCharacterShirtless_51
       rect:
         serializedVersion: 2
         x: 384
@@ -1214,14 +1202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4c5c40de089c654087839da957bc841
-      internalID: -382626010
+      spriteID: c4a928ec29ee294409695c5c9e0bb1d1
+      internalID: -1915630137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_52
+      name: mainCharacterShirtless_52
       rect:
         serializedVersion: 2
         x: 448
@@ -1235,14 +1223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a25c48626e583aa44ab0414da0738ae6
-      internalID: -1408074214
+      spriteID: 352758ad325827540881056418be4e54
+      internalID: -1112154699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_53
+      name: mainCharacterShirtless_53
       rect:
         serializedVersion: 2
         x: 0
@@ -1256,14 +1244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b332dec8d67a0344aa45adf2d7277a46
-      internalID: 2013542717
+      spriteID: 19578c45d10cf29468ed74fd707b1c61
+      internalID: 1820775305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_54
+      name: mainCharacterShirtless_54
       rect:
         serializedVersion: 2
         x: 64
@@ -1277,14 +1265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79312c2172ac972419cfa23eaf241482
-      internalID: 1550872531
+      spriteID: b87f70d2a375baf44a428d8889d59537
+      internalID: -1535314935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_55
+      name: mainCharacterShirtless_55
       rect:
         serializedVersion: 2
         x: 128
@@ -1298,14 +1286,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c38712364e61cdd41bee9b7871feb0f7
-      internalID: 657151154
+      spriteID: 243ae50907f0ea74fb5d79b348651d91
+      internalID: -1657069571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_56
+      name: mainCharacterShirtless_56
       rect:
         serializedVersion: 2
         x: 192
@@ -1319,14 +1307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66ea8b5441f81914485605dc640dd45c
-      internalID: 2131025848
+      spriteID: d31fe1446ec4a8f4882b98cff724e916
+      internalID: -195562048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_57
+      name: mainCharacterShirtless_57
       rect:
         serializedVersion: 2
         x: 256
@@ -1340,14 +1328,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7727cd6edc6ed84b931d1a50a1adf2b
-      internalID: 1602550240
+      spriteID: a0f7591bec2828745a0e223f860d4d35
+      internalID: -251814707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_58
+      name: mainCharacterShirtless_58
       rect:
         serializedVersion: 2
         x: 320
@@ -1361,14 +1349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac03fbd0efafbbe42b2d6ac125b702c2
-      internalID: 792769396
+      spriteID: 42bce7e42a6d0314bb105ed4ca5d9794
+      internalID: -459910227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_59
+      name: mainCharacterShirtless_59
       rect:
         serializedVersion: 2
         x: 384
@@ -1382,14 +1370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ec3e08eab2aa8b4da317ac2781123d0
-      internalID: -1858201079
+      spriteID: 8aa32a0036cab2c4994cba76d54edade
+      internalID: 1324518179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_60
+      name: mainCharacterShirtless_60
       rect:
         serializedVersion: 2
         x: 448
@@ -1403,14 +1391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4588b8981e74fae4aba544cb88ed8065
-      internalID: -36099689
+      spriteID: 4559f30f64bb76b4ba4a3ad710f00111
+      internalID: 279214716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_61
+      name: mainCharacterShirtless_61
       rect:
         serializedVersion: 2
         x: 0
@@ -1424,14 +1412,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8c62b3dede3ebe44b95f9fbf2d94fd8
-      internalID: -915957319
+      spriteID: 0aa5d3402fe914c4e9bc5f29dca5469e
+      internalID: 292728937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_62
+      name: mainCharacterShirtless_62
       rect:
         serializedVersion: 2
         x: 64
@@ -1445,14 +1433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7340178c220a5694b8526bca468eef30
-      internalID: 1999279010
+      spriteID: 3aaee0905e4c16d419c3ab7116ef2fbb
+      internalID: 2050509518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_63
+      name: mainCharacterShirtless_63
       rect:
         serializedVersion: 2
         x: 128
@@ -1466,14 +1454,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5cb78b4d7b8d294285731c65e7d5cfb
-      internalID: 995356022
+      spriteID: 2399d055dd455234a998db47dd6575d5
+      internalID: -579862816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_64
+      name: mainCharacterShirtless_64
       rect:
         serializedVersion: 2
         x: 192
@@ -1487,14 +1475,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e290fdca5fc4f924fa0cb934887d4325
-      internalID: -2006988096
+      spriteID: 6f4276445a95510498217096245cbc25
+      internalID: -376114596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_65
+      name: mainCharacterShirtless_65
       rect:
         serializedVersion: 2
         x: 256
@@ -1508,14 +1496,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34c5578db4cc7384eb690e9cafcc8609
-      internalID: -1004691744
+      spriteID: 2476ec9b95ba0e34185bd725f338eb4b
+      internalID: -1844161839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_66
+      name: mainCharacterShirtless_66
       rect:
         serializedVersion: 2
         x: 320
@@ -1529,14 +1517,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8730fe5edd35590488724e5cf22ab0b2
-      internalID: 1049844698
+      spriteID: cea432a8e2e4e33449d5b8ecc152d3b5
+      internalID: 840377914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_67
+      name: mainCharacterShirtless_67
       rect:
         serializedVersion: 2
         x: 384
@@ -1550,14 +1538,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af56a4a717c86124caee593adc9aab4d
-      internalID: 765270786
+      spriteID: 44f17124186cc5f4fafaff5791dcada3
+      internalID: 1515661023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_68
+      name: mainCharacterShirtless_68
       rect:
         serializedVersion: 2
         x: 448
@@ -1571,14 +1559,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5245cba98a6873b4cae47ac2d14a37ca
-      internalID: -1874765096
+      spriteID: 100d43f48635e9246a4986275bcd2bc9
+      internalID: 1810774766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_69
+      name: mainCharacterShirtless_69
       rect:
         serializedVersion: 2
         x: 512
@@ -1592,14 +1580,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1f4a4d5446a5014f919cffb446b06aa
-      internalID: 178226031
+      spriteID: f2b631e6e6c1ada4a89a9130eec4a777
+      internalID: -1900635479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_70
+      name: mainCharacterShirtless_70
       rect:
         serializedVersion: 2
         x: 0
@@ -1613,14 +1601,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edd436ba0e5689e468a06b626cf2ecb8
-      internalID: 821990670
+      spriteID: 08f73ccfd1001654689c08588652150a
+      internalID: -875377381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_71
+      name: mainCharacterShirtless_71
       rect:
         serializedVersion: 2
         x: 64
@@ -1634,14 +1622,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0368620890f2b5b4f84fb1239f581df3
-      internalID: 1780616923
+      spriteID: 296ee864adbfb3d43b5bfdbdb1752bb4
+      internalID: -1953857796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_72
+      name: mainCharacterShirtless_72
       rect:
         serializedVersion: 2
         x: 128
@@ -1655,14 +1643,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fd4cf7edab89a44da40eb5d5c4f0083
-      internalID: -1174213375
+      spriteID: 3b48c769baadaed458fe6791a6bfc392
+      internalID: -1580554209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_73
+      name: mainCharacterShirtless_73
       rect:
         serializedVersion: 2
         x: 192
@@ -1676,14 +1664,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 146e5ee73ac5df64a867e5b091e76e26
-      internalID: 1302099829
+      spriteID: 29636b15a9a10124e9122d5cdb728730
+      internalID: 158502763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_74
+      name: mainCharacterShirtless_74
       rect:
         serializedVersion: 2
         x: 256
@@ -1697,14 +1685,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f92f064309f4704e89e3a5b69672e46
-      internalID: 943833255
+      spriteID: 6934099f19dc3b04892c2ce5e93b37ea
+      internalID: 1299814657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_75
+      name: mainCharacterShirtless_75
       rect:
         serializedVersion: 2
         x: 320
@@ -1718,14 +1706,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbf7a1b1c9ea3cf4984eeb36a4030944
-      internalID: 608733436
+      spriteID: c8689b7b5b3685a43b3d9317ec70d6b1
+      internalID: -1465020000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_76
+      name: mainCharacterShirtless_76
       rect:
         serializedVersion: 2
         x: 384
@@ -1739,14 +1727,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e8557ea4a7b909478c8c8eb2764dd03
-      internalID: 627700517
+      spriteID: 12030b80ef75f0542b7a94913d831492
+      internalID: -663399790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_77
+      name: mainCharacterShirtless_77
       rect:
         serializedVersion: 2
         x: 448
@@ -1760,14 +1748,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b38c6cf2a256254fa982caa7e2709eb
-      internalID: 403668907
+      spriteID: 2cf9b51c69200564db4405c946127c16
+      internalID: -225969911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_78
+      name: mainCharacterShirtless_78
       rect:
         serializedVersion: 2
         x: 512
@@ -1781,14 +1769,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ef96245a91f8a04a98a9428ceea708e
-      internalID: 684912619
+      spriteID: 9af24ef3e7d450e429a162d4680a574d
+      internalID: 730163295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_79
+      name: mainCharacterShirtless_79
       rect:
         serializedVersion: 2
         x: 0
@@ -1802,14 +1790,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d9ef0c8fce1c03428c355623740fc6e
-      internalID: -163203532
+      spriteID: 7adab78eb54f7a64c8b471cd86d543ae
+      internalID: -169035820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_80
+      name: mainCharacterShirtless_80
       rect:
         serializedVersion: 2
         x: 64
@@ -1823,14 +1811,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f958d31126e1c74b8bfda4eecbb8fa9
-      internalID: 887292689
+      spriteID: 15ff2824a5d0f1e4f84881a7e4916156
+      internalID: 1820527946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_81
+      name: mainCharacterShirtless_81
       rect:
         serializedVersion: 2
         x: 128
@@ -1844,14 +1832,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9a80f866eaad5c46b412fa5f3338169
-      internalID: -806507819
+      spriteID: bbcdf863f2d0e1f47952944bcda9d824
+      internalID: 126656263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_82
+      name: mainCharacterShirtless_82
       rect:
         serializedVersion: 2
         x: 192
@@ -1865,14 +1853,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e647a38e1ae1744891f42fce4c9b71e
-      internalID: 679244968
+      spriteID: de0ac2df3fc5c1c4a9e4acd9f2051a6d
+      internalID: 2023630503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_83
+      name: mainCharacterShirtless_83
       rect:
         serializedVersion: 2
         x: 256
@@ -1886,14 +1874,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5d328320e909a04dab197aa84d611a6
-      internalID: 553304128
+      spriteID: be905c357a479544aac4abf1edcc0302
+      internalID: -2073783228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_84
+      name: mainCharacterShirtless_84
       rect:
         serializedVersion: 2
         x: 320
@@ -1907,14 +1895,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed40adb1fd3c73e45b015eedff6e01d0
-      internalID: -399854897
+      spriteID: 476122deb43c2d64dbed5ea407470928
+      internalID: 1494787894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_85
+      name: mainCharacterShirtless_85
       rect:
         serializedVersion: 2
         x: 384
@@ -1928,14 +1916,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1934d27f3236cc49b48a26f926761a2
-      internalID: 55574233
+      spriteID: dd4233012e24c2f43b9daa3a91ad5827
+      internalID: -1213498203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_86
+      name: mainCharacterShirtless_86
       rect:
         serializedVersion: 2
         x: 448
@@ -1949,14 +1937,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8de143001ba7e8468a1a3d6f3ced373
-      internalID: 702095278
+      spriteID: 58cc60e900d4fff45a8656d4df79890b
+      internalID: -1354843211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_87
+      name: mainCharacterShirtless_87
       rect:
         serializedVersion: 2
         x: 512
@@ -1970,14 +1958,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efe6bb3ff459c6e46aa3bb625696cf32
-      internalID: 100660978
+      spriteID: a3f018f015bc4c8459ef88d31bf9ed33
+      internalID: -1399530597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_88
+      name: mainCharacterShirtless_88
       rect:
         serializedVersion: 2
         x: 0
@@ -1991,14 +1979,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8865de64cb001eb4cae73dd6c1f2cd38
-      internalID: 447589588
+      spriteID: c4b775e05b2c5c846ba0329f94aad95c
+      internalID: -1052372530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_89
+      name: mainCharacterShirtless_89
       rect:
         serializedVersion: 2
         x: 64
@@ -2012,14 +2000,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d13b0c23ff0ed24a93e824136b9bac2
-      internalID: -692739261
+      spriteID: 69c67664ae5fe8240995047933130d21
+      internalID: 327834071
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_90
+      name: mainCharacterShirtless_90
       rect:
         serializedVersion: 2
         x: 128
@@ -2033,14 +2021,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b33a7802d5c8034d9814ced1dde3afd
-      internalID: 1103992746
+      spriteID: 4c77b7255740241419e79aabb78fb0a1
+      internalID: 201472407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_91
+      name: mainCharacterShirtless_91
       rect:
         serializedVersion: 2
         x: 192
@@ -2054,14 +2042,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd172894d91b28c4aa7186d6ef3c9b20
-      internalID: 1890628248
+      spriteID: 93934ca1ec72de94e836c312d46751ab
+      internalID: 2066425824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_92
+      name: mainCharacterShirtless_92
       rect:
         serializedVersion: 2
         x: 256
@@ -2075,14 +2063,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d57fbf4fcd07db24cbf86611e2204675
-      internalID: 322907735
+      spriteID: 5b12b6cd1b736784cbef6d0835b9a1e2
+      internalID: 1260805343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_93
+      name: mainCharacterShirtless_93
       rect:
         serializedVersion: 2
         x: 320
@@ -2096,14 +2084,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b748b8a2eeb78034c88305aa8ce4615a
-      internalID: 1234866837
+      spriteID: 87a6466503a55c84182c3339a6d3ae95
+      internalID: -196102369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_94
+      name: mainCharacterShirtless_94
       rect:
         serializedVersion: 2
         x: 384
@@ -2117,14 +2105,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57e8769a173ead34087f66f5c39c6746
-      internalID: -1541893956
+      spriteID: f8b3bede51a19a4438bfa596e1c8b67c
+      internalID: 1839580711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_95
+      name: mainCharacterShirtless_95
       rect:
         serializedVersion: 2
         x: 448
@@ -2138,14 +2126,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96e87535cab349c41bf97b2495c47528
-      internalID: 753341533
+      spriteID: 3361897896130d247a5acd1af9e0f15f
+      internalID: -1791204398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_96
+      name: mainCharacterShirtless_96
       rect:
         serializedVersion: 2
         x: 512
@@ -2159,14 +2147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b3cb46720e595b4990b7001365c9765
-      internalID: 429910667
+      spriteID: 684d2d95f8c13d54c92b8feb41709cec
+      internalID: -528709239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_97
+      name: mainCharacterShirtless_97
       rect:
         serializedVersion: 2
         x: 0
@@ -2180,14 +2168,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 270dd8baa7d3e1e448531494b61a1158
-      internalID: -592478577
+      spriteID: db8a193d78a950f48b2966e4ee13903d
+      internalID: 1079566664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_98
+      name: mainCharacterShirtless_98
       rect:
         serializedVersion: 2
         x: 64
@@ -2201,14 +2189,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf365898524c2454c86c41e1b5b05469
-      internalID: 1186266397
+      spriteID: 38bdf3e6d9f1d4c4da3444090be3ef4d
+      internalID: 1454194019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_99
+      name: mainCharacterShirtless_99
       rect:
         serializedVersion: 2
         x: 128
@@ -2222,14 +2210,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de0a16470dfe82a459641918eb1746e5
-      internalID: 1844669166
+      spriteID: 31c395b9c4a0d0849a340204d5afce37
+      internalID: -235945341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_100
+      name: mainCharacterShirtless_100
       rect:
         serializedVersion: 2
         x: 192
@@ -2243,14 +2231,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2de7f98bae6d19946a4c9b6bec6cf14c
-      internalID: 726219360
+      spriteID: a146fdc26f7029d44b09ec564d008778
+      internalID: -899226444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_101
+      name: mainCharacterShirtless_101
       rect:
         serializedVersion: 2
         x: 256
@@ -2264,14 +2252,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00a01d4d3adb847438531b9b4cb4e055
-      internalID: 1703178416
+      spriteID: 5adb7956eee1be8439d38d97e2fbf169
+      internalID: -1873869378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_102
+      name: mainCharacterShirtless_102
       rect:
         serializedVersion: 2
         x: 320
@@ -2285,14 +2273,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c59e5d60246376840bc633f5d0cd700f
-      internalID: -2007102621
+      spriteID: a712d65e1e587bb42b731a17e7792ccb
+      internalID: -993488833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_103
+      name: mainCharacterShirtless_103
       rect:
         serializedVersion: 2
         x: 0
@@ -2306,14 +2294,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a18d69ea768d594b9edaeedce6d701a
-      internalID: 1339912884
+      spriteID: f98514b4262a73e46990cfdd27f20cf9
+      internalID: -1788013091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_104
+      name: mainCharacterShirtless_104
       rect:
         serializedVersion: 2
         x: 64
@@ -2327,14 +2315,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ebd4669fb9ae0e4fabb2a84ff254744
-      internalID: 445103539
+      spriteID: 4ca659f8568ba914e8bbde81766a5cac
+      internalID: -606514992
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_105
+      name: mainCharacterShirtless_105
       rect:
         serializedVersion: 2
         x: 128
@@ -2348,14 +2336,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57fd813f5006a6143a17c583277b7a0d
-      internalID: -1675868311
+      spriteID: ebe6d0d157c5c0d4b928069072d4ffd7
+      internalID: -400480613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_106
+      name: mainCharacterShirtless_106
       rect:
         serializedVersion: 2
         x: 192
@@ -2369,14 +2357,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d1078d751f704944ad504bb830a9e6a
-      internalID: 2062700124
+      spriteID: 94bcad508988c0e4cb6c66ddc91878a1
+      internalID: -520797075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_107
+      name: mainCharacterShirtless_107
       rect:
         serializedVersion: 2
         x: 256
@@ -2390,14 +2378,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7734d3e14f8903a4a8228b8595418df4
-      internalID: 1389215996
+      spriteID: 6ce91909a0c236641b386e594923edf1
+      internalID: 1833165013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_108
+      name: mainCharacterShirtless_108
       rect:
         serializedVersion: 2
         x: 320
@@ -2411,14 +2399,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cd2a915304e2a24d9288392a6447491
-      internalID: 722882784
+      spriteID: 7b698a4f08432cf4ca930132ca0cea92
+      internalID: 983430315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_109
+      name: mainCharacterShirtless_109
       rect:
         serializedVersion: 2
         x: 0
@@ -2432,14 +2420,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff8c2cdfff18a5149ab3b121c6aa9480
-      internalID: 673069789
+      spriteID: 730fafce3c862bf4cbdb9e37c89c1081
+      internalID: 157284808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_110
+      name: mainCharacterShirtless_110
       rect:
         serializedVersion: 2
         x: 64
@@ -2453,14 +2441,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dca5b11f8f101804eb6949188465d54f
-      internalID: 853997647
+      spriteID: b085cb312ee7f894d9d96aa728845f6d
+      internalID: 2097025670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_111
+      name: mainCharacterShirtless_111
       rect:
         serializedVersion: 2
         x: 128
@@ -2474,14 +2462,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efcde66625c9dd143b6cd6dc5a9e8303
-      internalID: 26060174
+      spriteID: 3df3a9208709a6541b89e7691a62849e
+      internalID: 1579542315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_112
+      name: mainCharacterShirtless_112
       rect:
         serializedVersion: 2
         x: 192
@@ -2495,14 +2483,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5177b2213da693f429846fad241402bb
-      internalID: -784255894
+      spriteID: 204d72ac1402b5b4c8eb2c9fd717aaaf
+      internalID: 1732874378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_113
+      name: mainCharacterShirtless_113
       rect:
         serializedVersion: 2
         x: 256
@@ -2516,14 +2504,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 975d3e4880f37d2449677ebf841229e9
-      internalID: -1894709519
+      spriteID: 2361d992f6726004d968cb629fb85a93
+      internalID: 911836021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_114
+      name: mainCharacterShirtless_114
       rect:
         serializedVersion: 2
         x: 320
@@ -2537,14 +2525,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fdc0afca05f52d46ad9d880eb08d4b2
-      internalID: 25597111
+      spriteID: 1a6cccca35c6abf42b57c96424ff8a8b
+      internalID: 1347245062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_115
+      name: mainCharacterShirtless_115
       rect:
         serializedVersion: 2
         x: 0
@@ -2558,14 +2546,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c87c0604597108547b788550e0d8741d
-      internalID: -932522540
+      spriteID: 4b41b5a9b7250a94ebeb7d7694c50bf9
+      internalID: -1906363968
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_116
+      name: mainCharacterShirtless_116
       rect:
         serializedVersion: 2
         x: 64
@@ -2579,14 +2567,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd56f7bf5cc57f94694d3827857ff60a
-      internalID: -2005641620
+      spriteID: 3dbaacbf786026f4492dd64bcde50f36
+      internalID: -821961784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_117
+      name: mainCharacterShirtless_117
       rect:
         serializedVersion: 2
         x: 128
@@ -2600,14 +2588,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a35eb337bd3639d40aace5a411812f78
-      internalID: -1446784992
+      spriteID: 6d6de604642d3894294cbe5e1064a083
+      internalID: 890245411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_118
+      name: mainCharacterShirtless_118
       rect:
         serializedVersion: 2
         x: 192
@@ -2621,14 +2609,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e60cbd58327f7f4428d42223fa772850
-      internalID: 833555640
+      spriteID: b8a0125c41f09b142ba63f79cf83fb08
+      internalID: 1280408437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_119
+      name: mainCharacterShirtless_119
       rect:
         serializedVersion: 2
         x: 256
@@ -2642,14 +2630,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aeb3115c17f12d5429cde1c62cfa9780
-      internalID: -939189661
+      spriteID: 9c6fe31c96a0a344b8b2780d887445bf
+      internalID: -1764651405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_120
+      name: mainCharacterShirtless_120
       rect:
         serializedVersion: 2
         x: 320
@@ -2663,14 +2651,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7ab9239fff3bf84aba0077d3f6a3c46
-      internalID: -182321852
+      spriteID: 657955c71a7ec8f4786d7732e2fe6d1f
+      internalID: 1067152714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_121
+      name: mainCharacterShirtless_121
       rect:
         serializedVersion: 2
         x: 0
@@ -2684,14 +2672,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19c986c2d5b673d408df129fdb5542c1
-      internalID: 430070205
+      spriteID: 6acbe288fe865d045b2a5748de9f4b53
+      internalID: -1078422091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_122
+      name: mainCharacterShirtless_122
       rect:
         serializedVersion: 2
         x: 64
@@ -2705,14 +2693,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6220bedfb8f546498bba85321743eea
-      internalID: -1813087646
+      spriteID: da1b253fc0ca2e6479182843b40e8b4e
+      internalID: -417943083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_123
+      name: mainCharacterShirtless_123
       rect:
         serializedVersion: 2
         x: 128
@@ -2726,14 +2714,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff869cad3c532ba4496d88891585f1e5
-      internalID: -1136084155
+      spriteID: 6ba46b440200d9b4fb1d90584313be55
+      internalID: -2040211887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_124
+      name: mainCharacterShirtless_124
       rect:
         serializedVersion: 2
         x: 192
@@ -2747,14 +2735,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fabac13c8bfbe84284df8395d969135
-      internalID: -81532983
+      spriteID: e43a1b0b2f02f134cacd33f222f3e66e
+      internalID: -792570982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_125
+      name: mainCharacterShirtless_125
       rect:
         serializedVersion: 2
         x: 256
@@ -2768,14 +2756,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69481761aa2206f42ac3aa39538b6277
-      internalID: 366343035
+      spriteID: c6ced9f1a0a3e924c8e191c52543f16f
+      internalID: 871228824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_126
+      name: mainCharacterShirtless_126
       rect:
         serializedVersion: 2
         x: 320
@@ -2789,14 +2777,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f04ce1faa4ed1d247b044aa2a8d42f31
-      internalID: -886464048
+      spriteID: 84ab8e50d0cb18c4fb5c4d10dd2b03d5
+      internalID: 1268930587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_127
+      name: mainCharacterShirtless_127
       rect:
         serializedVersion: 2
         x: 384
@@ -2810,14 +2798,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76ba942c64c204741a191c3837dccbbd
-      internalID: -1065567509
+      spriteID: d585fea06758f894fb0f774bdfaa1154
+      internalID: -1584840975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_128
+      name: mainCharacterShirtless_128
       rect:
         serializedVersion: 2
         x: 448
@@ -2831,14 +2819,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a6000381606ed74281af8ac97c4201c
-      internalID: -399827462
+      spriteID: a99ab3a45c697dc44814e1277c792bbf
+      internalID: -97178076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_129
+      name: mainCharacterShirtless_129
       rect:
         serializedVersion: 2
         x: 512
@@ -2852,14 +2840,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1431149a64bfff49917e058bbbd7ac2
-      internalID: 44253619
+      spriteID: 67473bac1db92d949af117beef22c9f1
+      internalID: 471373372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_130
+      name: mainCharacterShirtless_130
       rect:
         serializedVersion: 2
         x: 576
@@ -2873,14 +2861,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9635ad2bd36f294bb60f85d641a279d
-      internalID: -1084757967
+      spriteID: aeb1fb70f2e3d26498dbd770cf614fdf
+      internalID: -1119153380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_131
+      name: mainCharacterShirtless_131
       rect:
         serializedVersion: 2
         x: 640
@@ -2894,14 +2882,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ee442ea0ca45e14bbca4b0c9c011843
-      internalID: 1352217344
+      spriteID: 5cf1f3e8f6485514eba490bf4f656578
+      internalID: -80046724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_132
+      name: mainCharacterShirtless_132
       rect:
         serializedVersion: 2
         x: 704
@@ -2915,14 +2903,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81699a82efd9c1745a85eea11b86248d
-      internalID: 295034526
+      spriteID: 58ec9bbc7291dca4ab8e63d6a7c6659c
+      internalID: -1213270786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_133
+      name: mainCharacterShirtless_133
       rect:
         serializedVersion: 2
         x: 768
@@ -2936,14 +2924,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9250f5783109d1d45a1739a733064557
-      internalID: 173038556
+      spriteID: 5d5b75f3f90474647b0f4abc36b281d8
+      internalID: 151947822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_134
+      name: mainCharacterShirtless_134
       rect:
         serializedVersion: 2
         x: 0
@@ -2957,14 +2945,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f07254b2900f13249b6aea5c63499576
-      internalID: -2125097847
+      spriteID: 93c8f259e6e052f489a5be721a6c6b04
+      internalID: -1580570230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_135
+      name: mainCharacterShirtless_135
       rect:
         serializedVersion: 2
         x: 64
@@ -2978,14 +2966,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 251c0a70e72c2d742896d03d9d405316
-      internalID: -1310075689
+      spriteID: 89643d05336cc3244a169ef2568254c0
+      internalID: 994777546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_136
+      name: mainCharacterShirtless_136
       rect:
         serializedVersion: 2
         x: 128
@@ -2999,14 +2987,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66305f866e09eef4996cdc6b7bb4c800
-      internalID: -573074230
+      spriteID: 97eac94c1b05c3e4198d8bda8222d11c
+      internalID: -415749831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_137
+      name: mainCharacterShirtless_137
       rect:
         serializedVersion: 2
         x: 192
@@ -3020,14 +3008,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e634cad87594154baf0183f62aeff2f
-      internalID: -1641384101
+      spriteID: 71d49d6770ecbac408d03a78b6a179d3
+      internalID: 1509369959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_138
+      name: mainCharacterShirtless_138
       rect:
         serializedVersion: 2
         x: 256
@@ -3041,14 +3029,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1934c257a1da97d40acf147d67a4b636
-      internalID: 1809643273
+      spriteID: da40c1a24ac8b3e46b54d9ca304480cb
+      internalID: 100455344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_139
+      name: mainCharacterShirtless_139
       rect:
         serializedVersion: 2
         x: 320
@@ -3062,14 +3050,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66831a7d0ffb7fb4cb18b374ae8242b9
-      internalID: -173164712
+      spriteID: f818c9a804ce58f40aefae31e0257227
+      internalID: -1697161643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_140
+      name: mainCharacterShirtless_140
       rect:
         serializedVersion: 2
         x: 384
@@ -3083,14 +3071,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bf760ee722b1aa4980db89fae6ebe2c
-      internalID: -1031882838
+      spriteID: 59c7af73f76c1e4429b88b54af468a0d
+      internalID: 209105614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_141
+      name: mainCharacterShirtless_141
       rect:
         serializedVersion: 2
         x: 448
@@ -3104,14 +3092,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a4ff68ed032a6144a67e52805f78150
-      internalID: -1155912335
+      spriteID: 85a82321abda3084d9b55ec63ab097c5
+      internalID: -909299272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_142
+      name: mainCharacterShirtless_142
       rect:
         serializedVersion: 2
         x: 512
@@ -3125,14 +3113,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3cddef13a138e047b007c1fa29efa96
-      internalID: -1767110101
+      spriteID: d43d740f8978fac419ee489353573e91
+      internalID: -220943095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_143
+      name: mainCharacterShirtless_143
       rect:
         serializedVersion: 2
         x: 576
@@ -3146,14 +3134,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bc475b1e78b9534da94377fa186ce04
-      internalID: -183911050
+      spriteID: 745ab95419980da4ba1ec6053d8c3ca3
+      internalID: 639176646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_144
+      name: mainCharacterShirtless_144
       rect:
         serializedVersion: 2
         x: 640
@@ -3167,14 +3155,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f305edc7dbf70f4788b92acd0f2bca3
-      internalID: -158227655
+      spriteID: 3d63a493eeb8a2a4faa74aa66cc11a8e
+      internalID: -426765852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_145
+      name: mainCharacterShirtless_145
       rect:
         serializedVersion: 2
         x: 704
@@ -3188,14 +3176,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8da2c728a71694145bbc837f51e6acf8
-      internalID: -26230794
+      spriteID: a381baec9279a5d47b7b6232d337f9d8
+      internalID: 2102341429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_146
+      name: mainCharacterShirtless_146
       rect:
         serializedVersion: 2
         x: 768
@@ -3209,14 +3197,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8508c0b5db4daaa48b6ccb00a0a27c96
-      internalID: -797139601
+      spriteID: 109ab4cf23a0c9049a36534684c81bb9
+      internalID: -235768422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_147
+      name: mainCharacterShirtless_147
       rect:
         serializedVersion: 2
         x: 0
@@ -3230,14 +3218,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 553abeefe7718854081eb271ffc761d6
-      internalID: 749406712
+      spriteID: 9325c042510062041834584d09159a8e
+      internalID: 1914515053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_148
+      name: mainCharacterShirtless_148
       rect:
         serializedVersion: 2
         x: 64
@@ -3251,14 +3239,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9eca773918c65e94290f48aec6920d2f
-      internalID: -656210126
+      spriteID: fd9f83963cc08a7499a7cc5bec9ff9b0
+      internalID: 10801403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_149
+      name: mainCharacterShirtless_149
       rect:
         serializedVersion: 2
         x: 128
@@ -3272,14 +3260,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67ea43d1c3215374ba570529d20951a4
-      internalID: -1662100976
+      spriteID: 40aade7b603361042b42af81a72c180b
+      internalID: 633797794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_150
+      name: mainCharacterShirtless_150
       rect:
         serializedVersion: 2
         x: 192
@@ -3293,14 +3281,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1465bafce72db264c826c2ced1e1755a
-      internalID: -1375298878
+      spriteID: c978f6f475cefce4fa16659d1ac9b6d8
+      internalID: 639664305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_151
+      name: mainCharacterShirtless_151
       rect:
         serializedVersion: 2
         x: 256
@@ -3314,14 +3302,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ae35372e0b30564ab229d62f088d351
-      internalID: -1202877376
+      spriteID: 7ad2cd5704d8e1342b22c5e409f64489
+      internalID: 533221369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_152
+      name: mainCharacterShirtless_152
       rect:
         serializedVersion: 2
         x: 320
@@ -3335,14 +3323,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0aca8598e3d6a4144beaadfdd7c71d25
-      internalID: -1546568969
+      spriteID: 64a4caa31d476f545864a1203fae604b
+      internalID: -189843411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_153
+      name: mainCharacterShirtless_153
       rect:
         serializedVersion: 2
         x: 384
@@ -3356,14 +3344,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bc9350815eca8c45b21901160fcfc36
-      internalID: 702136919
+      spriteID: a713a8c8a5efab74b8b0a39fd14f0f90
+      internalID: 761479290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_154
+      name: mainCharacterShirtless_154
       rect:
         serializedVersion: 2
         x: 448
@@ -3377,14 +3365,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac8bb8103fecfae4dbfe83f87ce34322
-      internalID: -1606347513
+      spriteID: 91e7c57f71698a647858d0fad82528d7
+      internalID: 1196653892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_155
+      name: mainCharacterShirtless_155
       rect:
         serializedVersion: 2
         x: 512
@@ -3398,14 +3386,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb6b3aaeb07c4824c91faeb1a715ac94
-      internalID: -1689692885
+      spriteID: 7fd90ec2ebda721408bb202439afcc3e
+      internalID: 566792046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_156
+      name: mainCharacterShirtless_156
       rect:
         serializedVersion: 2
         x: 576
@@ -3419,14 +3407,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea31fc7e2cde2aa4c84db3d73fdb9599
-      internalID: 1109774107
+      spriteID: 3d561f9898e668b41963e745cfea94f9
+      internalID: 1754169783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_157
+      name: mainCharacterShirtless_157
       rect:
         serializedVersion: 2
         x: 640
@@ -3440,14 +3428,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c33afe109852ff4a84a405421073699
-      internalID: 2030364686
+      spriteID: c12fbe50f386a2741aeea51275eb0ce5
+      internalID: -421399735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_158
+      name: mainCharacterShirtless_158
       rect:
         serializedVersion: 2
         x: 704
@@ -3461,14 +3449,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f5bd03ff28c0624da947de8f6a9c9f4
-      internalID: -1751204770
+      spriteID: 5b1948a2bffaafa4490a9dc32e7d82a6
+      internalID: 1590955708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_159
+      name: mainCharacterShirtless_159
       rect:
         serializedVersion: 2
         x: 768
@@ -3482,14 +3470,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a15b32d0ea1b90049b8c727ac4bf61fd
-      internalID: -1768687555
+      spriteID: 1045328921720e34e8afd06c8c61e622
+      internalID: -1765689295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_160
+      name: mainCharacterShirtless_160
       rect:
         serializedVersion: 2
         x: 0
@@ -3503,14 +3491,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e104b7f98b0ad0418bb889a3b71b8a5
-      internalID: -1171352260
+      spriteID: 0c83068a5f92b6e4a8099987a8431c51
+      internalID: 1048008565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_161
+      name: mainCharacterShirtless_161
       rect:
         serializedVersion: 2
         x: 64
@@ -3524,14 +3512,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7435c5c5b8e99b4a872e4c9cda8977b
-      internalID: 1415537861
+      spriteID: 0b3c8b51c4cf91340ad343380a52e554
+      internalID: 1889411740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_162
+      name: mainCharacterShirtless_162
       rect:
         serializedVersion: 2
         x: 128
@@ -3545,14 +3533,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 299733a683749f94993151ad087f8e45
-      internalID: -559765993
+      spriteID: b4494e9d76470734d8c4e1a1b1267448
+      internalID: -554332582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_163
+      name: mainCharacterShirtless_163
       rect:
         serializedVersion: 2
         x: 192
@@ -3566,14 +3554,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a48cff6e95d15d94f977688ac56bfd5e
-      internalID: 969507740
+      spriteID: ea8f6912dd2be704b929890dd5798ab5
+      internalID: -233263911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_164
+      name: mainCharacterShirtless_164
       rect:
         serializedVersion: 2
         x: 256
@@ -3587,14 +3575,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce7181416e4a0c34297d37435817e6cd
-      internalID: -1319911099
+      spriteID: a898b4ee3a3d33f428370d20634b13fd
+      internalID: 511284949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_165
+      name: mainCharacterShirtless_165
       rect:
         serializedVersion: 2
         x: 320
@@ -3608,14 +3596,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4520d892bbf75145958f2dd5c1b568f
-      internalID: 1298365224
+      spriteID: 88536da9ab7abe34db6d849d47b63c60
+      internalID: 1598275679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_166
+      name: mainCharacterShirtless_166
       rect:
         serializedVersion: 2
         x: 384
@@ -3629,14 +3617,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a826195cf7b9434f9d43d56379a0eea
-      internalID: 2039162643
+      spriteID: 872e58eca2912014e9e1bdfe459298bd
+      internalID: -1767723440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_167
+      name: mainCharacterShirtless_167
       rect:
         serializedVersion: 2
         x: 448
@@ -3650,14 +3638,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72745e2cf7ac06448b9c93d396b4e273
-      internalID: 1179671669
+      spriteID: cc53275d3296f2f4abda34ba687e2938
+      internalID: -1020680781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_168
+      name: mainCharacterShirtless_168
       rect:
         serializedVersion: 2
         x: 512
@@ -3671,14 +3659,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23b105f825d36564a8ae9314ecb559d4
-      internalID: 2058233348
+      spriteID: 4fef2a19a8cdf7246a86c7104ac7f0a4
+      internalID: 851795284
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_169
+      name: mainCharacterShirtless_169
       rect:
         serializedVersion: 2
         x: 576
@@ -3692,14 +3680,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 239a37b10fbf01f458b9e2bcdb51208e
-      internalID: -2037287562
+      spriteID: 9a4a6d3c7d459694fae33fa0c0831360
+      internalID: -1506027139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_170
+      name: mainCharacterShirtless_170
       rect:
         serializedVersion: 2
         x: 640
@@ -3713,14 +3701,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bf965a6c91015c4fb5ae74651d33ec5
-      internalID: 1843699570
+      spriteID: 207450183f53b8144912b70ab310f25e
+      internalID: 1062179190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_171
+      name: mainCharacterShirtless_171
       rect:
         serializedVersion: 2
         x: 704
@@ -3734,14 +3722,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d1f1fd6e2eef3149a22ada273e7b31d
-      internalID: -1202014389
+      spriteID: 85e033d631af32d4abef4b5eb87385f0
+      internalID: -695072422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_172
+      name: mainCharacterShirtless_172
       rect:
         serializedVersion: 2
         x: 768
@@ -3755,14 +3743,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69565680ec368b74abb00146e05f73a0
-      internalID: -919720532
+      spriteID: b28d14e82a8dc6743a4313bdd353638f
+      internalID: -1948091073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_173
+      name: mainCharacterShirtless_173
       rect:
         serializedVersion: 2
         x: 0
@@ -3776,14 +3764,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1266173877bf4a747aeffc894b0c6b80
-      internalID: 812702085
+      spriteID: 487e694e7c1298c439989bbf7daf8933
+      internalID: 449723939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_174
+      name: mainCharacterShirtless_174
       rect:
         serializedVersion: 2
         x: 64
@@ -3797,14 +3785,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d4456dbeab669946a8bf29c77d20b68
-      internalID: -455254281
+      spriteID: 34a0c82205bb36e4bb2cdb688a137048
+      internalID: -823903976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_175
+      name: mainCharacterShirtless_175
       rect:
         serializedVersion: 2
         x: 128
@@ -3818,14 +3806,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcbe010e3518ab1439816aafdab6bf7e
-      internalID: 1235841600
+      spriteID: d6daf9eeee098ea43aaf1ddd54fba5b6
+      internalID: 448398077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_176
+      name: mainCharacterShirtless_176
       rect:
         serializedVersion: 2
         x: 192
@@ -3839,14 +3827,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1675ebb2c4211c2439738a987899d1bc
-      internalID: -439646687
+      spriteID: 7249f4b41c2d90e41b05335f4b607372
+      internalID: 1967572691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_177
+      name: mainCharacterShirtless_177
       rect:
         serializedVersion: 2
         x: 256
@@ -3860,14 +3848,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ff2d3bd2c3e77c46893065171032cbb
-      internalID: -343638514
+      spriteID: afa4512ef451fd2499a0c5dd0fe779e8
+      internalID: 1150151984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterStart_178
+      name: mainCharacterShirtless_178
       rect:
         serializedVersion: 2
         x: 320
@@ -3881,8 +3869,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4600ef6461a72eb44a47c32305e9632c
-      internalID: -624999178
+      spriteID: 4669866cdf271394b90b67c86c4e7ad5
+      internalID: 1142113200
       vertices: []
       indices: 
       edges: []
@@ -3898,185 +3886,185 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      characterStart_0: -128132515
-      characterStart_1: 2105996352
-      characterStart_10: -300630134
-      characterStart_100: 726219360
-      characterStart_101: 1703178416
-      characterStart_102: -2007102621
-      characterStart_103: 1339912884
-      characterStart_104: 445103539
-      characterStart_105: -1675868311
-      characterStart_106: 2062700124
-      characterStart_107: 1389215996
-      characterStart_108: 722882784
-      characterStart_109: 673069789
-      characterStart_11: 1478850117
-      characterStart_110: 853997647
-      characterStart_111: 26060174
-      characterStart_112: -784255894
-      characterStart_113: -1894709519
-      characterStart_114: 25597111
-      characterStart_115: -932522540
-      characterStart_116: -2005641620
-      characterStart_117: -1446784992
-      characterStart_118: 833555640
-      characterStart_119: -939189661
-      characterStart_12: -1032568963
-      characterStart_120: -182321852
-      characterStart_121: 430070205
-      characterStart_122: -1813087646
-      characterStart_123: -1136084155
-      characterStart_124: -81532983
-      characterStart_125: 366343035
-      characterStart_126: -886464048
-      characterStart_127: -1065567509
-      characterStart_128: -399827462
-      characterStart_129: 44253619
-      characterStart_13: -1309066774
-      characterStart_130: -1084757967
-      characterStart_131: 1352217344
-      characterStart_132: 295034526
-      characterStart_133: 173038556
-      characterStart_134: -2125097847
-      characterStart_135: -1310075689
-      characterStart_136: -573074230
-      characterStart_137: -1641384101
-      characterStart_138: 1809643273
-      characterStart_139: -173164712
-      characterStart_14: -1687610132
-      characterStart_140: -1031882838
-      characterStart_141: -1155912335
-      characterStart_142: -1767110101
-      characterStart_143: -183911050
-      characterStart_144: -158227655
-      characterStart_145: -26230794
-      characterStart_146: -797139601
-      characterStart_147: 749406712
-      characterStart_148: -656210126
-      characterStart_149: -1662100976
-      characterStart_15: 257061497
-      characterStart_150: -1375298878
-      characterStart_151: -1202877376
-      characterStart_152: -1546568969
-      characterStart_153: 702136919
-      characterStart_154: -1606347513
-      characterStart_155: -1689692885
-      characterStart_156: 1109774107
-      characterStart_157: 2030364686
-      characterStart_158: -1751204770
-      characterStart_159: -1768687555
-      characterStart_16: 924377111
-      characterStart_160: -1171352260
-      characterStart_161: 1415537861
-      characterStart_162: -559765993
-      characterStart_163: 969507740
-      characterStart_164: -1319911099
-      characterStart_165: 1298365224
-      characterStart_166: 2039162643
-      characterStart_167: 1179671669
-      characterStart_168: 2058233348
-      characterStart_169: -2037287562
-      characterStart_17: -189880996
-      characterStart_170: 1843699570
-      characterStart_171: -1202014389
-      characterStart_172: -919720532
-      characterStart_173: 812702085
-      characterStart_174: -455254281
-      characterStart_175: 1235841600
-      characterStart_176: -439646687
-      characterStart_177: -343638514
-      characterStart_178: -624999178
-      characterStart_18: -1687226333
-      characterStart_19: -1288877312
-      characterStart_2: -1635887683
-      characterStart_20: 1120588519
-      characterStart_21: -1863153555
-      characterStart_22: -1456535445
-      characterStart_23: 241307777
-      characterStart_24: 732420802
-      characterStart_25: -1240040436
-      characterStart_26: -1066308435
-      characterStart_27: -457116122
-      characterStart_28: 1263167697
-      characterStart_29: 647199225
-      characterStart_3: 1259461734
-      characterStart_30: 1809618079
-      characterStart_31: 1501909854
-      characterStart_32: -1305363391
-      characterStart_33: -137180568
-      characterStart_34: -1436214584
-      characterStart_35: 1543404694
-      characterStart_36: 1127926604
-      characterStart_37: 565344647
-      characterStart_38: -1682960528
-      characterStart_39: 1803659597
-      characterStart_4: 571920523
-      characterStart_40: 1670408800
-      characterStart_41: 810276125
-      characterStart_42: 327965791
-      characterStart_43: -913138751
-      characterStart_44: -1363846017
-      characterStart_45: -2102913784
-      characterStart_46: 1705877408
-      characterStart_47: 1815578109
-      characterStart_48: 56903021
-      characterStart_49: 1533321583
-      characterStart_5: -1901913694
-      characterStart_50: 1301359780
-      characterStart_51: -382626010
-      characterStart_52: -1408074214
-      characterStart_53: 2013542717
-      characterStart_54: 1550872531
-      characterStart_55: 657151154
-      characterStart_56: 2131025848
-      characterStart_57: 1602550240
-      characterStart_58: 792769396
-      characterStart_59: -1858201079
-      characterStart_6: -2019879131
-      characterStart_60: -36099689
-      characterStart_61: -915957319
-      characterStart_62: 1999279010
-      characterStart_63: 995356022
-      characterStart_64: -2006988096
-      characterStart_65: -1004691744
-      characterStart_66: 1049844698
-      characterStart_67: 765270786
-      characterStart_68: -1874765096
-      characterStart_69: 178226031
-      characterStart_7: 132475811
-      characterStart_70: 821990670
-      characterStart_71: 1780616923
-      characterStart_72: -1174213375
-      characterStart_73: 1302099829
-      characterStart_74: 943833255
-      characterStart_75: 608733436
-      characterStart_76: 627700517
-      characterStart_77: 403668907
-      characterStart_78: 684912619
-      characterStart_79: -163203532
-      characterStart_8: -2025957015
-      characterStart_80: 887292689
-      characterStart_81: -806507819
-      characterStart_82: 679244968
-      characterStart_83: 553304128
-      characterStart_84: -399854897
-      characterStart_85: 55574233
-      characterStart_86: 702095278
-      characterStart_87: 100660978
-      characterStart_88: 447589588
-      characterStart_89: -692739261
-      characterStart_9: 46761028
-      characterStart_90: 1103992746
-      characterStart_91: 1890628248
-      characterStart_92: 322907735
-      characterStart_93: 1234866837
-      characterStart_94: -1541893956
-      characterStart_95: 753341533
-      characterStart_96: 429910667
-      characterStart_97: -592478577
-      characterStart_98: 1186266397
-      characterStart_99: 1844669166
+      mainCharacterShirtless_0: -1246786611
+      mainCharacterShirtless_1: 1918564149
+      mainCharacterShirtless_10: 447233432
+      mainCharacterShirtless_100: -899226444
+      mainCharacterShirtless_101: -1873869378
+      mainCharacterShirtless_102: -993488833
+      mainCharacterShirtless_103: -1788013091
+      mainCharacterShirtless_104: -606514992
+      mainCharacterShirtless_105: -400480613
+      mainCharacterShirtless_106: -520797075
+      mainCharacterShirtless_107: 1833165013
+      mainCharacterShirtless_108: 983430315
+      mainCharacterShirtless_109: 157284808
+      mainCharacterShirtless_11: -1049019915
+      mainCharacterShirtless_110: 2097025670
+      mainCharacterShirtless_111: 1579542315
+      mainCharacterShirtless_112: 1732874378
+      mainCharacterShirtless_113: 911836021
+      mainCharacterShirtless_114: 1347245062
+      mainCharacterShirtless_115: -1906363968
+      mainCharacterShirtless_116: -821961784
+      mainCharacterShirtless_117: 890245411
+      mainCharacterShirtless_118: 1280408437
+      mainCharacterShirtless_119: -1764651405
+      mainCharacterShirtless_12: 1091227739
+      mainCharacterShirtless_120: 1067152714
+      mainCharacterShirtless_121: -1078422091
+      mainCharacterShirtless_122: -417943083
+      mainCharacterShirtless_123: -2040211887
+      mainCharacterShirtless_124: -792570982
+      mainCharacterShirtless_125: 871228824
+      mainCharacterShirtless_126: 1268930587
+      mainCharacterShirtless_127: -1584840975
+      mainCharacterShirtless_128: -97178076
+      mainCharacterShirtless_129: 471373372
+      mainCharacterShirtless_13: 1897705022
+      mainCharacterShirtless_130: -1119153380
+      mainCharacterShirtless_131: -80046724
+      mainCharacterShirtless_132: -1213270786
+      mainCharacterShirtless_133: 151947822
+      mainCharacterShirtless_134: -1580570230
+      mainCharacterShirtless_135: 994777546
+      mainCharacterShirtless_136: -415749831
+      mainCharacterShirtless_137: 1509369959
+      mainCharacterShirtless_138: 100455344
+      mainCharacterShirtless_139: -1697161643
+      mainCharacterShirtless_14: -183459915
+      mainCharacterShirtless_140: 209105614
+      mainCharacterShirtless_141: -909299272
+      mainCharacterShirtless_142: -220943095
+      mainCharacterShirtless_143: 639176646
+      mainCharacterShirtless_144: -426765852
+      mainCharacterShirtless_145: 2102341429
+      mainCharacterShirtless_146: -235768422
+      mainCharacterShirtless_147: 1914515053
+      mainCharacterShirtless_148: 10801403
+      mainCharacterShirtless_149: 633797794
+      mainCharacterShirtless_15: 719644533
+      mainCharacterShirtless_150: 639664305
+      mainCharacterShirtless_151: 533221369
+      mainCharacterShirtless_152: -189843411
+      mainCharacterShirtless_153: 761479290
+      mainCharacterShirtless_154: 1196653892
+      mainCharacterShirtless_155: 566792046
+      mainCharacterShirtless_156: 1754169783
+      mainCharacterShirtless_157: -421399735
+      mainCharacterShirtless_158: 1590955708
+      mainCharacterShirtless_159: -1765689295
+      mainCharacterShirtless_16: -124179892
+      mainCharacterShirtless_160: 1048008565
+      mainCharacterShirtless_161: 1889411740
+      mainCharacterShirtless_162: -554332582
+      mainCharacterShirtless_163: -233263911
+      mainCharacterShirtless_164: 511284949
+      mainCharacterShirtless_165: 1598275679
+      mainCharacterShirtless_166: -1767723440
+      mainCharacterShirtless_167: -1020680781
+      mainCharacterShirtless_168: 851795284
+      mainCharacterShirtless_169: -1506027139
+      mainCharacterShirtless_17: 1526964337
+      mainCharacterShirtless_170: 1062179190
+      mainCharacterShirtless_171: -695072422
+      mainCharacterShirtless_172: -1948091073
+      mainCharacterShirtless_173: 449723939
+      mainCharacterShirtless_174: -823903976
+      mainCharacterShirtless_175: 448398077
+      mainCharacterShirtless_176: 1967572691
+      mainCharacterShirtless_177: 1150151984
+      mainCharacterShirtless_178: 1142113200
+      mainCharacterShirtless_18: -588038283
+      mainCharacterShirtless_19: 934363994
+      mainCharacterShirtless_2: -1493816423
+      mainCharacterShirtless_20: 1586815056
+      mainCharacterShirtless_21: 1142914778
+      mainCharacterShirtless_22: -426255474
+      mainCharacterShirtless_23: -731502741
+      mainCharacterShirtless_24: 60296453
+      mainCharacterShirtless_25: 440714617
+      mainCharacterShirtless_26: -753139683
+      mainCharacterShirtless_27: 382175360
+      mainCharacterShirtless_28: 1067312780
+      mainCharacterShirtless_29: 2032528763
+      mainCharacterShirtless_3: 444904257
+      mainCharacterShirtless_30: -1993621667
+      mainCharacterShirtless_31: 1680129647
+      mainCharacterShirtless_32: 871428217
+      mainCharacterShirtless_33: -662047096
+      mainCharacterShirtless_34: 157620226
+      mainCharacterShirtless_35: 1946007778
+      mainCharacterShirtless_36: 984584935
+      mainCharacterShirtless_37: 880844431
+      mainCharacterShirtless_38: 1004972530
+      mainCharacterShirtless_39: 1185217286
+      mainCharacterShirtless_4: 1363916562
+      mainCharacterShirtless_40: 1605812664
+      mainCharacterShirtless_41: 496168240
+      mainCharacterShirtless_42: 1491397761
+      mainCharacterShirtless_43: 67552642
+      mainCharacterShirtless_44: 1554204576
+      mainCharacterShirtless_45: 1524112968
+      mainCharacterShirtless_46: -1754422241
+      mainCharacterShirtless_47: 1671243377
+      mainCharacterShirtless_48: 1553083910
+      mainCharacterShirtless_49: 1400191575
+      mainCharacterShirtless_5: 881070652
+      mainCharacterShirtless_50: 1771422394
+      mainCharacterShirtless_51: -1915630137
+      mainCharacterShirtless_52: -1112154699
+      mainCharacterShirtless_53: 1820775305
+      mainCharacterShirtless_54: -1535314935
+      mainCharacterShirtless_55: -1657069571
+      mainCharacterShirtless_56: -195562048
+      mainCharacterShirtless_57: -251814707
+      mainCharacterShirtless_58: -459910227
+      mainCharacterShirtless_59: 1324518179
+      mainCharacterShirtless_6: 1589247711
+      mainCharacterShirtless_60: 279214716
+      mainCharacterShirtless_61: 292728937
+      mainCharacterShirtless_62: 2050509518
+      mainCharacterShirtless_63: -579862816
+      mainCharacterShirtless_64: -376114596
+      mainCharacterShirtless_65: -1844161839
+      mainCharacterShirtless_66: 840377914
+      mainCharacterShirtless_67: 1515661023
+      mainCharacterShirtless_68: 1810774766
+      mainCharacterShirtless_69: -1900635479
+      mainCharacterShirtless_7: 1697109870
+      mainCharacterShirtless_70: -875377381
+      mainCharacterShirtless_71: -1953857796
+      mainCharacterShirtless_72: -1580554209
+      mainCharacterShirtless_73: 158502763
+      mainCharacterShirtless_74: 1299814657
+      mainCharacterShirtless_75: -1465020000
+      mainCharacterShirtless_76: -663399790
+      mainCharacterShirtless_77: -225969911
+      mainCharacterShirtless_78: 730163295
+      mainCharacterShirtless_79: -169035820
+      mainCharacterShirtless_8: -317998494
+      mainCharacterShirtless_80: 1820527946
+      mainCharacterShirtless_81: 126656263
+      mainCharacterShirtless_82: 2023630503
+      mainCharacterShirtless_83: -2073783228
+      mainCharacterShirtless_84: 1494787894
+      mainCharacterShirtless_85: -1213498203
+      mainCharacterShirtless_86: -1354843211
+      mainCharacterShirtless_87: -1399530597
+      mainCharacterShirtless_88: -1052372530
+      mainCharacterShirtless_89: 327834071
+      mainCharacterShirtless_9: 2067608041
+      mainCharacterShirtless_90: 201472407
+      mainCharacterShirtless_91: 2066425824
+      mainCharacterShirtless_92: 1260805343
+      mainCharacterShirtless_93: -196102369
+      mainCharacterShirtless_94: 1839580711
+      mainCharacterShirtless_95: -1791204398
+      mainCharacterShirtless_96: -528709239
+      mainCharacterShirtless_97: 1079566664
+      mainCharacterShirtless_98: 1454194019
+      mainCharacterShirtless_99: -235945341
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
