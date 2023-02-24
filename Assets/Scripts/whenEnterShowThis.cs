@@ -38,6 +38,8 @@ public class whenEnterShowThis : MonoBehaviour
                 sc.nineLives( );
             else if( string.Equals( nameOfSceneToChangeTo, "SpiritTavernScene" ) )
                 sc.spiritTavern( );
+            else if( string.Equals( nameOfSceneToChangeTo, "ApartmentUpstairs" ) )
+                sc.upstairsApartment( );
         }
     }    
 

@@ -14,15 +14,27 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Part 1/Village.unity
     guid: aed9d442a3d469c4e849ae7456c9e37c
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 794c4cbe13dd8fc4d87d092f42fcbbbb
   - enabled: 1
     path: Assets/Scenes/Part 1/ApartmentScene.unity
-    guid: a2b1982d911c4914188b636d48b8baf7
+    guid: e3be259c45ccb6a47a1abbd53444d576
+  - enabled: 1
+    path: Assets/Scenes/Part 1/ApartmentUpstairs.unity
+    guid: 3a83ad574a2d9de41ac8f11328569ba9
   - enabled: 1
     path: Assets/Scenes/Part 1/NineScene.unity
-    guid: d4f5f5b0f58ab784d9cb6b721fea76ba
+    guid: 2653fc26b76a5a34aa4240359fd7b18f
   - enabled: 1
     path: Assets/Scenes/Part 1/SpiritTavernScene.unity
-    guid: 794c4cbe13dd8fc4d87d092f42fcbbbb
+    guid: 7ff3333e40fcf584ba3ec50fdb83b046
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 227c43bc127192d46b97084ad6f2ccce, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 8a3ebfc17c1fee74ba25aa34b19e1add, type: 2}
