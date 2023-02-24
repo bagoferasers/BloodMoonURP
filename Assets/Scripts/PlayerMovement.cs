@@ -12,12 +12,12 @@ public class PlayerMovement : MonoBehaviour
     public float speed;
     public float increasedSpeed;
     public float maxSpeedIncreaseDuration;
+
     private float originalSpeed;
     private float timeBetweenTapsLeft;
     private float timeBetweenTapsRight;
     private int buttonPressedLeft;
     private int buttonPressedRight;
-
     private Rigidbody2D rb2d;
     private bool moveLeft, moveRight, goJump, arePaused;
     private GameObject menu;
@@ -59,37 +59,45 @@ public class PlayerMovement : MonoBehaviour
         // double tap for left
         if( !arePaused && ( moveLeft ) )
         {
-            if( buttonPressedLeft == 1 && timeBetweenTapsLeft < 0.4f )
+            if( buttonPressedLeft == 2 && timeBetweenTapsLeft < 0.4f )
             {
                 Debug.Log( "increasing speed" );
                 speed = increasedSpeed;
+                animator.SetBool( "run", true );
             }
         }
         else if( !arePaused && ( moveRight ) )
         {
-            if( buttonPressedRight == 1 && timeBetweenTapsRight < 0.4f )
+            if( buttonPressedRight == 2 && timeBetweenTapsRight < 0.4f )
             {
                 Debug.Log( "increasing speed" );
                 speed = increasedSpeed;
+                animator.SetBool( "run", true );
             }
         }
 
-        timeBetweenTapsLeft += Time.deltaTime;
-        timeBetweenTapsRight += Time.deltaTime;
+        // if button down
+        if( buttonPressedLeft != 0 )
+            timeBetweenTapsLeft += Time.deltaTime;
 
-        if( timeBetweenTapsLeft > 0.4f && buttonPressedLeft != 1 && moveRight != true  )
+        if( buttonPressedRight != 0 )
+            timeBetweenTapsRight += Time.deltaTime;
+
+        if( timeBetweenTapsLeft > 0.4f && moveLeft != true  )
         {
             Debug.Log( " timebetweentaps > 0.4f for left");
             speed = originalSpeed;
             buttonPressedLeft = 0;
             timeBetweenTapsLeft = 0f;
+            animator.SetBool( "run", false );
         }
-        if( timeBetweenTapsRight > 0.4f && buttonPressedRight != 1 && moveLeft != true  )
+        if( timeBetweenTapsRight > 0.4f && moveRight != true  )
         {
             Debug.Log( " timebetweentaps > 0.4f for right");
             speed = originalSpeed;
             buttonPressedRight = 0;
             timeBetweenTapsRight = 0f;
+            animator.SetBool( "run", false );
         }
         ///////////////////////////////////////////////////////////////////////////////////////////
     }
