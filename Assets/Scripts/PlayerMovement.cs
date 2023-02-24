@@ -63,6 +63,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 Debug.Log( "increasing speed" );
                 speed = increasedSpeed;
+                animator.SetBool( "run", true );
             }
         }
         else if( !arePaused && ( moveRight ) )
@@ -71,6 +72,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 Debug.Log( "increasing speed" );
                 speed = increasedSpeed;
+                animator.SetBool( "run", true );
             }
         }
 
@@ -87,6 +89,7 @@ public class PlayerMovement : MonoBehaviour
             speed = originalSpeed;
             buttonPressedLeft = 0;
             timeBetweenTapsLeft = 0f;
+            animator.SetBool( "run", false );
         }
         if( timeBetweenTapsRight > 0.4f && moveRight != true  )
         {
@@ -94,6 +97,7 @@ public class PlayerMovement : MonoBehaviour
             speed = originalSpeed;
             buttonPressedRight = 0;
             timeBetweenTapsRight = 0f;
+            animator.SetBool( "run", false );
         }
         ///////////////////////////////////////////////////////////////////////////////////////////
     }
