@@ -40,6 +40,10 @@ public class whenEnterShowThis : MonoBehaviour
                 sc.spiritTavern( );
             else if( string.Equals( nameOfSceneToChangeTo, "ApartmentUpstairs" ) )
                 sc.upstairsApartment( );
+            else if( string.Equals( nameOfSceneToChangeTo, "ApartmentSceneReturning" ) )
+                sc.returningDownstairsApartment( );
+            else if( string.Equals( nameOfSceneToChangeTo, "VillageReturnFromApartment" ) )
+                sc.returnFromApartment( );
         }
     }    
 

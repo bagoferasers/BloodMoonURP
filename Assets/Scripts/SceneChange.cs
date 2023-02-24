@@ -31,6 +31,18 @@ public class SceneChange: MonoBehaviour
         StartCoroutine( ChangeToScene( "ApartmentUpstairs" ) );
     }
 
+    public void returningDownstairsApartment( )
+    {
+        FadeMainOut( );
+        StartCoroutine( ChangeToScene( "ApartmentSceneReturning" ) );
+    }
+
+    public void returnFromApartment( )
+    {
+        FadeMainOut( );
+        StartCoroutine( ChangeToScene( "VillageReturnFromApartment" ) );
+    }
+
     public void nineLives( )
     {
         FadeMainOut( );
