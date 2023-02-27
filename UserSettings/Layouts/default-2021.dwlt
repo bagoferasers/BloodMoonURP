@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Simulator
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 50
+  controlID: 82
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 51
+  controlID: 83
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 52
+  controlID: 84
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SimulatorWindow
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -270,7 +270,7 @@ MonoBehaviour:
     height: 706
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 21}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
   - {fileID: 13}
@@ -278,8 +278,8 @@ MonoBehaviour:
   - {fileID: 14}
   - {fileID: 15}
   - {fileID: 21}
-  m_Selected: 5
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 5
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -380,7 +380,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 280908
+  m_LastSelectedObjectID: -336200
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -617,10 +617,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 25}
-    m_SelectedIDs: f07a0000
-    m_LastClickedID: 31472
-    m_ExpandedIDs: 00000000827a0000847a0000867a0000887a00008a7a00008c7a00008e7a0000907a0000927a0000947a0000967a0000987a00009a7a00009c7a00009e7a0000a07a0000a27a0000a47a0000a67a0000a87a0000aa7a0000ac7a0000ae7a0000e47a000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: d8760000
+    m_LastClickedID: 30424
+    m_ExpandedIDs: 00000000aa740000ac740000ae740000b0740000b2740000b4740000b6740000b8740000ba740000bc740000be740000c0740000c2740000c4740000c6740000c8740000ca740000cc740000ce740000d0740000d2740000d4740000d6740000cc760000d2760000aea7000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -648,7 +648,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000827a0000847a0000867a0000887a00008a7a00008c7a00008e7a0000907a0000927a0000947a0000967a0000987a00009a7a00009c7a00009e7a0000a07a0000a27a0000a47a0000a67a0000a87a0000aa7a0000ac7a0000ae7a0000
+    m_ExpandedIDs: 00000000aa740000ac740000ae740000b0740000b2740000b4740000b6740000b8740000ba740000bc740000be740000c0740000c2740000c4740000c6740000c8740000ca740000cc740000ce740000d0740000d2740000d4740000d6740000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -739,7 +739,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 18
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -778,21 +778,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 767ffcffbeb1fcff4ebbfcff3881fdff50a3fdff8ab3fdff76bafdffbec7fdff78d9fdff32defdff92e6fdffeef2fdffbafefdff066bfeffce75feffd87bfeff9881feff3294feff20c5feff1ed6feff74ddfeffd4ddfeff9cf2feffb430fffff842ffff724fffff8053ffff5456ffff385affff365dffffae66ffff5e6bffff7471ffffa876ffff7e93ffff2a97ffffca9bffffd89fffff5ea5ffffdeafffff1cb4ffff12f7fffff4f9ffff1c6f0000686f0000387000001c7200008aba000024bb000040bb0000a2d30000d6d3000058d4000022d6000056d60000ded60000a2d80000d6d800004cd90000feda000032db0000a8db0000d6de0000a6df00008ae10000920a0100480b0100120d0100bc0d01006e0f01001810010046130100fa150100c216010078170100fc170100b81801007c1a0100261b0100aa1b0100541c0100aa1c0100541e0100241f0100082101000633010070330100a43301000e34010026340100a03401004a3601001a3701009a380100fe380100a48901003e8e0100daa00100e8a00100fca001008aa10100b2a10100c8a301007ca60100e2c4010028c60100b0c90100fe050200e4090200cc0a0200c81002007e1102004813020004140200c81502007216020086180200561902003a1b0200987b03004e7c03004c890300e6890300028a0300948a03004a8b0300b2a5030068a6030004be0300b8c0030038d50300a2d50300d6d5030040d6030058d6030018490400d44904002e4a0400424a0400584a0400624a0400824a0400e64a0400004b0400224b0400484b0400524b0400827e0400387f0400
+      m_ExpandedIDs: 3a69faffe469fafffa6cfaff446dfaff8e6dfaff106efaff926efaffd271faff9c73faff4a74faffae74fafff674faff3e75faffbe75faff3e76faff7c79faff3a7bfaffcc82faff8495faffb8defaffc2defaffe2defaffecdefaff22dffaff06e4faff0ee4faff20e5faff5af4faff74fefaff0204fbff4409fbfffe0efbff4a14fbff9a19fbffe225fbfff22afbff702bfbff862efbffd02efbff1a2ffbff9c2ffbff1e30fbff5e33fbff2835fbffba35fbff1e36fbff6636fbffae36fbff2e37fbffae37fbffec3afbffaa3cfbff2e44fbff9e55fbff327efbff22b3fbffe4b7fbff06b9fbff44c4fbfffcd5fbff0ad6fbff12d6fbfff2dafbff00dbfbff8adbfbff4cf1fbff98f6fbff3804fcffb214fcff6816fcff7016fcfffc29fcffea35fcff2036fcff3e3afcffc643fcff6a44fcff6447fcffae47fcff1448fcff9648fcffe04bfcffa44dfcff6e4ffcffb64ffcfffe4ffcff6250fcffe250fcff2054fcffde55fcff3c5afcff845afcffcc5afcff305bfcffb05bfcffee5efcffac60fcffce71fcffd875fcffd27afcff3281fcff6282fcff8c85fcff608efcff48abfcff28c6fcff1acefcff32cffcffbcebfcffb80ffdff4017fdff3c1dfdff70d5fdffa4e7fdffe0fcfdffbc0efeff322efefff034fefff03dfeff884bfeff4c52feffc05afeff0062feff6073feffec80feff8e8dfeff4abffeff08cbfeffa4d3feffd6ddfeff5a30ffffae44ffff885effffd89effff94f2fffff4f9ffffda780000aa7900008e7b0000989b0100cc9b01004e9c010058ab01000eac010058fa0100b8fa0100e0fa010014fb01001afb0100ecfc01007afd0100a2fd0100a8fd0100bc0c0200720d0200982c0200542d0200f6330200ac340200f04a0200a44d0200d45b0200885e0200206a0200d46c0200047b0200b87d0200d2920200869502001ea00200c6a002000ca102002cb20200e4b402009ebb020056be020030610300be610300e6610300b0630300386403006c640300188f0300ce8f030044990300009a0300429d0300fa9f03003abf0300f2c1030030ca0300e6ca0300b0cc03006ccd03005c0804004e090400c009040084350400e2350400163604006a360400803604009e360400a4360400283b04000c3c0400483c04006a3c04009e3c0400ca3c0400f23c0400043d0400083d0400263d04002c3d04009666040052670400da6704000e6804003a68040062680400966804009c6804003e7204009c720400d0720400347304004c730400ac7904000c7a0400407a0400947a0400aa7a0400c87a0400ce7a0400b4920400e89204003c930400649304006a930400ded1040096d404004eda040004db0400d4dc040008dd040090dd040060df040010e00400cee1040002e2040078e2040058e504008ce5040002e6040030e90400e8eb04000c000500400005009a000500c2000500c80005004c010500d4010500080205000e020500fc0905000a0a05001e0a0500520a0500ac0a0500d40a0500da0a0500f8200500b4210500
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: OpenMeUP
+        m_OriginalName: OpenMeUP
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -336190
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -1065,7 +1065,7 @@ MonoBehaviour:
       containerId: overlay-toolbar__top
       floating: 0
       collapsed: 0
-      displayed: 0
+      displayed: 1
       snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -1082,9 +1082,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.351076, y: 0.19722736, z: -7.5109415}
+    m_Target: {x: 37.072277, y: -4.0018625, z: -6.786762}
     speed: 2
-    m_Value: {x: 1.351076, y: 0.19722736, z: -7.5109415}
+    m_Value: {x: 37.072277, y: -4.0018625, z: -6.786762}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1135,9 +1135,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 9.679536
+    m_Target: 5.241477
     speed: 2
-    m_Value: 9.679536
+    m_Value: 5.241477
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1199,14 +1199,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 13974, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Simulator
-    m_Image: {fileID: 8720083202187608617, guid: 0000000000000000d000000000000000, type: 0}
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
@@ -1219,39 +1219,68 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_SerializedViewNames:
-  - UnityEditor.GameView
+  - UnityEditor.DeviceSimulation.SimulatorWindow
   m_SerializedViewValues:
-  - D:\UNITY\BMPrototype2DURP\BloodMoonURP\Library\PlayModeViewStates\7e584e7f721648149992bc60c7f4de58
-  m_PlayModeViewName: Device Simulator
+  - D:\UNITY\BMPrototype2DURP\BloodMoonURP\Library\PlayModeViewStates\2c911ef1d34980c40834f312187ae23d
+  m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
-  m_ClearColor: {r: 0, g: 0, b: 0, a: 1}
-  m_TargetSize: {x: 2208, y: 1768}
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 1920, y: 1080}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
   m_EnterPlayModeBehavior: 2
   m_UseMipMap: 0
-  m_SimulatorState:
-    controlPanelVisible: 0
-    controlPanelWidth: 0
-    controlPanelFoldoutKeys:
-    - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceUIExtension
-    - UnityEditor.AdaptivePerformance.Samsung.Android.Editor.AdaptivePerformanceVRRUIExtension
-    - UnityEditor.DeviceSimulation.ApplicationSettingsPlugin
-    controlPanelFoldoutValues: 000000
-    pluginNames:
-    - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceUIExtension
-    - UnityEditor.AdaptivePerformance.Samsung.Android.Editor.AdaptivePerformanceVRRUIExtension
-    - UnityEditor.DeviceSimulation.ApplicationSettingsPlugin
-    pluginStates:
-    - '{"m_SerializationStates":{"thermalFoldout":false,"performanceFoldout":false,"developerFoldout":false,"indexerFoldout":false,"scalersFoldout":false,"deviceSettingsFoldout":false}}'
-    - '{"m_SerializationStates":{"settingsFoldout":false,"vrrFoldout":false,"androidSystemFoldout":false}}'
-    - '{}'
-    scale: 35
-    fitToScreenEnabled: 1
-    rotationDegree: 90
-    highlightSafeAreaEnabled: 0
-    friendlyName: Samsung Galaxy Z Fold2 5G (Tablet)
-    networkReachability: 1
-    systemLanguage: 10
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000006000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -540
+    m_VBaseRangeMax: 540
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 1310
+      height: 664
+    m_Scale: {x: 0.6148148, y: 0.6148148}
+    m_Translation: {x: 655, y: 332}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -1065.3615
+      y: -540
+      width: 2130.723
+      height: 1080
+    m_MinimalGUI: 1
+  m_defaultScale: 0.6148148
+  m_LastWindowPixelSize: {x: 1310, y: 685}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000001000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}

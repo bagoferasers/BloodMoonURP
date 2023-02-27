@@ -84,11 +84,10 @@ public class whenEnterShowThis : MonoBehaviour
 
     IEnumerator fadeIn( )
     {
-        c.SetActive( true );
         while( canvasGroup.alpha < 1 )
         {
-            color.a += Time.deltaTime;
             canvasGroup.alpha += Time.deltaTime * 2;
+            color.a = canvasGroup.alpha;
             spriteRend.color = color;
             yield return null;
         }        
