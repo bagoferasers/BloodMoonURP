@@ -6395,8 +6395,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -24.34, y: -0.45666692}
-  m_SizeDelta: {x: 10, y: 20}
+  m_AnchoredPosition: {x: -22.01, y: -0.45666692}
+  m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &913382182
 BoxCollider2D:
@@ -6422,8 +6422,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 10, y: 100}
-  m_EdgeRadius: 12
+  m_Size: {x: 20, y: 100}
+  m_EdgeRadius: 0
 --- !u!114 &913382183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7432,7 +7432,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1318630669}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -5.3740234, z: 0}
+  m_LocalPosition: {x: 0, y: -5.28, z: 0}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7903,7 +7903,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2327647750716044346, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -11.237995
+      value: -13.99
       objectReference: {fileID: 0}
     - target: {fileID: 2327647750716044346, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -8173,10 +8173,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0.033936653
-    width: 0.28985506
-    height: 0.20361991
+    x: 0.30677086
+    y: 0
+    width: 0.22314817
+    height: 0.22314814
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -9918,7 +9918,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2327647750716044346, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 11.27
+      value: 10.1
       objectReference: {fileID: 0}
     - target: {fileID: 2327647750716044346, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -10532,8 +10532,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 62.04, y: -0.45666692}
-  m_SizeDelta: {x: 10, y: 20}
+  m_AnchoredPosition: {x: 67.51, y: -0.45666692}
+  m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2081287533
 MonoBehaviour:
@@ -10597,8 +10597,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 10, y: 100}
-  m_EdgeRadius: 12
+  m_Size: {x: 20, y: 100}
+  m_EdgeRadius: 7.5
 --- !u!50 &2081287536
 Rigidbody2D:
   serializedVersion: 4

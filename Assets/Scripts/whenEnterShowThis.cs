@@ -44,6 +44,8 @@ public class whenEnterShowThis : MonoBehaviour
                 sc.returningDownstairsApartment( );
             else if( string.Equals( nameOfSceneToChangeTo, "VillageReturnFromApartment" ) )
                 sc.returnFromApartment( );
+            else if( string.Equals( nameOfSceneToChangeTo, "InsideApartment" ) )
+                sc.insideApartment( );
         }
     }    
 

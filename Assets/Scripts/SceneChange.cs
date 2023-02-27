@@ -26,7 +26,6 @@ public class SceneChange: MonoBehaviour
         if( player )
             PlayerMovement = player.GetComponent< PlayerMovement >( );
     }
-*/
 
     public Vector3 getPosition( )
     {
@@ -35,6 +34,7 @@ public class SceneChange: MonoBehaviour
             PlayerMovement = player.GetComponent< PlayerMovement >( );
         return player.transform.position;
     }
+*/
 
     public void mainMenu( )
     {
@@ -46,35 +46,48 @@ public class SceneChange: MonoBehaviour
     {
         FadeMainOut( );
         StartCoroutine( ChangeToScene( "Village" ) );
-        PlayerMovement.position = new Vector3( 10f, -5.3f, 0 );
+        //PlayerMovement.position = new Vector3( 10f, -5.3f, 0 );
     }
 
     public void apartment( )
     {
         FadeMainOut( );
         StartCoroutine( ChangeToScene( "ApartmentScene" ) );
-        PlayerMovement.position = new Vector3( 0, -1.6f, 0 );
+        //PlayerMovement.position = new Vector3( 0, -5.3f, 0 );
     }
 
     public void upstairsApartment( )
     {
         FadeMainOut( );
         StartCoroutine( ChangeToScene( "ApartmentUpstairs" ) );
-        PlayerMovement.position = new Vector3( 7.1f, -1.1f, 0 );
+        //PlayerMovement.position = new Vector3( 7.1f, -1.1f, 0 );
     }
 
     public void returningDownstairsApartment( )
     {
         FadeMainOut( );
         StartCoroutine( ChangeToScene( "ApartmentScene" ) );
-        PlayerMovement.position = new Vector3( 10.5f, -1.6f, 0f );
+        //PlayerMovement.position = new Vector3( 38f, -5.3f, 0f );
+        //GameObject.Find( "Player" ).transform.position = new Vector2( 38f, -5.3f );
     }
 
     public void returnFromApartment( )
     {
         FadeMainOut( );        
         StartCoroutine( ChangeToScene( "Village" ) );
-        PlayerMovement.position = new Vector3( 10f, -5.3f, 0 );
+        //PlayerMovement.position = new Vector3( 10f, -5.3f, 0 );
+    }
+
+    public void insideApartment( )
+    {
+        FadeMainOut( );
+        StartCoroutine( ChangeToScene( "InsideApartment" ) );
+    }
+
+    public void returnToUpstairs( )
+    {
+        FadeMainOut( );
+        StartCoroutine( ChangeToScene( "ApartmentUpstairs" ) );
     }
 
     public void nineLives( )

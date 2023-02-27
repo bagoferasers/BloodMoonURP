@@ -50,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
         timeBetweenTapsRight = 0f;
         originalSpeed = speed;
         /////////////////////handle player position///////////////////////////////////////////
-        GameObject.Find( "Player" ).transform.position = position;
+        //GameObject.Find( "Player" ).transform.position = position;
     }
 
     void Update( )
@@ -64,7 +64,6 @@ public class PlayerMovement : MonoBehaviour
         {
             if( buttonPressedLeft == 2 && timeBetweenTapsLeft < 0.4f )
             {
-                //Debug.Log( "increasing speed" );
                 speed = increasedSpeed;
                 animator.SetBool( "run", true );
             }
@@ -73,7 +72,6 @@ public class PlayerMovement : MonoBehaviour
         {
             if( buttonPressedRight == 2 && timeBetweenTapsRight < 0.4f )
             {
-                //Debug.Log( "increasing speed" );
                 speed = increasedSpeed;
                 animator.SetBool( "run", true );
             }
@@ -88,7 +86,6 @@ public class PlayerMovement : MonoBehaviour
 
         if( timeBetweenTapsLeft > 0.4f && moveLeft != true  )
         {
-            //Debug.Log( " timebetweentaps > 0.4f for left");
             speed = originalSpeed;
             buttonPressedLeft = 0;
             timeBetweenTapsLeft = 0f;
@@ -96,7 +93,6 @@ public class PlayerMovement : MonoBehaviour
         }
         if( timeBetweenTapsRight > 0.4f && moveRight != true  )
         {
-            //Debug.Log( " timebetweentaps > 0.4f for right");
             speed = originalSpeed;
             buttonPressedRight = 0;
             timeBetweenTapsRight = 0f;
