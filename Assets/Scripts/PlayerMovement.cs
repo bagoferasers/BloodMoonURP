@@ -27,6 +27,8 @@ public class PlayerMovement : MonoBehaviour
     private GameObject upButton;
     private GameObject attackButton;
     private Animator animator;
+
+    ///////////////////////handle player position/////////////////////////////
     public static Vector3 position;
 
     // Start is called before the first frame update

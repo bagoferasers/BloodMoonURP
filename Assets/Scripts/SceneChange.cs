@@ -19,23 +19,6 @@ public class SceneChange: MonoBehaviour
     private static Vector3 startTavern;
     private PlayerMovement PlayerMovement;
 
-/*
-    void Start( )
-    {
-        player = GameObject.FindWithTag( "Player" );
-        if( player )
-            PlayerMovement = player.GetComponent< PlayerMovement >( );
-    }
-
-    public Vector3 getPosition( )
-    {
-        player = GameObject.FindWithTag( "Player" );
-        if( player )
-            PlayerMovement = player.GetComponent< PlayerMovement >( );
-        return player.transform.position;
-    }
-*/
-
     public void mainMenu( )
     {
         FadeMainOut( );
@@ -82,6 +65,13 @@ public class SceneChange: MonoBehaviour
     {
         FadeMainOut( );
         StartCoroutine( ChangeToScene( "InsideApartment" ) );
+    }
+
+    public void goToBedroom( )
+    {
+        // haha
+        FadeMainOut( );
+        StartCoroutine( ChangeToScene( "Bedroom" ) );
     }
 
     public void returnToUpstairs( )
