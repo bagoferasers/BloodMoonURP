@@ -228,7 +228,7 @@ PrefabInstance:
       objectReference: {fileID: -7627845712019329699, guid: 236587ec711348a4792e0060efb1bf73, type: 3}
     - target: {fileID: 3129957982457744146, guid: e8aebf145e575cb4f9a1b06bfff37333, type: 3}
       propertyPath: m_Color.a
-      value: 0.54901963
+      value: 0.7058824
       objectReference: {fileID: 0}
     - target: {fileID: 4255545773476868268, guid: e8aebf145e575cb4f9a1b06bfff37333, type: 3}
       propertyPath: m_SpriteState.m_PressedSprite
@@ -564,7 +564,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8414677862203948181, guid: d20ea113b1db3fc40892e3e6419edb97, type: 3}
       propertyPath: m_Color.a
-      value: 0.54901963
+      value: 0.7058824
       objectReference: {fileID: 0}
     - target: {fileID: 8414677862203948181, guid: d20ea113b1db3fc40892e3e6419edb97, type: 3}
       propertyPath: m_Color.b
@@ -874,7 +874,7 @@ PrefabInstance:
       objectReference: {fileID: 7270360567275473960, guid: b1e90a4cefc1f2a409ac727d50028c54, type: 3}
     - target: {fileID: 3129957982457744146, guid: e8aebf145e575cb4f9a1b06bfff37333, type: 3}
       propertyPath: m_Color.a
-      value: 0.54901963
+      value: 0.7058824
       objectReference: {fileID: 0}
     - target: {fileID: 4255545773476868268, guid: e8aebf145e575cb4f9a1b06bfff37333, type: 3}
       propertyPath: m_SpriteState.m_PressedSprite
@@ -6170,7 +6170,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6464168096704815375, guid: 7841b45ffe1a21446a4f041cdae97841, type: 3}
       propertyPath: m_Color.a
-      value: 0.54901963
+      value: 0.7058824
       objectReference: {fileID: 0}
     - target: {fileID: 6464168096704815375, guid: 7841b45ffe1a21446a4f041cdae97841, type: 3}
       propertyPath: m_Color.b
@@ -6676,7 +6676,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6597083394006370393, guid: 8eadad2b1f6f4cc4897ffc7ab66ca0a1, type: 3}
       propertyPath: m_Color.a
-      value: 0.54901963
+      value: 0.7058824
       objectReference: {fileID: 0}
     - target: {fileID: 6597083394006370393, guid: 8eadad2b1f6f4cc4897ffc7ab66ca0a1, type: 3}
       propertyPath: m_Color.b
@@ -8221,10 +8221,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
+    x: 0.3072917
     y: 0
-    width: 1
-    height: 1
+    width: 0.20833334
+    height: 0.20833333
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -8457,7 +8457,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3094025355090738329, guid: c8fcdb537d37ee14c8257ffa2625a06c, type: 3}
       propertyPath: m_Color.a
-      value: 0.54901963
+      value: 0.7058824
       objectReference: {fileID: 0}
     - target: {fileID: 3094025355090738329, guid: c8fcdb537d37ee14c8257ffa2625a06c, type: 3}
       propertyPath: m_Color.b
