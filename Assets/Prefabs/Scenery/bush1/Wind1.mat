@@ -43,8 +43,9 @@ Material:
     m_Ints: []
     m_Floats: []
     m_Colors:
-    - _WindDirection: {r: 2, g: 0, b: 0, a: 0}
-    - _WindScale: {r: 0.5, g: 0, b: 0, a: 0}
-    - _WindSpeed: {r: 0.5, g: 0, b: 0, a: 0}
-    - _WindStrength: {r: 0.05, g: 0, b: 0, a: 0}
+    - _WindDirection: {r: 1, g: 0, b: 0, a: 0}
+    - _WindInfluenceMask: {r: 5, g: 0, b: 0, a: 0}
+    - _WindScale: {r: 0.8, g: 0, b: 0, a: 0}
+    - _WindSpeed: {r: 0.6, g: 0, b: 0, a: 0}
+    - _WindStrength: {r: 0.2, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
