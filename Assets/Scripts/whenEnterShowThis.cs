@@ -15,6 +15,7 @@ public class whenEnterShowThis : MonoBehaviour
     private SceneChange sc;
     private GameObject menuCanvas;
     private bool p;
+    private transportScene t;
 
     void Start( )
     {
@@ -25,6 +26,7 @@ public class whenEnterShowThis : MonoBehaviour
         color = spriteRend.color;
         menuCanvas = GameObject.Find( "MenuCanvas" );
         sc = menuCanvas.GetComponent< SceneChange >( );
+        t = GameObject.Find( "ScenePortal" ).GetComponent< transportScene >( );
     }    
 
     void Update( )
@@ -32,12 +34,7 @@ public class whenEnterShowThis : MonoBehaviour
         if( c.activeInHierarchy && p )
         {
             Debug.Log( nameOfSceneToChangeTo );
-            if( string.Equals( nameOfSceneToChangeTo, "ApartmentScene" ) )
-                sc.apartment( );
-            else if( string.Equals( nameOfSceneToChangeTo, "NineScene" ) )
-                sc.nineLives( );
-            else if( string.Equals( nameOfSceneToChangeTo, "SpiritTavernScene" ) )
-                sc.spiritTavern( );
+            t.ChangeToScene( nameOfSceneToChangeTo );
         }
     }    
 
@@ -76,11 +73,10 @@ public class whenEnterShowThis : MonoBehaviour
 
     IEnumerator fadeIn( )
     {
-        c.SetActive( true );
         while( canvasGroup.alpha < 1 )
         {
-            color.a += Time.deltaTime;
             canvasGroup.alpha += Time.deltaTime * 2;
+            color.a = canvasGroup.alpha;
             spriteRend.color = color;
             yield return null;
         }        

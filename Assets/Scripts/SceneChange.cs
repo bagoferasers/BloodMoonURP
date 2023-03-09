@@ -5,8 +5,20 @@ using UnityEngine.SceneManagement;
 using System;
 using System.Threading.Tasks;
 
+
+
 public class SceneChange: MonoBehaviour 
 { 
+    private static GameObject player;
+    private static Vector3 villageSpawnPoint;
+    private static Vector3 apartmentDownstairsSpawnPoint;
+    private static Vector3 startVillage;
+    private static Vector3 startApartment;
+    private static Vector3 startUpstairsApartment;
+    private static Vector3 startNine;
+    private static Vector3 startTavern;
+    private PlayerMovement PlayerMovement;
+
     public void mainMenu( )
     {
         FadeMainOut( );
@@ -17,12 +29,55 @@ public class SceneChange: MonoBehaviour
     {
         FadeMainOut( );
         StartCoroutine( ChangeToScene( "Village" ) );
+        //PlayerMovement.position = new Vector3( 10f, -5.3f, 0 );
     }
 
     public void apartment( )
     {
         FadeMainOut( );
         StartCoroutine( ChangeToScene( "ApartmentScene" ) );
+        //PlayerMovement.position = new Vector3( 0, -5.3f, 0 );
+    }
+
+    public void upstairsApartment( )
+    {
+        FadeMainOut( );
+        StartCoroutine( ChangeToScene( "ApartmentUpstairs" ) );
+        //PlayerMovement.position = new Vector3( 7.1f, -1.1f, 0 );
+    }
+
+    public void returningDownstairsApartment( )
+    {
+        FadeMainOut( );
+        StartCoroutine( ChangeToScene( "ApartmentScene" ) );
+        //PlayerMovement.position = new Vector3( 38f, -5.3f, 0f );
+        //GameObject.Find( "Player" ).transform.position = new Vector2( 38f, -5.3f );
+    }
+
+    public void returnFromApartment( )
+    {
+        FadeMainOut( );        
+        StartCoroutine( ChangeToScene( "Village" ) );
+        //PlayerMovement.position = new Vector3( 10f, -5.3f, 0 );
+    }
+
+    public void insideApartment( )
+    {
+        FadeMainOut( );
+        StartCoroutine( ChangeToScene( "InsideApartment" ) );
+    }
+
+    public void goToBedroom( )
+    {
+        // haha
+        FadeMainOut( );
+        StartCoroutine( ChangeToScene( "Bedroom" ) );
+    }
+
+    public void returnToUpstairs( )
+    {
+        FadeMainOut( );
+        StartCoroutine( ChangeToScene( "ApartmentUpstairs" ) );
     }
 
     public void nineLives( )
@@ -64,11 +119,9 @@ public class SceneChange: MonoBehaviour
         while( canvasGroup.alpha < 1 )
         {
             canvasGroup.alpha += Time.deltaTime / (float)2.09;
-            //canvasGroupMenu.alpha -= Time.deltaTime / 2;
             canvasGroupMenu.alpha -= Time.deltaTime / (float)2.09;
             yield return null;
         }
-        //StartCoroutine( ChangeToScene( "Main" ) );
         /* This makes sure buttons aren't interactable while fading out. */
         canvasGroup.interactable = false;
         canvasGroupMenu.interactable = false;

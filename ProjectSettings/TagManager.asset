@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - showMe
+  - menuCanvas
   layers:
   - Default
   - TransparentFX
