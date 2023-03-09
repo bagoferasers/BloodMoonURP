@@ -36,7 +36,10 @@ public class transportScene : MonoBehaviour
 
     public void ChangeToScene( string sceneToChangeTo )
     {
-        FadeMainOut( );
+        if( sceneToChangeTo == "Main" )
+            FadeMainOut( );
+        else    
+            FadePortalOut( );
         StartCoroutine( ChangeScene( sceneToChangeTo ) );
     }
 
@@ -55,10 +58,32 @@ public class transportScene : MonoBehaviour
     IEnumerator FadeOutMain( )
     {
         CanvasGroup canvasGroup = GameObject.Find( "darkyboi" ).GetComponent< CanvasGroup >( );
-
+        Debug.Log( "Fading out main???" );
+        if( canvasGroup )
+            Debug.Log( "canvasGroup is not NULL" );
         while( canvasGroup.alpha < 1 )
         {
-            canvasGroup.alpha += Time.deltaTime / 16;
+            canvasGroup.alpha += Time.fixedDeltaTime / 2;
+            yield return null;
+        }
+        canvasGroup.interactable = false;
+        yield return null;
+    }
+
+    public void FadePortalOut( )
+    {
+        StartCoroutine( FadeOutPortal( ) );
+    }
+
+    IEnumerator FadeOutPortal( )
+    {
+        CanvasGroup canvasGroup = GameObject.Find( "darkyboi" ).GetComponent< CanvasGroup >( );
+        Debug.Log( "Fading out Portal???" );
+        if( canvasGroup )
+            Debug.Log( "canvasGroup is not NULL" );
+        while( canvasGroup.alpha < 1 )
+        {
+            canvasGroup.alpha += Time.fixedDeltaTime / 16;
             yield return null;
         }
         canvasGroup.interactable = false;
