@@ -1268,6 +1268,96 @@ Transform:
   m_Father: {fileID: 860492899}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &712538727
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 913382181}
+    m_Modifications:
+    - target: {fileID: 1170341142589671848, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+      propertyPath: id
+      value: apartmentIn
+      objectReference: {fileID: 0}
+    - target: {fileID: 1170341142589671848, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1318630669}
+    - target: {fileID: 1170341142589671848, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+      propertyPath: idConnected
+      value: apartmentOut
+      objectReference: {fileID: 0}
+    - target: {fileID: 1170341142589671848, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+      propertyPath: sceneToChangeTo
+      value: Village
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172414637409859551, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172414637409859551, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172414637409859551, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172414637409859551, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172414637409859551, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.163
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172414637409859551, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172414637409859551, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.3630772
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172414637409859551, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172414637409859551, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172414637409859551, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172414637409859551, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172414637409859551, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172414637409859551, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172414637409859551, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6039771202037024376, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+      propertyPath: m_Name
+      value: ScenePortal
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+--- !u!4 &712538728 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2172414637409859551, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+  m_PrefabInstance: {fileID: 712538727}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &839719298
 GameObject:
   m_ObjectHideFlags: 0
@@ -1519,6 +1609,7 @@ RectTransform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 712538728}
   - {fileID: 1763063924}
   m_Father: {fileID: 1825339906}
   m_RootOrder: 1
@@ -3199,8 +3290,8 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1
-    height: 1
+    width: 0
+    height: 0
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -4878,7 +4969,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2327647750716044346, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2327647750716044346, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4966,7 +5057,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2327647750716044348, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
       propertyPath: nameOfSceneToChangeTo
-      value: VillageReturnFromApartment
+      value: Village
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}

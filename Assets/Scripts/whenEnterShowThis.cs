@@ -13,7 +13,7 @@ public class whenEnterShowThis : MonoBehaviour
     private SpriteRenderer spriteRend;
     private Color color;
     private bool p;
-    private transportScene t;
+    private transportScene transportScene;
 
     void Start( )
     {
@@ -22,7 +22,7 @@ public class whenEnterShowThis : MonoBehaviour
         canvasGroup = GetComponent< CanvasGroup >( );
         spriteRend = c.GetComponent< SpriteRenderer >( );
         color = spriteRend.color;
-        t = GameObject.Find( "ScenePortal" ).GetComponent< transportScene >( );
+        transportScene = GameObject.Find( "ScenePortal" ).GetComponent< transportScene >( );
     }    
 
     void Update( )
@@ -30,7 +30,7 @@ public class whenEnterShowThis : MonoBehaviour
         if( c.activeInHierarchy && p )
         {
             Debug.Log( nameOfSceneToChangeTo );
-            t.ChangeToScene( nameOfSceneToChangeTo );
+            transportScene.ChangeToScene( nameOfSceneToChangeTo );
         }
     }    
 
