@@ -12,7 +12,6 @@ public class whenEnterShowThis : MonoBehaviour
     private CanvasGroup canvasGroup;
     private SpriteRenderer spriteRend;
     private Color color;
-    private GameObject menuCanvas;
     private bool p;
     private transportScene t;
 
@@ -23,7 +22,6 @@ public class whenEnterShowThis : MonoBehaviour
         canvasGroup = GetComponent< CanvasGroup >( );
         spriteRend = c.GetComponent< SpriteRenderer >( );
         color = spriteRend.color;
-        menuCanvas = GameObject.Find( "MenuCanvas" );
         t = GameObject.Find( "ScenePortal" ).GetComponent< transportScene >( );
     }    
 
