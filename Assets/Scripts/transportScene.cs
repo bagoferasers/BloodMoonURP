@@ -17,22 +17,7 @@ public class transportScene : MonoBehaviour
     public string id;
     public string idConnected;
     public GameObject player;
-    //private ScenePortal scenePortals;
-    //public List< ScenePortal > scenePortalList;
-/*
-    // Start is called before the first frame update
-    void Start( )
-    {
-        string spString = PlayerPrefs.GetString( "startPos" );
-        foreach( ScenePortal sp in scenePortalList )
-        {
-            if( sp.id == startPosition )
-            {
-                player.transform.position = sp.transform.position;
-            }
-        }
-    }
-*/
+
     void Start( )
     {
         GameObject[ ] gameObjects = GameObject.FindGameObjectsWithTag( "ScenePortal" );
@@ -57,7 +42,7 @@ public class transportScene : MonoBehaviour
 
     public IEnumerator ChangeScene( string sceneToChangeTo )
     {
-        PlayerPrefs.SetString( "startPosition", idConnected );
+        //PlayerPrefs.SetString( "startPosition", idConnected );
         yield return new WaitForSeconds( 1 );
         SceneManager.LoadScene( sceneToChangeTo );
     }

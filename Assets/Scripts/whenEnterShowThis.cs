@@ -10,6 +10,8 @@ public class whenEnterShowThis : MonoBehaviour
     public string scene;
     [ Header( "Circle to fade in and out:" ) ]
     public GameObject circle;
+    [ Header( "Connected ScenePortal:" ) ]
+    public GameObject sp;
 
     private CanvasGroup canvasGroup;
     private SpriteRenderer spriteRend;
@@ -24,13 +26,14 @@ public class whenEnterShowThis : MonoBehaviour
         canvasGroup = GetComponent< CanvasGroup >( );
         spriteRend = circle.GetComponent< SpriteRenderer >( );
         color = spriteRend.color;
-        transportScene = GameObject.Find( "ScenePortal" ).GetComponent< transportScene >( );
+        transportScene = sp.GetComponent< transportScene >( );
     }    
 
     void Update( )
     {
         if( circle.activeInHierarchy && pressed )
         {
+            PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
             transportScene.ChangeToScene( scene );
         }
     }    
@@ -38,7 +41,10 @@ public class whenEnterShowThis : MonoBehaviour
     private void OnTriggerEnter2D( Collider2D thisCollider )
     {
         if( thisCollider.tag == "Player" )
+        {
+            //PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
             FadeMeIn( );
+        }
     }
 
     private void OnTriggerExit2D( Collider2D thisCollider )
@@ -72,7 +78,7 @@ public class whenEnterShowThis : MonoBehaviour
     {
         while( canvasGroup.alpha < 1 )
         {
-            canvasGroup.alpha += Time.deltaTime * 2;
+            canvasGroup.alpha += Time.deltaTime * 7;
             color.a = canvasGroup.alpha;
             spriteRend.color = color;
             yield return null;
@@ -83,7 +89,7 @@ public class whenEnterShowThis : MonoBehaviour
     {
         while( canvasGroup.alpha > 0 )
         {
-            canvasGroup.alpha -= Time.deltaTime * 2;
+            canvasGroup.alpha -= Time.deltaTime * 7;
             color.a = canvasGroup.alpha;
             spriteRend.color = color;
             yield return null;

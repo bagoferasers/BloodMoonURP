@@ -1351,11 +1351,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: ScenePortal
       objectReference: {fileID: 0}
+    - target: {fileID: 6039771202037024376, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+      propertyPath: m_TagString
+      value: ScenePortal
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
 --- !u!4 &712538728 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2172414637409859551, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+  m_PrefabInstance: {fileID: 712538727}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &712538729 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6039771202037024376, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
   m_PrefabInstance: {fileID: 712538727}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &726934557 stripped
@@ -1575,11 +1584,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: ScenePortal
       objectReference: {fileID: 0}
+    - target: {fileID: 6039771202037024376, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+      propertyPath: m_TagString
+      value: ScenePortal
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
 --- !u!4 &871386387 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2172414637409859551, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+  m_PrefabInstance: {fileID: 871386386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &871386388 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6039771202037024376, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
   m_PrefabInstance: {fileID: 871386386}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &896496782
@@ -3029,7 +3047,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2327647750257890178, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
       propertyPath: m_Color.a
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2327647750716044345, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
       propertyPath: m_Name
@@ -3131,6 +3149,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2327647750716044348, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
+      propertyPath: sp
+      value: 
+      objectReference: {fileID: 871386388}
     - target: {fileID: 2327647750716044348, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
       propertyPath: scene
       value: ApartmentUpstairs
@@ -3391,10 +3413,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
+    x: 0.28697917
     y: 0
-    width: 1
-    height: 1
+    width: 0.26111114
+    height: 0.2611111
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -5158,6 +5180,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2327647750716044348, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
+      propertyPath: sp
+      value: 
+      objectReference: {fileID: 712538729}
     - target: {fileID: 2327647750716044348, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
       propertyPath: scene
       value: Village
