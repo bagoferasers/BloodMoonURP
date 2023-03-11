@@ -6,6 +6,7 @@ TagManager:
   tags:
   - showMe
   - menuCanvas
+  - ScenePortal
   layers:
   - Default
   - TransparentFX

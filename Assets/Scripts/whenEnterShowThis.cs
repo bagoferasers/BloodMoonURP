@@ -6,63 +6,66 @@ using UnityEngine.SceneManagement;
 
 public class whenEnterShowThis : MonoBehaviour
 {
-    public string nameOfSceneToChangeTo;
-    public GameObject c;
+    [ Header( "Scene to change to:" ) ]
+    public string scene;
+    [ Header( "Circle to fade in and out:" ) ]
+    public GameObject circle;
+    [ Header( "Connected ScenePortal:" ) ]
+    public GameObject sp;
 
     private CanvasGroup canvasGroup;
     private SpriteRenderer spriteRend;
     private Color color;
-    private SceneChange sc;
-    private GameObject menuCanvas;
-    private bool p;
-    private transportScene t;
+    private bool pressed;
+    private transportScene transportScene;
 
     void Start( )
     {
-        p = false;
-        c.SetActive( false );
+        pressed = false;
+        circle.SetActive( false );
         canvasGroup = GetComponent< CanvasGroup >( );
-        spriteRend = c.GetComponent< SpriteRenderer >( );
+        spriteRend = circle.GetComponent< SpriteRenderer >( );
         color = spriteRend.color;
-        menuCanvas = GameObject.Find( "MenuCanvas" );
-        sc = menuCanvas.GetComponent< SceneChange >( );
-        t = GameObject.Find( "ScenePortal" ).GetComponent< transportScene >( );
+        transportScene = sp.GetComponent< transportScene >( );
     }    
 
     void Update( )
     {
-        if( c.activeInHierarchy && p )
+        if( circle.activeInHierarchy && pressed )
         {
-            Debug.Log( nameOfSceneToChangeTo );
-            t.ChangeToScene( nameOfSceneToChangeTo );
+            PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
+            transportScene.ChangeToScene( scene );
         }
     }    
 
     private void OnTriggerEnter2D( Collider2D thisCollider )
     {
-        if( thisCollider.tag == "showMe" || thisCollider.tag == "Player" )
+        if( thisCollider.tag == "Player" )
+        {
+            //PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
             FadeMeIn( );
+        }
     }
 
     private void OnTriggerExit2D( Collider2D thisCollider )
     {
-        if( thisCollider.tag == "showMe" || thisCollider.tag == "Player" )
+        if( thisCollider.tag == "Player" )
             FadeMeOut( );
     }
 
     public void isPressed( )
     {
-        p = true;
+        pressed = true;
     }
 
     public void isNotPressed( )
     {
-        p = false;
+        pressed = false;
     }
 
     private void FadeMeIn( )
     {
-        c.SetActive( true );
+        circle.SetActive( true );
         StartCoroutine( fadeIn( ) );
     }
 
@@ -75,7 +78,7 @@ public class whenEnterShowThis : MonoBehaviour
     {
         while( canvasGroup.alpha < 1 )
         {
-            canvasGroup.alpha += Time.deltaTime * 2;
+            canvasGroup.alpha += Time.deltaTime * 7;
             color.a = canvasGroup.alpha;
             spriteRend.color = color;
             yield return null;
@@ -86,12 +89,12 @@ public class whenEnterShowThis : MonoBehaviour
     {
         while( canvasGroup.alpha > 0 )
         {
-            canvasGroup.alpha -= Time.deltaTime * 2;
+            canvasGroup.alpha -= Time.deltaTime * 7;
             color.a = canvasGroup.alpha;
             spriteRend.color = color;
             yield return null;
         }
-        c.SetActive( false );
+        circle.SetActive( false );
         yield return null;
     }
 }

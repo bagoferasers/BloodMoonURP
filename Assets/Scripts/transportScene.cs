@@ -17,32 +17,32 @@ public class transportScene : MonoBehaviour
     public string id;
     public string idConnected;
     public GameObject player;
-    //private ScenePortal scenePortals;
-    //public List< ScenePortal > scenePortalList;
-/*
-    // Start is called before the first frame update
+
     void Start( )
     {
-        string spString = PlayerPrefs.GetString( "startPos" );
-        foreach( ScenePortal sp in scenePortalList )
+        GameObject[ ] gameObjects = GameObject.FindGameObjectsWithTag( "ScenePortal" );
+        foreach( GameObject g in gameObjects )
         {
-            if( sp.id == startPosition )
+            transportScene ts = g.GetComponent< transportScene >( );
+            if( ts.id == PlayerPrefs.GetString( "startPosition" ) )
             {
-                player.transform.position = sp.transform.position;
+                player.transform.position = ts.transform.position;
             }
         }
     }
-*/
 
     public void ChangeToScene( string sceneToChangeTo )
     {
-        FadeMainOut( );
+        if( sceneToChangeTo == "Main" )
+            FadeMainOut( );
+        else    
+            FadePortalOut( );
         StartCoroutine( ChangeScene( sceneToChangeTo ) );
     }
 
     public IEnumerator ChangeScene( string sceneToChangeTo )
     {
-        //PlayerPrefs.SetString( "startPosition", id );
+        //PlayerPrefs.SetString( "startPosition", idConnected );
         yield return new WaitForSeconds( 1 );
         SceneManager.LoadScene( sceneToChangeTo );
     }
@@ -55,10 +55,26 @@ public class transportScene : MonoBehaviour
     IEnumerator FadeOutMain( )
     {
         CanvasGroup canvasGroup = GameObject.Find( "darkyboi" ).GetComponent< CanvasGroup >( );
-
         while( canvasGroup.alpha < 1 )
         {
-            canvasGroup.alpha += Time.deltaTime / 16;
+            canvasGroup.alpha += Time.fixedDeltaTime / 2;
+            yield return null;
+        }
+        canvasGroup.interactable = false;
+        yield return null;
+    }
+
+    public void FadePortalOut( )
+    {
+        StartCoroutine( FadeOutPortal( ) );
+    }
+
+    IEnumerator FadeOutPortal( )
+    {
+        CanvasGroup canvasGroup = GameObject.Find( "darkyboi" ).GetComponent< CanvasGroup >( );
+        while( canvasGroup.alpha < 1 )
+        {
+            canvasGroup.alpha += Time.fixedDeltaTime / 16;
             yield return null;
         }
         canvasGroup.interactable = false;
