@@ -65,7 +65,6 @@ public class whenEnterShowThis : MonoBehaviour
     private void FadeMeOut( )
     {
         StartCoroutine( fadeOut( ) );
-        circle.SetActive( false );
     }
 
     IEnumerator fadeIn( )
@@ -88,6 +87,7 @@ public class whenEnterShowThis : MonoBehaviour
             spriteRend.color = color;
             yield return null;
         }
+        circle.SetActive( false );
         yield return null;
     }
 }
