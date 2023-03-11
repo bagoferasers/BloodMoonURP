@@ -58,9 +58,6 @@ public class transportScene : MonoBehaviour
     IEnumerator FadeOutMain( )
     {
         CanvasGroup canvasGroup = GameObject.Find( "darkyboi" ).GetComponent< CanvasGroup >( );
-        Debug.Log( "Fading out main???" );
-        if( canvasGroup )
-            Debug.Log( "canvasGroup is not NULL" );
         while( canvasGroup.alpha < 1 )
         {
             canvasGroup.alpha += Time.fixedDeltaTime / 2;
@@ -78,9 +75,6 @@ public class transportScene : MonoBehaviour
     IEnumerator FadeOutPortal( )
     {
         CanvasGroup canvasGroup = GameObject.Find( "darkyboi" ).GetComponent< CanvasGroup >( );
-        Debug.Log( "Fading out Portal???" );
-        if( canvasGroup )
-            Debug.Log( "canvasGroup is not NULL" );
         while( canvasGroup.alpha < 1 )
         {
             canvasGroup.alpha += Time.fixedDeltaTime / 16;
