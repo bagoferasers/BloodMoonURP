@@ -6,7 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class whenEnterShowThis : MonoBehaviour
 {
-    public string nameOfSceneToChangeTo;
+    [ Header( "Scene to change to:" ) ]
+    public string scene;
+    [ Header( "Circle to fade in and out:" ) ]
     public GameObject circle;
 
     private CanvasGroup canvasGroup;
@@ -28,10 +30,7 @@ public class whenEnterShowThis : MonoBehaviour
     void Update( )
     {
         if( circle.activeInHierarchy && pressed )
-        {
-            Debug.Log( nameOfSceneToChangeTo );
-            transportScene.ChangeToScene( nameOfSceneToChangeTo );
-        }
+            transportScene.ChangeToScene( scene );
     }    
 
     private void OnTriggerEnter2D( Collider2D thisCollider )

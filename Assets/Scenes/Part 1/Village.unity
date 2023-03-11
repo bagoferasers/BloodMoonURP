@@ -24269,10 +24269,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.26927084
+    x: 0
     y: 0
-    width: 0.26111114
-    height: 0.2611111
+    width: 1
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -24586,6 +24586,10 @@ PrefabInstance:
       propertyPath: c
       value: 
       objectReference: {fileID: 1670684926}
+    - target: {fileID: 3630955483101979929, guid: 25e2bccac9a7be64e840c01c68093b3e, type: 3}
+      propertyPath: scene
+      value: NineScene
+      objectReference: {fileID: 0}
     - target: {fileID: 3630955483101979929, guid: 25e2bccac9a7be64e840c01c68093b3e, type: 3}
       propertyPath: circle
       value: 
@@ -25363,7 +25367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c65cd5b90879bc74d812b5be9e34b7ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameOfSceneToChangeTo: ApartmentScene
+  scene: ApartmentScene
   circle: {fileID: 1056675014}
 --- !u!1001 &1715787546
 PrefabInstance:
@@ -37706,6 +37710,10 @@ PrefabInstance:
     - target: {fileID: 2327647750716044346, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327647750716044348, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
+      propertyPath: scene
+      value: SpiritTavernScene
       objectReference: {fileID: 0}
     - target: {fileID: 2327647750716044348, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
       propertyPath: circle
