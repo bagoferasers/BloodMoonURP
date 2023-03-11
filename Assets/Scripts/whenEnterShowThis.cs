@@ -36,13 +36,13 @@ public class whenEnterShowThis : MonoBehaviour
 
     private void OnTriggerEnter2D( Collider2D thisCollider )
     {
-        if( thisCollider.tag == "showMe" || thisCollider.tag == "Player" )
+        if( thisCollider.tag == "Player" )
             FadeMeIn( );
     }
 
     private void OnTriggerExit2D( Collider2D thisCollider )
     {
-        if( thisCollider.tag == "showMe" || thisCollider.tag == "Player" )
+        if( thisCollider.tag == "Player" )
             FadeMeOut( );
     }
 
