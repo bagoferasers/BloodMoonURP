@@ -7,27 +7,27 @@ using UnityEngine.SceneManagement;
 public class whenEnterShowThis : MonoBehaviour
 {
     public string nameOfSceneToChangeTo;
-    public GameObject c;
+    public GameObject circle;
 
     private CanvasGroup canvasGroup;
     private SpriteRenderer spriteRend;
     private Color color;
-    private bool p;
+    private bool pressed;
     private transportScene transportScene;
 
     void Start( )
     {
-        p = false;
-        c.SetActive( false );
+        pressed = false;
+        circle.SetActive( false );
         canvasGroup = GetComponent< CanvasGroup >( );
-        spriteRend = c.GetComponent< SpriteRenderer >( );
+        spriteRend = circle.GetComponent< SpriteRenderer >( );
         color = spriteRend.color;
         transportScene = GameObject.Find( "ScenePortal" ).GetComponent< transportScene >( );
     }    
 
     void Update( )
     {
-        if( c.activeInHierarchy && p )
+        if( circle.activeInHierarchy && pressed )
         {
             Debug.Log( nameOfSceneToChangeTo );
             transportScene.ChangeToScene( nameOfSceneToChangeTo );
@@ -48,23 +48,24 @@ public class whenEnterShowThis : MonoBehaviour
 
     public void isPressed( )
     {
-        p = true;
+        pressed = true;
     }
 
     public void isNotPressed( )
     {
-        p = false;
+        pressed = false;
     }
 
     private void FadeMeIn( )
     {
-        c.SetActive( true );
+        circle.SetActive( true );
         StartCoroutine( fadeIn( ) );
     }
 
     private void FadeMeOut( )
     {
         StartCoroutine( fadeOut( ) );
+        circle.SetActive( false );
     }
 
     IEnumerator fadeIn( )
@@ -87,7 +88,6 @@ public class whenEnterShowThis : MonoBehaviour
             spriteRend.color = color;
             yield return null;
         }
-        c.SetActive( false );
         yield return null;
     }
 }
