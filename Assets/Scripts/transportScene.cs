@@ -33,7 +33,12 @@ public class transportScene : MonoBehaviour
         }
     }
 */
-
+    void Start( )
+    {
+        GameObject[ ] gameObjects = GameObject.FindGameObjectsWithTag( "ScenePortal" );
+        //foreach( GameObject g in gameObjects )
+        //player.transform.position = PlayerPrefs.GetString( "startPosition" );
+    }
     public void ChangeToScene( string sceneToChangeTo )
     {
         if( sceneToChangeTo == "Main" )
@@ -45,7 +50,7 @@ public class transportScene : MonoBehaviour
 
     public IEnumerator ChangeScene( string sceneToChangeTo )
     {
-        //PlayerPrefs.SetString( "startPosition", id );
+        PlayerPrefs.SetString( "startPosition", idConnected );
         yield return new WaitForSeconds( 1 );
         SceneManager.LoadScene( sceneToChangeTo );
     }

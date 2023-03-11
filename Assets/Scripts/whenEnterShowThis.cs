@@ -30,7 +30,9 @@ public class whenEnterShowThis : MonoBehaviour
     void Update( )
     {
         if( circle.activeInHierarchy && pressed )
+        {
             transportScene.ChangeToScene( scene );
+        }
     }    
 
     private void OnTriggerEnter2D( Collider2D thisCollider )

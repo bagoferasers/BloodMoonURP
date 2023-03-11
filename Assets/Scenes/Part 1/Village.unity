@@ -24536,7 +24536,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2245635200093535123, guid: 25e2bccac9a7be64e840c01c68093b3e, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2448393644535284268, guid: 25e2bccac9a7be64e840c01c68093b3e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31810,8 +31810,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToChangeTo: Main
   id: VillageScene
-  idConnected: MainMenu
-  player: {fileID: 1318630669}
+  idConnected: 
+  player: {fileID: 0}
 --- !u!1 &2077521913
 GameObject:
   m_ObjectHideFlags: 0
@@ -37580,7 +37580,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3659337540218107338, guid: c893e9df98b2c2546afbd7b54f604316, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9210881254359565844, guid: c893e9df98b2c2546afbd7b54f604316, type: 3}
       propertyPath: m_Color.a
@@ -37868,6 +37868,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6039771202037024376, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
       propertyPath: m_Name
+      value: ScenePortal
+      objectReference: {fileID: 0}
+    - target: {fileID: 6039771202037024376, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+      propertyPath: m_TagString
       value: ScenePortal
       objectReference: {fileID: 0}
     m_RemovedComponents: []
