@@ -36,9 +36,16 @@ public class transportScene : MonoBehaviour
     void Start( )
     {
         GameObject[ ] gameObjects = GameObject.FindGameObjectsWithTag( "ScenePortal" );
-        //foreach( GameObject g in gameObjects )
-        //player.transform.position = PlayerPrefs.GetString( "startPosition" );
+        foreach( GameObject g in gameObjects )
+        {
+            transportScene ts = g.GetComponent< transportScene >( );
+            if( ts.id == PlayerPrefs.GetString( "startPosition" ) )
+            {
+                player.transform.position = ts.transform.position;
+            }
+        }
     }
+
     public void ChangeToScene( string sceneToChangeTo )
     {
         if( sceneToChangeTo == "Main" )

@@ -31810,8 +31810,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToChangeTo: Main
   id: VillageScene
-  idConnected: 
-  player: {fileID: 0}
+  idConnected: MainMenu
+  player: {fileID: 1318630669}
 --- !u!1 &2077521913
 GameObject:
   m_ObjectHideFlags: 0
@@ -37828,7 +37828,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2172414637409859551, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.43
+      value: 10.41
       objectReference: {fileID: 0}
     - target: {fileID: 2172414637409859551, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
       propertyPath: m_LocalPosition.y
