@@ -35,14 +35,14 @@ public class whenEnterShowThis : MonoBehaviour
     {
         if( circle.activeInHierarchy && pressed )
         {
-            PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
+            //PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
             transportScene.ChangeToScene( scene );
         }
     }    
 
     private void OnTriggerEnter2D( Collider2D thisCollider )
     {
-        PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
+        //PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
         if( thisCollider.tag == "Player" )
             FadeMeIn( );
     }
@@ -65,6 +65,7 @@ public class whenEnterShowThis : MonoBehaviour
 
     private void FadeMeIn( )
     {
+        PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
         circle.SetActive( true );
         StartCoroutine( fadeIn( ) );
     }
