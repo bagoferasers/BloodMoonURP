@@ -902,7 +902,7 @@ PrefabInstance:
       objectReference: {fileID: 1500284502}
     - target: {fileID: 2327647750716044348, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
       propertyPath: scene
-      value: apartmentBathroom
+      value: ApartmentBathroom
       objectReference: {fileID: 0}
     - target: {fileID: 2327647750716044348, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
       propertyPath: circle
@@ -1391,7 +1391,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 912ea70c9629b4ea69e3a5dae7684836, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8355,7 +8355,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1170341142589671848, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
       propertyPath: id
-      value: bathroomOut
+      value: apartmentBathroomOut
       objectReference: {fileID: 0}
     - target: {fileID: 1170341142589671848, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
       propertyPath: player
@@ -8363,11 +8363,11 @@ PrefabInstance:
       objectReference: {fileID: 1318630669}
     - target: {fileID: 1170341142589671848, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
       propertyPath: idConnected
-      value: barthroomIn
+      value: apartmentBarthroomIn
       objectReference: {fileID: 0}
     - target: {fileID: 1170341142589671848, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
       propertyPath: sceneToChangeTo
-      value: apartmentBathroom
+      value: ApartmentBathroom
       objectReference: {fileID: 0}
     - target: {fileID: 2172414637409859551, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
       propertyPath: m_RootOrder
