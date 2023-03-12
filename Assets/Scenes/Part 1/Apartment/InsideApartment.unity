@@ -940,6 +940,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2327647750257890191, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
   m_PrefabInstance: {fileID: 392510685}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &392510688 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2327647750716044348, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
+  m_PrefabInstance: {fileID: 392510685}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c65cd5b90879bc74d812b5be9e34b7ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &397367499
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1331,7 +1342,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 528640746}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.07, y: 0, z: 0}
+  m_LocalPosition: {x: 11.6, y: 0, z: 0}
   m_LocalScale: {x: 3.1199994, y: 3.1199994, z: 1.0399998}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8009,6 +8020,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 392510688}
+          m_TargetAssemblyTypeName: whenEnterShowThis, Assembly-CSharp
+          m_MethodName: isPressed
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 3
     callback:
       m_PersistentCalls:
@@ -8026,6 +8049,18 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 427512892}
+          m_TargetAssemblyTypeName: whenEnterShowThis, Assembly-CSharp
+          m_MethodName: isNotPressed
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 392510688}
           m_TargetAssemblyTypeName: whenEnterShowThis, Assembly-CSharp
           m_MethodName: isNotPressed
           m_Mode: 1
@@ -8806,10 +8841,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.38177085
+    x: 0
     y: 0
-    width: 0.49351853
-    height: 0.4935185
+    width: 1
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
