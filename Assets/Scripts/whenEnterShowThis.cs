@@ -42,6 +42,7 @@ public class whenEnterShowThis : MonoBehaviour
 
     private void OnTriggerEnter2D( Collider2D thisCollider )
     {
+        PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
         if( thisCollider.tag == "Player" )
             FadeMeIn( );
     }

@@ -7458,7 +7458,6 @@ GameObject:
   - component: {fileID: 1318630674}
   - component: {fileID: 1318630676}
   - component: {fileID: 1318630677}
-  - component: {fileID: 1318630678}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -7591,18 +7590,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.028885901}
   m_Size: {x: 0.7619048, y: 1.2006288}
   m_Direction: 0
---- !u!114 &1318630678
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1318630669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fb042ce42f472145a623059aba3e2f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1318630679
 Transform:
   m_ObjectHideFlags: 0
@@ -7769,7 +7756,7 @@ PrefabInstance:
     - target: {fileID: 3312291582102142076, guid: 4b7807c5c47345a4b82698b8bcdd3334, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1318630678}
+      objectReference: {fileID: 0}
     - target: {fileID: 3312291582102142076, guid: 4b7807c5c47345a4b82698b8bcdd3334, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
