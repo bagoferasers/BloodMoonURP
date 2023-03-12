@@ -8,10 +8,9 @@ public class PlayerMovement : MonoBehaviour
 {
     [ Header( "Movement" ) ]
     public float jumpForce;
-    
     public float speed;
     public float increasedSpeed;
-    public float maxSpeedIncreaseDuration;
+    //public float maxSpeedIncreaseDuration;
 
     private float originalSpeed;
     private float timeBetweenTapsLeft;
@@ -51,8 +50,6 @@ public class PlayerMovement : MonoBehaviour
         timeBetweenTapsLeft = 0f;
         timeBetweenTapsRight = 0f;
         originalSpeed = speed;
-        /////////////////////handle player position///////////////////////////////////////////
-        //GameObject.Find( "Player" ).transform.position = position;
     }
 
     void Update( )

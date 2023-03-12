@@ -2,15 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-//using UnityEngine.ScenePortal;
-/*
-public class ScenePortal
-{
-    public string id;
-    public string idConnected;
-    public Transform playerTransform;
-}
-*/
+
 public class transportScene : MonoBehaviour
 {
     public string sceneToChangeTo;
@@ -25,9 +17,7 @@ public class transportScene : MonoBehaviour
         {
             transportScene ts = g.GetComponent< transportScene >( );
             if( ts.id == PlayerPrefs.GetString( "startPosition" ) )
-            {
                 player.transform.position = ts.transform.position;
-            }
         }
     }
 
