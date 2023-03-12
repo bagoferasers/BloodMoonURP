@@ -12,10 +12,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Part 1/Village.unity
     guid: aed9d442a3d469c4e849ae7456c9e37c
   - enabled: 1
-    path: Assets/Scenes/Part 1/ApartmentScene.unity
+    path: Assets/Scenes/Part 1/Apartment/ApartmentScene.unity
     guid: e3be259c45ccb6a47a1abbd53444d576
   - enabled: 1
-    path: Assets/Scenes/Part 1/ApartmentUpstairs.unity
+    path: Assets/Scenes/Part 1/Apartment/ApartmentUpstairs.unity
     guid: 3a83ad574a2d9de41ac8f11328569ba9
   - enabled: 1
     path: Assets/Scenes/Part 1/NineScene.unity
@@ -24,10 +24,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Part 1/SpiritTavernScene.unity
     guid: 7ff3333e40fcf584ba3ec50fdb83b046
   - enabled: 1
-    path: Assets/Scenes/Part 1/InsideApartment.unity
+    path: Assets/Scenes/Part 1/Apartment/InsideApartment.unity
     guid: 464d3a9d75c83af42926c46123e6e734
   - enabled: 1
-    path: Assets/Scenes/Part 1/Bedroom.unity
+    path: Assets/Scenes/Part 1/Apartment/Bedroom.unity
     guid: cc9de22e9b3edb94dbb6179f39dab6ea
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 227c43bc127192d46b97084ad6f2ccce, type: 2}
