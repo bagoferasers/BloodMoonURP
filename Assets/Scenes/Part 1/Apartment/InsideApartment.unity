@@ -8337,7 +8337,7 @@ PrefabInstance:
       objectReference: {fileID: 1318630669}
     - target: {fileID: 1170341142589671848, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
       propertyPath: idConnected
-      value: apartmentBarthroomIn
+      value: apartmentBathroomIn
       objectReference: {fileID: 0}
     - target: {fileID: 1170341142589671848, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
       propertyPath: sceneToChangeTo

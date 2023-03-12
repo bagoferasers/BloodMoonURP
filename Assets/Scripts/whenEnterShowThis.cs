@@ -35,7 +35,7 @@ public class whenEnterShowThis : MonoBehaviour
     {
         if( circle.activeInHierarchy && pressed )
         {
-            //PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
+            PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
             transportScene.ChangeToScene( scene );
         }
     }    
@@ -65,7 +65,7 @@ public class whenEnterShowThis : MonoBehaviour
 
     private void FadeMeIn( )
     {
-        PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
+        //PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
         circle.SetActive( true );
         StartCoroutine( fadeIn( ) );
     }
