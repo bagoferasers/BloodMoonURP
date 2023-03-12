@@ -42,8 +42,7 @@ public class transportScene : MonoBehaviour
 
     public IEnumerator ChangeScene( string sceneToChangeTo )
     {
-        //PlayerPrefs.SetString( "startPosition", idConnected );
-        yield return new WaitForSeconds( 1 );
+        yield return new WaitForSeconds( 2 );
         SceneManager.LoadScene( sceneToChangeTo );
     }
 
@@ -74,7 +73,7 @@ public class transportScene : MonoBehaviour
         CanvasGroup canvasGroup = GameObject.Find( "darkyboi" ).GetComponent< CanvasGroup >( );
         while( canvasGroup.alpha < 1 )
         {
-            canvasGroup.alpha += Time.fixedDeltaTime / 16;
+            canvasGroup.alpha += Time.fixedDeltaTime / 2;
             yield return null;
         }
         canvasGroup.interactable = false;

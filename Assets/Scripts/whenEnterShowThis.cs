@@ -8,8 +8,10 @@ public class whenEnterShowThis : MonoBehaviour
 {
     [ Header( "Scene to change to:" ) ]
     public string scene;
+
     [ Header( "Circle to fade in and out:" ) ]
     public GameObject circle;
+
     [ Header( "Connected ScenePortal:" ) ]
     public GameObject sp;
 
@@ -41,10 +43,7 @@ public class whenEnterShowThis : MonoBehaviour
     private void OnTriggerEnter2D( Collider2D thisCollider )
     {
         if( thisCollider.tag == "Player" )
-        {
-            //PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
             FadeMeIn( );
-        }
     }
 
     private void OnTriggerExit2D( Collider2D thisCollider )
