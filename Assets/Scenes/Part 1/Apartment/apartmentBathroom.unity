@@ -6058,6 +6058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ScenePortal
       objectReference: {fileID: 0}
+    - target: {fileID: 6039771202037024376, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
+      propertyPath: m_TagString
+      value: ScenePortal
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
 --- !u!4 &531874396 stripped
@@ -8053,10 +8057,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
+    x: 0.38177085
     y: 0
-    width: 1
-    height: 1
+    width: 0.49351853
+    height: 0.4935185
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
