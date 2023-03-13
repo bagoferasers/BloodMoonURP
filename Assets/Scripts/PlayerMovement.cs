@@ -25,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
     private GameObject rightButton;
     private GameObject upButton;
     private GameObject attackButton;
+    private Button oButton;
     private Animator animator;
 
     ///////////////////////handle player position/////////////////////////////
@@ -189,6 +190,7 @@ public class PlayerMovement : MonoBehaviour
         Button l = pauseButton.GetComponent<Button>( );
         Button r = pauseButton.GetComponent<Button>( );
         Button u = pauseButton.GetComponent<Button>( );
+        oButton = GameObject.Find( "oButton" ).GetComponent< Button >( );
 
         // show menu
         m.alpha = 1;
@@ -198,6 +200,7 @@ public class PlayerMovement : MonoBehaviour
         l.interactable = false;
         r.interactable = false;
         u.interactable = false;
+        oButton.interactable = false;
     }
 
     public void onExitPause( )
@@ -208,6 +211,7 @@ public class PlayerMovement : MonoBehaviour
         Button l = pauseButton.GetComponent<Button>( );
         Button r = pauseButton.GetComponent<Button>( );
         Button u = pauseButton.GetComponent<Button>( );
+        oButton = GameObject.Find( "oButton" ).GetComponent< Button >( );
 
         // hide menu
         FadePauseMenu( );
@@ -218,6 +222,7 @@ public class PlayerMovement : MonoBehaviour
         r.interactable = true;
         u.interactable = true;
         m.interactable = true;
+        oButton.interactable = true;
         arePaused = false;
     }
 

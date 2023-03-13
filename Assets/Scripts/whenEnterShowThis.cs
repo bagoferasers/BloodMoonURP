@@ -33,7 +33,7 @@ public class whenEnterShowThis : MonoBehaviour
 
     void Update( )
     {
-        if( circle.activeInHierarchy && pressed )
+        if( circle.activeInHierarchy && pressed && GameObject.Find( "oButton" ).GetComponent< Button >( ).interactable == true )
         {
             PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
             transportScene.ChangeToScene( scene );
@@ -42,7 +42,6 @@ public class whenEnterShowThis : MonoBehaviour
 
     private void OnTriggerEnter2D( Collider2D thisCollider )
     {
-        //PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
         if( thisCollider.tag == "Player" )
             FadeMeIn( );
     }
@@ -65,7 +64,6 @@ public class whenEnterShowThis : MonoBehaviour
 
     private void FadeMeIn( )
     {
-        //PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
         circle.SetActive( true );
         StartCoroutine( fadeIn( ) );
     }
