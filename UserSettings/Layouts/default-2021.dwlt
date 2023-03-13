@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1512
     height: 945
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 23
+  controlID: 56
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 305.5
     height: 895
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 24
+  controlID: 57
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 25
+  controlID: 58
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -268,8 +268,8 @@ MonoBehaviour:
     y: 0
     width: 963
     height: 628.5
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 20}
@@ -1782,10 +1782,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_ShowAlpha: 0
   m_MipLevel: 0
-  m_Zoom: 0.33222654
+  m_Zoom: -1
   m_ScrollPosition: {x: 0, y: 0}
   m_SelectedObject: {fileID: 0}
-  m_SelectedSpriteRectGUID: 5e97eb03825dee720800000000000000
+  m_SelectedSpriteRectGUID: 6a2a853591f82c049a728480b0d6312b
   m_LastUsedModuleTypeName: UnityEditor.U2D.Sprites.SpritePhysicsShapeModule
 --- !u!114 &15
 MonoBehaviour:
@@ -1818,7 +1818,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 206638
+  m_LastSelectedObjectID: 29002
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -2045,22 +2045,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/Part 1
+    - Assets/Scenes/Part 1/Apartment
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes/Part 1
+  - Assets/Scenes/Part 1/Apartment
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/bagoferasers/Documents/GitHub/BloodMoonURP
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 105.00159}
-    m_SelectedIDs: 02f70000
-    m_LastClickedID: 63234
-    m_ExpandedIDs: 00000000acf60000b8f60000bef6000002f70000de0b010000ca9a3bffffff7f
+    m_SelectedIDs: 407d0000
+    m_LastClickedID: 32064
+    m_ExpandedIDs: 00000000ca7c0000f27c00003e7d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2088,7 +2088,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000ca7c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2220,7 +2220,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: e647fdff6448fdff7a4bfdffe24bfdff864cfdffd04cfdff1a4dfdffa04dfdff264efdff1a52fdffe253fdff0258fdff6858fdffce58fdff7059fdffb859fdff005afdff845afdff085bfdfffa5efdffb860fdfffc6cfdff586dfdff946efdff9270fdff7671fdff1273fdff7c74fdffd875fdff3c77fdffaa78fdffe078fdff1c7afdffa67bfdffc67cfdff4a7efdff907ffdff4481fdff249ffdffb6a7fdffcaaefdffc8affdff60b2fdff94b4fdff86d0fdff54d4fdff86d5fdffcad6fdff2ed8fdff66d9fdff74dafdffd6dffdff02e1fdff4ae2fdff7ae5fdff5ef0fdfff2f5fdff18fbfdff20fbfdff600bfeff960dfeffa80ffeff8211feff9613feff0c16feffb817feff9a18feff2e1bfeffa825fefffe25feff1626feff9629feff9e29feffac38feff6c3afeff8e3dfeff683ffeff6840feff6448feff144ffeff1c4ffeff1051feff5053feff9057feff345afeff405bfeff6a5cfeff8c5dfeff985efeff3862feff5062feff3a63feffbe6ffeff407afeff9c7cfefff87dfeff167efeffbc97fefff897feffe29afefff09bfeff1a9dfeffc4a8feffd0d0feff22d1feff88d2feffaad3feffd4d4fefffed5feff1adbfeffc0dbfeffecdefeff72dffeffbcdffeff06e0feff8ce0feff12e1feff06e5feffcee6feffeeeafeff6aebfeffeeebfeff36ecfeff7eecfeff02edfeff86edfeff78f1feff36f3feff70f8feff16f9feff42fcfeffc8fcfeff12fdfeff5cfdfeffe2fdfeff68fefeff5c02ffff2404ffff4408ffffc008ffff4409ffff8c09ffffd409ffff580affffdc0affffce0effff8c10ffffc617ffff4218ffffc618ffff0e19ffff5619ffffda19ffff5e1affff501effff0e20fffff825ffff7826ffffa629ffff2e2affff7a2affffc62affff4e2bffffd62bffffcc2fffff9631ffffbc35ffff3a36ffffc036ffff0a37ffff5437ffffda37ffff6038ffff543cffff143effff587cffff7c8cffff1c8effff0c1f010082200100a4200100d22101006023010064230100da2301007cfe010090fe0100a4fe0100d8fe0100fcfe01002eff01005cff010062ff0100361802004418020058180200e21802000a190200101902000a2002001e200200ae200200dc2002000c210200542102007c210200b021020006220200162202002e22020034220200fa2c0200142d0200282d0200b82d0200e62d0200be4c0200ee4c02000e4d02003c4d0200764d0200e24d0200004e0200425602008c560200b4560200e85602003e5702004e570200665702006c5702000e5902002e5902005c590200205a0200045c0200265c0200ae5c0200d65c0200dc5c0200fa6202001a630200486302000c640200047302008c730200b4730200ba7302000c7402002c7402005a7402001e750200f88802003a8902005c89020090890200e4890200f48902000c8a0200128a0200768b0200a88b0200c88b0200e28b0200f68b0200308c02008c8c02009c8c0200ba8c0200c08c02008696020036970200f89a0200849b0200489c02003a9e0200ec9e0200e0a00200a2a102002ca20200d6a2020088a4020032a502008cab020026c502007ec50200acc50200d4c50200dac5020084c70200a4c70200d2c7020094c8020082d50200c8d50200e6d502001ad602006cd602007cd6020094d602009ad6020082dc0200ccdc02008ede0200c2de020036df0200e6e002001ae102008ee10200dee50200e6e70200b6e80200eae8020064e9020022ea0200a4ea020030eb020064eb0200f2eb020004ee020086ee02001cef020050ef0200ccef0200bef10200f8f1020080f20200f41903007a1a0300a21a0300a81a0300f81a0300181b0300461b0300da1b0300081c03000e1c0300261f0300481f0300ce1f0300f61f0300fc1f030088260300a8260300c2260300d62603006a270300982703009e270300582b03007a2b0300ac2b0300ba2c0300be3a0300e03a0300663b03008e3b0300943b0300b83e03004e3f0300783f0300803f03003c410300c4410300fe41030004420300be430300e0430300664403008e44030094440300e4440300044503001e45030032450300c6450300f4450300fa450300664603007a460300104703003a47030042470300c44703004c480300864803008c480300f848030020490300a8490300d0490300d6490300704b0300904b0300aa4b0300be4b0300524c0300804c0300864c03009e4f0300dc520300
+      m_ExpandedIDs: 8e75ffff0c76ffff2679ffff9279ffff3a7affff887affffd67affff607bffffea7bffffe27fffffae81ffffd885ffff4286ffffac86ffff5287ffff9e87ffffea87ffff7288fffffa88fffff08cffffb28effff1cf9ffff7c70000042730000d47400004a750000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

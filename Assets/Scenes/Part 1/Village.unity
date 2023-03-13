@@ -15968,7 +15968,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3752349752111216142, guid: 8eadad2b1f6f4cc4897ffc7ab66ca0a1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: character, Assembly-CSharp
+      value: PlayerMovement, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3752349752111216142, guid: 8eadad2b1f6f4cc4897ffc7ab66ca0a1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -20353,7 +20353,6 @@ MonoBehaviour:
   jumpForce: 300
   speed: 150
   increasedSpeed: 300
-  maxSpeedIncreaseDuration: 200
 --- !u!95 &1318630676
 Animator:
   serializedVersion: 5
@@ -20374,6 +20373,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!70 &1318630677
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
