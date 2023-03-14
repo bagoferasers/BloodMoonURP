@@ -9,9 +9,11 @@ public class transportScene : MonoBehaviour
     public string id;
     public string idConnected;
     public GameObject player;
+    private CanvasGroup canvasGroup;
 
     void Start( )
     {
+        canvasGroup = GameObject.Find( "darkyboi" ).GetComponent< CanvasGroup >( );
         GameObject[ ] gameObjects = GameObject.FindGameObjectsWithTag( "ScenePortal" );
         foreach( GameObject g in gameObjects )
         {
@@ -30,6 +32,8 @@ public class transportScene : MonoBehaviour
     public void ChangeSceneFromMain( )
     {
         FadeThisOnePlease( );
+        if( PlayerPrefs.GetString( "SceneStart" ) == "Main" )
+            PlayerPrefs.SetString( "SceneStart", "Village" );
         StartCoroutine( ChangeScene( PlayerPrefs.GetString( "SceneStart" ) ) );
     }
 
@@ -46,10 +50,9 @@ public class transportScene : MonoBehaviour
 
     IEnumerator FadeOut( )
     {
-        CanvasGroup canvasGroup = GameObject.Find( "darkyboi" ).GetComponent< CanvasGroup >( );
         while( canvasGroup.alpha < 1 )
         {
-            canvasGroup.alpha += Time.fixedDeltaTime / 2;
+            canvasGroup.alpha += Time.deltaTime / 2;
             yield return null;
         }
         canvasGroup.interactable = false;

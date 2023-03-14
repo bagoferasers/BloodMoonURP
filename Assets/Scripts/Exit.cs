@@ -5,32 +5,56 @@ using UnityEngine;
 
 public class Exit : MonoBehaviour
 {
+    private CanvasGroup canvasGroup;
+
+    void Start( )
+    {
+        canvasGroup = GameObject.Find( "darkyboi" ).GetComponent< CanvasGroup >( );
+    }
+
     public void exitGame( )
     {
-        Debug.Log( SceneManager.GetActiveScene( ).name );
         PlayerPrefs.SetString( "SceneStart", SceneManager.GetActiveScene( ).name );
-        PlayerPrefs.Save();
+        PlayerPrefs.Save( );
+        FadeThisOnePlease( );
         StartCoroutine( goodbye( ) );
     }
     
     public IEnumerator goodbye( )
     {
         yield return new WaitForSeconds( 2 );
+        Debug.Log( "Exiting Game" );
         Application.Quit( );
     }
 
-    private void OnApplicationPause(bool pauseStatus)
+    private void OnApplicationPause(bool pause)
     {
-        if (pauseStatus)
+        if ( pause )
         {
             PlayerPrefs.SetString( "SceneStart", SceneManager.GetActiveScene( ).name );
-            PlayerPrefs.Save();
+            PlayerPrefs.Save( );
         }
     }
 
     private void OnApplicationQuit()
     {
         PlayerPrefs.SetString( "SceneStart", SceneManager.GetActiveScene( ).name );
-        PlayerPrefs.Save();
+        PlayerPrefs.Save( );
+    }
+
+    public void FadeThisOnePlease( )
+    {
+        StartCoroutine( FadeOut( ) );
+    }
+
+    IEnumerator FadeOut( )
+    {
+        while( canvasGroup.alpha < 1 )
+        {
+            canvasGroup.alpha += Time.deltaTime / 2;
+            yield return null;
+        }
+        canvasGroup.interactable = false;
+        yield return null;
     }
 }
