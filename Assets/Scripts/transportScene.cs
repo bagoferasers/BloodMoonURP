@@ -2,79 +2,57 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-//using UnityEngine.ScenePortal;
-/*
-public class ScenePortal
-{
-    public string id;
-    public string idConnected;
-    public Transform playerTransform;
-}
-*/
+
 public class transportScene : MonoBehaviour
 {
     public string sceneToChangeTo;
     public string id;
     public string idConnected;
     public GameObject player;
+    private CanvasGroup canvasGroup;
 
     void Start( )
     {
+        canvasGroup = GameObject.Find( "darkyboi" ).GetComponent< CanvasGroup >( );
         GameObject[ ] gameObjects = GameObject.FindGameObjectsWithTag( "ScenePortal" );
         foreach( GameObject g in gameObjects )
         {
             transportScene ts = g.GetComponent< transportScene >( );
             if( ts.id == PlayerPrefs.GetString( "startPosition" ) )
-            {
                 player.transform.position = ts.transform.position;
-            }
         }
     }
 
     public void ChangeToScene( string sceneToChangeTo )
     {
-        if( sceneToChangeTo == "Main" )
-            FadeMainOut( );
-        else    
-            FadePortalOut( );
+        FadeThisOnePlease( );
         StartCoroutine( ChangeScene( sceneToChangeTo ) );
+    }
+
+    public void ChangeSceneFromMain( )
+    {
+        FadeThisOnePlease( );
+        if( PlayerPrefs.GetString( "SceneStart" ) == "Main" )
+            PlayerPrefs.SetString( "SceneStart", "Village" );
+        StartCoroutine( ChangeScene( PlayerPrefs.GetString( "SceneStart" ) ) );
     }
 
     public IEnumerator ChangeScene( string sceneToChangeTo )
     {
-        //PlayerPrefs.SetString( "startPosition", idConnected );
-        yield return new WaitForSeconds( 1 );
+        yield return new WaitForSeconds( 2 );
         SceneManager.LoadScene( sceneToChangeTo );
     }
 
-    public void FadeMainOut( )
+    public void FadeThisOnePlease( )
     {
-        StartCoroutine( FadeOutMain( ) );
+        StartCoroutine( FadeOut( ) );
     }
 
-    IEnumerator FadeOutMain( )
+    IEnumerator FadeOut( )
     {
-        CanvasGroup canvasGroup = GameObject.Find( "darkyboi" ).GetComponent< CanvasGroup >( );
         while( canvasGroup.alpha < 1 )
         {
-            canvasGroup.alpha += Time.fixedDeltaTime / 2;
-            yield return null;
-        }
-        canvasGroup.interactable = false;
-        yield return null;
-    }
-
-    public void FadePortalOut( )
-    {
-        StartCoroutine( FadeOutPortal( ) );
-    }
-
-    IEnumerator FadeOutPortal( )
-    {
-        CanvasGroup canvasGroup = GameObject.Find( "darkyboi" ).GetComponent< CanvasGroup >( );
-        while( canvasGroup.alpha < 1 )
-        {
-            canvasGroup.alpha += Time.fixedDeltaTime / 16;
+            canvasGroup.alpha += Time.deltaTime / 2;
             yield return null;
         }
         canvasGroup.interactable = false;

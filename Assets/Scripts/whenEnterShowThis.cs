@@ -8,8 +8,10 @@ public class whenEnterShowThis : MonoBehaviour
 {
     [ Header( "Scene to change to:" ) ]
     public string scene;
+
     [ Header( "Circle to fade in and out:" ) ]
     public GameObject circle;
+
     [ Header( "Connected ScenePortal:" ) ]
     public GameObject sp;
 
@@ -31,9 +33,10 @@ public class whenEnterShowThis : MonoBehaviour
 
     void Update( )
     {
-        if( circle.activeInHierarchy && pressed )
+        if( circle.activeInHierarchy && pressed && GameObject.Find( "oButton" ).GetComponent< Button >( ).interactable == true )
         {
             PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
+            PlayerPrefs.Save();
             transportScene.ChangeToScene( scene );
         }
     }    
@@ -41,10 +44,7 @@ public class whenEnterShowThis : MonoBehaviour
     private void OnTriggerEnter2D( Collider2D thisCollider )
     {
         if( thisCollider.tag == "Player" )
-        {
-            //PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
             FadeMeIn( );
-        }
     }
 
     private void OnTriggerExit2D( Collider2D thisCollider )
@@ -82,7 +82,7 @@ public class whenEnterShowThis : MonoBehaviour
             color.a = canvasGroup.alpha;
             spriteRend.color = color;
             yield return null;
-        }        
+        }         
     }
 
     IEnumerator fadeOut( )

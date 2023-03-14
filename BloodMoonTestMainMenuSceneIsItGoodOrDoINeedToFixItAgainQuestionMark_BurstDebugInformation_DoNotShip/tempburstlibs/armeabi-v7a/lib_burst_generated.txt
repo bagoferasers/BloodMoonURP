@@ -1,4 +1,4 @@
-Library: D:\UNITY\BMPrototype2DURP\BloodMoonURP\Temp\StagingArea\tempburstlibs\armeabi-v7a\lib_burst_generated
+Library: /Users/bagoferasers/Documents/GitHub/BloodMoonURP/Temp/StagingArea/tempburstlibs/armeabi-v7a/lib_burst_generated
 --platform=Android
 --backend=burst-llvm-14
 --target=ARMV7A_NEON32
@@ -6,7 +6,7 @@ Library: D:\UNITY\BMPrototype2DURP\BloodMoonURP\Temp\StagingArea\tempburstlibs\a
 --meta-data-generation=False
 --dump=Function
 --float-precision=Standard
---compilation-defines=UNITY_2021_3_19
+--compilation-defines=UNITY_2021_3_20
 --compilation-defines=UNITY_2021_3
 --compilation-defines=UNITY_2021
 --compilation-defines=UNITY_5_3_OR_NEWER
@@ -143,9 +143,9 @@ Library: D:\UNITY\BMPrototype2DURP\BloodMoonURP\Temp\StagingArea\tempburstlibs\a
 --compilation-defines=ENABLE_SPRITESHAPE_BURST
 --compilation-defines=TIMELINE_FRAMEACCURATE
 --compilation-defines=ENABLE_URP
---generate-link-xml=Temp\burst.link.xml
---temp-folder=D:\UNITY\BMPrototype2DURP\BloodMoonURP\Temp\Burst
---output=D:\UNITY\BMPrototype2DURP\BloodMoonURP\Temp\StagingArea\tempburstlibs\armeabi-v7a\lib_burst_generated
+--generate-link-xml=Temp/burst.link.xml
+--temp-folder=/Users/bagoferasers/Documents/GitHub/BloodMoonURP/Temp/Burst
+--output=/Users/bagoferasers/Documents/GitHub/BloodMoonURP/Temp/StagingArea/tempburstlibs/armeabi-v7a/lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 --pdb-search-paths=Temp/ManagedSymbols/
 

@@ -8,25 +8,18 @@ public class PlayerMovement : MonoBehaviour
 {
     [ Header( "Movement" ) ]
     public float jumpForce;
-    
     public float speed;
     public float increasedSpeed;
-    public float maxSpeedIncreaseDuration;
+    //public float maxSpeedIncreaseDuration;
 
-    private float originalSpeed;
-    private float timeBetweenTapsLeft;
-    private float timeBetweenTapsRight;
-    private int buttonPressedLeft;
-    private int buttonPressedRight;
+    private float originalSpeed, timeBetweenTapsLeft, timeBetweenTapsRight;
+    private int buttonPressedLeft, buttonPressedRight;
     private Rigidbody2D rb2d;
     private bool moveLeft, moveRight, goJump, arePaused;
-    private GameObject menu;
-    private GameObject pauseButton;
-    private GameObject leftButton;
-    private GameObject rightButton;
-    private GameObject upButton;
-    private GameObject attackButton;
+    private Button pauseButton, leftButton, rightButton, upButton, attackButton, oButton;
     private Animator animator;
+    CanvasGroup m;
+
 
     ///////////////////////handle player position/////////////////////////////
     public static Vector3 position;
@@ -39,20 +32,20 @@ public class PlayerMovement : MonoBehaviour
         moveRight = false;
         goJump = false;
         arePaused = false;
-        menu = GameObject.Find( "Template" );
-        pauseButton = GameObject.Find( "PauseBlackButton" );
-        leftButton = GameObject.Find( "LeftBlackButton" );
-        rightButton = GameObject.Find( "RightBlackButton" );
-        upButton = GameObject.Find( "UpBlackButton" );
-        attackButton = GameObject.Find( "Attack" );
         animator = GetComponent< Animator >( );
         buttonPressedLeft = 0;
         buttonPressedRight = 0;
         timeBetweenTapsLeft = 0f;
         timeBetweenTapsRight = 0f;
         originalSpeed = speed;
-        /////////////////////handle player position///////////////////////////////////////////
-        //GameObject.Find( "Player" ).transform.position = position;
+        oButton = GameObject.Find( "oButton" ).GetComponent< Button >( );
+        pauseButton = GameObject.Find( "PauseBlackButton" ).GetComponent< Button >( );
+        leftButton = GameObject.Find( "LeftBlackButton" ).GetComponent< Button >( );
+        rightButton = GameObject.Find( "RightBlackButton" ).GetComponent< Button >( );
+        upButton = GameObject.Find( "UpBlackButton" ).GetComponent< Button >( );
+        attackButton = GameObject.Find( "Attack" ).GetComponent< Button >( );
+        m = GameObject.Find( "Template" ).GetComponent< CanvasGroup >( );
+
     }
 
     void Update( )
@@ -185,42 +178,31 @@ public class PlayerMovement : MonoBehaviour
     public void onPause( )
     {
         arePaused = true;
-        
-        // get canvas group from menu and button objects
-        CanvasGroup m = menu.GetComponent< CanvasGroup >( );
-        Button p = pauseButton.GetComponent<Button>( );
-        Button l = pauseButton.GetComponent<Button>( );
-        Button r = pauseButton.GetComponent<Button>( );
-        Button u = pauseButton.GetComponent<Button>( );
 
         // show menu
         m.alpha = 1;
 
         // can't interact with game buttons while paused
-        p.interactable = false;
-        l.interactable = false;
-        r.interactable = false;
-        u.interactable = false;
+        pauseButton.interactable = false;
+        leftButton.interactable = false;
+        rightButton.interactable = false;
+        upButton.interactable = false;
+        oButton.interactable = false;
+        attackButton.interactable = false;
     }
 
     public void onExitPause( )
     {
-        // get canvas group from menu and button objects
-        CanvasGroup m = menu.GetComponent< CanvasGroup >( );
-        Button p = pauseButton.GetComponent<Button>( );
-        Button l = pauseButton.GetComponent<Button>( );
-        Button r = pauseButton.GetComponent<Button>( );
-        Button u = pauseButton.GetComponent<Button>( );
-
         // hide menu
         FadePauseMenu( );
 
         // now interact with buttons
-        p.interactable = true;
-        l.interactable = true;
-        r.interactable = true;
-        u.interactable = true;
-        m.interactable = true;
+        pauseButton.interactable = true;
+        leftButton.interactable = true;
+        rightButton.interactable = true;
+        upButton.interactable = true;
+        oButton.interactable = true;
+        attackButton.interactable = true;
         arePaused = false;
     }
 
