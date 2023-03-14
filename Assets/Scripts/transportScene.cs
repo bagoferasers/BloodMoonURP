@@ -27,6 +27,12 @@ public class transportScene : MonoBehaviour
         StartCoroutine( ChangeScene( sceneToChangeTo ) );
     }
 
+    public void ChangeSceneFromMain( )
+    {
+        FadeThisOnePlease( );
+        StartCoroutine( ChangeScene( PlayerPrefs.GetString( "SceneStart" ) ) );
+    }
+
     public IEnumerator ChangeScene( string sceneToChangeTo )
     {
         yield return new WaitForSeconds( 2 );

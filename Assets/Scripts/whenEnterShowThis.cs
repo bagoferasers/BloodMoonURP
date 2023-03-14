@@ -81,7 +81,7 @@ public class whenEnterShowThis : MonoBehaviour
             color.a = canvasGroup.alpha;
             spriteRend.color = color;
             yield return null;
-        }        
+        }         
     }
 
     IEnumerator fadeOut( )
