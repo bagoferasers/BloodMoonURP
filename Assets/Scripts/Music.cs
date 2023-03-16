@@ -18,11 +18,11 @@ public class Music : MonoBehaviour
     // start game with player prefs volumes?
     void Start( )
     {
-        DontDestroyOnLoad( gameObject );
-        mixer.SetFloat( "MusicVolume", PlayerPrefs.GetFloat( "MusicVolume" ) );
-        mixer.SetFloat( "SystemVolume", PlayerPrefs.GetFloat( "SystemVolume" ) );
-        mixer.SetFloat( "MasterVolume", PlayerPrefs.GetFloat( "MasterVolume" ) );
-        mixer.SetFloat( "EffectsVolume", PlayerPrefs.GetFloat( "EffectsVolume" ) );
+        //DontDestroyOnLoad( gameObject );
+        //mixer.SetFloat( "MusicVolume", PlayerPrefs.GetFloat( "MusicVolume" ) );
+        //mixer.SetFloat( "SystemVolume", PlayerPrefs.GetFloat( "SystemVolume" ) );
+        //mixer.SetFloat( "MasterVolume", PlayerPrefs.GetFloat( "MasterVolume" ) );
+        //mixer.SetFloat( "EffectsVolume", PlayerPrefs.GetFloat( "EffectsVolume" ) );
         masterSlider.value = PlayerPrefs.GetFloat( "MasterVolume" );
         systemSlider.value = PlayerPrefs.GetFloat( "SystemVolume" );
         musicSlider.value = PlayerPrefs.GetFloat( "MusicVolume" );
