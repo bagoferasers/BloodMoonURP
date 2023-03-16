@@ -12,6 +12,12 @@ public class PlayerMovement : MonoBehaviour
     public float increasedSpeed;
     //public float maxSpeedIncreaseDuration;
 
+    [ Header( "Walk Audio: " ) ]
+    public AudioSource walk;
+
+    [ Header( "Run Audio: " ) ]
+    public AudioSource run;
+
     private float originalSpeed, timeBetweenTapsLeft, timeBetweenTapsRight;
     private int buttonPressedLeft, buttonPressedRight;
     private Rigidbody2D rb2d;
@@ -19,6 +25,8 @@ public class PlayerMovement : MonoBehaviour
     private Button pauseButton, leftButton, rightButton, upButton, attackButton, oButton;
     private Animator animator;
     CanvasGroup m;
+    private bool runBool;
+    private bool walkBool;
 
 
     ///////////////////////handle player position/////////////////////////////
@@ -27,6 +35,8 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start( )
     {
+        runBool = false;
+        walkBool = false;
         rb2d = GetComponent<Rigidbody2D>( );
         moveLeft = false;
         moveRight = false;
@@ -54,6 +64,21 @@ public class PlayerMovement : MonoBehaviour
         // handle double tap movement to start running... need to find a way to integrate this with
         // a new character animation
 
+        if( walkBool && !walk.isPlaying )
+        {
+            run.Stop( );
+            walk.Play( );
+        }
+        else if( runBool && !run.isPlaying )
+        {
+            walk.Stop( );
+            run.Play( );
+        }
+        else if( !walkBool && !runBool )
+        {
+            walk.Stop( );
+            run.Stop( );
+        }
         // double tap for left
         if( !arePaused && ( moveLeft ) )
         {
@@ -105,18 +130,40 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool( "right", true );
             animator.SetBool( "left", false ); 
+            if( speed == originalSpeed )
+            {
+                walkBool = true;
+                runBool = false;
+            }
+            else if( speed == increasedSpeed )
+            {
+                runBool = true;
+                walkBool = false;
+            }
             rb2d.velocity = new Vector2( 1 * speed * Time.deltaTime, rb2d.velocity.y);
         }
         else if( !arePaused && moveLeft )
         {
             animator.SetBool( "left", true );
             animator.SetBool( "right", false );
+            if( speed == originalSpeed )
+            {
+                walkBool = true;
+                runBool = false;
+            }
+            else if( speed == increasedSpeed )
+            {
+                runBool = true;
+                walkBool = false;
+            }
             rb2d.velocity = new Vector2( -1 * speed * Time.deltaTime, rb2d.velocity.y);
         }
         else
         {
             animator.SetBool( "left", false ); 
             animator.SetBool( "right", false ); 
+            walkBool = false;
+            runBool = false;
         }
 
         if( !arePaused && goJump )
