@@ -9,6 +9,12 @@ public class Music : MonoBehaviour
     [ Header( "Put mixer here:" ) ]
     public AudioMixer mixer;
 
+    [ Header( "Put sliders here:" ) ]
+    public Slider masterSlider;
+    public Slider systemSlider;
+    public Slider musicSlider;
+    public Slider effectsSlider;
+
     // start game with player prefs volumes?
     void Start( )
     {
@@ -17,6 +23,10 @@ public class Music : MonoBehaviour
         mixer.SetFloat( "SystemVolume", PlayerPrefs.GetFloat( "SystemVolume" ) );
         mixer.SetFloat( "MasterVolume", PlayerPrefs.GetFloat( "MasterVolume" ) );
         mixer.SetFloat( "EffectsVolume", PlayerPrefs.GetFloat( "EffectsVolume" ) );
+        masterSlider.value = PlayerPrefs.GetFloat( "MasterVolume" );
+        systemSlider.value = PlayerPrefs.GetFloat( "SystemVolume" );
+        musicSlider.value = PlayerPrefs.GetFloat( "MusicVolume" );
+        effectsSlider.value = PlayerPrefs.GetFloat( "EffectsVolume" );
     }
 
     public void setMusicVolume( float musicVolume )
