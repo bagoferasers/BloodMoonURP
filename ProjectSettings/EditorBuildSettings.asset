@@ -9,29 +9,32 @@ EditorBuildSettings:
     path: Assets/Scenes/Main.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Part 1/Village.unity
+    path: Assets/Scenes/Part 1/Village/Village.unity
     guid: aed9d442a3d469c4e849ae7456c9e37c
   - enabled: 1
-    path: Assets/Scenes/Part 1/Apartment/ApartmentScene.unity
+    path: Assets/Scenes/Part 1/Village/Apartment/ApartmentScene.unity
     guid: e3be259c45ccb6a47a1abbd53444d576
   - enabled: 1
-    path: Assets/Scenes/Part 1/Apartment/ApartmentUpstairs.unity
+    path: Assets/Scenes/Part 1/Village/Apartment/ApartmentUpstairs.unity
     guid: 3a83ad574a2d9de41ac8f11328569ba9
   - enabled: 1
-    path: Assets/Scenes/Part 1/NineLivesBookstore/NineScene.unity
+    path: Assets/Scenes/Part 1/Village/NineLivesBookstore/NineScene.unity
     guid: 2653fc26b76a5a34aa4240359fd7b18f
   - enabled: 1
-    path: Assets/Scenes/Part 1/SpiritTavernScene.unity
+    path: Assets/Scenes/Part 1/Village/SpiritTavern/SpiritTavernScene.unity
     guid: 7ff3333e40fcf584ba3ec50fdb83b046
   - enabled: 1
-    path: Assets/Scenes/Part 1/Apartment/InsideApartment.unity
+    path: Assets/Scenes/Part 1/Village/Apartment/InsideApartment.unity
     guid: 464d3a9d75c83af42926c46123e6e734
   - enabled: 1
-    path: Assets/Scenes/Part 1/Apartment/Bedroom.unity
+    path: Assets/Scenes/Part 1/Village/Apartment/Bedroom.unity
     guid: cc9de22e9b3edb94dbb6179f39dab6ea
   - enabled: 1
-    path: Assets/Scenes/Part 1/Apartment/apartmentBathroom.unity
+    path: Assets/Scenes/Part 1/Village/Apartment/apartmentBathroom.unity
     guid: 5d5b15c7483244b278acabb5a3ef8086
+  - enabled: 1
+    path: Assets/Scenes/Part 1/Village/NineLivesBookstore/speakEasy.unity
+    guid: 07c8c214f100f46e282d287ba28130b8
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 227c43bc127192d46b97084ad6f2ccce, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 8a3ebfc17c1fee74ba25aa34b19e1add, type: 2}
