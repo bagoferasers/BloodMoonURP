@@ -171,9 +171,11 @@ public class PlayerMovement : MonoBehaviour
         if( !arePaused && goJump )
         {
             if( rb2d.velocity.y == 0 )
+            {
                 rb2d.AddForce( Vector3.up * jumpForce * Time.deltaTime, ForceMode2D.Impulse );
+                music.isJumping = true;
+            }
             goJump = false;
-            music.isJumping = true;
         }                
     }
 
@@ -202,11 +204,17 @@ public class PlayerMovement : MonoBehaviour
     public void attack( )
     {
         animator.SetBool( "attack", true );
+        AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo( 0 );
+        if( state.IsName( "CharacterLeftAttackAnimation" ) || state.IsName( "CharacterRightAttackAnimation" )
+            || state.IsName( "CharacterLeftAnimation" ) || state.IsName( "CharacterRightAnimation" )
+            || state.IsName( "CharacterIdleLeft" ) || state.IsName( "CharacterIdleRight" ) )
+            music.isPunching = true;
     }
 
     public void noAttack( )
     {
         animator.SetBool( "attack", false );
+        music.isPunching = false;
     }
 
     public void jump( )
