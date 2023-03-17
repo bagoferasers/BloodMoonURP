@@ -239,6 +239,7 @@ public class PlayerMovement : MonoBehaviour
 
         // show menu
         m.alpha = 1;
+        m.interactable = true;
 
         // can't interact with game buttons while paused
         pauseButton.interactable = false;
@@ -262,6 +263,7 @@ public class PlayerMovement : MonoBehaviour
         oButton.interactable = true;
         attackButton.interactable = true;
         arePaused = false;
+        m.interactable = false;
     }
 
     public void FadePauseMenu( )
