@@ -15,6 +15,9 @@ public class whenEnterShowThis : MonoBehaviour
     [ Header( "Connected ScenePortal:" ) ]
     public GameObject sp;
 
+    [ Header( "Audio: " ) ]
+    public AudioSource audio;
+
     private CanvasGroup canvasGroup;
     private SpriteRenderer spriteRend;
     private Color color;
@@ -56,6 +59,13 @@ public class whenEnterShowThis : MonoBehaviour
     public void isPressed( )
     {
         pressed = true;
+        if( circle.activeInHierarchy )
+            audio.Play( );    
+    }
+
+    IEnumerator waitThisLong( )
+    {
+        yield return new WaitForSeconds( 2 );
     }
 
     public void isNotPressed( )

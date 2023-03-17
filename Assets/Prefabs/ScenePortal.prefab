@@ -45,9 +45,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0ec618b46092e748a0c25d42ec13564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToGoTo: ApartmentScene
+  sceneToChangeTo: 
   id: apartmentOut
   idConnected: apartmentIn
+  player: {fileID: 0}
 --- !u!61 &3980522187978390624
 BoxCollider2D:
   m_ObjectHideFlags: 0

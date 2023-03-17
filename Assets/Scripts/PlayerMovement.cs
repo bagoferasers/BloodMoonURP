@@ -10,7 +10,12 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce;
     public float speed;
     public float increasedSpeed;
-    //public float maxSpeedIncreaseDuration;
+
+    [ Header( "Walk Audio: " ) ]
+    public AudioSource walk;
+
+    [ Header( "Run Audio: " ) ]
+    public AudioSource run;
 
     private float originalSpeed, timeBetweenTapsLeft, timeBetweenTapsRight;
     private int buttonPressedLeft, buttonPressedRight;
@@ -19,14 +24,21 @@ public class PlayerMovement : MonoBehaviour
     private Button pauseButton, leftButton, rightButton, upButton, attackButton, oButton;
     private Animator animator;
     CanvasGroup m;
+    private bool runBool;
+    private bool walkBool;
 
-
+    [ Header( "Put Music script here:")]
+    public Music music;
+    
     ///////////////////////handle player position/////////////////////////////
     public static Vector3 position;
 
     // Start is called before the first frame update
     void Start( )
     {
+
+        runBool = false;
+        walkBool = false;
         rb2d = GetComponent<Rigidbody2D>( );
         moveLeft = false;
         moveRight = false;
@@ -54,6 +66,21 @@ public class PlayerMovement : MonoBehaviour
         // handle double tap movement to start running... need to find a way to integrate this with
         // a new character animation
 
+        if( walkBool && !walk.isPlaying )
+        {
+            run.Stop( );
+            walk.Play( );
+        }
+        else if( runBool && !run.isPlaying )
+        {
+            walk.Stop( );
+            run.Play( );
+        }
+        else if( !walkBool && !runBool )
+        {
+            walk.Stop( );
+            run.Stop( );
+        }
         // double tap for left
         if( !arePaused && ( moveLeft ) )
         {
@@ -105,24 +132,49 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool( "right", true );
             animator.SetBool( "left", false ); 
+            if( speed == originalSpeed )
+            {
+                walkBool = true;
+                runBool = false;
+            }
+            else if( speed == increasedSpeed )
+            {
+                runBool = true;
+                walkBool = false;
+            }
             rb2d.velocity = new Vector2( 1 * speed * Time.deltaTime, rb2d.velocity.y);
         }
         else if( !arePaused && moveLeft )
         {
             animator.SetBool( "left", true );
             animator.SetBool( "right", false );
+            if( speed == originalSpeed )
+            {
+                walkBool = true;
+                runBool = false;
+            }
+            else if( speed == increasedSpeed )
+            {
+                runBool = true;
+                walkBool = false;
+            }
             rb2d.velocity = new Vector2( -1 * speed * Time.deltaTime, rb2d.velocity.y);
         }
         else
         {
             animator.SetBool( "left", false ); 
             animator.SetBool( "right", false ); 
+            walkBool = false;
+            runBool = false;
         }
 
         if( !arePaused && goJump )
         {
             if( rb2d.velocity.y == 0 )
+            {
                 rb2d.AddForce( Vector3.up * jumpForce * Time.deltaTime, ForceMode2D.Impulse );
+                music.isJumping = true;
+            }
             goJump = false;
         }                
     }
@@ -152,11 +204,17 @@ public class PlayerMovement : MonoBehaviour
     public void attack( )
     {
         animator.SetBool( "attack", true );
+        AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo( 0 );
+        if( state.IsName( "CharacterLeftAttackAnimation" ) || state.IsName( "CharacterRightAttackAnimation" )
+            || state.IsName( "CharacterLeftAnimation" ) || state.IsName( "CharacterRightAnimation" )
+            || state.IsName( "CharacterIdleLeft" ) || state.IsName( "CharacterIdleRight" ) )
+            music.isPunching = true;
     }
 
     public void noAttack( )
     {
         animator.SetBool( "attack", false );
+        music.isPunching = false;
     }
 
     public void jump( )
@@ -181,6 +239,7 @@ public class PlayerMovement : MonoBehaviour
 
         // show menu
         m.alpha = 1;
+        m.interactable = true;
 
         // can't interact with game buttons while paused
         pauseButton.interactable = false;
@@ -204,6 +263,7 @@ public class PlayerMovement : MonoBehaviour
         oButton.interactable = true;
         attackButton.interactable = true;
         arePaused = false;
+        m.interactable = false;
     }
 
     public void FadePauseMenu( )
