@@ -42,9 +42,16 @@ public class moveShelf : MonoBehaviour
         if( circle.activeInHierarchy && pressed && GameObject.Find( "oButton" ).GetComponent< Button >( ).interactable == true )
         {
             showDoorBehind( );
-            moveThis( );
         }
     }    
+
+    void FixedUpdate( )
+    {
+        if( circle.activeInHierarchy && pressed && GameObject.Find( "oButton" ).GetComponent< Button >( ).interactable == true )
+        {
+            moveThis( );
+        }
+    }
 
     public void showDoorBehind( )
     {
@@ -119,7 +126,7 @@ public class moveShelf : MonoBehaviour
     {
         while( transform.position.x < dest.x )
         {
-            rb2d.velocity = new Vector2( 1 * speed * Time.deltaTime, rb2d.velocity.y);
+            transform.position += new Vector3( Time.fixedDeltaTime * speed, 0, 0 );
             yield return null;
         }
         rb2d.velocity = new Vector2( 0, 0 );

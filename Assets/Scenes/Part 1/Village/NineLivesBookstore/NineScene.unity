@@ -8900,7 +8900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a59db8f13b834f54ae7204f9433e93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1500
+  speed: 0.02
   distance: 2.5
   circle: {fileID: 6309937667980387673}
   audio: {fileID: 1996262066}
