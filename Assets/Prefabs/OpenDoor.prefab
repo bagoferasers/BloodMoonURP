@@ -272,6 +272,8 @@ GameObject:
   - component: {fileID: 8934055512365732811}
   - component: {fileID: 4036473481998952420}
   - component: {fileID: 1043333683685797659}
+  - component: {fileID: 4024078418948685212}
+  - component: {fileID: 4437880920490787037}
   m_Layer: 0
   m_Name: OpenDoor
   m_TagString: Player
@@ -348,7 +350,7 @@ MonoBehaviour:
   scene: 
   circle: {fileID: 6309937669164817251}
   sp: {fileID: 0}
-  openAudio: {fileID: 1043333683685797659}
+  audio: {fileID: 1043333683685797659}
 --- !u!82 &1043333683685797659
 AudioSource:
   m_ObjectHideFlags: 0
@@ -359,7 +361,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -6647383277869057215, guid: 4b00b1768253d428c82763cdd8cbb821, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 71f77b73f56d14efeb97acb33cd1a7dd, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f907ef52fc3d94c15a75eb5a140083af, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -445,3 +447,50 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!50 &4024078418948685212
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7950511072800007582}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &4437880920490787037
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7950511072800007582}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3, y: 3.5}
+  m_EdgeRadius: 0

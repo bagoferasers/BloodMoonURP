@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Part 1/Apartment/ApartmentUpstairs.unity
     guid: 3a83ad574a2d9de41ac8f11328569ba9
   - enabled: 1
-    path: Assets/Scenes/Part 1/NineScene.unity
+    path: Assets/Scenes/Part 1/NineLivesBookstore/NineScene.unity
     guid: 2653fc26b76a5a34aa4240359fd7b18f
   - enabled: 1
     path: Assets/Scenes/Part 1/SpiritTavernScene.unity
