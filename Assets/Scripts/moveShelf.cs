@@ -24,10 +24,12 @@ public class moveShelf : MonoBehaviour
     private bool pressed;
     private transportScene transportScene;
     Vector3 dest;
+    public Rigidbody2D rb2d;
 
     void Start( )
     {
-         dest = transform.position + new Vector3( distance, 0f, 0f );
+        dest = transform.position + new Vector3( distance, 0f, 0f );
+        rb2d = GetComponent<Rigidbody2D>( );
         pressed = false;
         circle.SetActive( false );
         canvasGroup = GetComponent< CanvasGroup >( );
@@ -115,12 +117,12 @@ public class moveShelf : MonoBehaviour
 
     IEnumerator moveItNumerator( )
     {
-
         while( transform.position.x < dest.x )
         {
-            transform.position += new Vector3( Time.fixedDeltaTime * speed, 0, 0 );
+            rb2d.velocity = new Vector2( 1 * speed * Time.deltaTime, rb2d.velocity.y);
             yield return null;
         }
+        rb2d.velocity = new Vector2( 0, 0 );
         yield return null;
     }
     
