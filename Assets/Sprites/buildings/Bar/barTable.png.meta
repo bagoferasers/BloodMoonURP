@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6f69b81db08200e41a59aec9245473b0
+guid: 6e40518bb5bb44950a19244567bea379
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -114,7 +114,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -128,20 +128,38 @@ TextureImporter:
   spriteSheet:
     serializedVersion: 2
     sprites: []
-    outline:
-    - - {x: 515, y: 305}
-      - {x: 512.5, y: 307.5}
-      - {x: -512.5, y: 307.5}
-      - {x: -515, y: 305}
-      - {x: -515, y: 300}
-      - {x: -520, y: 300}
-      - {x: -523.75, y: 296.25}
-      - {x: -523.75, y: -720}
-      - {x: 523.75, y: -720}
-      - {x: 523.75, y: 296.25}
-      - {x: 520, y: 300}
-      - {x: 515, y: 300}
-    physicsShape: []
+    outline: []
+    physicsShape:
+    - - {x: 50, y: -703.75}
+      - {x: 47.5, y: -701.25}
+      - {x: 42.5, y: -702.5}
+      - {x: 42.5, y: -626.25}
+      - {x: 95, y: -626.25}
+      - {x: 97.5, y: -623.75}
+      - {x: 97.5, y: -617.5}
+      - {x: 103.75, y: -617.5}
+      - {x: 106.25, y: -615}
+      - {x: 106.25, y: -608.75}
+      - {x: 103.75, y: -606.25}
+      - {x: -47.5, y: -606.25}
+      - {x: -50, y: -608.75}
+      - {x: -50, y: -616.25}
+      - {x: -47.5, y: -618.75}
+      - {x: -42.5, y: -617.5}
+      - {x: -42.5, y: -623.75}
+      - {x: -40, y: -626.25}
+      - {x: 13.75, y: -626.25}
+      - {x: 13.75, y: -702.5}
+      - {x: 8.75, y: -701.25}
+      - {x: 6.25, y: -703.75}
+      - {x: 6.25, y: -710}
+      - {x: 0, y: -710}
+      - {x: -2.5, y: -712.5}
+      - {x: -2.5, y: -720}
+      - {x: 57.5, y: -720}
+      - {x: 58.75, y: -712.5}
+      - {x: 56.25, y: -710}
+      - {x: 50, y: -710}
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
     internalID: 1537655665
