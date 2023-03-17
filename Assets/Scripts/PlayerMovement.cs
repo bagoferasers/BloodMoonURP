@@ -27,12 +27,16 @@ public class PlayerMovement : MonoBehaviour
     private bool runBool;
     private bool walkBool;
 
+    [ Header( "Put Music script here:")]
+    public Music music;
+    
     ///////////////////////handle player position/////////////////////////////
     public static Vector3 position;
 
     // Start is called before the first frame update
     void Start( )
     {
+
         runBool = false;
         walkBool = false;
         rb2d = GetComponent<Rigidbody2D>( );
@@ -169,6 +173,7 @@ public class PlayerMovement : MonoBehaviour
             if( rb2d.velocity.y == 0 )
                 rb2d.AddForce( Vector3.up * jumpForce * Time.deltaTime, ForceMode2D.Impulse );
             goJump = false;
+            music.isJumping = true;
         }                
     }
 

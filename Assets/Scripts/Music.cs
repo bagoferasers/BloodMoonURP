@@ -15,18 +15,35 @@ public class Music : MonoBehaviour
     public Slider musicSlider;
     public Slider effectsSlider;
 
+    public AudioSource[ ] jumpPunchList;
+    public float howManySilent;
+    private AudioSource clip;
+    private float random;
+    public bool isJumping;
+
     // start game with player prefs volumes?
     void Start( )
     {
-        //DontDestroyOnLoad( gameObject );
-        //mixer.SetFloat( "MusicVolume", PlayerPrefs.GetFloat( "MusicVolume" ) );
-        //mixer.SetFloat( "SystemVolume", PlayerPrefs.GetFloat( "SystemVolume" ) );
-        //mixer.SetFloat( "MasterVolume", PlayerPrefs.GetFloat( "MasterVolume" ) );
-        //mixer.SetFloat( "EffectsVolume", PlayerPrefs.GetFloat( "EffectsVolume" ) );
         masterSlider.value = PlayerPrefs.GetFloat( "MasterVolume" );
         systemSlider.value = PlayerPrefs.GetFloat( "SystemVolume" );
         musicSlider.value = PlayerPrefs.GetFloat( "MusicVolume" );
         effectsSlider.value = PlayerPrefs.GetFloat( "EffectsVolume" );
+        random = Random.Range( 0f, 1f );
+        howManySilent = 0.5f;
+        isJumping = false;
+        clip = GetComponent< AudioSource >( );
+    }
+
+    void Update( )
+    {
+        random = Random.Range( 0f, 1f );
+        if( random < howManySilent )
+        {
+            int songToPlay = Random.Range( 0, jumpPunchList.Length );
+            if( isJumping )
+                jumpPunchList[ songToPlay ].Play( );
+        }
+        isJumping = false;
     }
 
     public void setMusicVolume( float musicVolume )
