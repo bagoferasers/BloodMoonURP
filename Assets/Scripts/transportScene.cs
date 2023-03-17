@@ -15,9 +15,11 @@ public class transportScene : MonoBehaviour
     {
         canvasGroup = GameObject.Find( "darkyboi" ).GetComponent< CanvasGroup >( );
         GameObject[ ] gameObjects = GameObject.FindGameObjectsWithTag( "ScenePortal" );
+        
         foreach( GameObject g in gameObjects )
         {
             transportScene ts = g.GetComponent< transportScene >( );
+            Debug.Log( PlayerPrefs.GetString( "startPosition" ) );
             if( ts.id == PlayerPrefs.GetString( "startPosition" ) )
                 player.transform.position = ts.transform.position;
         }
@@ -25,6 +27,7 @@ public class transportScene : MonoBehaviour
 
     public void ChangeToScene( string sceneToChangeTo )
     {
+        Debug.Log( PlayerPrefs.GetString( "startPosition" ) );
         FadeThisOnePlease( );
         StartCoroutine( ChangeScene( sceneToChangeTo ) );
     }

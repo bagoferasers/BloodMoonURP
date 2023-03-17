@@ -2,47 +2,52 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
-public class whenEnterShowThis : MonoBehaviour
+
+public class moveShelf : MonoBehaviour
 {
-    [ Header( "Scene to change to:" ) ]
-    public string scene;
+    public float speed;
+    public float distance;
 
     [ Header( "Circle to fade in and out:" ) ]
     public GameObject circle;
 
-    [ Header( "Connected ScenePortal:" ) ]
-    public GameObject sp;
-
     [ Header( "Audio: " ) ]
     public AudioSource audio;
+
+    public GameObject doorToShow;
+    public GameObject moveDoor;
 
     private CanvasGroup canvasGroup;
     private SpriteRenderer spriteRend;
     private Color color;
     private bool pressed;
     private transportScene transportScene;
+    Vector3 dest;
 
     void Start( )
     {
+         dest = transform.position + new Vector3( distance, 0f, 0f );
         pressed = false;
         circle.SetActive( false );
         canvasGroup = GetComponent< CanvasGroup >( );
         spriteRend = circle.GetComponent< SpriteRenderer >( );
         color = spriteRend.color;
-        transportScene = sp.GetComponent< transportScene >( );
-    }    
+    }  
 
     void Update( )
     {
         if( circle.activeInHierarchy && pressed && GameObject.Find( "oButton" ).GetComponent< Button >( ).interactable == true )
         {
-            PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
-            PlayerPrefs.Save( );
-            transportScene.ChangeToScene( scene );
+            showDoorBehind( );
+            moveThis( );
         }
     }    
+
+    public void showDoorBehind( )
+    {
+        doorToShow.SetActive( true );
+    }
 
     private void OnTriggerEnter2D( Collider2D thisCollider )
     {
@@ -61,11 +66,6 @@ public class whenEnterShowThis : MonoBehaviour
         pressed = true;
         if( circle.activeInHierarchy )
             audio.Play( );    
-    }
-
-    IEnumerator waitThisLong( )
-    {
-        yield return new WaitForSeconds( 2 );
     }
 
     public void isNotPressed( )
@@ -107,4 +107,21 @@ public class whenEnterShowThis : MonoBehaviour
         circle.SetActive( false );
         yield return null;
     }
+
+    public void moveThis( )
+    {
+        StartCoroutine( moveItNumerator( ) );
+    }
+
+    IEnumerator moveItNumerator( )
+    {
+
+        while( transform.position.x < dest.x )
+        {
+            transform.position += new Vector3( Time.deltaTime * speed, 0, 0 );
+            yield return null;
+        }
+        yield return null;
+    }
+    
 }
