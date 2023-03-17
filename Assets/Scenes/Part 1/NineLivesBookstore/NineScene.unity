@@ -5803,7 +5803,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1093221769}
   - component: {fileID: 1093221770}
-  - component: {fileID: 1093221771}
   m_Layer: 0
   m_Name: nineCounter
   m_TagString: Untagged
@@ -5878,32 +5877,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1093221771
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1093221768}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.85925627, y: -0.70027524}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 8, y: 4.5}
-    newSize: {x: 8, y: 4.5}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.4927745, y: 3.4604259}
-  m_EdgeRadius: 0
 --- !u!1 &1108146252
 GameObject:
   m_ObjectHideFlags: 0
@@ -8342,7 +8315,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 10, y: 100}
-  m_EdgeRadius: 0
+  m_EdgeRadius: 5
 --- !u!50 &2081287536
 Rigidbody2D:
   serializedVersion: 4
