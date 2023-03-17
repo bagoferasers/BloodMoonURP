@@ -118,7 +118,7 @@ public class moveShelf : MonoBehaviour
 
         while( transform.position.x < dest.x )
         {
-            transform.position += new Vector3( Time.deltaTime * speed, 0, 0 );
+            transform.position += new Vector3( Time.fixedDeltaTime * speed, 0, 0 );
             yield return null;
         }
         yield return null;
