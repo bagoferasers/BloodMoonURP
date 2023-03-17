@@ -18,7 +18,6 @@ public class whenEnterShowThis : MonoBehaviour
     [ Header( "Audio: " ) ]
     public AudioSource audio;
 
-
     private CanvasGroup canvasGroup;
     private SpriteRenderer spriteRend;
     private Color color;

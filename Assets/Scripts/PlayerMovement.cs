@@ -10,7 +10,6 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce;
     public float speed;
     public float increasedSpeed;
-    //public float maxSpeedIncreaseDuration;
 
     [ Header( "Walk Audio: " ) ]
     public AudioSource walk;
@@ -27,7 +26,6 @@ public class PlayerMovement : MonoBehaviour
     CanvasGroup m;
     private bool runBool;
     private bool walkBool;
-
 
     ///////////////////////handle player position/////////////////////////////
     public static Vector3 position;
