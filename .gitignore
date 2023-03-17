@@ -39,6 +39,7 @@ ExportedObj/
 *.booproj
 *.svd
 *.pdb
+*.apk
 *.mdb
 *.opendb
 *.VC.db

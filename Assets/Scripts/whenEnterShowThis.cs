@@ -39,7 +39,7 @@ public class whenEnterShowThis : MonoBehaviour
         if( circle.activeInHierarchy && pressed && GameObject.Find( "oButton" ).GetComponent< Button >( ).interactable == true )
         {
             PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
-            PlayerPrefs.Save();
+            PlayerPrefs.Save( );
             transportScene.ChangeToScene( scene );
         }
     }    
