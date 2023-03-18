@@ -8900,7 +8900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a59db8f13b834f54ae7204f9433e93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.02
+  speed: 0.5
   distance: 2.5
   circle: {fileID: 6309937667980387673}
   audio: {fileID: 1996262066}
@@ -8998,7 +8998,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 2134911604}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
