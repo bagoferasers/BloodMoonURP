@@ -27,7 +27,6 @@ public class transportScene : MonoBehaviour
 
     public void ChangeToScene( string sceneToChangeTo )
     {
-        Debug.Log( PlayerPrefs.GetString( "startPosition" ) );
         FadeThisOnePlease( );
         StartCoroutine( ChangeScene( sceneToChangeTo ) );
     }
@@ -38,6 +37,12 @@ public class transportScene : MonoBehaviour
         if( PlayerPrefs.GetString( "SceneStart" ) == "Main" )
             PlayerPrefs.SetString( "SceneStart", "Village" );
         StartCoroutine( ChangeScene( PlayerPrefs.GetString( "SceneStart" ) ) );
+    }
+
+    public void resetPrefs( )
+    {
+        PlayerPrefs.DeleteAll( );
+        PlayerPrefs.SetString( "SceneStart", "Village" );
     }
 
     public IEnumerator ChangeScene( string sceneToChangeTo )
