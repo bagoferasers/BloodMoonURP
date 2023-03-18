@@ -138,6 +138,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -0.79
       objectReference: {fileID: 0}
+    - target: {fileID: 2327647750257890177, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1009285047
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327647750257890178, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
+      propertyPath: m_SortingLayer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327647750257890178, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1009285047
+      objectReference: {fileID: 0}
     - target: {fileID: 2327647750716044345, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
       propertyPath: m_Name
       value: OpenMeUP
@@ -265,6 +277,10 @@ PrefabInstance:
     - target: {fileID: 2327647750716044351, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
       propertyPath: m_Camera
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327647750716044351, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1009285047
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
@@ -6464,6 +6480,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -1.185
       objectReference: {fileID: 0}
+    - target: {fileID: 2327647750257890177, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1009285047
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327647750257890178, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
+      propertyPath: m_SortingLayer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327647750257890178, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1009285047
+      objectReference: {fileID: 0}
     - target: {fileID: 2327647750716044345, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
       propertyPath: m_Name
       value: OpenMeUP
@@ -6571,6 +6599,10 @@ PrefabInstance:
     - target: {fileID: 2327647750716044348, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
       propertyPath: nameOfSceneToChangeTo
       value: ApartmentScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327647750716044351, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1009285047
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}

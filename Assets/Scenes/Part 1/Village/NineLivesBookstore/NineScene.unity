@@ -5597,6 +5597,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1835991964}
     m_Modifications:
+    - target: {fileID: 1791587628828523535, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1009285047
+      objectReference: {fileID: 0}
     - target: {fileID: 3876093607470955273, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -5725,6 +5729,10 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 7065146122735697779, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7950511072800007582, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
       propertyPath: m_Name
       value: OpenDoor
@@ -5737,6 +5745,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2134911604}
+    - target: {fileID: 8934055512365732811, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1009285047
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
 --- !u!224 &727539180 stripped
@@ -9016,6 +9028,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 258426037}
     m_Modifications:
+    - target: {fileID: 1791587628828523535, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1791587628828523535, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1009285047
+      objectReference: {fileID: 0}
     - target: {fileID: 3876093607470955273, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -9124,6 +9144,10 @@ PrefabInstance:
       propertyPath: m_Offset.x
       value: -1.3491211
       objectReference: {fileID: 0}
+    - target: {fileID: 7065146122735697779, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7950511072800007582, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
       propertyPath: m_Name
       value: OpenDoor
@@ -9132,10 +9156,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8586839522750210463, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8934055512365732811, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2134911604}
+    - target: {fileID: 8934055512365732811, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8934055512365732811, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1009285047
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
 --- !u!224 &2039744244 stripped
@@ -14412,8 +14448,8 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 2124250127
-  m_SortingOrder: 5
+  m_SortingLayerID: -1009285047
+  m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!1 &3297490664110979301
 GameObject:
@@ -14613,7 +14649,7 @@ SortingGroup:
   m_Enabled: 1
   m_SortingLayerID: -1009285047
   m_SortingLayer: 8
-  m_SortingOrder: 5
+  m_SortingOrder: 0
 --- !u!1 &7950511071888071588
 GameObject:
   m_ObjectHideFlags: 0
@@ -14672,7 +14708,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1009285047
   m_SortingLayer: 8
-  m_SortingOrder: 4
+  m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.1981132, g: 0.1981132, b: 0.1981132, a: 1}
   m_FlipX: 0
@@ -14694,7 +14730,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 2134911604}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -14702,6 +14738,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 2124250127
-  m_SortingOrder: 5
+  m_SortingLayerID: -1009285047
+  m_SortingOrder: 0
   m_TargetDisplay: 0
