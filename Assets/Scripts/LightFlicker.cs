@@ -23,15 +23,15 @@ public class LightFlicker : MonoBehaviour
     {
         while( true )
         {
+            yield return new WaitForSeconds( delay );
             duration = Random.Range( 1, maxDuration );
             while( duration > 0 )
             {
-                float i = Mathf.Lerp( minIntensity, maxIntensity, Mathf.PingPong( Time.fixedDeltaTime * speed, 1f ) );
+                float i = Mathf.Lerp( minIntensity, maxIntensity, Mathf.PingPong( Time.time * speed, 1f ) );
                 light.intensity = i;
                 yield return null;
                 duration -= Time.deltaTime;
             }
-            yield return new WaitForSeconds( delay );
             duration = originalDuration;
         }
     }
