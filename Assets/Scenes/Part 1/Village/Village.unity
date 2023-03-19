@@ -2496,7 +2496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2172414637409859551, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.91
+      value: 12.16
       objectReference: {fileID: 0}
     - target: {fileID: 2172414637409859551, guid: 4b00baba5eb981e46ac4d703b7ae58a7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -15095,7 +15095,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -47.6, y: -0.45666692}
+  m_AnchoredPosition: {x: -47.73, y: -0.45666692}
   m_SizeDelta: {x: 10, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &913382182
@@ -15208,7 +15208,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 10, y: 100}
-  m_EdgeRadius: 10
+  m_EdgeRadius: 12
 --- !u!114 &913382187
 MonoBehaviour:
   m_ObjectHideFlags: 0
