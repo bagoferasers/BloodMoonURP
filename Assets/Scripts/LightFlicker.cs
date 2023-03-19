@@ -11,7 +11,6 @@ public class LightFlicker : MonoBehaviour
     private float duration;
     public float speed;
     public float delay;
-    //private float randomRange;
     private float originalDuration;
 
     void Start( )
@@ -24,7 +23,6 @@ public class LightFlicker : MonoBehaviour
     {
         while( true )
         {
-            //randomRange = Random.Range( 0f, 1f );
             duration = Random.Range( 1, maxDuration );
             while( duration > 0 )
             {
