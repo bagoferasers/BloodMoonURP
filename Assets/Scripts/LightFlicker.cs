@@ -26,7 +26,7 @@ public class LightFlicker : MonoBehaviour
             duration = Random.Range( 1, maxDuration );
             while( duration > 0 )
             {
-                float i = Mathf.Lerp( minIntensity, maxIntensity, Mathf.PingPong( Time.deltaTime * speed, 1f ) );
+                float i = Mathf.Lerp( minIntensity, maxIntensity, Mathf.PingPong( Time.fixedDeltaTime * speed, 1f ) );
                 light.intensity = i;
                 yield return null;
                 duration -= Time.deltaTime;

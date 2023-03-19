@@ -801,7 +801,7 @@ MonoBehaviour:
   maxIntensity: 1
   maxDuration: 2
   speed: 0.5
-  delay: 7
+  delay: 0
 --- !u!1 &528885358
 GameObject:
   m_ObjectHideFlags: 0
@@ -5681,7 +5681,7 @@ MonoBehaviour:
   maxIntensity: 1
   maxDuration: 20
   speed: 60
-  delay: 2
+  delay: 0
 --- !u!114 &788692778 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2821403409359157645, guid: 446c1c2170761ee4fb98faa096904ce0, type: 3}
@@ -6882,7 +6882,7 @@ MonoBehaviour:
   maxIntensity: 1
   maxDuration: 10
   speed: 90
-  delay: 15
+  delay: 0
 --- !u!1 &1659677171
 GameObject:
   m_ObjectHideFlags: 0
@@ -8361,7 +8361,7 @@ MonoBehaviour:
   maxIntensity: 1
   maxDuration: 80
   speed: 80
-  delay: 6
+  delay: 0
 --- !u!1 &1825339905
 GameObject:
   m_ObjectHideFlags: 0
@@ -9000,7 +9000,7 @@ MonoBehaviour:
   maxIntensity: 1
   maxDuration: 2
   speed: 300
-  delay: 1
+  delay: 0
 --- !u!1 &2081287531
 GameObject:
   m_ObjectHideFlags: 0
