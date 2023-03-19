@@ -207,6 +207,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2821403409359157645, guid: 446c1c2170761ee4fb98faa096904ce0, type: 3}
+      propertyPath: m_Intensity
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821403409359157645, guid: 446c1c2170761ee4fb98faa096904ce0, type: 3}
       propertyPath: m_FalloffIntensity
       value: 0.8
       objectReference: {fileID: 0}
@@ -321,11 +325,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   light: {fileID: 216130636}
-  minIntensity: 0.5
-  maxIntensity: 1
-  maxDuration: 1
-  speed: 200
-  delay: 0
+  minIntensity: 0.2
+  maxIntensity: 0.4
+  maxDuration: 5
+  speed: 70
+  delay: 0.5
 --- !u!114 &231999130 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2821403409359157645, guid: 446c1c2170761ee4fb98faa096904ce0, type: 3}
@@ -524,6 +528,10 @@ PrefabInstance:
     - target: {fileID: 2821403409359157645, guid: 446c1c2170761ee4fb98faa096904ce0, type: 3}
       propertyPath: m_Color.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821403409359157645, guid: 446c1c2170761ee4fb98faa096904ce0, type: 3}
+      propertyPath: m_Intensity
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 2821403409359157645, guid: 446c1c2170761ee4fb98faa096904ce0, type: 3}
       propertyPath: m_FalloffIntensity
@@ -1346,9 +1354,9 @@ MonoBehaviour:
   light: {fileID: 231999130}
   minIntensity: 0.7
   maxIntensity: 1
-  maxDuration: 20
-  speed: 200
-  delay: 0
+  maxDuration: 10
+  speed: 50
+  delay: 20
 --- !u!1 &1358510183
 GameObject:
   m_ObjectHideFlags: 0
@@ -1478,6 +1486,10 @@ PrefabInstance:
     - target: {fileID: 2821403409359157645, guid: 446c1c2170761ee4fb98faa096904ce0, type: 3}
       propertyPath: m_Color.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821403409359157645, guid: 446c1c2170761ee4fb98faa096904ce0, type: 3}
+      propertyPath: m_Intensity
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 2821403409359157645, guid: 446c1c2170761ee4fb98faa096904ce0, type: 3}
       propertyPath: m_FalloffIntensity
@@ -1940,6 +1952,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2821403409359157645, guid: 446c1c2170761ee4fb98faa096904ce0, type: 3}
+      propertyPath: m_Intensity
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821403409359157645, guid: 446c1c2170761ee4fb98faa096904ce0, type: 3}
       propertyPath: m_FalloffIntensity
       value: 0.8
       objectReference: {fileID: 0}
@@ -2102,11 +2118,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   light: {fileID: 386588008}
-  minIntensity: 0
+  minIntensity: 0.5
   maxIntensity: 1
-  maxDuration: 10
-  speed: 100
-  delay: 0
+  maxDuration: 2
+  speed: 20
+  delay: 11
 --- !u!4 &1695534145 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1949825474039615768, guid: 446c1c2170761ee4fb98faa096904ce0, type: 3}
@@ -2125,11 +2141,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   light: {fileID: 630338963}
-  minIntensity: 0.5
+  minIntensity: 0.7
   maxIntensity: 1
   maxDuration: 2
   speed: 80
-  delay: 0
+  delay: 26
 --- !u!1 &1728642890
 GameObject:
   m_ObjectHideFlags: 0
@@ -3684,9 +3700,9 @@ MonoBehaviour:
   light: {fileID: 1147159829}
   minIntensity: 0
   maxIntensity: 0.5
-  maxDuration: 20
+  maxDuration: 3
   speed: 60
-  delay: 0
+  delay: 3
 --- !u!1 &1825339905
 GameObject:
   m_ObjectHideFlags: 0
@@ -4209,6 +4225,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2821403409359157645, guid: 446c1c2170761ee4fb98faa096904ce0, type: 3}
+      propertyPath: m_Intensity
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821403409359157645, guid: 446c1c2170761ee4fb98faa096904ce0, type: 3}
       propertyPath: m_FalloffIntensity
       value: 0.8
       objectReference: {fileID: 0}
@@ -4296,11 +4316,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   light: {fileID: 20298559}
-  minIntensity: 0.5
+  minIntensity: 0.2
   maxIntensity: 0.8
-  maxDuration: 10
+  maxDuration: 1
   speed: 50
-  delay: 0
+  delay: 7
 --- !u!1 &2058921768
 GameObject:
   m_ObjectHideFlags: 0
