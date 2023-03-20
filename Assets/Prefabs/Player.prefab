@@ -535,7 +535,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 6665255307516720770}
   m_HandleRect: {fileID: 6665255307946480285}
   m_Direction: 0
-  m_MinValue: -80
+  m_MinValue: -25
   m_MaxValue: 20
   m_WholeNumbers: 0
   m_Value: 3
@@ -1210,7 +1210,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 6665255306133009963}
   m_HandleRect: {fileID: 6665255307691948163}
   m_Direction: 0
-  m_MinValue: -80
+  m_MinValue: -25
   m_MaxValue: 20
   m_WholeNumbers: 0
   m_Value: 3
@@ -1464,7 +1464,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 6665255308086955084}
   m_HandleRect: {fileID: 6665255305952561437}
   m_Direction: 0
-  m_MinValue: -80
+  m_MinValue: -25
   m_MaxValue: 20
   m_WholeNumbers: 0
   m_Value: 3
@@ -4249,7 +4249,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 6665255307886255315}
   m_HandleRect: {fileID: 6665255306948626474}
   m_Direction: 0
-  m_MinValue: -80
+  m_MinValue: -25
   m_MaxValue: 20
   m_WholeNumbers: 0
   m_Value: 3
@@ -4359,10 +4359,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.38333336
+    x: 0.25364584
     y: 0
-    width: 0.49351853
-    height: 0.4935185
+    width: 0.2601852
+    height: 0.26018518
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
