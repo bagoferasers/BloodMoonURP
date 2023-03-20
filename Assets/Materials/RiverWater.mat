@@ -43,5 +43,5 @@ Material:
     - _WindInfluenceMask: {r: 1, g: 0, b: 0, a: 0}
     - _WindScale: {r: 0.5, g: 0, b: 0, a: 0}
     - _WindSpeed: {r: 0.3, g: 0, b: 0, a: 0}
-    - _WindStrength: {r: 10, g: 0, b: 0, a: 0}
+    - _WindStrength: {r: 12, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
