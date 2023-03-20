@@ -54,25 +54,57 @@ public class Music : MonoBehaviour
 
     public void setMusicVolume( float musicVolume )
     {
-        mixer.SetFloat( "MusicVolume", musicVolume );
-        PlayerPrefs.SetFloat( "MusicVolume", musicVolume );
+        if( musicSlider.value < -25f )
+        {
+            mixer.SetFloat( "MusicVolume", -80f );
+            PlayerPrefs.SetFloat( "MusicVolume", -80f );
+        }
+        else
+        {
+            mixer.SetFloat( "MusicVolume", musicVolume );
+            PlayerPrefs.SetFloat( "MusicVolume", musicVolume );            
+        }
     }
     
     public void setSystemVolume( float sysVolume )
     {
-        mixer.SetFloat( "SystemVolume", sysVolume );
-        PlayerPrefs.SetFloat( "SystemVolume", sysVolume );
+        if( systemSlider.value < -25f )
+        {
+            mixer.SetFloat( "SystemVolume", -80f );
+            PlayerPrefs.SetFloat( "SystemVolume", -80f );
+        }
+        else
+        {
+            mixer.SetFloat( "SystemVolume", sysVolume );
+            PlayerPrefs.SetFloat( "SystemVolume", sysVolume );            
+        }
     }
 
     public void setMasterVolume( float masterVolume )
     {
-        mixer.SetFloat( "MasterVolume", masterVolume );
-        PlayerPrefs.SetFloat( "MasterVolume", masterVolume );
+        if( masterSlider.value < -25f )
+        {
+            mixer.SetFloat( "MasterVolume", -80f );
+            PlayerPrefs.SetFloat( "MasterVolume", -80f );
+        }
+        else
+        {
+            mixer.SetFloat( "MasterVolume", masterVolume );
+            PlayerPrefs.SetFloat( "MasterVolume", masterVolume );            
+        }
     }
 
     public void setEffectsVolume( float effectsVolume )
     {
-        mixer.SetFloat( "EffectsVolume", effectsVolume );
-        PlayerPrefs.SetFloat( "EffectsVolume", effectsVolume );
+        if( effectsSlider.value < -25f )
+        {
+            mixer.SetFloat( "EffectsVolume", -80f );
+            PlayerPrefs.SetFloat( "EffectsVolume", -80f );
+        }
+        else
+        {
+            mixer.SetFloat( "EffectsVolume", effectsVolume );
+            PlayerPrefs.SetFloat( "EffectsVolume", effectsVolume );            
+        }
     }
 }
