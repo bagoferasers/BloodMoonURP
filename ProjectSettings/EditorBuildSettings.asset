@@ -41,6 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Part 1/RangerStation/InsideRangerStation.unity
     guid: 156f68a103ab34b74ad06e83855cf825
+  - enabled: 1
+    path: Assets/Scenes/Part 1/River/River.unity
+    guid: 06bb677a5b785c94da5b3163a8cf7a04
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 227c43bc127192d46b97084ad6f2ccce, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 8a3ebfc17c1fee74ba25aa34b19e1add, type: 2}
