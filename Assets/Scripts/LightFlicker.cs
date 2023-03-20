@@ -23,7 +23,7 @@ public class LightFlicker : MonoBehaviour
     {
         while( true )
         {
-            yield return new WaitForSeconds( delay );
+            
             duration = Random.Range( 1, maxDuration );
             while( duration > 0 )
             {
@@ -33,6 +33,7 @@ public class LightFlicker : MonoBehaviour
                 duration -= Time.deltaTime;
             }
             duration = originalDuration;
+            yield return new WaitForSeconds( delay );
         }
     }
 }
