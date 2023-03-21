@@ -12,7 +12,6 @@ public class SendBack : MonoBehaviour
     void Start()
     {
         isTouching = false;
-        //rb2d = GetComponent< Rigidbody2D >( );
     }
 
     // Update is called once per frame
@@ -20,6 +19,19 @@ public class SendBack : MonoBehaviour
     {
         if( isTouching && playerRB2D.velocity.y == 0 )
             playerRB2D.AddForce( Vector3.right * force * Time.deltaTime, ForceMode2D.Impulse );
+            //make player go owe and die slowly with painful water because ew I'm wet
+            //and obviously water makes people die sometimes so I should find a way
+            //to make that happen yes that sounds about right why am I typing so much
+            //oh yeah trauma thats fun maybe I should make this game about personal trauma that
+            //people should never have to endure like oh I don't know
+            //reading multiple single line comments in a row not designated by /* */ ahahhahahahhahhahahahhahahhahahahhahaha hhhhhaaaaa ha
+            //
+            //
+            //
+            // ...
+            // 
+            //
+            // ha
     }
     
     private void OnCollisionEnter2D( Collision2D other ) 
