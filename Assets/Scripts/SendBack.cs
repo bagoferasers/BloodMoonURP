@@ -18,7 +18,7 @@ public class SendBack : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if( isTouching )
+        if( isTouching && playerRB2D.velocity.y == 0 )
             playerRB2D.AddForce( Vector3.right * force * Time.deltaTime, ForceMode2D.Impulse );
     }
     
