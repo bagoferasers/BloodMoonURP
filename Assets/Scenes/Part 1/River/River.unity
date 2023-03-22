@@ -1083,7 +1083,7 @@ GameObject:
   - component: {fileID: 35062674}
   m_Layer: 0
   m_Name: rock7 (8)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1250,7 +1250,7 @@ GameObject:
   - component: {fileID: 39622658}
   m_Layer: 0
   m_Name: rock7 (14)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3504,7 +3504,7 @@ GameObject:
   - component: {fileID: 119734141}
   m_Layer: 0
   m_Name: rock7 (34)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5160,7 +5160,7 @@ GameObject:
   - component: {fileID: 188097812}
   m_Layer: 0
   m_Name: rock7 (23)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5573,7 +5573,7 @@ GameObject:
   - component: {fileID: 201177945}
   m_Layer: 0
   m_Name: rock7 (22)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7713,7 +7713,7 @@ GameObject:
   - component: {fileID: 303392281}
   m_Layer: 0
   m_Name: rock7 (12)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8683,7 +8683,7 @@ GameObject:
   - component: {fileID: 337363825}
   m_Layer: 0
   m_Name: rock7 (2)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11772,7 +11772,7 @@ GameObject:
   - component: {fileID: 427998127}
   m_Layer: 0
   m_Name: rock7 (20)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11785,7 +11785,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427998125}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.27, y: 1.17, z: 2}
+  m_LocalPosition: {x: -4.9, y: 1.87, z: 2}
   m_LocalScale: {x: 3.12, y: 3.12, z: 1.04}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13631,7 +13631,7 @@ GameObject:
   - component: {fileID: 471778893}
   m_Layer: 0
   m_Name: rock3 (1)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14012,7 +14012,7 @@ GameObject:
   - component: {fileID: 488744546}
   m_Layer: 0
   m_Name: rock7 (13)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14025,7 +14025,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 488744544}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.43, y: 0.25, z: 2}
+  m_LocalPosition: {x: 17.52, y: 0.44, z: 2}
   m_LocalScale: {x: 3.12, y: 3.12, z: 1.04}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14151,8 +14151,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 15498221
-  m_SortingLayer: 2
+  m_SortingLayerID: -726040221
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 287f37ca743ed0e478c38ba2ef7e9dab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -22248,7 +22248,7 @@ GameObject:
   - component: {fileID: 612991237}
   m_Layer: 0
   m_Name: rock7 (16)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22489,7 +22489,7 @@ GameObject:
   - component: {fileID: 615964993}
   m_Layer: 0
   m_Name: rock7
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28811,7 +28811,7 @@ GameObject:
   - component: {fileID: 885877274}
   m_Layer: 0
   m_Name: rock7 (15)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28824,7 +28824,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 885877272}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.97, y: 0.5, z: 2}
+  m_LocalPosition: {x: 14.72, y: 0.2, z: 2}
   m_LocalScale: {x: 3.12, y: 3.12, z: 1.04}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28950,8 +28950,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 15498221
-  m_SortingLayer: 2
+  m_SortingLayerID: -726040221
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 287f37ca743ed0e478c38ba2ef7e9dab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -29906,7 +29906,7 @@ GameObject:
   - component: {fileID: 913125903}
   m_Layer: 0
   m_Name: rock7 (1)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32262,7 +32262,7 @@ GameObject:
   - component: {fileID: 954682810}
   m_Layer: 0
   m_Name: rock7 (17)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33420,7 +33420,7 @@ GameObject:
   - component: {fileID: 987336128}
   m_Layer: 0
   m_Name: rock7 (11)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36072,7 +36072,7 @@ GameObject:
   - component: {fileID: 1069715874}
   m_Layer: 0
   m_Name: rock7 (18)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36085,7 +36085,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069715872}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.92, y: -0.43, z: 0}
+  m_LocalPosition: {x: 9.13, y: -0.49, z: 0}
   m_LocalScale: {x: 3.12, y: 3.12, z: 1.04}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -39563,7 +39563,7 @@ GameObject:
   - component: {fileID: 1211726288}
   m_Layer: 0
   m_Name: rock7 (32)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39878,7 +39878,7 @@ GameObject:
   - component: {fileID: 1227730524}
   m_Layer: 0
   m_Name: rock7 (25)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42582,7 +42582,7 @@ GameObject:
   - component: {fileID: 1312243694}
   m_Layer: 0
   m_Name: BadGround
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43920,6 +43920,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   force: 10
   playerRB2D: {fileID: 1318630707}
+  isTouching: 0
 --- !u!1001 &1315917182
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45373,7 +45374,7 @@ GameObject:
   - component: {fileID: 1388963826}
   m_Layer: 0
   m_Name: rock3
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46467,7 +46468,7 @@ GameObject:
   - component: {fileID: 1418556633}
   m_Layer: 0
   m_Name: rock7 (31)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46794,7 +46795,7 @@ GameObject:
   - component: {fileID: 1428915877}
   m_Layer: 0
   m_Name: rock2
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47039,7 +47040,7 @@ GameObject:
   - component: {fileID: 1430096463}
   m_Layer: 0
   m_Name: rock7 (21)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49400,7 +49401,7 @@ GameObject:
   - component: {fileID: 1501901305}
   m_Layer: 0
   m_Name: rock7 (29)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49413,7 +49414,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501901303}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -47.55, y: 6.4, z: 2}
+  m_LocalPosition: {x: -45.72, y: 5.58, z: 2}
   m_LocalScale: {x: 3.12, y: 3.12, z: 1.04}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -49539,9 +49540,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 15498221
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayerID: -726040221
+  m_SortingLayer: 3
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 287f37ca743ed0e478c38ba2ef7e9dab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -49875,7 +49876,7 @@ GameObject:
   - component: {fileID: 1517409282}
   m_Layer: 0
   m_Name: rock7 (28)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49888,7 +49889,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1517409280}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -49.23, y: 6.65, z: 2}
+  m_LocalPosition: {x: -47.4, y: 5.83, z: 2}
   m_LocalScale: {x: 3.12, y: 3.12, z: 1.04}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -50014,9 +50015,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 15498221
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayerID: -726040221
+  m_SortingLayer: 3
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 287f37ca743ed0e478c38ba2ef7e9dab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -51151,7 +51152,7 @@ GameObject:
   - component: {fileID: 1561891632}
   m_Layer: 0
   m_Name: rock7 (5)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51482,7 +51483,7 @@ GameObject:
   - component: {fileID: 1565111219}
   m_Layer: 0
   m_Name: rock7 (19)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54948,7 +54949,7 @@ GameObject:
   - component: {fileID: 1684220690}
   m_Layer: 0
   m_Name: rock7 (7)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55433,7 +55434,7 @@ GameObject:
   - component: {fileID: 1709516887}
   m_Layer: 0
   m_Name: rock7 (27)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55446,7 +55447,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1709516885}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.94, y: 5.46, z: 2}
+  m_LocalPosition: {x: -38.06, y: 6.25, z: 2}
   m_LocalScale: {x: 3.12, y: 3.12, z: 1.04}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -55766,7 +55767,7 @@ GameObject:
   - component: {fileID: 1728642894}
   m_Layer: 0
   m_Name: GoodGround
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56311,7 +56312,7 @@ GameObject:
   - component: {fileID: 1730740384}
   m_Layer: 0
   m_Name: rock7 (4)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59055,7 +59056,7 @@ GameObject:
   - component: {fileID: 1809592946}
   m_Layer: 0
   m_Name: rock7 (26)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59068,7 +59069,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1809592944}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -36.5, y: 5.46, z: 2}
+  m_LocalPosition: {x: -35.37, y: 6.01, z: 2}
   m_LocalScale: {x: 3.12, y: 3.12, z: 1.04}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -61136,7 +61137,7 @@ GameObject:
   - component: {fileID: 1882832187}
   m_Layer: 0
   m_Name: rock7 (3)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63395,7 +63396,7 @@ GameObject:
   - component: {fileID: 1972088312}
   m_Layer: 0
   m_Name: rock7 (33)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63562,7 +63563,7 @@ GameObject:
   - component: {fileID: 1973526528}
   m_Layer: 0
   m_Name: rock7 (6)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64758,7 +64759,7 @@ GameObject:
   - component: {fileID: 2005415752}
   m_Layer: 0
   m_Name: rock7 (24)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64771,7 +64772,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2005415750}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.8, y: 2.47, z: 0}
+  m_LocalPosition: {x: -3.85, y: 1.28, z: 0}
   m_LocalScale: {x: 3.12, y: 3.12, z: 1.04}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -65734,7 +65735,7 @@ GameObject:
   - component: {fileID: 2028248984}
   m_Layer: 0
   m_Name: rock7 (10)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73646,7 +73647,7 @@ GameObject:
   - component: {fileID: 2102045561}
   m_Layer: 0
   m_Name: rock7 (9)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73903,7 +73904,7 @@ GameObject:
   - component: {fileID: 2109628730}
   m_Layer: 0
   m_Name: rock7 (30)
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -7,7 +7,7 @@ public class SendBack : MonoBehaviour
     [ Header( "Movement" ) ]
     public float force;
     public Rigidbody2D playerRB2D;
-    private bool isTouching;
+    public bool isTouching;
     // Start is called before the first frame update
     void Start()
     {
