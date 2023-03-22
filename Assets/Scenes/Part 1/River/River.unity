@@ -583,6 +583,7 @@ PrefabInstance:
       value: bush1 (13)
       objectReference: {fileID: 0}
     - target: {fileID: 2968632059139635301, guid: 1ce62990a270ef94bb6a52235eabae93, type: 3}
+      propertyPath: m_SortingLayer
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2968632059139635301, guid: 1ce62990a270ef94bb6a52235eabae93, type: 3}
