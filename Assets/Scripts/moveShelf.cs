@@ -117,9 +117,14 @@ public class moveShelf : MonoBehaviour
     
     private IEnumerator moveMe( )
     {
-        while( transform.position.x < distance )
+        float time = 1f;
+        float track = 0f;
+
+        while( track < time )
         {
-            transform.position += new Vector3( Time.deltaTime * speed, 0, 0 );
+            track += Time.deltaTime;
+            // start ->> end
+            transform.position = Vector3.Lerp( Vector3.zero, new Vector3(2.5f, 0f, 0f ), track / time );
             yield return null;
         }
         yield return null;
