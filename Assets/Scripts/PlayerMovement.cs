@@ -143,7 +143,12 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate( )
     {        
         // hurt player if touching bad ground
-        if( isTouching == true && onBadGround == true )
+        if( isTouching == true && onBadGround == true && shieldBar.value > 0 )
+        {
+            shieldBar.value -= groundHurt;
+            PlayerPrefs.SetFloat( "Shield", shieldBar.value );
+        }
+        else if( isTouching == true && onBadGround == true )
         {
             healthBar.value -= groundHurt;
             PlayerPrefs.SetFloat( "Health", healthBar.value );
