@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [ Header( "Health and Shields" ) ]
     public Slider healthBar;
+    public Slider shieldBar;
 
     [ Header( "Movement" ) ]
     public float jumpForce;
@@ -141,8 +142,13 @@ public class PlayerMovement : MonoBehaviour
 */
     void FixedUpdate( )
     {        
+        // hurt player if touching bad ground
         if( isTouching == true && onBadGround == true )
+        {
             healthBar.value -= groundHurt;
+            PlayerPrefs.SetFloat( "Health", healthBar.value );
+        }
+            
         //////////////////////////////////////////////////////////////////////////////////////////
         // handle double tap movement to start running... need to find a way to integrate this with
         // a new character animation
