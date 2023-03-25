@@ -23,12 +23,12 @@ public class moveShelf : MonoBehaviour
     private Color color;
     private bool pressed;
     private transportScene transportScene;
-    Vector3 dest;
+    //Vector3 dest;
     public Rigidbody2D rb2d;
 
     void Start( )
     {
-        dest = transform.position + new Vector3( distance, 0f, 0f );
+        //dest = transform.position + new Vector3( distance, 0f, 0f );
         rb2d = GetComponent<Rigidbody2D>( );
         pressed = false;
         circle.SetActive( false );
@@ -42,16 +42,9 @@ public class moveShelf : MonoBehaviour
         if( circle.activeInHierarchy && pressed && GameObject.Find( "oButton" ).GetComponent< Button >( ).interactable == true )
         {
             showDoorBehind( );
-        }
-    }    
-
-    void FixedUpdate( )
-    {
-        if( circle.activeInHierarchy && pressed && GameObject.Find( "oButton" ).GetComponent< Button >( ).interactable == true )
-        {
             moveThis( );
         }
-    }
+    }    
 
     public void showDoorBehind( )
     {
@@ -117,20 +110,23 @@ public class moveShelf : MonoBehaviour
         yield return null;
     }
 
-    public void moveThis( )
+    void moveThis( )
     {
-        StartCoroutine( moveItNumerator( ) );
-    }
-
-    IEnumerator moveItNumerator( )
-    {
-        while( transform.position.x < dest.x )
-        {
-            transform.position += new Vector3( Time.fixedDeltaTime * speed, 0, 0 );
-            yield return null;
-        }
-        rb2d.velocity = new Vector2( 0, 0 );
-        yield return null;
+        StartCoroutine( moveMe( ) );
     }
     
+    private IEnumerator moveMe( )
+    {
+        float time = 1f;
+        float track = 0f;
+
+        while( track < time )
+        {
+            track += Time.deltaTime;
+            // start ->> end
+            transform.position = Vector3.Lerp( Vector3.zero, new Vector3(2.5f, 0f, 0f ), track / time );
+            yield return null;
+        }
+        yield return null;
+    }
 }

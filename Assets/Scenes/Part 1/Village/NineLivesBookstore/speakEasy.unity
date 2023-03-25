@@ -5254,6 +5254,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1835991964}
     m_Modifications:
+    - target: {fileID: 1791587628828523535, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1791587628828523535, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1009285047
+      objectReference: {fileID: 0}
     - target: {fileID: 3876093607470955273, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -5382,6 +5390,10 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 7065146122735697779, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7950511072800007582, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
       propertyPath: m_Name
       value: OpenDoor
@@ -5389,6 +5401,18 @@ PrefabInstance:
     - target: {fileID: 8586839522750210463, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
       propertyPath: m_Color.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8586839522750210463, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8934055512365732811, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8934055512365732811, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1009285047
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
@@ -5869,7 +5893,7 @@ GameObject:
   - component: {fileID: 1728642894}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

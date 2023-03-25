@@ -19,7 +19,6 @@ public class transportScene : MonoBehaviour
         foreach( GameObject g in gameObjects )
         {
             transportScene ts = g.GetComponent< transportScene >( );
-            Debug.Log( PlayerPrefs.GetString( "startPosition" ) );
             if( ts.id == PlayerPrefs.GetString( "startPosition" ) )
                 player.transform.position = ts.transform.position;
         }
@@ -27,9 +26,11 @@ public class transportScene : MonoBehaviour
 
     public void ChangeToScene( string sceneToChangeTo )
     {
-        Debug.Log( PlayerPrefs.GetString( "startPosition" ) );
         FadeThisOnePlease( );
-        StartCoroutine( ChangeScene( sceneToChangeTo ) );
+        if( sceneToChangeTo != null )
+            StartCoroutine( ChangeScene( sceneToChangeTo ) );
+        else    
+            StartCoroutine( ChangeScene( "Village" ) );
     }
 
     public void ChangeSceneFromMain( )
@@ -38,6 +39,27 @@ public class transportScene : MonoBehaviour
         if( PlayerPrefs.GetString( "SceneStart" ) == "Main" )
             PlayerPrefs.SetString( "SceneStart", "Village" );
         StartCoroutine( ChangeScene( PlayerPrefs.GetString( "SceneStart" ) ) );
+    }
+
+    public void resetPrefs( )
+    {
+        // save volume mixers
+        float masterVol = PlayerPrefs.GetFloat( "MasterVolume" );
+        float musicVol = PlayerPrefs.GetFloat( "MusicVolume" );
+        float sysVol = PlayerPrefs.GetFloat( "SystemVolume" );
+        float effVol = PlayerPrefs.GetFloat( "EffectsVolume" );
+
+        // reset all prefs 
+        PlayerPrefs.DeleteAll( );
+
+        // return values of volume mixers
+        PlayerPrefs.SetFloat( "MasterVolume", masterVol );
+        PlayerPrefs.SetFloat( "MusicVolume", musicVol );
+        PlayerPrefs.SetFloat( "SystemVolume", sysVol );
+        PlayerPrefs.SetFloat( "EffectsVolume", effVol );
+        PlayerPrefs.SetString( "SceneStart", "Village" );
+
+        // cry
     }
 
     public IEnumerator ChangeScene( string sceneToChangeTo )

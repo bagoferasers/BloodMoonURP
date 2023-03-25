@@ -20,15 +20,15 @@ public class PlayerMovement : MonoBehaviour
     private float originalSpeed, timeBetweenTapsLeft, timeBetweenTapsRight;
     private int buttonPressedLeft, buttonPressedRight;
     private Rigidbody2D rb2d;
-    private bool moveLeft, moveRight, goJump, arePaused;
+    private bool moveLeft, moveRight, arePaused;
     private Button pauseButton, leftButton, rightButton, upButton, attackButton, oButton;
     private Animator animator;
     CanvasGroup m;
     private bool runBool;
     private bool walkBool;
-
     [ Header( "Put Music script here:")]
     public Music music;
+    private bool isTouching;
     
     ///////////////////////handle player position/////////////////////////////
     public static Vector3 position;
@@ -36,13 +36,12 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start( )
     {
-
+        isTouching = false;
         runBool = false;
         walkBool = false;
         rb2d = GetComponent<Rigidbody2D>( );
         moveLeft = false;
         moveRight = false;
-        goJump = false;
         arePaused = false;
         animator = GetComponent< Animator >( );
         buttonPressedLeft = 0;
@@ -60,6 +59,7 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
+/*
     void Update( )
     {
         //////////////////////////////////////////////////////////////////////////////////////////
@@ -122,9 +122,68 @@ public class PlayerMovement : MonoBehaviour
         }
         ///////////////////////////////////////////////////////////////////////////////////////////
     }
-
+*/
     void FixedUpdate( )
     {        
+        //////////////////////////////////////////////////////////////////////////////////////////
+        // handle double tap movement to start running... need to find a way to integrate this with
+        // a new character animation
+
+        if( walkBool && !walk.isPlaying )
+        {
+            run.Stop( );
+            walk.Play( );
+        }
+        else if( runBool && !run.isPlaying )
+        {
+            walk.Stop( );
+            run.Play( );
+        }
+        else if( !walkBool && !runBool )
+        {
+            walk.Stop( );
+            run.Stop( );
+        }
+        // double tap for left
+        if( !arePaused && ( moveLeft ) )
+        {
+            if( buttonPressedLeft == 2 && timeBetweenTapsLeft < 0.4f )
+            {
+                speed = increasedSpeed;
+                animator.SetBool( "run", true );
+            }
+        }
+        else if( !arePaused && ( moveRight ) )
+        {
+            if( buttonPressedRight == 2 && timeBetweenTapsRight < 0.4f )
+            {
+                speed = increasedSpeed;
+                animator.SetBool( "run", true );
+            }
+        }
+
+        // if button down
+        if( buttonPressedLeft != 0 )
+            timeBetweenTapsLeft += Time.deltaTime;
+
+        if( buttonPressedRight != 0 )
+            timeBetweenTapsRight += Time.deltaTime;
+
+        if( timeBetweenTapsLeft > 0.4f && moveLeft != true  )
+        {
+            speed = originalSpeed;
+            buttonPressedLeft = 0;
+            timeBetweenTapsLeft = 0f;
+            animator.SetBool( "run", false );
+        }
+        if( timeBetweenTapsRight > 0.4f && moveRight != true  )
+        {
+            speed = originalSpeed;
+            buttonPressedRight = 0;
+            timeBetweenTapsRight = 0f;
+            animator.SetBool( "run", false );
+        }
+        ///////////////////////////////////////////////////////////////////////////////////////////
         animator.SetBool( "attack", false );
         /* player direction animation */
 
@@ -167,16 +226,6 @@ public class PlayerMovement : MonoBehaviour
             walkBool = false;
             runBool = false;
         }
-
-        if( !arePaused && goJump )
-        {
-            if( rb2d.velocity.y == 0 )
-            {
-                rb2d.AddForce( Vector3.up * jumpForce * Time.deltaTime, ForceMode2D.Impulse );
-                music.isJumping = true;
-            }
-            goJump = false;
-        }                
     }
 
     public void goRight( )
@@ -219,15 +268,28 @@ public class PlayerMovement : MonoBehaviour
 
     public void jump( )
     {
-        if( !arePaused )
-            goJump = true;
+        if( !arePaused && isTouching )
+        {
+            rb2d.AddForce( Vector3.up * jumpForce * Time.fixedDeltaTime, ForceMode2D.Impulse );
+            music.isJumping = true;
+        }
     }
 
+    private void OnCollisionEnter2D( Collision2D other ) 
+    {
+        if( other.gameObject.CompareTag( "TileMap" ) )
+            isTouching = true;
+    }
+
+    private void OnCollisionExit2D( Collision2D other ) 
+    {
+        if( other.gameObject.CompareTag( "TileMap" ) )
+            isTouching = false;
+    }
     public void stopMoving( )
     {
         moveLeft = false;
         moveRight = false;
-        goJump = false;
         rb2d.velocity = Vector2.zero;
         speed = originalSpeed;
         animator.SetInteger( "motionX", 0 );
