@@ -9,6 +9,7 @@ TagManager:
   - ScenePortal
   - TileMap
   - HurtTileMap
+  - Bed
   layers:
   - Default
   - TransparentFX

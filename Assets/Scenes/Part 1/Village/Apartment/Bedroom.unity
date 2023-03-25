@@ -123,6 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &29278123 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4351502801225646314, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
+  m_PrefabInstance: {fileID: 1747269051}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &119061229
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -316,6 +327,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60ef693a9bb6146ff995b5214c035170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBar: {fileID: 626554867}
+  shieldBar: {fileID: 29278123}
 --- !u!1 &528885358
 GameObject:
   m_ObjectHideFlags: 0
@@ -5257,6 +5270,17 @@ Transform:
   m_Father: {fileID: 860492899}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &626554867 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7976623599476926508, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
+  m_PrefabInstance: {fileID: 1747269051}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &659279209
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5516,6 +5540,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 237239518}
     m_Modifications:
+    - target: {fileID: 2327647750257890191, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
+      propertyPath: m_TagString
+      value: Bed
+      objectReference: {fileID: 0}
     - target: {fileID: 2327647750716044345, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
       propertyPath: m_Name
       value: OpenMeUP
@@ -5620,6 +5648,10 @@ PrefabInstance:
       propertyPath: sp
       value: 
       objectReference: {fileID: 1001600611}
+    - target: {fileID: 2327647750716044348, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
+      propertyPath: bed
+      value: 
+      objectReference: {fileID: 237239520}
     - target: {fileID: 2327647750716044348, guid: ab19fe18b1b8a764a9b90afd15339665, type: 3}
       propertyPath: audio
       value: 
@@ -7829,7 +7861,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6665255307297143409, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6665255307297143409, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
       propertyPath: m_LocalRotation.w

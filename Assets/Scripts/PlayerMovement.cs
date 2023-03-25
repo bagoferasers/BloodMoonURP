@@ -73,7 +73,6 @@ public class PlayerMovement : MonoBehaviour
         upButton = GameObject.Find( "UpBlackButton" ).GetComponent< Button >( );
         attackButton = GameObject.Find( "Attack" ).GetComponent< Button >( );
         m = GameObject.Find( "Template" ).GetComponent< CanvasGroup >( );
-
     }
 
 /*
@@ -153,6 +152,7 @@ public class PlayerMovement : MonoBehaviour
             healthBar.value -= groundHurt;
             PlayerPrefs.SetFloat( "Health", healthBar.value );
         }
+
             
         //////////////////////////////////////////////////////////////////////////////////////////
         // handle double tap movement to start running... need to find a way to integrate this with
