@@ -19,13 +19,13 @@ public class HealthShield : MonoBehaviour
         // set health upon load
         pm.healthBar.maxValue = PlayerPrefs.GetFloat( "MaxHealth" );
         healthMaxText.text = PlayerPrefs.GetFloat( "MaxHealth" ).ToString( );
-        pm.healthBar.maxValue = PlayerPrefs.GetFloat( "Health" );
+        pm.healthBar.value = PlayerPrefs.GetFloat( "Health" );
         healthText.text = PlayerPrefs.GetFloat( "Health" ).ToString( );
 
         // set shield upon load
         pm.shieldBar.maxValue = PlayerPrefs.GetFloat( "MaxShield" );
         shieldMaxText.text = PlayerPrefs.GetFloat( "MaxShield" ).ToString( );
-        pm.shieldBar.maxValue = PlayerPrefs.GetFloat( "Shield" );
+        pm.shieldBar.value = PlayerPrefs.GetFloat( "Shield" );
         shieldText.text = PlayerPrefs.GetFloat( "Shield" ).ToString( );
     }
 
