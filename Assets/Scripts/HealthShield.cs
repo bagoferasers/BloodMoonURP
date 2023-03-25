@@ -47,13 +47,14 @@ public class HealthShield : MonoBehaviour
     {
         PlayerPrefs.SetFloat( "Health", pm.healthBar.value );
         PlayerPrefs.SetFloat( "Shield", pm.shieldBar.value );
-        healthText.text = PlayerPrefs.GetFloat( "MaxHealth" ).ToString( );
+        shieldText.text = PlayerPrefs.GetFloat( "Shield" ).ToString( );
+        healthText.text = PlayerPrefs.GetFloat( "Health" ).ToString( );
+        shieldMaxText.text = PlayerPrefs.GetFloat( "MaxShield" ).ToString( );
         healthMaxText.text = PlayerPrefs.GetFloat( "MaxHealth" ).ToString( );
     }
 
     public void setHealth( float value )
     {
-        //health = value;
         PlayerPrefs.SetFloat( "Health", value );
     }
 
