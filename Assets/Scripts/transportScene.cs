@@ -26,6 +26,7 @@ public class transportScene : MonoBehaviour
 
     public void ChangeToScene( string sceneToChangeTo )
     {
+        PlayerPrefs.SetInt( "HasStartedGame", 1 );
         FadeThisOnePlease( );
         if( sceneToChangeTo != null )
             StartCoroutine( ChangeScene( sceneToChangeTo ) );
@@ -51,6 +52,7 @@ public class transportScene : MonoBehaviour
 
         // reset all prefs 
         PlayerPrefs.DeleteAll( );
+        PlayerPrefs.SetInt( "HasStartedGame", 0 );
 
         // return values of volume mixers
         PlayerPrefs.SetFloat( "MasterVolume", masterVol );

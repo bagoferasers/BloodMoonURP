@@ -37,13 +37,10 @@ public class whenEnterShowThis : MonoBehaviour
 
     void Update( )
     {
-        Debug.Log( "updating" );
         if( circle.activeInHierarchy && pressed && GameObject.Find( "oButton" ).GetComponent< Button >( ).interactable == true )
         {
-            Debug.Log( "isPressed and active and interactable" );
             if( circle.tag == "Bed" )
             {
-                Debug.Log("Tag is Bed");
                 bed.sleep( );
             }
             PlayerPrefs.SetString( "startPosition", transportScene.idConnected );

@@ -12,9 +12,7 @@ public class goToBed : MonoBehaviour
     public void sleep( )
     {
         Debug.Log( "Sleeping" );
-        //shieldBar.value = PlayerPrefs.GetFloat( "HealthMax" );
-        //healthBar.value = PlayerPrefs.GetFloat( "ShieldhMax" );
-        PlayerPrefs.SetFloat( "Health", PlayerPrefs.GetFloat( "HealthMax"  ) );
-        PlayerPrefs.SetFloat( "Shield", PlayerPrefs.GetFloat( "ShieldhMax" ) );
+        shieldBar.value = PlayerPrefs.GetFloat( "MaxHealth" );
+        healthBar.value = PlayerPrefs.GetFloat( "MaxShield" );
     }
 }
