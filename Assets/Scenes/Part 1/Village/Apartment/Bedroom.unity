@@ -7851,6 +7851,10 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 6665255307297143401, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -169035820, guid: c4fb122e79aa52f488fb57506ac90f94, type: 3}
     - target: {fileID: 6665255307297143403, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
       propertyPath: m_Name
       value: Player

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c4fb122e79aa52f488fb57506ac90f94
+guid: c76f84c6b13b04845ba099b92519c74e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -113,11 +113,23 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mainCharacterShirtless_0
+      name: mainCharacterRangerOutfit_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dde6f41f322aff9499231c96289d895e
-      internalID: -1246786611
+      spriteID: 6a2a853591f82c049a728480b0d6312b
+      internalID: 393027249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_1
+      name: mainCharacterRangerOutfit_1
       rect:
         serializedVersion: 2
         x: 64
@@ -152,14 +164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8ddc1641a4d7f54da7176ca4b656ef8
-      internalID: 1918564149
+      spriteID: fe19def6f628fbc41a58d8b92a878318
+      internalID: 706203899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_2
+      name: mainCharacterRangerOutfit_2
       rect:
         serializedVersion: 2
         x: 128
@@ -173,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e1e8ce5e0822d147a1d59328e5bac72
-      internalID: -1493816423
+      spriteID: 993639a8001dc9f40a761adf38e54359
+      internalID: -1423968722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_3
+      name: mainCharacterRangerOutfit_3
       rect:
         serializedVersion: 2
         x: 192
@@ -194,14 +206,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03876d1bb2ca7ef42b33721b80fcbca9
-      internalID: 444904257
+      spriteID: 7cff7e6507035854882029ab76e2fb9e
+      internalID: 1860983132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_4
+      name: mainCharacterRangerOutfit_4
       rect:
         serializedVersion: 2
         x: 256
@@ -215,14 +227,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a132ba844a617d34ab0c23916ee1b19c
-      internalID: 1363916562
+      spriteID: a05afc768106a2f48a839a760061a6df
+      internalID: -1162011342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_5
+      name: mainCharacterRangerOutfit_5
       rect:
         serializedVersion: 2
         x: 320
@@ -236,14 +248,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99b6b91d7a35390428ea1d3d4a15f139
-      internalID: 881070652
+      spriteID: e85076954d8e337429eb214017004cb6
+      internalID: 97559737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_6
+      name: mainCharacterRangerOutfit_6
       rect:
         serializedVersion: 2
         x: 384
@@ -257,14 +269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68481437b42f1144ba19fa92d32c9fbb
-      internalID: 1589247711
+      spriteID: b710a7d034d426840844b5d2ef0997cb
+      internalID: -242264798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_7
+      name: mainCharacterRangerOutfit_7
       rect:
         serializedVersion: 2
         x: 448
@@ -278,14 +290,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50ec0d31049d08341b1c6b7c2eb0cd96
-      internalID: 1697109870
+      spriteID: e579cef37edc9f74491d5298ae4b05e1
+      internalID: -865763569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_8
+      name: mainCharacterRangerOutfit_8
       rect:
         serializedVersion: 2
         x: 0
@@ -299,14 +311,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 391b5681ee6b8d34eb1a1431dd52e7b4
-      internalID: -317998494
+      spriteID: 12df4c30eda074a44b4d0e9c93aaf656
+      internalID: 834447806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_9
+      name: mainCharacterRangerOutfit_9
       rect:
         serializedVersion: 2
         x: 64
@@ -320,14 +332,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddbdf194869a5c8448d21b80ca7925bb
-      internalID: 2067608041
+      spriteID: 1c5167f7820a51342b731fb7d710a60c
+      internalID: 1725878538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_10
+      name: mainCharacterRangerOutfit_10
       rect:
         serializedVersion: 2
         x: 128
@@ -341,14 +353,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12f1cb2d301cc8149a269513be67bce9
-      internalID: 447233432
+      spriteID: 623f00339673a6047b022685eabdc604
+      internalID: 1826937682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_11
+      name: mainCharacterRangerOutfit_11
       rect:
         serializedVersion: 2
         x: 192
@@ -362,14 +374,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0fd88602a82a5e499d28d0dbe41e6cc
-      internalID: -1049019915
+      spriteID: 73e71867f41bc9d47bded0b8e475ed0d
+      internalID: -124437655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_12
+      name: mainCharacterRangerOutfit_12
       rect:
         serializedVersion: 2
         x: 256
@@ -383,14 +395,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71e4dd90eaa85a64ca6669a0251bea6e
-      internalID: 1091227739
+      spriteID: a0f0b51b0b0474a44b97e2a07e954d25
+      internalID: -1999630399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_13
+      name: mainCharacterRangerOutfit_13
       rect:
         serializedVersion: 2
         x: 320
@@ -404,14 +416,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b88b8f4adea80b42816ada3020c1fe7
-      internalID: 1897705022
+      spriteID: dbe643e861f78b3418f90fee163736c2
+      internalID: 567722939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_14
+      name: mainCharacterRangerOutfit_14
       rect:
         serializedVersion: 2
         x: 384
@@ -425,14 +437,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47dc011118f78bb4f869b5c33e7e3c5e
-      internalID: -183459915
+      spriteID: dcfe6759938d5b8449e318499952c947
+      internalID: 666697645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_15
+      name: mainCharacterRangerOutfit_15
       rect:
         serializedVersion: 2
         x: 0
@@ -446,14 +458,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdd824a84d12e174fafcedf2e36a250d
-      internalID: 719644533
+      spriteID: 070a604594e8c264ab7429ef65cb42db
+      internalID: 1768550597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_16
+      name: mainCharacterRangerOutfit_16
       rect:
         serializedVersion: 2
         x: 64
@@ -467,14 +479,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60065cb07c882e94d930e5ce48beaae6
-      internalID: -124179892
+      spriteID: 8b66b36341d00524cafb08f4f46f0660
+      internalID: 21745663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_17
+      name: mainCharacterRangerOutfit_17
       rect:
         serializedVersion: 2
         x: 128
@@ -488,14 +500,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69408c1b704414544baea956cc89320f
-      internalID: 1526964337
+      spriteID: 8f439b5661ac8c5468340630b28d479f
+      internalID: -1162652197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_18
+      name: mainCharacterRangerOutfit_18
       rect:
         serializedVersion: 2
         x: 192
@@ -509,14 +521,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0796aa4a5e6d37f47a8568eeb8676f94
-      internalID: -588038283
+      spriteID: 364f0873182341f46a5ca07609694573
+      internalID: -635008424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_19
+      name: mainCharacterRangerOutfit_19
       rect:
         serializedVersion: 2
         x: 256
@@ -530,14 +542,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a487316ef5cd504cb6d61016a131ce8
-      internalID: 934363994
+      spriteID: 36faf2788e9c38f42b280eeef356db89
+      internalID: 1141528290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_20
+      name: mainCharacterRangerOutfit_20
       rect:
         serializedVersion: 2
         x: 320
@@ -551,14 +563,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c264afc985e282441874dd4d1476e7ae
-      internalID: 1586815056
+      spriteID: a708e030fe689c8438e990c8205dfbeb
+      internalID: 93257200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_21
+      name: mainCharacterRangerOutfit_21
       rect:
         serializedVersion: 2
         x: 384
@@ -572,14 +584,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d73f342e6b1046438c9836541828847
-      internalID: 1142914778
+      spriteID: 4b42db108424d51449c76ecc8cc0d642
+      internalID: 2096245504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_22
+      name: mainCharacterRangerOutfit_22
       rect:
         serializedVersion: 2
         x: 0
@@ -593,14 +605,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4859e6759c34fba4ca42c071ff76053c
-      internalID: -426255474
+      spriteID: ed4465295f305d040a9520a1d2cdaba8
+      internalID: 1836121702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_23
+      name: mainCharacterRangerOutfit_23
       rect:
         serializedVersion: 2
         x: 64
@@ -614,14 +626,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71356e67c8b4ece479ccc56779992213
-      internalID: -731502741
+      spriteID: 5fa6c12a4f222054b81d58aa0cd3f7bb
+      internalID: -1793352702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_24
+      name: mainCharacterRangerOutfit_24
       rect:
         serializedVersion: 2
         x: 128
@@ -635,14 +647,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 451505b8a0143194f9b516480de4765e
-      internalID: 60296453
+      spriteID: 88634f3631ebae8409b122b3ae7ef266
+      internalID: 638920841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_25
+      name: mainCharacterRangerOutfit_25
       rect:
         serializedVersion: 2
         x: 192
@@ -656,14 +668,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c6d60d31bca731469e6b140349f8532
-      internalID: 440714617
+      spriteID: 6c1d6954cc7283544a2fffc07db50632
+      internalID: 554082225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_26
+      name: mainCharacterRangerOutfit_26
       rect:
         serializedVersion: 2
         x: 256
@@ -677,14 +689,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ddbfc958b8cc9843b8ed090737191b6
-      internalID: -753139683
+      spriteID: 31898d5e30ede7f41a277704cbd904e1
+      internalID: 690669245
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_27
+      name: mainCharacterRangerOutfit_27
       rect:
         serializedVersion: 2
         x: 320
@@ -698,14 +710,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a103a15db002b2488f9431e7bdbd622
-      internalID: 382175360
+      spriteID: b30a308038dfa1d41800c8769253f2ae
+      internalID: -1213755840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_28
+      name: mainCharacterRangerOutfit_28
       rect:
         serializedVersion: 2
         x: 384
@@ -719,14 +731,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3e2963704b567349b8d957fa108e639
-      internalID: 1067312780
+      spriteID: 1218ee2a0ab099e45abcc1057d89aacd
+      internalID: 1909462091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_29
+      name: mainCharacterRangerOutfit_29
       rect:
         serializedVersion: 2
         x: 0
@@ -740,14 +752,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9e17d3a8ee532346bf8d1712a0955b2
-      internalID: 2032528763
+      spriteID: 43093c79e5bd6df40aa18fb5bba5d926
+      internalID: -389166767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_30
+      name: mainCharacterRangerOutfit_30
       rect:
         serializedVersion: 2
         x: 64
@@ -761,14 +773,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3da0a89b48b9e124c85e45b528481de7
-      internalID: -1993621667
+      spriteID: d89c82b8ea385584391c9282c0e3393f
+      internalID: 389092516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_31
+      name: mainCharacterRangerOutfit_31
       rect:
         serializedVersion: 2
         x: 128
@@ -782,14 +794,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5e118a588f954847aceefae2f72388c
-      internalID: 1680129647
+      spriteID: 4a2c39a818f47064bb665f7c30d63264
+      internalID: 1033538785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_32
+      name: mainCharacterRangerOutfit_32
       rect:
         serializedVersion: 2
         x: 192
@@ -803,14 +815,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da3ddf326383e3a488b6c85f6c67e565
-      internalID: 871428217
+      spriteID: a2eb430a9e5d8b64cb404e828f5ef4ff
+      internalID: -1262905425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_33
+      name: mainCharacterRangerOutfit_33
       rect:
         serializedVersion: 2
         x: 256
@@ -824,14 +836,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1bc76dfffecaac47989f2e976913b92
-      internalID: -662047096
+      spriteID: 023e70ccaea81d44c83775a8a4a07dc7
+      internalID: -1106005572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_34
+      name: mainCharacterRangerOutfit_34
       rect:
         serializedVersion: 2
         x: 320
@@ -845,14 +857,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb7abc7b39adef54d8274683fb80b847
-      internalID: 157620226
+      spriteID: 96a3c0c45c86ba448b6ecf03ea4bb595
+      internalID: 1471221734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_35
+      name: mainCharacterRangerOutfit_35
       rect:
         serializedVersion: 2
         x: 384
@@ -866,14 +878,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa193310c68bc1d4da2d39c7d7004bb8
-      internalID: 1946007778
+      spriteID: 5ce4d0d7603374b488522c3f515d4e02
+      internalID: -1672043998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_36
+      name: mainCharacterRangerOutfit_36
       rect:
         serializedVersion: 2
         x: 448
@@ -887,14 +899,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94302064865775a4bb538fe7d771f8e7
-      internalID: 984584935
+      spriteID: 6e1c4a93425678b43a057f5cb18b91b1
+      internalID: 1902674870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_37
+      name: mainCharacterRangerOutfit_37
       rect:
         serializedVersion: 2
         x: 0
@@ -908,14 +920,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3e9b722e326dca4d9d90e69420ac74d
-      internalID: 880844431
+      spriteID: bfaf9b202ce5ee4408e34ef7dab7d567
+      internalID: 1987816488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_38
+      name: mainCharacterRangerOutfit_38
       rect:
         serializedVersion: 2
         x: 64
@@ -929,14 +941,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c69d31300329807458c15cb07fcc32c0
-      internalID: 1004972530
+      spriteID: 36a7a094e07a38a4a901a7e0bb6e90f1
+      internalID: 1364415512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_39
+      name: mainCharacterRangerOutfit_39
       rect:
         serializedVersion: 2
         x: 128
@@ -950,14 +962,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09f31e87a67166a44961795c821499f7
-      internalID: 1185217286
+      spriteID: bbd97432ff458294f99b63828ea2535d
+      internalID: 1198052219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_40
+      name: mainCharacterRangerOutfit_40
       rect:
         serializedVersion: 2
         x: 192
@@ -971,14 +983,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f77b53fd780d2aa44ac443568f4eca85
-      internalID: 1605812664
+      spriteID: 38195bc618e8c834a9991940e60fc55d
+      internalID: 831817738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_41
+      name: mainCharacterRangerOutfit_41
       rect:
         serializedVersion: 2
         x: 256
@@ -992,14 +1004,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68abc688ceb43444491096fb66ffab83
-      internalID: 496168240
+      spriteID: 4ce319f582f4c8d4ebbd7d76cf6a99f6
+      internalID: -942897002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_42
+      name: mainCharacterRangerOutfit_42
       rect:
         serializedVersion: 2
         x: 320
@@ -1013,14 +1025,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20d6be66f10a62d4abe33997e3bf4b4d
-      internalID: 1491397761
+      spriteID: 503c2afaf4ded7e4ab2a0dd03840f456
+      internalID: 1475117727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_43
+      name: mainCharacterRangerOutfit_43
       rect:
         serializedVersion: 2
         x: 384
@@ -1034,14 +1046,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24e235c45ae57f74abaa755073f5c277
-      internalID: 67552642
+      spriteID: 81d31846a626e6444846eb87ed8fa715
+      internalID: -1146034168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_44
+      name: mainCharacterRangerOutfit_44
       rect:
         serializedVersion: 2
         x: 448
@@ -1055,14 +1067,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59cc2faea92bf0f41bc617ec68fb0c52
-      internalID: 1554204576
+      spriteID: c14fc74cc65ae864f8a1a3fad6588a20
+      internalID: -1641664338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_45
+      name: mainCharacterRangerOutfit_45
       rect:
         serializedVersion: 2
         x: 0
@@ -1076,14 +1088,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 316f84797db0a3e488985d1e0cf42c1e
-      internalID: 1524112968
+      spriteID: b57f2c7bbe8200d48a0bf88442c85ed4
+      internalID: 1710146168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_46
+      name: mainCharacterRangerOutfit_46
       rect:
         serializedVersion: 2
         x: 64
@@ -1097,14 +1109,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec37f11c4fdfc60489927be05044e387
-      internalID: -1754422241
+      spriteID: 895cb210a0c97614897e20cb76aa60ca
+      internalID: -473169139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_47
+      name: mainCharacterRangerOutfit_47
       rect:
         serializedVersion: 2
         x: 128
@@ -1118,14 +1130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eaa43bcdaec80644f88ae6d5651ef510
-      internalID: 1671243377
+      spriteID: 4e0b4d45de3349344b3a71849be071d9
+      internalID: 2052339428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_48
+      name: mainCharacterRangerOutfit_48
       rect:
         serializedVersion: 2
         x: 192
@@ -1139,14 +1151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96982b0bd61069f4e916379380be9a43
-      internalID: 1553083910
+      spriteID: d2b7e854128b4a04db01c56cf5ab30da
+      internalID: 1557792302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_49
+      name: mainCharacterRangerOutfit_49
       rect:
         serializedVersion: 2
         x: 256
@@ -1160,14 +1172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 244acf67e9e4a3845b5cf9bda98fc51c
-      internalID: 1400191575
+      spriteID: 32d1c65d30b2da2439184635aa1aaa15
+      internalID: 291009425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_50
+      name: mainCharacterRangerOutfit_50
       rect:
         serializedVersion: 2
         x: 320
@@ -1181,14 +1193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f61d8adad1980c645bb441c2d409942a
-      internalID: 1771422394
+      spriteID: 27d7eabf716d3ae449369d7ecc766bd4
+      internalID: -2083659771
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_51
+      name: mainCharacterRangerOutfit_51
       rect:
         serializedVersion: 2
         x: 384
@@ -1202,14 +1214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4a928ec29ee294409695c5c9e0bb1d1
-      internalID: -1915630137
+      spriteID: 1f702b9da68babe4884feb79cee22a1f
+      internalID: -1608555541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_52
+      name: mainCharacterRangerOutfit_52
       rect:
         serializedVersion: 2
         x: 448
@@ -1223,14 +1235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 352758ad325827540881056418be4e54
-      internalID: -1112154699
+      spriteID: b438197eb3faf7d498d8d589f8d9aa07
+      internalID: 1486169734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_53
+      name: mainCharacterRangerOutfit_53
       rect:
         serializedVersion: 2
         x: 0
@@ -1244,14 +1256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19578c45d10cf29468ed74fd707b1c61
-      internalID: 1820775305
+      spriteID: dd5701c4dd0fc824b99833266c838c4b
+      internalID: 243873797
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_54
+      name: mainCharacterRangerOutfit_54
       rect:
         serializedVersion: 2
         x: 64
@@ -1265,14 +1277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b87f70d2a375baf44a428d8889d59537
-      internalID: -1535314935
+      spriteID: 3ca6dc16aeca5ce4abacaf63a24cd384
+      internalID: 77569373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_55
+      name: mainCharacterRangerOutfit_55
       rect:
         serializedVersion: 2
         x: 128
@@ -1286,14 +1298,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 243ae50907f0ea74fb5d79b348651d91
-      internalID: -1657069571
+      spriteID: 8fb1ea2082eb2144787cff5942fb388a
+      internalID: 780801455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_56
+      name: mainCharacterRangerOutfit_56
       rect:
         serializedVersion: 2
         x: 192
@@ -1307,14 +1319,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d31fe1446ec4a8f4882b98cff724e916
-      internalID: -195562048
+      spriteID: b060157ace9849042b1a48b8ec3a7115
+      internalID: -1682372481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_57
+      name: mainCharacterRangerOutfit_57
       rect:
         serializedVersion: 2
         x: 256
@@ -1328,14 +1340,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0f7591bec2828745a0e223f860d4d35
-      internalID: -251814707
+      spriteID: 07975622ff75b904f9e195cd622818b7
+      internalID: -281211318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_58
+      name: mainCharacterRangerOutfit_58
       rect:
         serializedVersion: 2
         x: 320
@@ -1349,14 +1361,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42bce7e42a6d0314bb105ed4ca5d9794
-      internalID: -459910227
+      spriteID: 93753f59e0d73fb429a087d269a671c9
+      internalID: -1252105137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_59
+      name: mainCharacterRangerOutfit_59
       rect:
         serializedVersion: 2
         x: 384
@@ -1370,14 +1382,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8aa32a0036cab2c4994cba76d54edade
-      internalID: 1324518179
+      spriteID: 11ccaa1d9e4ff9641b84db12b5166608
+      internalID: -1413255862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_60
+      name: mainCharacterRangerOutfit_60
       rect:
         serializedVersion: 2
         x: 448
@@ -1391,14 +1403,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4559f30f64bb76b4ba4a3ad710f00111
-      internalID: 279214716
+      spriteID: 5f40b4aee00dcd646aac5adb4e24804d
+      internalID: 1562979509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_61
+      name: mainCharacterRangerOutfit_61
       rect:
         serializedVersion: 2
         x: 0
@@ -1412,14 +1424,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0aa5d3402fe914c4e9bc5f29dca5469e
-      internalID: 292728937
+      spriteID: a5e93381067122d40acc2cf826040f0b
+      internalID: 1090953088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_62
+      name: mainCharacterRangerOutfit_62
       rect:
         serializedVersion: 2
         x: 64
@@ -1433,14 +1445,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3aaee0905e4c16d419c3ab7116ef2fbb
-      internalID: 2050509518
+      spriteID: f7f0b058561834747ab91c830cfd7be2
+      internalID: 319880869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_63
+      name: mainCharacterRangerOutfit_63
       rect:
         serializedVersion: 2
         x: 128
@@ -1454,14 +1466,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2399d055dd455234a998db47dd6575d5
-      internalID: -579862816
+      spriteID: a41b5c33a214de64784909d4a1540a6b
+      internalID: -1870148967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_64
+      name: mainCharacterRangerOutfit_64
       rect:
         serializedVersion: 2
         x: 192
@@ -1475,14 +1487,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f4276445a95510498217096245cbc25
-      internalID: -376114596
+      spriteID: 8d793001e1b4d7a488f2ebfd1b104cf7
+      internalID: -227899809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_65
+      name: mainCharacterRangerOutfit_65
       rect:
         serializedVersion: 2
         x: 256
@@ -1496,14 +1508,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2476ec9b95ba0e34185bd725f338eb4b
-      internalID: -1844161839
+      spriteID: 2c148c2338305d54d8492a3c8349ff7b
+      internalID: 808767184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_66
+      name: mainCharacterRangerOutfit_66
       rect:
         serializedVersion: 2
         x: 320
@@ -1517,14 +1529,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cea432a8e2e4e33449d5b8ecc152d3b5
-      internalID: 840377914
+      spriteID: 5fc28043ad23c7f4c981ffe262e3d6da
+      internalID: -912682959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_67
+      name: mainCharacterRangerOutfit_67
       rect:
         serializedVersion: 2
         x: 384
@@ -1538,14 +1550,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44f17124186cc5f4fafaff5791dcada3
-      internalID: 1515661023
+      spriteID: 74c937b6269a0ab4a9b6df5f69c58186
+      internalID: 2055330341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_68
+      name: mainCharacterRangerOutfit_68
       rect:
         serializedVersion: 2
         x: 448
@@ -1559,14 +1571,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 100d43f48635e9246a4986275bcd2bc9
-      internalID: 1810774766
+      spriteID: 1bb321f297b23bb4a92d746002844b4c
+      internalID: 1171449846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_69
+      name: mainCharacterRangerOutfit_69
       rect:
         serializedVersion: 2
         x: 512
@@ -1580,14 +1592,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2b631e6e6c1ada4a89a9130eec4a777
-      internalID: -1900635479
+      spriteID: d01009906ae08c24e9f91544e69e88ef
+      internalID: -788100521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_70
+      name: mainCharacterRangerOutfit_70
       rect:
         serializedVersion: 2
         x: 0
@@ -1601,14 +1613,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08f73ccfd1001654689c08588652150a
-      internalID: -875377381
+      spriteID: 92506733e60a491459ed657de8c56dcd
+      internalID: 1395038764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_71
+      name: mainCharacterRangerOutfit_71
       rect:
         serializedVersion: 2
         x: 64
@@ -1622,14 +1634,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 296ee864adbfb3d43b5bfdbdb1752bb4
-      internalID: -1953857796
+      spriteID: bb049798d4458174b8566cb6cb448f83
+      internalID: 919088305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_72
+      name: mainCharacterRangerOutfit_72
       rect:
         serializedVersion: 2
         x: 128
@@ -1643,14 +1655,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b48c769baadaed458fe6791a6bfc392
-      internalID: -1580554209
+      spriteID: fc1c38d5ae2e4414c98d09e3eed763de
+      internalID: 1911598427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_73
+      name: mainCharacterRangerOutfit_73
       rect:
         serializedVersion: 2
         x: 192
@@ -1664,14 +1676,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29636b15a9a10124e9122d5cdb728730
-      internalID: 158502763
+      spriteID: e7c7c68e0bc276d409bd1ce0f44efddb
+      internalID: -1828304455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_74
+      name: mainCharacterRangerOutfit_74
       rect:
         serializedVersion: 2
         x: 256
@@ -1685,14 +1697,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6934099f19dc3b04892c2ce5e93b37ea
-      internalID: 1299814657
+      spriteID: 893ae2b0c7af58042bc137b1c7ca48fc
+      internalID: -1806657550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_75
+      name: mainCharacterRangerOutfit_75
       rect:
         serializedVersion: 2
         x: 320
@@ -1706,14 +1718,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8689b7b5b3685a43b3d9317ec70d6b1
-      internalID: -1465020000
+      spriteID: 20323fdeb8cd8bb4484fdd7c4a453c62
+      internalID: -986523487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_76
+      name: mainCharacterRangerOutfit_76
       rect:
         serializedVersion: 2
         x: 384
@@ -1727,14 +1739,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12030b80ef75f0542b7a94913d831492
-      internalID: -663399790
+      spriteID: 8197b0111ea9d6140aa28e6aa1f8da30
+      internalID: 477066363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_77
+      name: mainCharacterRangerOutfit_77
       rect:
         serializedVersion: 2
         x: 448
@@ -1748,14 +1760,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cf9b51c69200564db4405c946127c16
-      internalID: -225969911
+      spriteID: 510d39e59910d4d46b25513bcf48927c
+      internalID: -1183681606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_78
+      name: mainCharacterRangerOutfit_78
       rect:
         serializedVersion: 2
         x: 512
@@ -1769,14 +1781,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9af24ef3e7d450e429a162d4680a574d
-      internalID: 730163295
+      spriteID: 4190caf1c8c3c164c8d04385a3b93759
+      internalID: -1020945106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_79
+      name: mainCharacterRangerOutfit_79
       rect:
         serializedVersion: 2
         x: 0
@@ -1790,14 +1802,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7adab78eb54f7a64c8b471cd86d543ae
-      internalID: -169035820
+      spriteID: 9f1fbf4cf33cff64fa0fe6195334fbc4
+      internalID: -1578631316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_80
+      name: mainCharacterRangerOutfit_80
       rect:
         serializedVersion: 2
         x: 64
@@ -1811,14 +1823,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15ff2824a5d0f1e4f84881a7e4916156
-      internalID: 1820527946
+      spriteID: 5ee04b93ea1d4a8419ab3a878ffec135
+      internalID: -102670894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_81
+      name: mainCharacterRangerOutfit_81
       rect:
         serializedVersion: 2
         x: 128
@@ -1832,14 +1844,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbcdf863f2d0e1f47952944bcda9d824
-      internalID: 126656263
+      spriteID: 09dfde0b06d4a8748b0138a7573b4e0a
+      internalID: 851760733
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_82
+      name: mainCharacterRangerOutfit_82
       rect:
         serializedVersion: 2
         x: 192
@@ -1853,14 +1865,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de0ac2df3fc5c1c4a9e4acd9f2051a6d
-      internalID: 2023630503
+      spriteID: ebd2419e165ab9b449cb574ced3f002a
+      internalID: -661443939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_83
+      name: mainCharacterRangerOutfit_83
       rect:
         serializedVersion: 2
         x: 256
@@ -1874,14 +1886,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be905c357a479544aac4abf1edcc0302
-      internalID: -2073783228
+      spriteID: b44f1191db63a1a4dad370d25aad0a53
+      internalID: -568423266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_84
+      name: mainCharacterRangerOutfit_84
       rect:
         serializedVersion: 2
         x: 320
@@ -1895,14 +1907,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 476122deb43c2d64dbed5ea407470928
-      internalID: 1494787894
+      spriteID: c945def67932f154ab5760d34864ef76
+      internalID: 1650940485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_85
+      name: mainCharacterRangerOutfit_85
       rect:
         serializedVersion: 2
         x: 384
@@ -1916,14 +1928,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd4233012e24c2f43b9daa3a91ad5827
-      internalID: -1213498203
+      spriteID: 813a3feef91e5ed419ff540b05c50929
+      internalID: -260623310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_86
+      name: mainCharacterRangerOutfit_86
       rect:
         serializedVersion: 2
         x: 448
@@ -1937,14 +1949,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58cc60e900d4fff45a8656d4df79890b
-      internalID: -1354843211
+      spriteID: a52c8f8e6df164f419f7e5317e57fbe9
+      internalID: 1030456006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_87
+      name: mainCharacterRangerOutfit_87
       rect:
         serializedVersion: 2
         x: 512
@@ -1958,14 +1970,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3f018f015bc4c8459ef88d31bf9ed33
-      internalID: -1399530597
+      spriteID: 2dbad43374f54e64fabee3f2357b8f74
+      internalID: 685874365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_88
+      name: mainCharacterRangerOutfit_88
       rect:
         serializedVersion: 2
         x: 0
@@ -1979,14 +1991,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4b775e05b2c5c846ba0329f94aad95c
-      internalID: -1052372530
+      spriteID: f31a4eb34ce437a488a9ba7e79242f9e
+      internalID: -575620048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_89
+      name: mainCharacterRangerOutfit_89
       rect:
         serializedVersion: 2
         x: 64
@@ -2000,14 +2012,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69c67664ae5fe8240995047933130d21
-      internalID: 327834071
+      spriteID: adda66a8364d3e8469488d80f1e95068
+      internalID: 1078974768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_90
+      name: mainCharacterRangerOutfit_90
       rect:
         serializedVersion: 2
         x: 128
@@ -2021,14 +2033,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c77b7255740241419e79aabb78fb0a1
-      internalID: 201472407
+      spriteID: 28caedfcbcba47349af72d1c47bfb873
+      internalID: 1354168272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_91
+      name: mainCharacterRangerOutfit_91
       rect:
         serializedVersion: 2
         x: 192
@@ -2042,14 +2054,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93934ca1ec72de94e836c312d46751ab
-      internalID: 2066425824
+      spriteID: a0781d00b5816834c9e695f60a9f8630
+      internalID: 1997796197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_92
+      name: mainCharacterRangerOutfit_92
       rect:
         serializedVersion: 2
         x: 256
@@ -2063,14 +2075,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b12b6cd1b736784cbef6d0835b9a1e2
-      internalID: 1260805343
+      spriteID: 352e8732cf8480941a2a7da762d49d1a
+      internalID: 1128714288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_93
+      name: mainCharacterRangerOutfit_93
       rect:
         serializedVersion: 2
         x: 320
@@ -2084,14 +2096,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87a6466503a55c84182c3339a6d3ae95
-      internalID: -196102369
+      spriteID: 60a079c283dcf04479d898b99f58d65a
+      internalID: 714002988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_94
+      name: mainCharacterRangerOutfit_94
       rect:
         serializedVersion: 2
         x: 384
@@ -2105,14 +2117,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8b3bede51a19a4438bfa596e1c8b67c
-      internalID: 1839580711
+      spriteID: 93c084162e4d19a419237af141b3a42f
+      internalID: 767368022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_95
+      name: mainCharacterRangerOutfit_95
       rect:
         serializedVersion: 2
         x: 448
@@ -2126,14 +2138,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3361897896130d247a5acd1af9e0f15f
-      internalID: -1791204398
+      spriteID: c7b99f465f722ae4ebe3b2bd20966473
+      internalID: -1358898147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_96
+      name: mainCharacterRangerOutfit_96
       rect:
         serializedVersion: 2
         x: 512
@@ -2147,14 +2159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 684d2d95f8c13d54c92b8feb41709cec
-      internalID: -528709239
+      spriteID: 72b4acd3b9ba7ff47afc42280c022079
+      internalID: 838006875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_97
+      name: mainCharacterRangerOutfit_97
       rect:
         serializedVersion: 2
         x: 0
@@ -2168,14 +2180,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db8a193d78a950f48b2966e4ee13903d
-      internalID: 1079566664
+      spriteID: cd664cd2823a83741ad7eb76e04652ac
+      internalID: 1270866463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_98
+      name: mainCharacterRangerOutfit_98
       rect:
         serializedVersion: 2
         x: 64
@@ -2189,14 +2201,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38bdf3e6d9f1d4c4da3444090be3ef4d
-      internalID: 1454194019
+      spriteID: ee6eb01bfb53f314e94c03a4ae414358
+      internalID: -1675180187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_99
+      name: mainCharacterRangerOutfit_99
       rect:
         serializedVersion: 2
         x: 128
@@ -2210,14 +2222,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31c395b9c4a0d0849a340204d5afce37
-      internalID: -235945341
+      spriteID: ce1289d99cb58b541b59cf6f8cd01a4d
+      internalID: -1499052728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_100
+      name: mainCharacterRangerOutfit_100
       rect:
         serializedVersion: 2
         x: 192
@@ -2231,14 +2243,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a146fdc26f7029d44b09ec564d008778
-      internalID: -899226444
+      spriteID: c35f51b5072e87c4db384f258526f8df
+      internalID: -2130998555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_101
+      name: mainCharacterRangerOutfit_101
       rect:
         serializedVersion: 2
         x: 256
@@ -2252,14 +2264,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5adb7956eee1be8439d38d97e2fbf169
-      internalID: -1873869378
+      spriteID: e32e446978fa255468e1a9e8f2086546
+      internalID: -718887296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_102
+      name: mainCharacterRangerOutfit_102
       rect:
         serializedVersion: 2
         x: 320
@@ -2273,14 +2285,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a712d65e1e587bb42b731a17e7792ccb
-      internalID: -993488833
+      spriteID: cd3925b4caf67034e84cfefb0f078337
+      internalID: -1428178362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_103
+      name: mainCharacterRangerOutfit_103
       rect:
         serializedVersion: 2
         x: 0
@@ -2294,14 +2306,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f98514b4262a73e46990cfdd27f20cf9
-      internalID: -1788013091
+      spriteID: 61f495c8d98217b478e1a397d615db75
+      internalID: -529986739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_104
+      name: mainCharacterRangerOutfit_104
       rect:
         serializedVersion: 2
         x: 64
@@ -2315,14 +2327,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ca659f8568ba914e8bbde81766a5cac
-      internalID: -606514992
+      spriteID: 6b39b265d3e9e2841bb4ddd67a724d12
+      internalID: -476636743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_105
+      name: mainCharacterRangerOutfit_105
       rect:
         serializedVersion: 2
         x: 128
@@ -2336,14 +2348,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebe6d0d157c5c0d4b928069072d4ffd7
-      internalID: -400480613
+      spriteID: 9520e0146f1a52c40a189046bfd47572
+      internalID: 1774017904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_106
+      name: mainCharacterRangerOutfit_106
       rect:
         serializedVersion: 2
         x: 192
@@ -2357,14 +2369,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94bcad508988c0e4cb6c66ddc91878a1
-      internalID: -520797075
+      spriteID: 24411d28171697a419ca3ff8f0aabd44
+      internalID: 2058228521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_107
+      name: mainCharacterRangerOutfit_107
       rect:
         serializedVersion: 2
         x: 256
@@ -2378,14 +2390,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ce91909a0c236641b386e594923edf1
-      internalID: 1833165013
+      spriteID: 08fd623ab3761e248b406b66c73c178e
+      internalID: -1001204121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_108
+      name: mainCharacterRangerOutfit_108
       rect:
         serializedVersion: 2
         x: 320
@@ -2399,14 +2411,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b698a4f08432cf4ca930132ca0cea92
-      internalID: 983430315
+      spriteID: 8febd3fa5a5ee364caa84c0ccf756319
+      internalID: -1943174451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_109
+      name: mainCharacterRangerOutfit_109
       rect:
         serializedVersion: 2
         x: 0
@@ -2420,14 +2432,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 730fafce3c862bf4cbdb9e37c89c1081
-      internalID: 157284808
+      spriteID: 67265c044181c2744a0a47b8adb3f43b
+      internalID: 446082388
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_110
+      name: mainCharacterRangerOutfit_110
       rect:
         serializedVersion: 2
         x: 64
@@ -2441,14 +2453,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b085cb312ee7f894d9d96aa728845f6d
-      internalID: 2097025670
+      spriteID: 764d054a31c9b8e4788d7630c9474b19
+      internalID: -1843917089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_111
+      name: mainCharacterRangerOutfit_111
       rect:
         serializedVersion: 2
         x: 128
@@ -2462,14 +2474,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3df3a9208709a6541b89e7691a62849e
-      internalID: 1579542315
+      spriteID: 9c631865e01bfa3448649dedde0ef797
+      internalID: 114496850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_112
+      name: mainCharacterRangerOutfit_112
       rect:
         serializedVersion: 2
         x: 192
@@ -2483,14 +2495,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 204d72ac1402b5b4c8eb2c9fd717aaaf
-      internalID: 1732874378
+      spriteID: 885267014ef211544a19b12d0125599c
+      internalID: -310072376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_113
+      name: mainCharacterRangerOutfit_113
       rect:
         serializedVersion: 2
         x: 256
@@ -2504,14 +2516,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2361d992f6726004d968cb629fb85a93
-      internalID: 911836021
+      spriteID: 00ceaa5d827941a4ea3ba0458182dc13
+      internalID: -2055983242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_114
+      name: mainCharacterRangerOutfit_114
       rect:
         serializedVersion: 2
         x: 320
@@ -2525,14 +2537,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a6cccca35c6abf42b57c96424ff8a8b
-      internalID: 1347245062
+      spriteID: 4859c8041aecd9b48ac1d592b7e8c7af
+      internalID: 960588062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_115
+      name: mainCharacterRangerOutfit_115
       rect:
         serializedVersion: 2
         x: 0
@@ -2546,14 +2558,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b41b5a9b7250a94ebeb7d7694c50bf9
-      internalID: -1906363968
+      spriteID: fe2facc29a390e843836d742fb572751
+      internalID: 27896626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_116
+      name: mainCharacterRangerOutfit_116
       rect:
         serializedVersion: 2
         x: 64
@@ -2567,14 +2579,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dbaacbf786026f4492dd64bcde50f36
-      internalID: -821961784
+      spriteID: 8807ed911a02d574db2893306c9973a8
+      internalID: -1679622610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_117
+      name: mainCharacterRangerOutfit_117
       rect:
         serializedVersion: 2
         x: 128
@@ -2588,14 +2600,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d6de604642d3894294cbe5e1064a083
-      internalID: 890245411
+      spriteID: b7a34d4a44d6e8448b19fed2f2af5946
+      internalID: 1941884532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_118
+      name: mainCharacterRangerOutfit_118
       rect:
         serializedVersion: 2
         x: 192
@@ -2609,14 +2621,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8a0125c41f09b142ba63f79cf83fb08
-      internalID: 1280408437
+      spriteID: 2b1cc0001830eec4c848152942f4bef9
+      internalID: 637901443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_119
+      name: mainCharacterRangerOutfit_119
       rect:
         serializedVersion: 2
         x: 256
@@ -2630,14 +2642,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c6fe31c96a0a344b8b2780d887445bf
-      internalID: -1764651405
+      spriteID: e53492f22efb2e346a3f55586d09fac8
+      internalID: 2008173852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_120
+      name: mainCharacterRangerOutfit_120
       rect:
         serializedVersion: 2
         x: 320
@@ -2651,14 +2663,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 657955c71a7ec8f4786d7732e2fe6d1f
-      internalID: 1067152714
+      spriteID: 8e932dc883fb573469f08398a638f520
+      internalID: -587565564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_121
+      name: mainCharacterRangerOutfit_121
       rect:
         serializedVersion: 2
         x: 0
@@ -2672,14 +2684,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6acbe288fe865d045b2a5748de9f4b53
-      internalID: -1078422091
+      spriteID: abf810d5d387da040b35e912a939bb22
+      internalID: -301088115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_122
+      name: mainCharacterRangerOutfit_122
       rect:
         serializedVersion: 2
         x: 64
@@ -2693,14 +2705,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da1b253fc0ca2e6479182843b40e8b4e
-      internalID: -417943083
+      spriteID: 4dc1a8e736c6b054b98359561076f367
+      internalID: -625931807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_123
+      name: mainCharacterRangerOutfit_123
       rect:
         serializedVersion: 2
         x: 128
@@ -2714,14 +2726,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ba46b440200d9b4fb1d90584313be55
-      internalID: -2040211887
+      spriteID: fc6c9b3cadd018a41b0564a200036a89
+      internalID: 1714369188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_124
+      name: mainCharacterRangerOutfit_124
       rect:
         serializedVersion: 2
         x: 192
@@ -2735,14 +2747,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e43a1b0b2f02f134cacd33f222f3e66e
-      internalID: -792570982
+      spriteID: d359f67df2700ec42b5b890e26293fcf
+      internalID: 1397347966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_125
+      name: mainCharacterRangerOutfit_125
       rect:
         serializedVersion: 2
         x: 256
@@ -2756,14 +2768,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6ced9f1a0a3e924c8e191c52543f16f
-      internalID: 871228824
+      spriteID: 5055f85c3ad498545bd6a6b759e77923
+      internalID: -1121549034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_126
+      name: mainCharacterRangerOutfit_126
       rect:
         serializedVersion: 2
         x: 320
@@ -2777,14 +2789,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84ab8e50d0cb18c4fb5c4d10dd2b03d5
-      internalID: 1268930587
+      spriteID: 9fbeaa8fcf2ee504dbfd2bdd323975f2
+      internalID: -162718213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_127
+      name: mainCharacterRangerOutfit_127
       rect:
         serializedVersion: 2
         x: 384
@@ -2798,14 +2810,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d585fea06758f894fb0f774bdfaa1154
-      internalID: -1584840975
+      spriteID: 65e018f6c2eff5e489fbe3985ee5ee92
+      internalID: 988998607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_128
+      name: mainCharacterRangerOutfit_128
       rect:
         serializedVersion: 2
         x: 448
@@ -2819,14 +2831,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a99ab3a45c697dc44814e1277c792bbf
-      internalID: -97178076
+      spriteID: c0a707a673e32a349ad97927224cc6dc
+      internalID: 1158478316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_129
+      name: mainCharacterRangerOutfit_129
       rect:
         serializedVersion: 2
         x: 512
@@ -2840,14 +2852,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67473bac1db92d949af117beef22c9f1
-      internalID: 471373372
+      spriteID: dd75f6b9dc987704cbbbadb4dc273b44
+      internalID: 2002655925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_130
+      name: mainCharacterRangerOutfit_130
       rect:
         serializedVersion: 2
         x: 576
@@ -2861,14 +2873,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aeb1fb70f2e3d26498dbd770cf614fdf
-      internalID: -1119153380
+      spriteID: 4265230c485a9264fbab3d4c6aacdf52
+      internalID: -1039620155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_131
+      name: mainCharacterRangerOutfit_131
       rect:
         serializedVersion: 2
         x: 640
@@ -2882,14 +2894,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cf1f3e8f6485514eba490bf4f656578
-      internalID: -80046724
+      spriteID: e74d6d4f9ae31f94aa3dddaa50f79e0a
+      internalID: -1926592496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_132
+      name: mainCharacterRangerOutfit_132
       rect:
         serializedVersion: 2
         x: 704
@@ -2903,14 +2915,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58ec9bbc7291dca4ab8e63d6a7c6659c
-      internalID: -1213270786
+      spriteID: cb7c04d0555c4b540a6be51cdbf8e09a
+      internalID: 1004048860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_133
+      name: mainCharacterRangerOutfit_133
       rect:
         serializedVersion: 2
         x: 768
@@ -2924,14 +2936,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d5b75f3f90474647b0f4abc36b281d8
-      internalID: 151947822
+      spriteID: 63f665415ce1fa74e9b6d04cb295943c
+      internalID: 1721132294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_134
+      name: mainCharacterRangerOutfit_134
       rect:
         serializedVersion: 2
         x: 0
@@ -2945,14 +2957,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93c8f259e6e052f489a5be721a6c6b04
-      internalID: -1580570230
+      spriteID: fa244e96779ae8a4fab29eaf43d23523
+      internalID: 2038513691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_135
+      name: mainCharacterRangerOutfit_135
       rect:
         serializedVersion: 2
         x: 64
@@ -2966,14 +2978,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89643d05336cc3244a169ef2568254c0
-      internalID: 994777546
+      spriteID: f6eaba713c671f14f9fb6e6f8f9f6fad
+      internalID: -334990709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_136
+      name: mainCharacterRangerOutfit_136
       rect:
         serializedVersion: 2
         x: 128
@@ -2987,14 +2999,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97eac94c1b05c3e4198d8bda8222d11c
-      internalID: -415749831
+      spriteID: 9cea6d9745f9de74987fb98d8306bd4b
+      internalID: -591398868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_137
+      name: mainCharacterRangerOutfit_137
       rect:
         serializedVersion: 2
         x: 192
@@ -3008,14 +3020,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71d49d6770ecbac408d03a78b6a179d3
-      internalID: 1509369959
+      spriteID: 0aaf6e8d52dcf3e4daeaee84c18a2fbe
+      internalID: 476351328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_138
+      name: mainCharacterRangerOutfit_138
       rect:
         serializedVersion: 2
         x: 256
@@ -3029,14 +3041,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da40c1a24ac8b3e46b54d9ca304480cb
-      internalID: 100455344
+      spriteID: 28b91517f41b865458e72769a348e31f
+      internalID: -625769986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_139
+      name: mainCharacterRangerOutfit_139
       rect:
         serializedVersion: 2
         x: 320
@@ -3050,14 +3062,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f818c9a804ce58f40aefae31e0257227
-      internalID: -1697161643
+      spriteID: 7be5820091d43b64a90d4fa32e7cd9ce
+      internalID: -1819762542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_140
+      name: mainCharacterRangerOutfit_140
       rect:
         serializedVersion: 2
         x: 384
@@ -3071,14 +3083,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59c7af73f76c1e4429b88b54af468a0d
-      internalID: 209105614
+      spriteID: bd998aff731ab924fb7036072c4cca94
+      internalID: 1813720969
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_141
+      name: mainCharacterRangerOutfit_141
       rect:
         serializedVersion: 2
         x: 448
@@ -3092,14 +3104,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85a82321abda3084d9b55ec63ab097c5
-      internalID: -909299272
+      spriteID: 1860c91be341e6641828799cb5fb49ba
+      internalID: -1673664315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_142
+      name: mainCharacterRangerOutfit_142
       rect:
         serializedVersion: 2
         x: 512
@@ -3113,14 +3125,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d43d740f8978fac419ee489353573e91
-      internalID: -220943095
+      spriteID: ec90f550f7be61f47bad8028094a7495
+      internalID: 701299914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_143
+      name: mainCharacterRangerOutfit_143
       rect:
         serializedVersion: 2
         x: 576
@@ -3134,14 +3146,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 745ab95419980da4ba1ec6053d8c3ca3
-      internalID: 639176646
+      spriteID: 9a7209fe31113d0419708a3c49ea5e96
+      internalID: 509194567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_144
+      name: mainCharacterRangerOutfit_144
       rect:
         serializedVersion: 2
         x: 640
@@ -3155,14 +3167,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d63a493eeb8a2a4faa74aa66cc11a8e
-      internalID: -426765852
+      spriteID: ebe6e5c78074ec542b14381683292102
+      internalID: -1894492628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_145
+      name: mainCharacterRangerOutfit_145
       rect:
         serializedVersion: 2
         x: 704
@@ -3176,14 +3188,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a381baec9279a5d47b7b6232d337f9d8
-      internalID: 2102341429
+      spriteID: c7279fe307268e8478364235abb0aa79
+      internalID: -442143179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_146
+      name: mainCharacterRangerOutfit_146
       rect:
         serializedVersion: 2
         x: 768
@@ -3197,14 +3209,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 109ab4cf23a0c9049a36534684c81bb9
-      internalID: -235768422
+      spriteID: 49d334eb37fc80846ba9a0f762d73716
+      internalID: -248172993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_147
+      name: mainCharacterRangerOutfit_147
       rect:
         serializedVersion: 2
         x: 0
@@ -3218,14 +3230,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9325c042510062041834584d09159a8e
-      internalID: 1914515053
+      spriteID: ce4b5e29f3d335f4e81a4311dca20762
+      internalID: 1997181592
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_148
+      name: mainCharacterRangerOutfit_148
       rect:
         serializedVersion: 2
         x: 64
@@ -3239,14 +3251,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd9f83963cc08a7499a7cc5bec9ff9b0
-      internalID: 10801403
+      spriteID: 1e04350de24884b4790419eecdcd9fe0
+      internalID: 1289862892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_149
+      name: mainCharacterRangerOutfit_149
       rect:
         serializedVersion: 2
         x: 128
@@ -3260,14 +3272,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40aade7b603361042b42af81a72c180b
-      internalID: 633797794
+      spriteID: 8c26fe457884ff94e8359736281f7c2f
+      internalID: 2031329803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_150
+      name: mainCharacterRangerOutfit_150
       rect:
         serializedVersion: 2
         x: 192
@@ -3281,14 +3293,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c978f6f475cefce4fa16659d1ac9b6d8
-      internalID: 639664305
+      spriteID: a35bf8255db3f6c4b88fe1e6b7fe8158
+      internalID: 1100820043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_151
+      name: mainCharacterRangerOutfit_151
       rect:
         serializedVersion: 2
         x: 256
@@ -3302,14 +3314,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ad2cd5704d8e1342b22c5e409f64489
-      internalID: 533221369
+      spriteID: 1a2406cf6cc40324689190268a7d8cb2
+      internalID: -1513318275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_152
+      name: mainCharacterRangerOutfit_152
       rect:
         serializedVersion: 2
         x: 320
@@ -3323,14 +3335,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64a4caa31d476f545864a1203fae604b
-      internalID: -189843411
+      spriteID: f8e7b4a29e9e087468b56e818eb148bf
+      internalID: 1506954684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_153
+      name: mainCharacterRangerOutfit_153
       rect:
         serializedVersion: 2
         x: 384
@@ -3344,14 +3356,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a713a8c8a5efab74b8b0a39fd14f0f90
-      internalID: 761479290
+      spriteID: 106b1af930992484188e3b6a890da599
+      internalID: 1786152275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_154
+      name: mainCharacterRangerOutfit_154
       rect:
         serializedVersion: 2
         x: 448
@@ -3365,14 +3377,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91e7c57f71698a647858d0fad82528d7
-      internalID: 1196653892
+      spriteID: b3505820500d25b4cbda658e10f5b72d
+      internalID: 396451639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_155
+      name: mainCharacterRangerOutfit_155
       rect:
         serializedVersion: 2
         x: 512
@@ -3386,14 +3398,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fd90ec2ebda721408bb202439afcc3e
-      internalID: 566792046
+      spriteID: 7289e651fadfbbe499d2f735869cf241
+      internalID: 1515235665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_156
+      name: mainCharacterRangerOutfit_156
       rect:
         serializedVersion: 2
         x: 576
@@ -3407,14 +3419,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d561f9898e668b41963e745cfea94f9
-      internalID: 1754169783
+      spriteID: fe0d44420106da944842e7ad7b3d69d5
+      internalID: -586145856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_157
+      name: mainCharacterRangerOutfit_157
       rect:
         serializedVersion: 2
         x: 640
@@ -3428,14 +3440,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c12fbe50f386a2741aeea51275eb0ce5
-      internalID: -421399735
+      spriteID: 806743013be0b7349929758dfdc0ed89
+      internalID: -745630063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_158
+      name: mainCharacterRangerOutfit_158
       rect:
         serializedVersion: 2
         x: 704
@@ -3449,14 +3461,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b1948a2bffaafa4490a9dc32e7d82a6
-      internalID: 1590955708
+      spriteID: 0307ae780a0181b42b1e4568dee107f9
+      internalID: -2031572137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_159
+      name: mainCharacterRangerOutfit_159
       rect:
         serializedVersion: 2
         x: 768
@@ -3470,14 +3482,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1045328921720e34e8afd06c8c61e622
-      internalID: -1765689295
+      spriteID: 26abb461334436a4dae0f1f1519493cc
+      internalID: 1107604013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_160
+      name: mainCharacterRangerOutfit_160
       rect:
         serializedVersion: 2
         x: 0
@@ -3491,14 +3503,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c83068a5f92b6e4a8099987a8431c51
-      internalID: 1048008565
+      spriteID: b3cbfb2032742664d9cb59b88f5c9741
+      internalID: 1198059525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_161
+      name: mainCharacterRangerOutfit_161
       rect:
         serializedVersion: 2
         x: 64
@@ -3512,14 +3524,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b3c8b51c4cf91340ad343380a52e554
-      internalID: 1889411740
+      spriteID: 0eb0fc9a19545174d9962ebd7466dc1e
+      internalID: 857295079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_162
+      name: mainCharacterRangerOutfit_162
       rect:
         serializedVersion: 2
         x: 128
@@ -3533,14 +3545,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4494e9d76470734d8c4e1a1b1267448
-      internalID: -554332582
+      spriteID: 7b00d0ea7aaeab54182f7815250513b9
+      internalID: -729385461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_163
+      name: mainCharacterRangerOutfit_163
       rect:
         serializedVersion: 2
         x: 192
@@ -3554,14 +3566,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea8f6912dd2be704b929890dd5798ab5
-      internalID: -233263911
+      spriteID: 2b2843d6f7873bb4d847d28161b97265
+      internalID: -565683494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_164
+      name: mainCharacterRangerOutfit_164
       rect:
         serializedVersion: 2
         x: 256
@@ -3575,14 +3587,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a898b4ee3a3d33f428370d20634b13fd
-      internalID: 511284949
+      spriteID: ddf43dbc3092b7248ad78cb9454f70de
+      internalID: -507056314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_165
+      name: mainCharacterRangerOutfit_165
       rect:
         serializedVersion: 2
         x: 320
@@ -3596,14 +3608,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88536da9ab7abe34db6d849d47b63c60
-      internalID: 1598275679
+      spriteID: e4772b44e76a0854f92d2fd6da56ee38
+      internalID: -1362739162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_166
+      name: mainCharacterRangerOutfit_166
       rect:
         serializedVersion: 2
         x: 384
@@ -3617,14 +3629,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 872e58eca2912014e9e1bdfe459298bd
-      internalID: -1767723440
+      spriteID: e5aac8b2f99b58f479e6e5d8cf7eaa0e
+      internalID: 2041756566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_167
+      name: mainCharacterRangerOutfit_167
       rect:
         serializedVersion: 2
         x: 448
@@ -3638,14 +3650,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc53275d3296f2f4abda34ba687e2938
-      internalID: -1020680781
+      spriteID: 8dd4528f76e89d44a933853e17631d5b
+      internalID: -100703356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_168
+      name: mainCharacterRangerOutfit_168
       rect:
         serializedVersion: 2
         x: 512
@@ -3659,14 +3671,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fef2a19a8cdf7246a86c7104ac7f0a4
-      internalID: 851795284
+      spriteID: 5baf4648decd9aa40a430f2c0986f2c8
+      internalID: -1818123764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_169
+      name: mainCharacterRangerOutfit_169
       rect:
         serializedVersion: 2
         x: 576
@@ -3680,14 +3692,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a4a6d3c7d459694fae33fa0c0831360
-      internalID: -1506027139
+      spriteID: 27eb540822910114a99ca2d5f49b88d0
+      internalID: 424902501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_170
+      name: mainCharacterRangerOutfit_170
       rect:
         serializedVersion: 2
         x: 640
@@ -3701,14 +3713,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 207450183f53b8144912b70ab310f25e
-      internalID: 1062179190
+      spriteID: 5561d409807e40249aab20aec173d28f
+      internalID: -955748576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_171
+      name: mainCharacterRangerOutfit_171
       rect:
         serializedVersion: 2
         x: 704
@@ -3722,14 +3734,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85e033d631af32d4abef4b5eb87385f0
-      internalID: -695072422
+      spriteID: 0d98952c856af7d438030d847c9cd093
+      internalID: 1211374056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_172
+      name: mainCharacterRangerOutfit_172
       rect:
         serializedVersion: 2
         x: 768
@@ -3743,14 +3755,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b28d14e82a8dc6743a4313bdd353638f
-      internalID: -1948091073
+      spriteID: 778d3504074888946898bf27f31b1bcb
+      internalID: -991850534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_173
+      name: mainCharacterRangerOutfit_173
       rect:
         serializedVersion: 2
         x: 0
@@ -3764,14 +3776,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 487e694e7c1298c439989bbf7daf8933
-      internalID: 449723939
+      spriteID: ae3517511e8ddc54abc92f6bf9c01b52
+      internalID: -1928343194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_174
+      name: mainCharacterRangerOutfit_174
       rect:
         serializedVersion: 2
         x: 64
@@ -3785,14 +3797,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34a0c82205bb36e4bb2cdb688a137048
-      internalID: -823903976
+      spriteID: 9b7933af4e2d86544b97bbe3205cc0f4
+      internalID: 7395431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_175
+      name: mainCharacterRangerOutfit_175
       rect:
         serializedVersion: 2
         x: 128
@@ -3806,14 +3818,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6daf9eeee098ea43aaf1ddd54fba5b6
-      internalID: 448398077
+      spriteID: 191a57f1e0c21d44494628679370f022
+      internalID: -537310210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_176
+      name: mainCharacterRangerOutfit_176
       rect:
         serializedVersion: 2
         x: 192
@@ -3827,14 +3839,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7249f4b41c2d90e41b05335f4b607372
-      internalID: 1967572691
+      spriteID: 41b4a09508b841144a1324291b5d035f
+      internalID: -992439967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_177
+      name: mainCharacterRangerOutfit_177
       rect:
         serializedVersion: 2
         x: 256
@@ -3848,14 +3860,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afa4512ef451fd2499a0c5dd0fe779e8
-      internalID: 1150151984
+      spriteID: f5c5c1d2da4e16d4fa7dc5314b1152f9
+      internalID: 1366291841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterShirtless_178
+      name: mainCharacterRangerOutfit_178
       rect:
         serializedVersion: 2
         x: 320
@@ -3869,8 +3881,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4669866cdf271394b90b67c86c4e7ad5
-      internalID: 1142113200
+      spriteID: 33eb9fe73859b8a4c92226782e1dd5c4
+      internalID: 418165210
       vertices: []
       indices: 
       edges: []
@@ -3886,185 +3898,185 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mainCharacterShirtless_0: -1246786611
-      mainCharacterShirtless_1: 1918564149
-      mainCharacterShirtless_10: 447233432
-      mainCharacterShirtless_100: -899226444
-      mainCharacterShirtless_101: -1873869378
-      mainCharacterShirtless_102: -993488833
-      mainCharacterShirtless_103: -1788013091
-      mainCharacterShirtless_104: -606514992
-      mainCharacterShirtless_105: -400480613
-      mainCharacterShirtless_106: -520797075
-      mainCharacterShirtless_107: 1833165013
-      mainCharacterShirtless_108: 983430315
-      mainCharacterShirtless_109: 157284808
-      mainCharacterShirtless_11: -1049019915
-      mainCharacterShirtless_110: 2097025670
-      mainCharacterShirtless_111: 1579542315
-      mainCharacterShirtless_112: 1732874378
-      mainCharacterShirtless_113: 911836021
-      mainCharacterShirtless_114: 1347245062
-      mainCharacterShirtless_115: -1906363968
-      mainCharacterShirtless_116: -821961784
-      mainCharacterShirtless_117: 890245411
-      mainCharacterShirtless_118: 1280408437
-      mainCharacterShirtless_119: -1764651405
-      mainCharacterShirtless_12: 1091227739
-      mainCharacterShirtless_120: 1067152714
-      mainCharacterShirtless_121: -1078422091
-      mainCharacterShirtless_122: -417943083
-      mainCharacterShirtless_123: -2040211887
-      mainCharacterShirtless_124: -792570982
-      mainCharacterShirtless_125: 871228824
-      mainCharacterShirtless_126: 1268930587
-      mainCharacterShirtless_127: -1584840975
-      mainCharacterShirtless_128: -97178076
-      mainCharacterShirtless_129: 471373372
-      mainCharacterShirtless_13: 1897705022
-      mainCharacterShirtless_130: -1119153380
-      mainCharacterShirtless_131: -80046724
-      mainCharacterShirtless_132: -1213270786
-      mainCharacterShirtless_133: 151947822
-      mainCharacterShirtless_134: -1580570230
-      mainCharacterShirtless_135: 994777546
-      mainCharacterShirtless_136: -415749831
-      mainCharacterShirtless_137: 1509369959
-      mainCharacterShirtless_138: 100455344
-      mainCharacterShirtless_139: -1697161643
-      mainCharacterShirtless_14: -183459915
-      mainCharacterShirtless_140: 209105614
-      mainCharacterShirtless_141: -909299272
-      mainCharacterShirtless_142: -220943095
-      mainCharacterShirtless_143: 639176646
-      mainCharacterShirtless_144: -426765852
-      mainCharacterShirtless_145: 2102341429
-      mainCharacterShirtless_146: -235768422
-      mainCharacterShirtless_147: 1914515053
-      mainCharacterShirtless_148: 10801403
-      mainCharacterShirtless_149: 633797794
-      mainCharacterShirtless_15: 719644533
-      mainCharacterShirtless_150: 639664305
-      mainCharacterShirtless_151: 533221369
-      mainCharacterShirtless_152: -189843411
-      mainCharacterShirtless_153: 761479290
-      mainCharacterShirtless_154: 1196653892
-      mainCharacterShirtless_155: 566792046
-      mainCharacterShirtless_156: 1754169783
-      mainCharacterShirtless_157: -421399735
-      mainCharacterShirtless_158: 1590955708
-      mainCharacterShirtless_159: -1765689295
-      mainCharacterShirtless_16: -124179892
-      mainCharacterShirtless_160: 1048008565
-      mainCharacterShirtless_161: 1889411740
-      mainCharacterShirtless_162: -554332582
-      mainCharacterShirtless_163: -233263911
-      mainCharacterShirtless_164: 511284949
-      mainCharacterShirtless_165: 1598275679
-      mainCharacterShirtless_166: -1767723440
-      mainCharacterShirtless_167: -1020680781
-      mainCharacterShirtless_168: 851795284
-      mainCharacterShirtless_169: -1506027139
-      mainCharacterShirtless_17: 1526964337
-      mainCharacterShirtless_170: 1062179190
-      mainCharacterShirtless_171: -695072422
-      mainCharacterShirtless_172: -1948091073
-      mainCharacterShirtless_173: 449723939
-      mainCharacterShirtless_174: -823903976
-      mainCharacterShirtless_175: 448398077
-      mainCharacterShirtless_176: 1967572691
-      mainCharacterShirtless_177: 1150151984
-      mainCharacterShirtless_178: 1142113200
-      mainCharacterShirtless_18: -588038283
-      mainCharacterShirtless_19: 934363994
-      mainCharacterShirtless_2: -1493816423
-      mainCharacterShirtless_20: 1586815056
-      mainCharacterShirtless_21: 1142914778
-      mainCharacterShirtless_22: -426255474
-      mainCharacterShirtless_23: -731502741
-      mainCharacterShirtless_24: 60296453
-      mainCharacterShirtless_25: 440714617
-      mainCharacterShirtless_26: -753139683
-      mainCharacterShirtless_27: 382175360
-      mainCharacterShirtless_28: 1067312780
-      mainCharacterShirtless_29: 2032528763
-      mainCharacterShirtless_3: 444904257
-      mainCharacterShirtless_30: -1993621667
-      mainCharacterShirtless_31: 1680129647
-      mainCharacterShirtless_32: 871428217
-      mainCharacterShirtless_33: -662047096
-      mainCharacterShirtless_34: 157620226
-      mainCharacterShirtless_35: 1946007778
-      mainCharacterShirtless_36: 984584935
-      mainCharacterShirtless_37: 880844431
-      mainCharacterShirtless_38: 1004972530
-      mainCharacterShirtless_39: 1185217286
-      mainCharacterShirtless_4: 1363916562
-      mainCharacterShirtless_40: 1605812664
-      mainCharacterShirtless_41: 496168240
-      mainCharacterShirtless_42: 1491397761
-      mainCharacterShirtless_43: 67552642
-      mainCharacterShirtless_44: 1554204576
-      mainCharacterShirtless_45: 1524112968
-      mainCharacterShirtless_46: -1754422241
-      mainCharacterShirtless_47: 1671243377
-      mainCharacterShirtless_48: 1553083910
-      mainCharacterShirtless_49: 1400191575
-      mainCharacterShirtless_5: 881070652
-      mainCharacterShirtless_50: 1771422394
-      mainCharacterShirtless_51: -1915630137
-      mainCharacterShirtless_52: -1112154699
-      mainCharacterShirtless_53: 1820775305
-      mainCharacterShirtless_54: -1535314935
-      mainCharacterShirtless_55: -1657069571
-      mainCharacterShirtless_56: -195562048
-      mainCharacterShirtless_57: -251814707
-      mainCharacterShirtless_58: -459910227
-      mainCharacterShirtless_59: 1324518179
-      mainCharacterShirtless_6: 1589247711
-      mainCharacterShirtless_60: 279214716
-      mainCharacterShirtless_61: 292728937
-      mainCharacterShirtless_62: 2050509518
-      mainCharacterShirtless_63: -579862816
-      mainCharacterShirtless_64: -376114596
-      mainCharacterShirtless_65: -1844161839
-      mainCharacterShirtless_66: 840377914
-      mainCharacterShirtless_67: 1515661023
-      mainCharacterShirtless_68: 1810774766
-      mainCharacterShirtless_69: -1900635479
-      mainCharacterShirtless_7: 1697109870
-      mainCharacterShirtless_70: -875377381
-      mainCharacterShirtless_71: -1953857796
-      mainCharacterShirtless_72: -1580554209
-      mainCharacterShirtless_73: 158502763
-      mainCharacterShirtless_74: 1299814657
-      mainCharacterShirtless_75: -1465020000
-      mainCharacterShirtless_76: -663399790
-      mainCharacterShirtless_77: -225969911
-      mainCharacterShirtless_78: 730163295
-      mainCharacterShirtless_79: -169035820
-      mainCharacterShirtless_8: -317998494
-      mainCharacterShirtless_80: 1820527946
-      mainCharacterShirtless_81: 126656263
-      mainCharacterShirtless_82: 2023630503
-      mainCharacterShirtless_83: -2073783228
-      mainCharacterShirtless_84: 1494787894
-      mainCharacterShirtless_85: -1213498203
-      mainCharacterShirtless_86: -1354843211
-      mainCharacterShirtless_87: -1399530597
-      mainCharacterShirtless_88: -1052372530
-      mainCharacterShirtless_89: 327834071
-      mainCharacterShirtless_9: 2067608041
-      mainCharacterShirtless_90: 201472407
-      mainCharacterShirtless_91: 2066425824
-      mainCharacterShirtless_92: 1260805343
-      mainCharacterShirtless_93: -196102369
-      mainCharacterShirtless_94: 1839580711
-      mainCharacterShirtless_95: -1791204398
-      mainCharacterShirtless_96: -528709239
-      mainCharacterShirtless_97: 1079566664
-      mainCharacterShirtless_98: 1454194019
-      mainCharacterShirtless_99: -235945341
+      mainCharacterRangerOutfit_0: 393027249
+      mainCharacterRangerOutfit_1: 706203899
+      mainCharacterRangerOutfit_10: 1826937682
+      mainCharacterRangerOutfit_100: -2130998555
+      mainCharacterRangerOutfit_101: -718887296
+      mainCharacterRangerOutfit_102: -1428178362
+      mainCharacterRangerOutfit_103: -529986739
+      mainCharacterRangerOutfit_104: -476636743
+      mainCharacterRangerOutfit_105: 1774017904
+      mainCharacterRangerOutfit_106: 2058228521
+      mainCharacterRangerOutfit_107: -1001204121
+      mainCharacterRangerOutfit_108: -1943174451
+      mainCharacterRangerOutfit_109: 446082388
+      mainCharacterRangerOutfit_11: -124437655
+      mainCharacterRangerOutfit_110: -1843917089
+      mainCharacterRangerOutfit_111: 114496850
+      mainCharacterRangerOutfit_112: -310072376
+      mainCharacterRangerOutfit_113: -2055983242
+      mainCharacterRangerOutfit_114: 960588062
+      mainCharacterRangerOutfit_115: 27896626
+      mainCharacterRangerOutfit_116: -1679622610
+      mainCharacterRangerOutfit_117: 1941884532
+      mainCharacterRangerOutfit_118: 637901443
+      mainCharacterRangerOutfit_119: 2008173852
+      mainCharacterRangerOutfit_12: -1999630399
+      mainCharacterRangerOutfit_120: -587565564
+      mainCharacterRangerOutfit_121: -301088115
+      mainCharacterRangerOutfit_122: -625931807
+      mainCharacterRangerOutfit_123: 1714369188
+      mainCharacterRangerOutfit_124: 1397347966
+      mainCharacterRangerOutfit_125: -1121549034
+      mainCharacterRangerOutfit_126: -162718213
+      mainCharacterRangerOutfit_127: 988998607
+      mainCharacterRangerOutfit_128: 1158478316
+      mainCharacterRangerOutfit_129: 2002655925
+      mainCharacterRangerOutfit_13: 567722939
+      mainCharacterRangerOutfit_130: -1039620155
+      mainCharacterRangerOutfit_131: -1926592496
+      mainCharacterRangerOutfit_132: 1004048860
+      mainCharacterRangerOutfit_133: 1721132294
+      mainCharacterRangerOutfit_134: 2038513691
+      mainCharacterRangerOutfit_135: -334990709
+      mainCharacterRangerOutfit_136: -591398868
+      mainCharacterRangerOutfit_137: 476351328
+      mainCharacterRangerOutfit_138: -625769986
+      mainCharacterRangerOutfit_139: -1819762542
+      mainCharacterRangerOutfit_14: 666697645
+      mainCharacterRangerOutfit_140: 1813720969
+      mainCharacterRangerOutfit_141: -1673664315
+      mainCharacterRangerOutfit_142: 701299914
+      mainCharacterRangerOutfit_143: 509194567
+      mainCharacterRangerOutfit_144: -1894492628
+      mainCharacterRangerOutfit_145: -442143179
+      mainCharacterRangerOutfit_146: -248172993
+      mainCharacterRangerOutfit_147: 1997181592
+      mainCharacterRangerOutfit_148: 1289862892
+      mainCharacterRangerOutfit_149: 2031329803
+      mainCharacterRangerOutfit_15: 1768550597
+      mainCharacterRangerOutfit_150: 1100820043
+      mainCharacterRangerOutfit_151: -1513318275
+      mainCharacterRangerOutfit_152: 1506954684
+      mainCharacterRangerOutfit_153: 1786152275
+      mainCharacterRangerOutfit_154: 396451639
+      mainCharacterRangerOutfit_155: 1515235665
+      mainCharacterRangerOutfit_156: -586145856
+      mainCharacterRangerOutfit_157: -745630063
+      mainCharacterRangerOutfit_158: -2031572137
+      mainCharacterRangerOutfit_159: 1107604013
+      mainCharacterRangerOutfit_16: 21745663
+      mainCharacterRangerOutfit_160: 1198059525
+      mainCharacterRangerOutfit_161: 857295079
+      mainCharacterRangerOutfit_162: -729385461
+      mainCharacterRangerOutfit_163: -565683494
+      mainCharacterRangerOutfit_164: -507056314
+      mainCharacterRangerOutfit_165: -1362739162
+      mainCharacterRangerOutfit_166: 2041756566
+      mainCharacterRangerOutfit_167: -100703356
+      mainCharacterRangerOutfit_168: -1818123764
+      mainCharacterRangerOutfit_169: 424902501
+      mainCharacterRangerOutfit_17: -1162652197
+      mainCharacterRangerOutfit_170: -955748576
+      mainCharacterRangerOutfit_171: 1211374056
+      mainCharacterRangerOutfit_172: -991850534
+      mainCharacterRangerOutfit_173: -1928343194
+      mainCharacterRangerOutfit_174: 7395431
+      mainCharacterRangerOutfit_175: -537310210
+      mainCharacterRangerOutfit_176: -992439967
+      mainCharacterRangerOutfit_177: 1366291841
+      mainCharacterRangerOutfit_178: 418165210
+      mainCharacterRangerOutfit_18: -635008424
+      mainCharacterRangerOutfit_19: 1141528290
+      mainCharacterRangerOutfit_2: -1423968722
+      mainCharacterRangerOutfit_20: 93257200
+      mainCharacterRangerOutfit_21: 2096245504
+      mainCharacterRangerOutfit_22: 1836121702
+      mainCharacterRangerOutfit_23: -1793352702
+      mainCharacterRangerOutfit_24: 638920841
+      mainCharacterRangerOutfit_25: 554082225
+      mainCharacterRangerOutfit_26: 690669245
+      mainCharacterRangerOutfit_27: -1213755840
+      mainCharacterRangerOutfit_28: 1909462091
+      mainCharacterRangerOutfit_29: -389166767
+      mainCharacterRangerOutfit_3: 1860983132
+      mainCharacterRangerOutfit_30: 389092516
+      mainCharacterRangerOutfit_31: 1033538785
+      mainCharacterRangerOutfit_32: -1262905425
+      mainCharacterRangerOutfit_33: -1106005572
+      mainCharacterRangerOutfit_34: 1471221734
+      mainCharacterRangerOutfit_35: -1672043998
+      mainCharacterRangerOutfit_36: 1902674870
+      mainCharacterRangerOutfit_37: 1987816488
+      mainCharacterRangerOutfit_38: 1364415512
+      mainCharacterRangerOutfit_39: 1198052219
+      mainCharacterRangerOutfit_4: -1162011342
+      mainCharacterRangerOutfit_40: 831817738
+      mainCharacterRangerOutfit_41: -942897002
+      mainCharacterRangerOutfit_42: 1475117727
+      mainCharacterRangerOutfit_43: -1146034168
+      mainCharacterRangerOutfit_44: -1641664338
+      mainCharacterRangerOutfit_45: 1710146168
+      mainCharacterRangerOutfit_46: -473169139
+      mainCharacterRangerOutfit_47: 2052339428
+      mainCharacterRangerOutfit_48: 1557792302
+      mainCharacterRangerOutfit_49: 291009425
+      mainCharacterRangerOutfit_5: 97559737
+      mainCharacterRangerOutfit_50: -2083659771
+      mainCharacterRangerOutfit_51: -1608555541
+      mainCharacterRangerOutfit_52: 1486169734
+      mainCharacterRangerOutfit_53: 243873797
+      mainCharacterRangerOutfit_54: 77569373
+      mainCharacterRangerOutfit_55: 780801455
+      mainCharacterRangerOutfit_56: -1682372481
+      mainCharacterRangerOutfit_57: -281211318
+      mainCharacterRangerOutfit_58: -1252105137
+      mainCharacterRangerOutfit_59: -1413255862
+      mainCharacterRangerOutfit_6: -242264798
+      mainCharacterRangerOutfit_60: 1562979509
+      mainCharacterRangerOutfit_61: 1090953088
+      mainCharacterRangerOutfit_62: 319880869
+      mainCharacterRangerOutfit_63: -1870148967
+      mainCharacterRangerOutfit_64: -227899809
+      mainCharacterRangerOutfit_65: 808767184
+      mainCharacterRangerOutfit_66: -912682959
+      mainCharacterRangerOutfit_67: 2055330341
+      mainCharacterRangerOutfit_68: 1171449846
+      mainCharacterRangerOutfit_69: -788100521
+      mainCharacterRangerOutfit_7: -865763569
+      mainCharacterRangerOutfit_70: 1395038764
+      mainCharacterRangerOutfit_71: 919088305
+      mainCharacterRangerOutfit_72: 1911598427
+      mainCharacterRangerOutfit_73: -1828304455
+      mainCharacterRangerOutfit_74: -1806657550
+      mainCharacterRangerOutfit_75: -986523487
+      mainCharacterRangerOutfit_76: 477066363
+      mainCharacterRangerOutfit_77: -1183681606
+      mainCharacterRangerOutfit_78: -1020945106
+      mainCharacterRangerOutfit_79: -1578631316
+      mainCharacterRangerOutfit_8: 834447806
+      mainCharacterRangerOutfit_80: -102670894
+      mainCharacterRangerOutfit_81: 851760733
+      mainCharacterRangerOutfit_82: -661443939
+      mainCharacterRangerOutfit_83: -568423266
+      mainCharacterRangerOutfit_84: 1650940485
+      mainCharacterRangerOutfit_85: -260623310
+      mainCharacterRangerOutfit_86: 1030456006
+      mainCharacterRangerOutfit_87: 685874365
+      mainCharacterRangerOutfit_88: -575620048
+      mainCharacterRangerOutfit_89: 1078974768
+      mainCharacterRangerOutfit_9: 1725878538
+      mainCharacterRangerOutfit_90: 1354168272
+      mainCharacterRangerOutfit_91: 1997796197
+      mainCharacterRangerOutfit_92: 1128714288
+      mainCharacterRangerOutfit_93: 714002988
+      mainCharacterRangerOutfit_94: 767368022
+      mainCharacterRangerOutfit_95: -1358898147
+      mainCharacterRangerOutfit_96: 838006875
+      mainCharacterRangerOutfit_97: 1270866463
+      mainCharacterRangerOutfit_98: -1675180187
+      mainCharacterRangerOutfit_99: -1499052728
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

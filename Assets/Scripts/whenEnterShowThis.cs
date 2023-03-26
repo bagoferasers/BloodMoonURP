@@ -40,9 +40,7 @@ public class whenEnterShowThis : MonoBehaviour
         if( circle.activeInHierarchy && pressed && GameObject.Find( "oButton" ).GetComponent< Button >( ).interactable == true )
         {
             if( circle.tag == "Bed" )
-            {
                 bed.sleep( );
-            }
             PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
             PlayerPrefs.Save( );
             transportScene.ChangeToScene( scene );
