@@ -21,8 +21,9 @@ public class whenEnterShowThis : MonoBehaviour
     private CanvasGroup canvasGroup;
     private SpriteRenderer spriteRend;
     private Color color;
-    private bool pressed;
+    public bool pressed;
     private transportScene transportScene;
+    public goToBed bed;
 
     void Start( )
     {
@@ -38,6 +39,10 @@ public class whenEnterShowThis : MonoBehaviour
     {
         if( circle.activeInHierarchy && pressed && GameObject.Find( "oButton" ).GetComponent< Button >( ).interactable == true )
         {
+            if( circle.tag == "Bed" )
+            {
+                bed.sleep( );
+            }
             PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
             PlayerPrefs.Save( );
             transportScene.ChangeToScene( scene );

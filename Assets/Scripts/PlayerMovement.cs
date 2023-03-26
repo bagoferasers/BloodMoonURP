@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [ Header( "Health and Shields" ) ]
+    public Slider healthBar;
+    public Slider shieldBar;
+
     [ Header( "Movement" ) ]
     public float jumpForce;
     public float speed;
@@ -29,6 +33,11 @@ public class PlayerMovement : MonoBehaviour
     [ Header( "Put Music script here:")]
     public Music music;
     private bool isTouching;
+
+    [ Header( "HurtboxValues" ) ]
+    public float groundHurt;
+
+    private bool onBadGround;
     
     ///////////////////////handle player position/////////////////////////////
     public static Vector3 position;
@@ -36,6 +45,14 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start( )
     {
+        onBadGround = false;
+        if( PlayerPrefs.GetFloat( "GroundHurt" ) != 0f ) 
+            groundHurt = PlayerPrefs.GetFloat( "GroundHurt" );
+        else
+        {
+            groundHurt = .1f;
+            PlayerPrefs.SetFloat( "GroundHurt", 0.1f );
+        }
         isTouching = false;
         runBool = false;
         walkBool = false;
@@ -56,7 +73,6 @@ public class PlayerMovement : MonoBehaviour
         upButton = GameObject.Find( "UpBlackButton" ).GetComponent< Button >( );
         attackButton = GameObject.Find( "Attack" ).GetComponent< Button >( );
         m = GameObject.Find( "Template" ).GetComponent< CanvasGroup >( );
-
     }
 
 /*
@@ -125,6 +141,19 @@ public class PlayerMovement : MonoBehaviour
 */
     void FixedUpdate( )
     {        
+        // hurt player if touching bad ground
+        if( isTouching == true && onBadGround == true && shieldBar.value > 0 )
+        {
+            shieldBar.value -= groundHurt;
+            PlayerPrefs.SetFloat( "Shield", shieldBar.value );
+        }
+        else if( isTouching == true && onBadGround == true )
+        {
+            healthBar.value -= groundHurt;
+            PlayerPrefs.SetFloat( "Health", healthBar.value );
+        }
+
+            
         //////////////////////////////////////////////////////////////////////////////////////////
         // handle double tap movement to start running... need to find a way to integrate this with
         // a new character animation
@@ -279,12 +308,22 @@ public class PlayerMovement : MonoBehaviour
     {
         if( other.gameObject.CompareTag( "TileMap" ) )
             isTouching = true;
+        else if( other.gameObject.CompareTag( "HurtTileMap" ) )
+        {
+            isTouching = true;
+            onBadGround = true;
+        }
     }
 
     private void OnCollisionExit2D( Collision2D other ) 
     {
         if( other.gameObject.CompareTag( "TileMap" ) )
             isTouching = false;
+        else if( other.gameObject.CompareTag( "HurtTileMap" ) )
+        {
+            isTouching = false;
+            onBadGround = false;
+        }
     }
     public void stopMoving( )
     {

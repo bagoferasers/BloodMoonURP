@@ -36330,6 +36330,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2058921771}
     m_Modifications:
+    - target: {fileID: 6436809538393574310, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6436809538393574310, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6665255306376179008, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
       propertyPath: m_Interactable
       value: 1
@@ -36417,6 +36425,18 @@ PrefabInstance:
     - target: {fileID: 6665255308045507602, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8983001992597888927, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8983001992597888927, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8983001992597888927, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}

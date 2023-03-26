@@ -8,6 +8,8 @@ TagManager:
   - menuCanvas
   - ScenePortal
   - TileMap
+  - HurtTileMap
+  - Bed
   layers:
   - Default
   - TransparentFX
