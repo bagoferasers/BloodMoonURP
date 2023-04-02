@@ -32,8 +32,8 @@ public class PlayerMovement : MonoBehaviour
     private bool walkBool;
     [ Header( "Put Music script here:")]
     public Music music;
-    [ Header( "Put catSounds script here:")]
-    public catSounds catSounds;
+    //[ Header( "Put catSounds script here:")]
+    //public catSounds catSounds;
     private bool isTouching;
 
     [ Header( "HurtboxValues" ) ]
@@ -306,10 +306,10 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    public void pet( )
-    {
-        catSounds.isPetting = true;
-    }
+    //public void pet( )
+    //{
+        //catSounds.isPetting = true;
+    //}
 
     private void OnCollisionEnter2D( Collision2D other ) 
     {
