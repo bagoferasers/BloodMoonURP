@@ -5,22 +5,18 @@ using UnityEngine;
 public class catSounds : MonoBehaviour
 {
     public AudioSource[ ] mewList;
-    private float random;
-    public bool isPetting;
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        isPetting = false;
-    }
 
     // Update is called once per frame
-    void Update()
+    public void playMew( )
     {
         int songToPlay = Random.Range( 0, mewList.Length );
-        if( isPetting )
-            mewList[ songToPlay ].Play( ); 
-        isPetting = false;
+        Debug.Log( songToPlay );
+        for( int i = 0; i < mewList.Length; i++ )
+        {
+            if( i == songToPlay )
+                mewList[ i ].Play( );
+            else
+                mewList[ i ].Stop( );
+        }
     }
 }
