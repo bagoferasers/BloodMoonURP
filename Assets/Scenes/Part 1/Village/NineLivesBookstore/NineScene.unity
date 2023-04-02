@@ -5798,6 +5798,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1791587628828523535, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1009285047
+      objectReference: {fileID: 0}
     - target: {fileID: 3297490663217514207, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
       propertyPath: m_TagString
       value: cat
@@ -5938,6 +5942,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2134911604}
+    - target: {fileID: 8934055512365732811, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1009285047
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
 --- !u!82 &575921321 stripped
@@ -9750,6 +9758,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1791587628828523535, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1009285047
+      objectReference: {fileID: 0}
     - target: {fileID: 3297490663217514207, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
       propertyPath: m_TagString
       value: cat
@@ -9898,6 +9910,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2134911604}
+    - target: {fileID: 8934055512365732811, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1009285047
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
 --- !u!1001 &1820342933
@@ -9914,6 +9930,10 @@ PrefabInstance:
     - target: {fileID: 1043333683685797659, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1791587628828523535, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1009285047
       objectReference: {fileID: 0}
     - target: {fileID: 3297490663217514207, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
       propertyPath: m_TagString
@@ -10063,6 +10083,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2134911604}
+    - target: {fileID: 8934055512365732811, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1009285047
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e2e5accd789bef4297775e583ada661, type: 3}
 --- !u!1 &1825339905
@@ -16784,7 +16808,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6665255307297143409, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 4.7
       objectReference: {fileID: 0}
     - target: {fileID: 6665255307297143409, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
       propertyPath: m_LocalPosition.y
