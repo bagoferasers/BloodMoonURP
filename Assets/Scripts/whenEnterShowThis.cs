@@ -61,6 +61,7 @@ public class whenEnterShowThis : MonoBehaviour
                )
         {
             catSounds.playMew( );
+            GameObject.Find( "Player" ).GetComponent< PlayerMovement >( ).healthBar.value += .1f;
         }
         else if(
                  circle.activeInHierarchy 
