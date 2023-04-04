@@ -10,7 +10,6 @@ public class catSounds : MonoBehaviour
     public void playMew( )
     {
         int songToPlay = Random.Range( 0, mewList.Length );
-        Debug.Log( songToPlay );
         for( int i = 0; i < mewList.Length; i++ )
         {
             if( i == songToPlay )

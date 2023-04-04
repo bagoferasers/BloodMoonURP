@@ -4147,6 +4147,7 @@ MonoBehaviour:
   id: ApartmentScene
   idConnected: MainMenu
   player: {fileID: 1468094747}
+  mixer: {fileID: 24100000, guid: 4b00b1768253d428c82763cdd8cbb821, type: 2}
 --- !u!1 &2081287531
 GameObject:
   m_ObjectHideFlags: 0
