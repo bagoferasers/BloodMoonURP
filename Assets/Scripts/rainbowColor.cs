@@ -9,6 +9,7 @@ public class rainbowColor : MonoBehaviour
     private float y;
     private float z;
     private UnityEngine.Rendering.Universal.Light2D l;
+    public ParticleSystem ps;
     public float speed;
     private bool fwdX, fwdY, fwdZ;
 
@@ -59,5 +60,7 @@ public class rainbowColor : MonoBehaviour
             fwdZ = true;
         
         l.color = new Color( x, y, z );
+        ps.startColor = new Color( z, x, y );
     }
 }
+ 
