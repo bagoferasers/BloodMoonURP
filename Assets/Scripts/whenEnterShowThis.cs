@@ -93,11 +93,6 @@ public class whenEnterShowThis : MonoBehaviour
         pressed = true;
     }
 
-    IEnumerator waitThisLong( )
-    {
-        yield return new WaitForSeconds( 2 );
-    }
-
     public void isNotPressed( )
     {
         pressed = false;
@@ -123,6 +118,7 @@ public class whenEnterShowThis : MonoBehaviour
             spriteRend.color = color;
             yield return null;
         }         
+        yield return null;
     }
 
     IEnumerator fadeOut( )
