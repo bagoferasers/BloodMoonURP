@@ -36,7 +36,7 @@ public class transportScene : MonoBehaviour
         mixer.SetFloat( "MusicVolume", currentVolume );
         while( currentVolume < originalVolume )
         {
-            currentVolume += 0.4f;
+            currentVolume += 0.2f;
             mixer.SetFloat( "MusicVolume", currentVolume );
             yield return null;
         }
@@ -51,7 +51,7 @@ public class transportScene : MonoBehaviour
         mixer.SetFloat( "MusicVolume", currentVolume );
         while( currentVolume > targetVolume )
         {
-            currentVolume -= 0.4f;
+            currentVolume -= 0.3f;
             mixer.SetFloat( "MusicVolume", currentVolume );
             yield return null;
         }
