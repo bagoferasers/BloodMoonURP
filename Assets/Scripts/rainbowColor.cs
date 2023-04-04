@@ -9,9 +9,7 @@ public class rainbowColor : MonoBehaviour
     private float y;
     private float z;
     private UnityEngine.Rendering.Universal.Light2D l;
-    public float speedX;
-    public float speedY;
-    public float speedZ;
+    public float speed;
     private bool fwdX, fwdY, fwdZ;
 
     // Start is called before the first frame update
@@ -20,7 +18,7 @@ public class rainbowColor : MonoBehaviour
         l = GetComponent< UnityEngine.Rendering.Universal.Light2D >( );
         c = l.color;
         x = 1f;
-        y = 0f;
+        y = 0.5f;
         z = 0f;
         fwdX = true;
         fwdY = true;
@@ -31,28 +29,28 @@ public class rainbowColor : MonoBehaviour
     void Update()
     {
         if( fwdX == true )
-            x += speedX * Time.deltaTime;
+            x += speed * Time.deltaTime;
         else if( fwdX == false )
-            x -= speedX * Time.deltaTime;
+            x -= speed * Time.deltaTime;
         
         if( fwdY == true )
-            y += speedY * Time.deltaTime;
+            y += speed * Time.deltaTime;
         else if( fwdY == false )
-            y -= speedY * Time.deltaTime;
+            y -= speed * Time.deltaTime;
         
         if( fwdZ == true )
-            z += speedZ * Time.deltaTime;
+            z += speed * Time.deltaTime;
         else if( fwdZ == false )
-            z -= speedZ * Time.deltaTime;
+            z -= speed * Time.deltaTime;
 
         if( x > 1f )
             fwdX = false;
-        else if( x < 0.1f )
+        else if( x < 0f )
             fwdX = true;
 
         if( y > 1f )
             fwdY = false;
-        else if( y < 0.1f )
+        else if( y < 0f )
             fwdY = true;
 
         if( z > 1f )
