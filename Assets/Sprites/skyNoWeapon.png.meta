@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 832
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -115,7 +115,553 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: skyNoWeapon_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26afbda98f28744b94da0af174e3654
+      internalID: -509280428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d4728ab0bbaf8489d814ccaddb6f7b
+      internalID: 191303532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_71
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8063c7c4f4b36d5479e9208516bc4d7c
+      internalID: -1342315619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_72
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc82c5c84ba7cb4cba05a87e3d444c3
+      internalID: 460344069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_73
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33a4fab97e4d18479445fa1def4cc10
+      internalID: 643507225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_74
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096963ae214d0da47a68eaebcc99ec2f
+      internalID: -1863157611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_75
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8340c95c0f0b59f4bac7f7e0f41c7190
+      internalID: -422635128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2a15550401b6349af8e42f99babfb1
+      internalID: 870403283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_77
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbcc952c7a2f5c4e900f5e48f07d0c6
+      internalID: -123904453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_78
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6967c48b11c894ca3e90b2ad9fdb6d
+      internalID: 1601514421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89c2e4cb9a344040abfae7759756319
+      internalID: -929622092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77354d37e6b8c604cba69da4d67f90c3
+      internalID: 373529364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_89
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbde43947e33c8b46bd787371b7281e0
+      internalID: 229729403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_90
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5001d0414ff48424a9ac02a70fe8dad5
+      internalID: 1675249631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_91
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dede62032bd2454080fac11801c34ca
+      internalID: -719393117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_92
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c63d1869967a434a9c4e05fae7577d9
+      internalID: -10360020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_93
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb22d800d230794e96a1262c44642c1
+      internalID: 1564917800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_94
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fec10e9589ed74089abfbcfe73e9f2
+      internalID: -253191699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_95
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44feb5347d4aaf340aa2209c73618d85
+      internalID: -934714484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_96
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d898296ad60454c94ff9fa6c4babae
+      internalID: -377526945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_173
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e43c9d25c65564c93836133317772f
+      internalID: -1657578473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_174
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465dcaa567aad5741b904ab991d0d87e
+      internalID: 1421983062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_175
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf39e481ddd7ef4b9500a7eb66f9b0b
+      internalID: -1173692733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_176
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34751719fca56349a73262b6c776ecd
+      internalID: -956846860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_177
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a0b194bd28fc64f9cd6bdfaaa4ff23
+      internalID: -1161777375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyNoWeapon_178
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57cef9dd9b042641a6fde7ed2c6fe4d
+      internalID: 1440024961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +672,186 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      skyNoWeapon_0: -1947920451
+      skyNoWeapon_1: 2035482782
+      skyNoWeapon_10: 164955340
+      skyNoWeapon_100: -464125863
+      skyNoWeapon_101: -868235824
+      skyNoWeapon_102: 260610453
+      skyNoWeapon_103: 522783960
+      skyNoWeapon_104: 1076696081
+      skyNoWeapon_105: 1648017697
+      skyNoWeapon_106: 1774672145
+      skyNoWeapon_107: 866669007
+      skyNoWeapon_108: 1472440127
+      skyNoWeapon_109: 1490070656
+      skyNoWeapon_11: -1195533657
+      skyNoWeapon_110: -761614804
+      skyNoWeapon_111: -1193942942
+      skyNoWeapon_112: 1905353034
+      skyNoWeapon_113: -2146553718
+      skyNoWeapon_114: -1725529916
+      skyNoWeapon_115: -238880749
+      skyNoWeapon_116: -1980319181
+      skyNoWeapon_117: -1222190385
+      skyNoWeapon_118: 1827402777
+      skyNoWeapon_119: 1671548599
+      skyNoWeapon_12: 1238371688
+      skyNoWeapon_120: 2061458699
+      skyNoWeapon_121: -1383819192
+      skyNoWeapon_122: 1203256165
+      skyNoWeapon_123: -1594810469
+      skyNoWeapon_124: 1530956177
+      skyNoWeapon_125: -595223501
+      skyNoWeapon_126: 39723347
+      skyNoWeapon_127: -1678448513
+      skyNoWeapon_128: 1324707732
+      skyNoWeapon_129: 1355821607
+      skyNoWeapon_13: 2044564444
+      skyNoWeapon_130: 1923777701
+      skyNoWeapon_131: -559802077
+      skyNoWeapon_132: 1164558860
+      skyNoWeapon_133: 13016791
+      skyNoWeapon_134: -1983816449
+      skyNoWeapon_135: -1937292580
+      skyNoWeapon_136: 564326324
+      skyNoWeapon_137: 81339727
+      skyNoWeapon_138: 1379696554
+      skyNoWeapon_139: -2020116901
+      skyNoWeapon_14: 584234939
+      skyNoWeapon_140: 1236021752
+      skyNoWeapon_141: 486495178
+      skyNoWeapon_142: 1205297527
+      skyNoWeapon_143: -2078194586
+      skyNoWeapon_144: -567414232
+      skyNoWeapon_145: -24619972
+      skyNoWeapon_146: -521819421
+      skyNoWeapon_147: -259709788
+      skyNoWeapon_148: -1018836135
+      skyNoWeapon_149: 907803006
+      skyNoWeapon_15: -860945250
+      skyNoWeapon_150: -1265705172
+      skyNoWeapon_151: 45395570
+      skyNoWeapon_152: 1532691046
+      skyNoWeapon_153: 1140567167
+      skyNoWeapon_154: 784983804
+      skyNoWeapon_155: 1593320902
+      skyNoWeapon_156: -518105697
+      skyNoWeapon_157: -1196206581
+      skyNoWeapon_158: 1477068812
+      skyNoWeapon_159: 1422359245
+      skyNoWeapon_16: 1233958206
+      skyNoWeapon_160: -1170202315
+      skyNoWeapon_161: -1227500880
+      skyNoWeapon_162: 429239394
+      skyNoWeapon_163: 687029166
+      skyNoWeapon_164: 1638616176
+      skyNoWeapon_165: 2090797457
+      skyNoWeapon_166: 1277412305
+      skyNoWeapon_167: 1245475750
+      skyNoWeapon_168: -653049366
+      skyNoWeapon_169: 1912599701
+      skyNoWeapon_17: 1026637819
+      skyNoWeapon_170: -1114984075
+      skyNoWeapon_171: -1297522019
+      skyNoWeapon_172: -179194663
+      skyNoWeapon_173: -1657578473
+      skyNoWeapon_174: 1421983062
+      skyNoWeapon_175: -1173692733
+      skyNoWeapon_176: -956846860
+      skyNoWeapon_177: -1161777375
+      skyNoWeapon_178: 1440024961
+      skyNoWeapon_18: -2079407893
+      skyNoWeapon_19: 788491550
+      skyNoWeapon_2: -1711005373
+      skyNoWeapon_20: 560851041
+      skyNoWeapon_21: -766479062
+      skyNoWeapon_22: -526860418
+      skyNoWeapon_23: 957181858
+      skyNoWeapon_24: 1347347290
+      skyNoWeapon_25: -362627067
+      skyNoWeapon_26: -1018918117
+      skyNoWeapon_27: 1093722757
+      skyNoWeapon_28: -1565968594
+      skyNoWeapon_29: -1740270643
+      skyNoWeapon_3: -50494397
+      skyNoWeapon_30: 1856538557
+      skyNoWeapon_31: 262062352
+      skyNoWeapon_32: 1820473318
+      skyNoWeapon_33: 1833118657
+      skyNoWeapon_34: 354199899
+      skyNoWeapon_35: 1173949495
+      skyNoWeapon_36: -997838672
+      skyNoWeapon_37: -1743480700
+      skyNoWeapon_38: 486831642
+      skyNoWeapon_39: 1690678405
+      skyNoWeapon_4: 196276872
+      skyNoWeapon_40: 1321496436
+      skyNoWeapon_41: -1727406791
+      skyNoWeapon_42: 1807062500
+      skyNoWeapon_43: -786374299
+      skyNoWeapon_44: -677303472
+      skyNoWeapon_45: 2019578317
+      skyNoWeapon_46: 862381243
+      skyNoWeapon_47: -2131757831
+      skyNoWeapon_48: -1271638694
+      skyNoWeapon_49: -575259221
+      skyNoWeapon_5: 2123988234
+      skyNoWeapon_50: -1182493503
+      skyNoWeapon_51: -1340417024
+      skyNoWeapon_52: -594511384
+      skyNoWeapon_53: 611430653
+      skyNoWeapon_54: 1153778671
+      skyNoWeapon_55: -1645073826
+      skyNoWeapon_56: -1692789687
+      skyNoWeapon_57: 1490205284
+      skyNoWeapon_58: 158111610
+      skyNoWeapon_59: 1202620664
+      skyNoWeapon_6: -1401450
+      skyNoWeapon_60: 1812096773
+      skyNoWeapon_61: -509280428
+      skyNoWeapon_62: 643875358
+      skyNoWeapon_63: 96345829
+      skyNoWeapon_64: 486251532
+      skyNoWeapon_65: 441519296
+      skyNoWeapon_66: 1122148153
+      skyNoWeapon_67: -602205511
+      skyNoWeapon_68: 1733662576
+      skyNoWeapon_69: 1963434806
+      skyNoWeapon_7: 4108541
+      skyNoWeapon_70: 191303532
+      skyNoWeapon_71: -1342315619
+      skyNoWeapon_72: 460344069
+      skyNoWeapon_73: 643507225
+      skyNoWeapon_74: -1863157611
+      skyNoWeapon_75: -422635128
+      skyNoWeapon_76: 870403283
+      skyNoWeapon_77: -123904453
+      skyNoWeapon_78: 1601514421
+      skyNoWeapon_79: -929622092
+      skyNoWeapon_8: 946631058
+      skyNoWeapon_80: 30764283
+      skyNoWeapon_81: 2037384733
+      skyNoWeapon_82: 1589316626
+      skyNoWeapon_83: 1717914951
+      skyNoWeapon_84: 1275083816
+      skyNoWeapon_85: 863164369
+      skyNoWeapon_86: -1044154513
+      skyNoWeapon_87: -1293346460
+      skyNoWeapon_88: 373529364
+      skyNoWeapon_89: 229729403
+      skyNoWeapon_9: 1188028184
+      skyNoWeapon_90: 1675249631
+      skyNoWeapon_91: -719393117
+      skyNoWeapon_92: -10360020
+      skyNoWeapon_93: 1564917800
+      skyNoWeapon_94: -253191699
+      skyNoWeapon_95: -934714484
+      skyNoWeapon_96: -377526945
+      skyNoWeapon_97: -1039979072
+      skyNoWeapon_98: 1086118003
+      skyNoWeapon_99: -1649072847
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
