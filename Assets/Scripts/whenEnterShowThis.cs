@@ -18,6 +18,9 @@ public class whenEnterShowThis : MonoBehaviour
     [ Header( "Audio: " ) ]
     public AudioSource audio;
 
+    [ Header( "Put catSounds script here:")]
+    public catSounds catSounds;
+
     private CanvasGroup canvasGroup;
     private SpriteRenderer spriteRend;
     private Color color;
@@ -37,12 +40,36 @@ public class whenEnterShowThis : MonoBehaviour
 
     void Update( )
     {
-        if( circle.activeInHierarchy && pressed && GameObject.Find( "oButton" ).GetComponent< Button >( ).interactable == true )
+        if( 
+            circle.activeInHierarchy 
+            && pressed 
+            && GameObject.Find( "oButton" ).GetComponent< Button >( ).interactable == true 
+            && circle.tag == "Bed"
+          )
         {
-            if( circle.tag == "Bed" )
-            {
-                bed.sleep( );
-            }
+            bed.sleep( );
+            audio.Play( );
+            PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
+            PlayerPrefs.Save( );
+            transportScene.ChangeToScene( scene );
+        }
+        else if(
+                 circle.activeInHierarchy 
+                 && pressed 
+                 && GameObject.Find( "oButton" ).GetComponent< Button >( ).interactable == true 
+                 && circle.tag == "cat" 
+               )
+        {
+            catSounds.playMew( );
+            GameObject.Find( "Player" ).GetComponent< PlayerMovement >( ).healthBar.value += .1f;
+        }
+        else if(
+                 circle.activeInHierarchy 
+                 && pressed 
+                 && GameObject.Find( "oButton" ).GetComponent< Button >( ).interactable == true 
+               )
+        {
+            audio.Play( );
             PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
             PlayerPrefs.Save( );
             transportScene.ChangeToScene( scene );
@@ -64,13 +91,6 @@ public class whenEnterShowThis : MonoBehaviour
     public void isPressed( )
     {
         pressed = true;
-        if( circle.activeInHierarchy )
-            audio.Play( );    
-    }
-
-    IEnumerator waitThisLong( )
-    {
-        yield return new WaitForSeconds( 2 );
     }
 
     public void isNotPressed( )
@@ -98,6 +118,7 @@ public class whenEnterShowThis : MonoBehaviour
             spriteRend.color = color;
             yield return null;
         }         
+        yield return null;
     }
 
     IEnumerator fadeOut( )

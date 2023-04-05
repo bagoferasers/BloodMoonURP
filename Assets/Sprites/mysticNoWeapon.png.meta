@@ -1,0 +1,860 @@
+fileFormatVersion: 2
+guid: 1043f9a0ab07cd54193dc291a975b342
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 832
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mysticNoWeapon_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd780b187e0c6c489e18431bc32cd35
+      internalID: 2026064816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa98a445f9f9acd4489176673c6a76dd
+      internalID: 1946164587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_71
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d4ed4524b3eb443966377dbb175f82
+      internalID: 1335116557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_72
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da777a80b3c8ad34a9d1573e3a8ce852
+      internalID: -1826804045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_73
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83b763e248c21e4ea05c1d0349bb703
+      internalID: 61131861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_74
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280853ceed44ac949b51ba88d2ad6ed2
+      internalID: 1592083140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_75
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38ba203bf77cdc45bf4a84e9ef4340d
+      internalID: 1058343759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab448b1c7f9383499bdf9d03c56d12d
+      internalID: -489587431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_77
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb501edb65039e41b887daa3d5f2291
+      internalID: 1880782079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_78
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f170176982fd24b935826170eb51fe
+      internalID: -200836066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e569fe9d1da11ba419fa46126413b5dc
+      internalID: -653022796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e7eaffcee107f45bb6272d42d9dd04
+      internalID: -1896765772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_89
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4583f3d770997d942a63b3930efcb0dd
+      internalID: 1403440353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_90
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903724d88915312489b7aa66babbc2bc
+      internalID: -2033109386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_91
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c7e241df2c8204fb0a6d6f46f93056
+      internalID: 187432420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_92
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d609013d54cd07c41a625367d53720dc
+      internalID: -2065988988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_93
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46746104c34299a41b94f893fad7326f
+      internalID: -1375111606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_94
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a935c2324957091428dea31b4fae07fd
+      internalID: -77101720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_95
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4baeed38e783784498817e56084d0df6
+      internalID: -1341178529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_96
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88878deb1f6f6874a8e0422975845c62
+      internalID: -1281085740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_173
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315695c0893f18242ab8865dedce8921
+      internalID: -1212875437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_174
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c5158eef7903f4a9d246ff0dd97f9e
+      internalID: -586163010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_175
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952ad1bf45a010a44a595478466630da
+      internalID: 520937473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_176
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e77deb4fd7b0cc4fb76346f60e128fd
+      internalID: -1901975265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_177
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ed57135985c3c48b7ba2bc8bf9d4ff
+      internalID: 1371536462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysticNoWeapon_178
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3dc857d03cc76143ad81e3f43a7a8bc
+      internalID: -1598373033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mysticNoWeapon_0: -186233943
+      mysticNoWeapon_1: 282242308
+      mysticNoWeapon_10: 1959277546
+      mysticNoWeapon_100: -1121400693
+      mysticNoWeapon_101: -603194609
+      mysticNoWeapon_102: 185606932
+      mysticNoWeapon_103: -1802945021
+      mysticNoWeapon_104: -2141591369
+      mysticNoWeapon_105: 710203094
+      mysticNoWeapon_106: 1184186966
+      mysticNoWeapon_107: -437717755
+      mysticNoWeapon_108: -997570147
+      mysticNoWeapon_109: -2102668155
+      mysticNoWeapon_11: -1047869695
+      mysticNoWeapon_110: -294604319
+      mysticNoWeapon_111: 844976197
+      mysticNoWeapon_112: 1543886679
+      mysticNoWeapon_113: -873820479
+      mysticNoWeapon_114: -1149447598
+      mysticNoWeapon_115: -456193253
+      mysticNoWeapon_116: 680949631
+      mysticNoWeapon_117: 1609312568
+      mysticNoWeapon_118: 1640118476
+      mysticNoWeapon_119: 1144396524
+      mysticNoWeapon_12: -795717704
+      mysticNoWeapon_120: -1134149432
+      mysticNoWeapon_121: 1681843528
+      mysticNoWeapon_122: -1526183414
+      mysticNoWeapon_123: 553404765
+      mysticNoWeapon_124: -1188468899
+      mysticNoWeapon_125: 1256166779
+      mysticNoWeapon_126: 663621494
+      mysticNoWeapon_127: 1103719827
+      mysticNoWeapon_128: 1579940243
+      mysticNoWeapon_129: -104253596
+      mysticNoWeapon_13: 1369094921
+      mysticNoWeapon_130: 1833064060
+      mysticNoWeapon_131: 1090598819
+      mysticNoWeapon_132: 2003315689
+      mysticNoWeapon_133: -1218079787
+      mysticNoWeapon_134: -1512668370
+      mysticNoWeapon_135: 703947772
+      mysticNoWeapon_136: -663827337
+      mysticNoWeapon_137: -1391597437
+      mysticNoWeapon_138: 890164368
+      mysticNoWeapon_139: 208151523
+      mysticNoWeapon_14: -1075180787
+      mysticNoWeapon_140: 1919022654
+      mysticNoWeapon_141: 893017511
+      mysticNoWeapon_142: 1868271207
+      mysticNoWeapon_143: 564545828
+      mysticNoWeapon_144: -235976979
+      mysticNoWeapon_145: -207100294
+      mysticNoWeapon_146: -1972932224
+      mysticNoWeapon_147: -1465666922
+      mysticNoWeapon_148: -1153001361
+      mysticNoWeapon_149: -2031188470
+      mysticNoWeapon_15: -1362255628
+      mysticNoWeapon_150: 814884755
+      mysticNoWeapon_151: 1179574221
+      mysticNoWeapon_152: 644186913
+      mysticNoWeapon_153: 1028615330
+      mysticNoWeapon_154: 2058991397
+      mysticNoWeapon_155: -864920372
+      mysticNoWeapon_156: 2076131744
+      mysticNoWeapon_157: 1936396034
+      mysticNoWeapon_158: -502155751
+      mysticNoWeapon_159: -1636703426
+      mysticNoWeapon_16: -184213800
+      mysticNoWeapon_160: -540185658
+      mysticNoWeapon_161: -919296535
+      mysticNoWeapon_162: -938055024
+      mysticNoWeapon_163: -961264281
+      mysticNoWeapon_164: 206498713
+      mysticNoWeapon_165: -576411195
+      mysticNoWeapon_166: 1567956591
+      mysticNoWeapon_167: 1259566671
+      mysticNoWeapon_168: -1096993174
+      mysticNoWeapon_169: -1043718125
+      mysticNoWeapon_17: -1053563251
+      mysticNoWeapon_170: 1892014843
+      mysticNoWeapon_171: -947087883
+      mysticNoWeapon_172: -1711301080
+      mysticNoWeapon_173: -1212875437
+      mysticNoWeapon_174: -586163010
+      mysticNoWeapon_175: 520937473
+      mysticNoWeapon_176: -1901975265
+      mysticNoWeapon_177: 1371536462
+      mysticNoWeapon_178: -1598373033
+      mysticNoWeapon_18: 149808914
+      mysticNoWeapon_19: -661492413
+      mysticNoWeapon_2: -1863968828
+      mysticNoWeapon_20: -330240000
+      mysticNoWeapon_21: -1011986669
+      mysticNoWeapon_22: 141745497
+      mysticNoWeapon_23: 970844478
+      mysticNoWeapon_24: -379517713
+      mysticNoWeapon_25: -2141272197
+      mysticNoWeapon_26: 752357219
+      mysticNoWeapon_27: -1250582570
+      mysticNoWeapon_28: 381205136
+      mysticNoWeapon_29: 1511615021
+      mysticNoWeapon_3: 2081827378
+      mysticNoWeapon_30: -710375510
+      mysticNoWeapon_31: 1902423384
+      mysticNoWeapon_32: 1871149621
+      mysticNoWeapon_33: 1473634207
+      mysticNoWeapon_34: 2139256530
+      mysticNoWeapon_35: -670912452
+      mysticNoWeapon_36: 1187315883
+      mysticNoWeapon_37: -1499109126
+      mysticNoWeapon_38: -615839677
+      mysticNoWeapon_39: -1584286677
+      mysticNoWeapon_4: 1424527359
+      mysticNoWeapon_40: -483937608
+      mysticNoWeapon_41: 1657600602
+      mysticNoWeapon_42: -806020520
+      mysticNoWeapon_43: 1209275268
+      mysticNoWeapon_44: -376956537
+      mysticNoWeapon_45: -2070000332
+      mysticNoWeapon_46: -1214633572
+      mysticNoWeapon_47: 747057580
+      mysticNoWeapon_48: -852945261
+      mysticNoWeapon_49: -2114762742
+      mysticNoWeapon_5: -788100360
+      mysticNoWeapon_50: 1679895919
+      mysticNoWeapon_51: 1459654593
+      mysticNoWeapon_52: -1627545279
+      mysticNoWeapon_53: 202863338
+      mysticNoWeapon_54: 1939504623
+      mysticNoWeapon_55: -1113973514
+      mysticNoWeapon_56: 1847192944
+      mysticNoWeapon_57: -573932449
+      mysticNoWeapon_58: 1706257748
+      mysticNoWeapon_59: 508107393
+      mysticNoWeapon_6: -1247204346
+      mysticNoWeapon_60: -1547558266
+      mysticNoWeapon_61: 2026064816
+      mysticNoWeapon_62: -1236753388
+      mysticNoWeapon_63: -996909996
+      mysticNoWeapon_64: -1668144434
+      mysticNoWeapon_65: 390913717
+      mysticNoWeapon_66: -320315768
+      mysticNoWeapon_67: 1943917669
+      mysticNoWeapon_68: 1906768834
+      mysticNoWeapon_69: -732510138
+      mysticNoWeapon_7: 797089384
+      mysticNoWeapon_70: 1946164587
+      mysticNoWeapon_71: 1335116557
+      mysticNoWeapon_72: -1826804045
+      mysticNoWeapon_73: 61131861
+      mysticNoWeapon_74: 1592083140
+      mysticNoWeapon_75: 1058343759
+      mysticNoWeapon_76: -489587431
+      mysticNoWeapon_77: 1880782079
+      mysticNoWeapon_78: -200836066
+      mysticNoWeapon_79: -653022796
+      mysticNoWeapon_8: 1629847758
+      mysticNoWeapon_80: -1192632921
+      mysticNoWeapon_81: 1103607066
+      mysticNoWeapon_82: -1928341698
+      mysticNoWeapon_83: 1345090126
+      mysticNoWeapon_84: 358530599
+      mysticNoWeapon_85: 1045435456
+      mysticNoWeapon_86: 242898670
+      mysticNoWeapon_87: -1706898543
+      mysticNoWeapon_88: -1896765772
+      mysticNoWeapon_89: 1403440353
+      mysticNoWeapon_9: 1180509354
+      mysticNoWeapon_90: -2033109386
+      mysticNoWeapon_91: 187432420
+      mysticNoWeapon_92: -2065988988
+      mysticNoWeapon_93: -1375111606
+      mysticNoWeapon_94: -77101720
+      mysticNoWeapon_95: -1341178529
+      mysticNoWeapon_96: -1281085740
+      mysticNoWeapon_97: 10800763
+      mysticNoWeapon_98: -315377378
+      mysticNoWeapon_99: -993471389
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1530 @@
+fileFormatVersion: 2
+guid: 636c71999a41f9d4b9d8f3482bbcb932
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1152
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hunterWeapon_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02dd26b04bf88af40903b5138713c789
+      internalID: -823909124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_136
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08cb40ffc6a92e04a8931a3fed4253c1
+      internalID: 1900434976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_137
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4de4f3867ab1004ab40c9efad757f73
+      internalID: -996494583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_138
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2156ddc1f0e314ea48a3b314717f9d
+      internalID: -1462874772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_139
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fea3709933e584099727bc9a3b90f0
+      internalID: -396215860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_140
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c483740ae25b2bd4c89b3b40bd6df292
+      internalID: 1039640533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_141
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18dfd4c936633c44da38464802c8d45a
+      internalID: 285259103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_142
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fe70958e475244696f04b5708c27c4
+      internalID: -32307406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_143
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128b09cca3b63ed46be17086cbdc31d5
+      internalID: -293443515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_144
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dde00bd709d89341bb2ee0b82444a6a
+      internalID: 67182838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_145
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb9425f6dd6f3d428b51b913b6fe498
+      internalID: -682137821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_146
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564ac402506484e49ad829095922f5d7
+      internalID: -1897912372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_147
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50021a594f3f9944b3bc8d94fe452dd
+      internalID: -1361807269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_161
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d75cf9d3393564281f8b179797e1a5
+      internalID: -1382322197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_162
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6e6bd090d53d94794c262818a0bf1c
+      internalID: -418123754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_163
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62dda3a1642293b47a298f30cb4fe633
+      internalID: -1003934881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_164
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298df5a1c2de447419b982a912e8aa3b
+      internalID: -1722162638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_165
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf7a4f66a16f904f9b7d58e8c252062
+      internalID: -2007083324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_166
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac985a25d6bc284486c67250a13105b
+      internalID: 678559720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_167
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908d4876da136e04bb31ce4fb7690b5b
+      internalID: 1155036956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_168
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db280d68a2e29f14cbf41314f9153540
+      internalID: -846413392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_169
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae5b413ab797cb41b12d9ff757f1b3f
+      internalID: 678287550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_170
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f98c650b5182a046a6e943a75f8bb2d
+      internalID: -1454964710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_171
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee69b9a59206e544b2476675e02ffe2
+      internalID: 2131496270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_172
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f7ffd1fd8bbd947aa0c8d72b80371a
+      internalID: -578346784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_173
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68f0b223bf2f734481e4fef6fef8cb1
+      internalID: 1679480114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_174
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32778f5f346c0f94aabad03f91229933
+      internalID: -1015573217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_175
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36ac5a54ac18094eb2cfeaf5f26ffee
+      internalID: 791936587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_176
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af71c2d35d97964429261ab12b323919
+      internalID: -1379064793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_177
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d8eb422e21b5b47987f68ccac5a5b8
+      internalID: 90970810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_178
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9036196408bc4be4e8c2063b6afa2e81
+      internalID: 1913516245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_179
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d5134a40723974e99bfc30107eecae
+      internalID: 1992233269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_234
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743aef4e2438ba24387612d6086b8ba5
+      internalID: -995130290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_236
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d624061710c9841b95d85ed3ab56fd
+      internalID: -14849825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_238
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576aa106a6ec60840bf189b548f8a1df
+      internalID: -578585945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_240
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1c2ba9a1f55f14cbdaf7212745c932
+      internalID: 572059037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_242
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0edd02bf8e77947933e880c83594ac
+      internalID: -56492020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_244
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258973cc53b741f4db137aac40fd1e68
+      internalID: -1353680430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_246
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637fe68e3ba45ce4caf6a9d437c309f8
+      internalID: 2021287218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_248
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b1fd61217e6f8439c6b491304dc547
+      internalID: 1977541715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_250
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0d155b059ba4041bfff75423746615
+      internalID: -349481353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_270
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c0d11f66df64942972534bc47f6b1c
+      internalID: -1681531412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_306
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d185b2259cc8c64a98f5d55c77e1f85
+      internalID: -373453725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_308
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73c7b032e7758940b12e533af45f089
+      internalID: 549256916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_310
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 3
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bda3f6d433404e49be8f94a7054213f
+      internalID: 616683859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_312
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb4af1963dc0cb44862c2f9278cfef0
+      internalID: 865599435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_314
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbc40f22d6546b4c9d494f9113e3eac
+      internalID: 766727737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_316
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20dbd5362e03ac489169c37d974888a
+      internalID: 2008324884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_318
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b77da45d2aceb43b9fccfadc8bf7ca
+      internalID: 997798439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_320
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 3
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2e03323b277774dae33180ca359cd4
+      internalID: 815795305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterWeapon_322
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff05b3d49d7019f4a802084a0b1222af
+      internalID: 1445221560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      hunterWeapon_0: 590811600
+      hunterWeapon_1: 1950086639
+      hunterWeapon_10: 83264695
+      hunterWeapon_100: -782114593
+      hunterWeapon_101: -1077925460
+      hunterWeapon_102: 1810429277
+      hunterWeapon_103: 1397415037
+      hunterWeapon_104: 676468012
+      hunterWeapon_105: -435994155
+      hunterWeapon_106: 657249396
+      hunterWeapon_107: -35511764
+      hunterWeapon_108: 1084723969
+      hunterWeapon_109: 85997308
+      hunterWeapon_11: -1488903333
+      hunterWeapon_110: -135073590
+      hunterWeapon_111: 1602507689
+      hunterWeapon_112: -273721730
+      hunterWeapon_113: 455541402
+      hunterWeapon_114: -1448483123
+      hunterWeapon_115: 42816853
+      hunterWeapon_116: 461489714
+      hunterWeapon_117: 186840254
+      hunterWeapon_118: 1732053490
+      hunterWeapon_119: -1536119540
+      hunterWeapon_12: -106194708
+      hunterWeapon_120: 317771007
+      hunterWeapon_121: -1745122286
+      hunterWeapon_122: 170834074
+      hunterWeapon_123: 1131072062
+      hunterWeapon_124: 1307121825
+      hunterWeapon_125: 2000383921
+      hunterWeapon_126: 1634439845
+      hunterWeapon_127: 183752863
+      hunterWeapon_128: 813312029
+      hunterWeapon_129: 1092025452
+      hunterWeapon_13: 30260074
+      hunterWeapon_130: -1296147556
+      hunterWeapon_131: 798024281
+      hunterWeapon_132: 983497077
+      hunterWeapon_133: 1856301337
+      hunterWeapon_134: 1415143789
+      hunterWeapon_135: -823909124
+      hunterWeapon_136: 1900434976
+      hunterWeapon_137: -996494583
+      hunterWeapon_138: -1462874772
+      hunterWeapon_139: -396215860
+      hunterWeapon_14: -867804863
+      hunterWeapon_140: 1039640533
+      hunterWeapon_141: 285259103
+      hunterWeapon_142: -32307406
+      hunterWeapon_143: -293443515
+      hunterWeapon_144: 67182838
+      hunterWeapon_145: -682137821
+      hunterWeapon_146: -1897912372
+      hunterWeapon_147: -1361807269
+      hunterWeapon_148: -1459617905
+      hunterWeapon_149: 2105452035
+      hunterWeapon_15: 1190339458
+      hunterWeapon_150: 2059483566
+      hunterWeapon_151: 1561533719
+      hunterWeapon_152: -1872547698
+      hunterWeapon_153: 1623920374
+      hunterWeapon_154: -638117745
+      hunterWeapon_155: -612289143
+      hunterWeapon_156: 324413420
+      hunterWeapon_157: 646867891
+      hunterWeapon_158: 269837750
+      hunterWeapon_159: -675457979
+      hunterWeapon_16: -96520034
+      hunterWeapon_160: 1186217043
+      hunterWeapon_161: -1382322197
+      hunterWeapon_162: -418123754
+      hunterWeapon_163: -1003934881
+      hunterWeapon_164: -1722162638
+      hunterWeapon_165: -2007083324
+      hunterWeapon_166: 678559720
+      hunterWeapon_167: 1155036956
+      hunterWeapon_168: -846413392
+      hunterWeapon_169: 678287550
+      hunterWeapon_17: 901405468
+      hunterWeapon_170: -1454964710
+      hunterWeapon_171: 2131496270
+      hunterWeapon_172: -578346784
+      hunterWeapon_173: 1679480114
+      hunterWeapon_174: -1015573217
+      hunterWeapon_175: 791936587
+      hunterWeapon_176: -1379064793
+      hunterWeapon_177: 90970810
+      hunterWeapon_178: 1913516245
+      hunterWeapon_179: 1992233269
+      hunterWeapon_18: -430340290
+      hunterWeapon_180: 555624560
+      hunterWeapon_181: 460234928
+      hunterWeapon_182: -1283228295
+      hunterWeapon_183: 588560486
+      hunterWeapon_184: -1018024138
+      hunterWeapon_185: -661081890
+      hunterWeapon_186: 1174666876
+      hunterWeapon_187: 985922082
+      hunterWeapon_188: 751637516
+      hunterWeapon_189: 966417681
+      hunterWeapon_19: -813648562
+      hunterWeapon_190: -595038934
+      hunterWeapon_191: 1371833227
+      hunterWeapon_192: -638224533
+      hunterWeapon_193: -1424228523
+      hunterWeapon_194: 985265970
+      hunterWeapon_195: -1180820090
+      hunterWeapon_196: -289109942
+      hunterWeapon_197: 610171653
+      hunterWeapon_198: -180425419
+      hunterWeapon_199: -1455525686
+      hunterWeapon_2: 1254326831
+      hunterWeapon_20: 847531569
+      hunterWeapon_200: 1570497833
+      hunterWeapon_201: 2047672233
+      hunterWeapon_202: -1462883267
+      hunterWeapon_203: 929557735
+      hunterWeapon_204: 1874331371
+      hunterWeapon_205: -557662120
+      hunterWeapon_206: -820020919
+      hunterWeapon_207: 1738661753
+      hunterWeapon_208: -2110105124
+      hunterWeapon_209: -2058197581
+      hunterWeapon_21: -766277800
+      hunterWeapon_210: 1965924133
+      hunterWeapon_211: -1391090446
+      hunterWeapon_212: 2066671097
+      hunterWeapon_213: 162701773
+      hunterWeapon_214: -1723837721
+      hunterWeapon_215: 1486441396
+      hunterWeapon_216: 1748639552
+      hunterWeapon_217: -1620139283
+      hunterWeapon_218: -1299385068
+      hunterWeapon_219: 1012443428
+      hunterWeapon_22: 1011247406
+      hunterWeapon_220: -815126658
+      hunterWeapon_221: 1994308771
+      hunterWeapon_222: 353656039
+      hunterWeapon_223: -1301971113
+      hunterWeapon_224: -1964935670
+      hunterWeapon_225: -1418168485
+      hunterWeapon_226: 42067343
+      hunterWeapon_227: -732536620
+      hunterWeapon_228: -1363711915
+      hunterWeapon_229: -1444283245
+      hunterWeapon_23: -463404811
+      hunterWeapon_230: -858340710
+      hunterWeapon_231: 441998926
+      hunterWeapon_232: -1816956299
+      hunterWeapon_233: 1767560623
+      hunterWeapon_234: -995130290
+      hunterWeapon_235: 556554644
+      hunterWeapon_236: -14849825
+      hunterWeapon_237: 470016855
+      hunterWeapon_238: -578585945
+      hunterWeapon_239: -347776536
+      hunterWeapon_24: -1915034313
+      hunterWeapon_240: 572059037
+      hunterWeapon_241: 630585133
+      hunterWeapon_242: -56492020
+      hunterWeapon_243: -2143982980
+      hunterWeapon_244: -1353680430
+      hunterWeapon_245: 1117290615
+      hunterWeapon_246: 2021287218
+      hunterWeapon_247: -1564378321
+      hunterWeapon_248: 1977541715
+      hunterWeapon_249: -142663414
+      hunterWeapon_25: -2098964503
+      hunterWeapon_250: -349481353
+      hunterWeapon_251: 1502563767
+      hunterWeapon_252: -111705333
+      hunterWeapon_253: -896524688
+      hunterWeapon_254: -1259565805
+      hunterWeapon_255: 568016770
+      hunterWeapon_256: -1772477641
+      hunterWeapon_257: 1863093110
+      hunterWeapon_258: 509236731
+      hunterWeapon_259: -1909700312
+      hunterWeapon_26: -64652312
+      hunterWeapon_260: -243681104
+      hunterWeapon_261: -258637809
+      hunterWeapon_262: 994121198
+      hunterWeapon_263: -709107835
+      hunterWeapon_264: 1597643226
+      hunterWeapon_265: 2075451896
+      hunterWeapon_266: 1310809800
+      hunterWeapon_267: -88668591
+      hunterWeapon_268: 2079610166
+      hunterWeapon_269: 1914885454
+      hunterWeapon_27: 949067317
+      hunterWeapon_270: -1681531412
+      hunterWeapon_271: -1249120290
+      hunterWeapon_272: -541985168
+      hunterWeapon_273: -46824075
+      hunterWeapon_274: 912202011
+      hunterWeapon_275: 1356047471
+      hunterWeapon_276: -1156351294
+      hunterWeapon_277: -1534326625
+      hunterWeapon_278: -634716118
+      hunterWeapon_279: -1682502747
+      hunterWeapon_28: -1529364317
+      hunterWeapon_280: 947840864
+      hunterWeapon_281: 1235887082
+      hunterWeapon_282: -729345795
+      hunterWeapon_283: -1617759268
+      hunterWeapon_284: -306499068
+      hunterWeapon_285: -1218382229
+      hunterWeapon_286: 977849226
+      hunterWeapon_287: -1710023743
+      hunterWeapon_288: 1090036004
+      hunterWeapon_289: -138006162
+      hunterWeapon_29: -1289887103
+      hunterWeapon_290: 735983095
+      hunterWeapon_291: -1759946021
+      hunterWeapon_292: -2000935345
+      hunterWeapon_293: -1386858253
+      hunterWeapon_294: 529950778
+      hunterWeapon_295: 1987511208
+      hunterWeapon_296: -1549301745
+      hunterWeapon_297: -1487911726
+      hunterWeapon_298: -1731437408
+      hunterWeapon_299: -430344539
+      hunterWeapon_3: -1359966176
+      hunterWeapon_30: 1668653615
+      hunterWeapon_300: 1648798328
+      hunterWeapon_301: 1220507288
+      hunterWeapon_302: -246949834
+      hunterWeapon_303: 1807896398
+      hunterWeapon_304: -455913903
+      hunterWeapon_305: 1905049063
+      hunterWeapon_306: -373453725
+      hunterWeapon_307: 1889820913
+      hunterWeapon_308: 549256916
+      hunterWeapon_309: -190771651
+      hunterWeapon_31: -1476112660
+      hunterWeapon_310: 616683859
+      hunterWeapon_311: -1220028081
+      hunterWeapon_312: 865599435
+      hunterWeapon_313: 246473918
+      hunterWeapon_314: 766727737
+      hunterWeapon_315: -1837064819
+      hunterWeapon_316: 2008324884
+      hunterWeapon_317: 1289674540
+      hunterWeapon_318: 997798439
+      hunterWeapon_319: -995854297
+      hunterWeapon_32: -191573303
+      hunterWeapon_320: 815795305
+      hunterWeapon_321: -170853669
+      hunterWeapon_322: 1445221560
+      hunterWeapon_323: 1400793409
+      hunterWeapon_33: -1498641339
+      hunterWeapon_34: -394494385
+      hunterWeapon_35: 818054575
+      hunterWeapon_36: -22785156
+      hunterWeapon_37: 2143050414
+      hunterWeapon_38: 74247270
+      hunterWeapon_39: -2001011479
+      hunterWeapon_4: -51987066
+      hunterWeapon_40: 712897900
+      hunterWeapon_41: 2006400299
+      hunterWeapon_42: -960039011
+      hunterWeapon_43: -629601149
+      hunterWeapon_44: 1038509034
+      hunterWeapon_45: 222443039
+      hunterWeapon_46: -898716070
+      hunterWeapon_47: -774775232
+      hunterWeapon_48: -5970038
+      hunterWeapon_49: -1470832088
+      hunterWeapon_5: 1668487951
+      hunterWeapon_50: -633103130
+      hunterWeapon_51: -573380039
+      hunterWeapon_52: -1456740585
+      hunterWeapon_53: -1297567405
+      hunterWeapon_54: -652640354
+      hunterWeapon_55: 1695545160
+      hunterWeapon_56: 1878727038
+      hunterWeapon_57: 1470335318
+      hunterWeapon_58: -1805550806
+      hunterWeapon_59: -356636791
+      hunterWeapon_6: -1462564370
+      hunterWeapon_60: 1503539702
+      hunterWeapon_61: 1388273465
+      hunterWeapon_62: -741961001
+      hunterWeapon_63: 1950773735
+      hunterWeapon_64: 1024817680
+      hunterWeapon_65: -2115768680
+      hunterWeapon_66: -451584933
+      hunterWeapon_67: -502821338
+      hunterWeapon_68: -1126079317
+      hunterWeapon_69: 811413117
+      hunterWeapon_7: -496838497
+      hunterWeapon_70: 1601696308
+      hunterWeapon_71: 1120083730
+      hunterWeapon_72: 1884893040
+      hunterWeapon_73: -957752704
+      hunterWeapon_74: -374120499
+      hunterWeapon_75: 641988795
+      hunterWeapon_76: 162735952
+      hunterWeapon_77: 1067647373
+      hunterWeapon_78: 5903862
+      hunterWeapon_79: -1275919871
+      hunterWeapon_8: 577109417
+      hunterWeapon_80: -424069902
+      hunterWeapon_81: -1862675587
+      hunterWeapon_82: 657388755
+      hunterWeapon_83: 827479317
+      hunterWeapon_84: -1501777060
+      hunterWeapon_85: 1261975212
+      hunterWeapon_86: 601868001
+      hunterWeapon_87: 1171586591
+      hunterWeapon_88: 1744107936
+      hunterWeapon_89: -1331924807
+      hunterWeapon_9: -2076467710
+      hunterWeapon_90: -594663226
+      hunterWeapon_91: -778554900
+      hunterWeapon_92: 1141054125
+      hunterWeapon_93: 554313899
+      hunterWeapon_94: 382756389
+      hunterWeapon_95: -1292583694
+      hunterWeapon_96: 242097479
+      hunterWeapon_97: 1198518356
+      hunterWeapon_98: -1861786132
+      hunterWeapon_99: -311634945
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

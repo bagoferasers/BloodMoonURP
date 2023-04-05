@@ -10,6 +10,7 @@ TagManager:
   - TileMap
   - HurtTileMap
   - Bed
+  - cat
   layers:
   - Default
   - TransparentFX

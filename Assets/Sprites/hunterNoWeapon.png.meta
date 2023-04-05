@@ -1,0 +1,1281 @@
+fileFormatVersion: 2
+guid: 01e59b404b4f1b44da64922cf7e21a65
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 832
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hunterNoWeapon_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11f311b3697ed64e8edaca3a7b3c1bb
+      internalID: -1226018720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc460163ec156c4290babfe0d12ecff
+      internalID: -587918852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd1df8e6249cae45900ac3ca44edcaa
+      internalID: -1637123429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b702a6d5950a547b9d46f60eec0008
+      internalID: 282306449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a3ce6f6b138b84896cc953b122bde2
+      internalID: 452949506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2251e62a1adefb7478252e5a06bfbd9a
+      internalID: 1567421464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38216251b98291a468d99514e874d668
+      internalID: 283564812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f111cb134355045825688a989b1d76
+      internalID: -846131520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f634fc438eec780459c9e2277a3b37ac
+      internalID: 1565105461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f52d55da5dd5f348ba283ecabd701f1
+      internalID: 291558588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0deb7b5b381005649b2af137080c3c24
+      internalID: -32763914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4d79b16aa83bb45b325ccc1ef3b5d7
+      internalID: 1918211203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deed878c90f2a684e90751dea43af63a
+      internalID: -630630964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030a1a29b3d496443bd617bf25a974b4
+      internalID: -1368933730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9e908883a7c334096cb39cda330484
+      internalID: 381236028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9262f53513c2547b35260dbb300f66
+      internalID: -1305999829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649f4aee8f3e1964a93a4c20cdf5173d
+      internalID: 1424997832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88a345870f4f3c43a093765765e45ca
+      internalID: -1748466133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_27
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dda642bf28756447a20b61c526fd08e
+      internalID: 909012328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_28
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd00b73712ac5341909185aeae9adba
+      internalID: -1667241799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_29
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff8123cf5c4a3b4d9531d76eec5816f
+      internalID: 781507980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180d2a08a6d1f9745adf3ce6774a0e0f
+      internalID: 580830193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b138ab80830cf65498c74529d2d59408
+      internalID: 155781927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_72
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73a9451ee8f32347956178884dda862
+      internalID: -767367068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_73
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de02b0df8ebdefb4eafa627825c79510
+      internalID: 1494049589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_74
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42969c7dcf290e48a8ab5daf144f01c
+      internalID: 375650003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_75
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d0e0bf2be44a54cb7daa42d788032a
+      internalID: 627837070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_76
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e7adceeb0e45d419b1a923b04c9314
+      internalID: 406934347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_77
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c429292992b4618448cf08aa287fc05e
+      internalID: 1586605043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_78
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068b412ccd250c641bfc95b0bada4126
+      internalID: 129117362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_79
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175b9b836e7640c4ba6eb6327f0d8af8
+      internalID: 1999611987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77265dd9bafad794e8e786af913d595d
+      internalID: -1617799089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_90
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed4d3712a556bb45b28ca385e373cfe
+      internalID: -973958032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_91
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb317be788deca24c8096522b4aa2776
+      internalID: -975765485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_92
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725fddc70cf89f04781f2ece2361390b
+      internalID: 183061034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_93
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0338159d61bac804496c86accbd2e7ca
+      internalID: -1349504050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_94
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fc2c493599afd4f9faa6c715ebc8e0
+      internalID: 2147110031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_95
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf03352fe47cc0489715d610e5f0d95
+      internalID: 1568512098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_96
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f6d12e40e006f44988cf854742b9fb
+      internalID: -1887037515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_97
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5242397f8dd06945933bee6c5226cf0
+      internalID: -1863795015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_174
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2f959fe0cc4814fbc33097e2127043
+      internalID: -129538718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_175
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08cd43ca7ffe91b419c0a224906d56eb
+      internalID: -1924819109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_176
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600de4a98198e8d458b07e81d6aa0c6f
+      internalID: -1304185870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_177
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc5ce866fd4ba54a8bd17350fb9d81e
+      internalID: 1435859478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_178
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77af6c100e875c4a963d52a5ed930d5
+      internalID: 1569333611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hunterNoWeapon_179
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8dd7cd8af952a43979d51d973fde6e
+      internalID: 48995775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      hunterNoWeapon_0: 496693219
+      hunterNoWeapon_1: 1083950223
+      hunterNoWeapon_10: 282306449
+      hunterNoWeapon_100: -470996202
+      hunterNoWeapon_101: -1781323481
+      hunterNoWeapon_102: -791711044
+      hunterNoWeapon_103: -1045634508
+      hunterNoWeapon_104: -535104658
+      hunterNoWeapon_105: 1095633021
+      hunterNoWeapon_106: -547343748
+      hunterNoWeapon_107: 806395417
+      hunterNoWeapon_108: -1766967180
+      hunterNoWeapon_109: -441223254
+      hunterNoWeapon_11: 452949506
+      hunterNoWeapon_110: -963252408
+      hunterNoWeapon_111: 937022990
+      hunterNoWeapon_112: -1645186905
+      hunterNoWeapon_113: 902314178
+      hunterNoWeapon_114: -1980339794
+      hunterNoWeapon_115: -1134350085
+      hunterNoWeapon_116: 338810801
+      hunterNoWeapon_117: -1292511144
+      hunterNoWeapon_118: 1275372427
+      hunterNoWeapon_119: -1637823791
+      hunterNoWeapon_12: 1567421464
+      hunterNoWeapon_120: 1054742400
+      hunterNoWeapon_121: 930872098
+      hunterNoWeapon_122: -917796879
+      hunterNoWeapon_123: 605346538
+      hunterNoWeapon_124: -1955422466
+      hunterNoWeapon_125: 826450448
+      hunterNoWeapon_126: 1031461725
+      hunterNoWeapon_127: -978075388
+      hunterNoWeapon_128: 1878700080
+      hunterNoWeapon_129: 146821676
+      hunterNoWeapon_13: 283564812
+      hunterNoWeapon_130: -1020887372
+      hunterNoWeapon_131: -2010032002
+      hunterNoWeapon_132: 992841607
+      hunterNoWeapon_133: -519813855
+      hunterNoWeapon_134: -24310336
+      hunterNoWeapon_135: -268484379
+      hunterNoWeapon_136: 819576063
+      hunterNoWeapon_137: -1598203005
+      hunterNoWeapon_138: 697303276
+      hunterNoWeapon_139: 859766699
+      hunterNoWeapon_14: -846131520
+      hunterNoWeapon_140: 1139708293
+      hunterNoWeapon_141: 65547656
+      hunterNoWeapon_142: -1264203939
+      hunterNoWeapon_143: -437920845
+      hunterNoWeapon_144: 655162191
+      hunterNoWeapon_145: -2076062911
+      hunterNoWeapon_146: 1703430452
+      hunterNoWeapon_147: 2069382831
+      hunterNoWeapon_148: -863442034
+      hunterNoWeapon_149: -431202617
+      hunterNoWeapon_15: 1565105461
+      hunterNoWeapon_150: 1658407855
+      hunterNoWeapon_151: 1492759488
+      hunterNoWeapon_152: 1676899683
+      hunterNoWeapon_153: 245240498
+      hunterNoWeapon_154: 1068516718
+      hunterNoWeapon_155: 1513772292
+      hunterNoWeapon_156: 1694920225
+      hunterNoWeapon_157: -1096208028
+      hunterNoWeapon_158: -973463701
+      hunterNoWeapon_159: 440570447
+      hunterNoWeapon_16: 291558588
+      hunterNoWeapon_160: -2080718114
+      hunterNoWeapon_161: -2071183957
+      hunterNoWeapon_162: -1240735900
+      hunterNoWeapon_163: -1128249473
+      hunterNoWeapon_164: -381779818
+      hunterNoWeapon_165: 1853389001
+      hunterNoWeapon_166: 1111267988
+      hunterNoWeapon_167: 1640876582
+      hunterNoWeapon_168: -366728626
+      hunterNoWeapon_169: 238851111
+      hunterNoWeapon_17: -32763914
+      hunterNoWeapon_170: -102126093
+      hunterNoWeapon_171: 1821353701
+      hunterNoWeapon_172: -1717969235
+      hunterNoWeapon_173: -2061096226
+      hunterNoWeapon_174: -129538718
+      hunterNoWeapon_175: -1924819109
+      hunterNoWeapon_176: -1304185870
+      hunterNoWeapon_177: 1435859478
+      hunterNoWeapon_178: 1569333611
+      hunterNoWeapon_179: 48995775
+      hunterNoWeapon_18: 1918211203
+      hunterNoWeapon_19: -630630964
+      hunterNoWeapon_2: -1875650558
+      hunterNoWeapon_20: -1368933730
+      hunterNoWeapon_21: -515559514
+      hunterNoWeapon_22: -1119902482
+      hunterNoWeapon_23: 381236028
+      hunterNoWeapon_24: -1305999829
+      hunterNoWeapon_25: 1424997832
+      hunterNoWeapon_26: -1748466133
+      hunterNoWeapon_27: 909012328
+      hunterNoWeapon_28: -1667241799
+      hunterNoWeapon_29: 781507980
+      hunterNoWeapon_3: 1523511753
+      hunterNoWeapon_30: 1679260031
+      hunterNoWeapon_31: -1490424517
+      hunterNoWeapon_32: 151343410
+      hunterNoWeapon_33: 1040592794
+      hunterNoWeapon_34: 2108838091
+      hunterNoWeapon_35: 1895921976
+      hunterNoWeapon_36: -102104321
+      hunterNoWeapon_37: -1360381705
+      hunterNoWeapon_38: -1682578535
+      hunterNoWeapon_39: 695851546
+      hunterNoWeapon_4: 850775796
+      hunterNoWeapon_40: -1012958227
+      hunterNoWeapon_41: 116180141
+      hunterNoWeapon_42: -133756880
+      hunterNoWeapon_43: -908287661
+      hunterNoWeapon_44: -322104607
+      hunterNoWeapon_45: -357968133
+      hunterNoWeapon_46: 580830193
+      hunterNoWeapon_47: 105028688
+      hunterNoWeapon_48: 935639065
+      hunterNoWeapon_49: 912469860
+      hunterNoWeapon_5: -351132416
+      hunterNoWeapon_50: -1257192054
+      hunterNoWeapon_51: 1253540404
+      hunterNoWeapon_52: 38462979
+      hunterNoWeapon_53: -229227648
+      hunterNoWeapon_54: -544206413
+      hunterNoWeapon_55: 952839559
+      hunterNoWeapon_56: 2033632850
+      hunterNoWeapon_57: -337808871
+      hunterNoWeapon_58: -9626819
+      hunterNoWeapon_59: -189485113
+      hunterNoWeapon_6: 838259080
+      hunterNoWeapon_60: -1376380358
+      hunterNoWeapon_61: -1224113833
+      hunterNoWeapon_62: 596508654
+      hunterNoWeapon_63: -710593985
+      hunterNoWeapon_64: 1130474361
+      hunterNoWeapon_65: 275329058
+      hunterNoWeapon_66: -1838061888
+      hunterNoWeapon_67: -343838327
+      hunterNoWeapon_68: -1960425033
+      hunterNoWeapon_69: 1345693116
+      hunterNoWeapon_7: -1226018720
+      hunterNoWeapon_70: 370131959
+      hunterNoWeapon_71: 155781927
+      hunterNoWeapon_72: -767367068
+      hunterNoWeapon_73: 1494049589
+      hunterNoWeapon_74: 375650003
+      hunterNoWeapon_75: 627837070
+      hunterNoWeapon_76: 406934347
+      hunterNoWeapon_77: 1586605043
+      hunterNoWeapon_78: 129117362
+      hunterNoWeapon_79: 1999611987
+      hunterNoWeapon_8: -587918852
+      hunterNoWeapon_80: 508690464
+      hunterNoWeapon_81: -869752561
+      hunterNoWeapon_82: -1598077138
+      hunterNoWeapon_83: -1195688239
+      hunterNoWeapon_84: -1581723309
+      hunterNoWeapon_85: 1687972216
+      hunterNoWeapon_86: -1059168827
+      hunterNoWeapon_87: -931764270
+      hunterNoWeapon_88: 767924080
+      hunterNoWeapon_89: -1617799089
+      hunterNoWeapon_9: -1637123429
+      hunterNoWeapon_90: -973958032
+      hunterNoWeapon_91: -975765485
+      hunterNoWeapon_92: 183061034
+      hunterNoWeapon_93: -1349504050
+      hunterNoWeapon_94: 2147110031
+      hunterNoWeapon_95: 1568512098
+      hunterNoWeapon_96: -1887037515
+      hunterNoWeapon_97: -1863795015
+      hunterNoWeapon_98: -461268883
+      hunterNoWeapon_99: 1725183079
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

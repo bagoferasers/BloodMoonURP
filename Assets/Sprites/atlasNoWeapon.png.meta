@@ -1,0 +1,1300 @@
+fileFormatVersion: 2
+guid: 32bd0737d9bb9364c91c2e95d9096222
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 832
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: atlasNoWeapon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85be334091782dd41b080e44f8cdcfa9
+      internalID: 262127523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c9a5d9f797b7342aad5ff5691dd027
+      internalID: 875831092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6084425b512c34eac79b553ba41792
+      internalID: 1523893680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea74239ea94d41242882daefddb9e008
+      internalID: -2001535717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5694176e2464e4469e977d1ab5ffac0
+      internalID: 781741180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f07201b4e3bfa149b1a795b147f92f6
+      internalID: -1923769192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df3b121570bdb14cb02692bc914c211
+      internalID: -116486862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ecd9d6f2c2e97e459a591fe2f8f531e
+      internalID: 652115005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75bc1ec233da454ca13e6b79ea4bcee
+      internalID: 1409701973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb008c1cfc26aa4599d0f7509f22a60
+      internalID: 1963205863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8677f8bba6e68ef4d995b1ec1e9fe380
+      internalID: -1942724966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c1b150275d9e24f9b829f5e5730e6c
+      internalID: 778940269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e01c1019218c4e4abd85d02b71bdf62
+      internalID: -2064547696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d517454c7818d488fc0ccb29e01e7a
+      internalID: 104059549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d867ad4d850d13498779ca47408a4b6
+      internalID: 68785355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30c918f07f58b745a9e3462bfb0f7aa
+      internalID: 591091029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f430ba66c8a4749b426efd87712b91
+      internalID: -379280982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b31ae903df063548a3ea16f9a3bfe52
+      internalID: -185912480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37963b406a971434cb6a981328dea852
+      internalID: -966412529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c1800a61e5ffd4fac30cc7647ac24e
+      internalID: -1550339956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7976b2072eabb4b9a032c8dca1fb5e
+      internalID: -707173972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c852446b3da24468b6fd545c8ad950
+      internalID: -1454554612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbd28f4bcc4dae4ba3defed6dfbc013
+      internalID: -1248568340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017043e2e208ae84caeed502f99fae02
+      internalID: -39661219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfccb7e5752a9347a5300cec0d6fd32
+      internalID: -1091323871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604a6051c9a75564da11664660df2b06
+      internalID: 820697821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc132717afafd94ea108e6353c5c20d
+      internalID: 567212210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4701e91c5d759f4499135972f593fc95
+      internalID: 1167456331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee68e44d661a7c145b6e1d01f5d0963b
+      internalID: 1463735710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_70
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335e14661ab7cbd4ba3d2597a71e0987
+      internalID: 1145075819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83848547c2999d4b94260b3d70ec10e
+      internalID: -1695912162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0caf7c893830484fb62638918a4c72d
+      internalID: 175904296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857bea9bf35f2684b933e0e2613fb494
+      internalID: 411933334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78088b347e0acf46893d1a075ef328d
+      internalID: 563288404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_75
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a59215d7d28954696ecdf3a8615b54
+      internalID: 2007001293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_76
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea8395290b5e6b4289087213b7f0162
+      internalID: -2066816454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_77
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b389ba2455ee6a449e2f2a183a011e8
+      internalID: 972481360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691e09d717a26014ba253fb659e334a9
+      internalID: -1082070531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768b5a9e10e0aa443a159fa0f468f03b
+      internalID: -246821294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf1c6490730c60488c17ea49b4ce699
+      internalID: 1810011651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddee2d652abfbc4896de3778e6c1c46
+      internalID: 488570615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03781f43f399bd42823d1d6f62df86e
+      internalID: 1446970687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_91
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137d3ffa9b71aae4ea91d89c31291689
+      internalID: -2041575679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_92
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f316337c72c96cd48a7a28b814dbd858
+      internalID: 385905021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_93
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31dabb94c835144986534c773d56849
+      internalID: -1003069241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e220dbf4e633b4c92230de65ec7a4d
+      internalID: -1680846360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasNoWeapon_95
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2534d153c4ae4e40a27eeed51aba859
+      internalID: -1598175896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      atlasNoWeapon_0: 262127523
+      atlasNoWeapon_1: 875831092
+      atlasNoWeapon_10: -1942724966
+      atlasNoWeapon_100: 60554393
+      atlasNoWeapon_101: 451413903
+      atlasNoWeapon_102: 747284101
+      atlasNoWeapon_103: 1006291230
+      atlasNoWeapon_104: -1095988648
+      atlasNoWeapon_105: -1044869632
+      atlasNoWeapon_106: -348783365
+      atlasNoWeapon_107: -1187426551
+      atlasNoWeapon_108: -366478434
+      atlasNoWeapon_109: 888865954
+      atlasNoWeapon_11: 778940269
+      atlasNoWeapon_110: 1321920534
+      atlasNoWeapon_111: -884438543
+      atlasNoWeapon_112: 1715135375
+      atlasNoWeapon_113: 474243652
+      atlasNoWeapon_114: -853329167
+      atlasNoWeapon_115: 1698766999
+      atlasNoWeapon_116: -2035974576
+      atlasNoWeapon_117: 547727869
+      atlasNoWeapon_118: 1286210288
+      atlasNoWeapon_119: -1634050041
+      atlasNoWeapon_12: -2064547696
+      atlasNoWeapon_120: -1271746967
+      atlasNoWeapon_121: 2059062619
+      atlasNoWeapon_122: -227624806
+      atlasNoWeapon_123: -32031507
+      atlasNoWeapon_124: -1863103061
+      atlasNoWeapon_125: -534634876
+      atlasNoWeapon_126: 320808195
+      atlasNoWeapon_127: -468615573
+      atlasNoWeapon_128: 696982889
+      atlasNoWeapon_129: 893889800
+      atlasNoWeapon_13: 104059549
+      atlasNoWeapon_130: 1215671191
+      atlasNoWeapon_131: -582882285
+      atlasNoWeapon_132: 423954224
+      atlasNoWeapon_133: -2146441284
+      atlasNoWeapon_134: 573563238
+      atlasNoWeapon_135: 932758614
+      atlasNoWeapon_136: 1777169675
+      atlasNoWeapon_137: 1615067986
+      atlasNoWeapon_138: 1483115716
+      atlasNoWeapon_139: -1107319326
+      atlasNoWeapon_14: 68785355
+      atlasNoWeapon_140: -932897764
+      atlasNoWeapon_141: 1617341511
+      atlasNoWeapon_142: -959413101
+      atlasNoWeapon_143: 677794275
+      atlasNoWeapon_144: -637524195
+      atlasNoWeapon_145: 864185999
+      atlasNoWeapon_146: 1819257486
+      atlasNoWeapon_147: 9692088
+      atlasNoWeapon_148: 1233611994
+      atlasNoWeapon_149: -1291796538
+      atlasNoWeapon_15: 591091029
+      atlasNoWeapon_150: -1918867650
+      atlasNoWeapon_151: -1502148409
+      atlasNoWeapon_152: -2137444373
+      atlasNoWeapon_153: 1006304997
+      atlasNoWeapon_154: -1570789471
+      atlasNoWeapon_155: -1921642628
+      atlasNoWeapon_156: -1702895400
+      atlasNoWeapon_157: -943692082
+      atlasNoWeapon_158: -1542361919
+      atlasNoWeapon_159: 994847548
+      atlasNoWeapon_16: -379280982
+      atlasNoWeapon_160: 295128674
+      atlasNoWeapon_161: 788450016
+      atlasNoWeapon_162: 1309923177
+      atlasNoWeapon_163: 333933997
+      atlasNoWeapon_164: -2017718413
+      atlasNoWeapon_165: 358926321
+      atlasNoWeapon_166: 1055298734
+      atlasNoWeapon_167: 499022467
+      atlasNoWeapon_168: -365352386
+      atlasNoWeapon_169: -674707489
+      atlasNoWeapon_17: -185912480
+      atlasNoWeapon_170: 416848929
+      atlasNoWeapon_171: -547763898
+      atlasNoWeapon_172: -2039361307
+      atlasNoWeapon_173: 2103005198
+      atlasNoWeapon_174: 697661427
+      atlasNoWeapon_175: 1529646004
+      atlasNoWeapon_176: -1092859211
+      atlasNoWeapon_177: -10008630
+      atlasNoWeapon_18: -966412529
+      atlasNoWeapon_19: -1550339956
+      atlasNoWeapon_2: 1523893680
+      atlasNoWeapon_20: -707173972
+      atlasNoWeapon_21: -1454554612
+      atlasNoWeapon_22: -1248568340
+      atlasNoWeapon_23: -39661219
+      atlasNoWeapon_24: -1091323871
+      atlasNoWeapon_25: 820697821
+      atlasNoWeapon_26: 567212210
+      atlasNoWeapon_27: 1167456331
+      atlasNoWeapon_28: 397626091
+      atlasNoWeapon_29: 862119009
+      atlasNoWeapon_3: -2001535717
+      atlasNoWeapon_30: 532912519
+      atlasNoWeapon_31: -650916860
+      atlasNoWeapon_32: -1881291868
+      atlasNoWeapon_33: -13595394
+      atlasNoWeapon_34: -230309515
+      atlasNoWeapon_35: -2128808527
+      atlasNoWeapon_36: -1272401619
+      atlasNoWeapon_37: -644054508
+      atlasNoWeapon_38: 822021151
+      atlasNoWeapon_39: 1624565043
+      atlasNoWeapon_4: 781741180
+      atlasNoWeapon_40: 1827634454
+      atlasNoWeapon_41: 1714729889
+      atlasNoWeapon_42: 1796332625
+      atlasNoWeapon_43: -798157504
+      atlasNoWeapon_44: -473315331
+      atlasNoWeapon_45: 756822589
+      atlasNoWeapon_46: -354094401
+      atlasNoWeapon_47: -1574605564
+      atlasNoWeapon_48: -314634913
+      atlasNoWeapon_49: 1290876446
+      atlasNoWeapon_5: -1923769192
+      atlasNoWeapon_50: 1241669865
+      atlasNoWeapon_51: -1944970995
+      atlasNoWeapon_52: -46188220
+      atlasNoWeapon_53: 845811280
+      atlasNoWeapon_54: 222271267
+      atlasNoWeapon_55: -697809176
+      atlasNoWeapon_56: 453125327
+      atlasNoWeapon_57: -1502439304
+      atlasNoWeapon_58: 2052024228
+      atlasNoWeapon_59: -1593069468
+      atlasNoWeapon_6: -116486862
+      atlasNoWeapon_60: 1892896707
+      atlasNoWeapon_61: -1954369798
+      atlasNoWeapon_62: -251934206
+      atlasNoWeapon_63: 46566908
+      atlasNoWeapon_64: -199815818
+      atlasNoWeapon_65: 385570364
+      atlasNoWeapon_66: 1565597005
+      atlasNoWeapon_67: 496287231
+      atlasNoWeapon_68: -2103124618
+      atlasNoWeapon_69: 1463735710
+      atlasNoWeapon_7: 652115005
+      atlasNoWeapon_70: 1145075819
+      atlasNoWeapon_71: -1695912162
+      atlasNoWeapon_72: 175904296
+      atlasNoWeapon_73: 411933334
+      atlasNoWeapon_74: 563288404
+      atlasNoWeapon_75: 2007001293
+      atlasNoWeapon_76: -2066816454
+      atlasNoWeapon_77: 972481360
+      atlasNoWeapon_78: -1082070531
+      atlasNoWeapon_79: -1491666910
+      atlasNoWeapon_8: 1409701973
+      atlasNoWeapon_80: -608757043
+      atlasNoWeapon_81: -1252537020
+      atlasNoWeapon_82: -549992498
+      atlasNoWeapon_83: 84236791
+      atlasNoWeapon_84: 942660595
+      atlasNoWeapon_85: -1571792186
+      atlasNoWeapon_86: -1506960741
+      atlasNoWeapon_87: -246821294
+      atlasNoWeapon_88: 1810011651
+      atlasNoWeapon_89: 488570615
+      atlasNoWeapon_9: 1963205863
+      atlasNoWeapon_90: 1446970687
+      atlasNoWeapon_91: -2041575679
+      atlasNoWeapon_92: 385905021
+      atlasNoWeapon_93: -1003069241
+      atlasNoWeapon_94: -1680846360
+      atlasNoWeapon_95: -1598175896
+      atlasNoWeapon_96: -781359471
+      atlasNoWeapon_97: -1802929416
+      atlasNoWeapon_98: -477791722
+      atlasNoWeapon_99: -1065778976
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

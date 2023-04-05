@@ -14,7 +14,6 @@ public class Music : MonoBehaviour
     public Slider systemSlider;
     public Slider musicSlider;
     public Slider effectsSlider;
-
     public AudioSource[ ] jumpList;
     public AudioSource[ ] punchList;
     public float howManySilent;

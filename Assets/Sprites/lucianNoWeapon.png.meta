@@ -1,0 +1,1282 @@
+fileFormatVersion: 2
+guid: ca8bcced1f05a89499af62b69da8b9ef
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 832
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lucianNoWeapon_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a05f7eda57147643b7f82e816515910
+      internalID: 1605541590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df3a12dc19d5d44d850ce884808d842
+      internalID: 600952894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c725edfe376c074c8499b75e3a79b57
+      internalID: 2115110728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6116716071a63c7488344920fe988139
+      internalID: 1533428534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1581d7572308b114b82a3123b4328ad8
+      internalID: 78824067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5160891d9d72546abe636b2653d93e
+      internalID: 1807518397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa6edf1b9ba9ad4aa03d58b8bd86ecb
+      internalID: 1711970958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa597cab3d246c438882db62ba07190
+      internalID: 514729757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ea87c509cf49f4f8f3b3c31f96af45
+      internalID: -29124057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e87f9c911c0944e999ddef6a6a0a6c
+      internalID: 220428841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ee0b657af27334c84c8e33466ccce5
+      internalID: -121448390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d880a6e4ee23734c8f67f4b0baf2ac3
+      internalID: 1272148984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adb720222d99aa46b53bca904983407
+      internalID: -900155786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8673f30b87f3c4791440e00fa0f253
+      internalID: 866536098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b873f5d1f01a5404597c819f2f6adbac
+      internalID: -1146493853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bed897667a9d294e8fcf6ca0f6a851e
+      internalID: -1776856656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01be19639a7be904d87dca5c1e7b79b4
+      internalID: 978238953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e20ebe81cc4b9948b08d9189c2cf8aa
+      internalID: 1345618993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4cf743400e5ad49827806d81b6db8b
+      internalID: 1480511306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95da93f69bd7ce24ea5c88990d7283b9
+      internalID: -1516738710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f061c6be51b7c744b357464677486e1
+      internalID: 2066307041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e2ea8ae18e9764fb26f96afd64a486
+      internalID: -958882341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_73
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c3f3877fd3aa549a9220c04ed15c0e
+      internalID: -2145725203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_74
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee8459f57187bc4eacac49ebdc50999
+      internalID: 2040925478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_75
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7269e66042b9674a9f166d2c9e8d8af
+      internalID: -980998958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_76
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2671fdde76ab74b4cb78b95d22841d30
+      internalID: -1222343261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_77
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbb586111f264b41b612adf11bdb660
+      internalID: -233103897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_78
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f682c978c64eb9f46b1613c2875b8a65
+      internalID: 1631351881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_79
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10b7d6e33c5a82469f67e5fc8fe97b8
+      internalID: 2035474158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_80
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5685b3dc8fccc664085e2ce728811fb0
+      internalID: -1732472381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa03ab52eab84494fbc4299fb889d1cb
+      internalID: 1062877388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794e8efeab944a04ba50bccdd202379a
+      internalID: 722480339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_91
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1859c48096ff0947bbae8c9ab21cf91
+      internalID: 1896300608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_92
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045338f3661ecbd41964b7dd8a4497fe
+      internalID: 329255259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_93
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3965b28aad893bc439c7d8a4a1cf6294
+      internalID: 1513567624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_94
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96890015bad7a704498fca9223a73547
+      internalID: -705888392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_95
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618e803c3ad947541a78238d1fa33969
+      internalID: -406105431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_96
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f8f5453b72a3c4b9efc979d2f11221
+      internalID: 484252187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_97
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17900fdba9ca9f84cbb1dc5fdfeafad9
+      internalID: 1090455014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_98
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a834dac6a9beffc438af616ca2ab67ab
+      internalID: 1845577813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_175
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8543bb1e685c7449b548626915dc80
+      internalID: -999504771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_176
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c289fed93527f1e4d9e6aeac39d33a50
+      internalID: -1691189451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_177
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635af5603b268c246a5db10b4b7a181d
+      internalID: 2113372023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_178
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af848cfd02c1a2e4f9dc45c9e90f2c6c
+      internalID: 444803951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_179
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb44e5299d1feff42bcaddf1e9dbf6e8
+      internalID: -585971117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lucianNoWeapon_180
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246ede86f93612541a75d8f684047f1b
+      internalID: -1885413144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      lucianNoWeapon_0: -684952912
+      lucianNoWeapon_1: 1409715538
+      lucianNoWeapon_10: 2115110728
+      lucianNoWeapon_100: -2142255437
+      lucianNoWeapon_101: 1724963315
+      lucianNoWeapon_102: -1248464726
+      lucianNoWeapon_103: 1004140811
+      lucianNoWeapon_104: -2403834
+      lucianNoWeapon_105: -1260074896
+      lucianNoWeapon_106: 112600929
+      lucianNoWeapon_107: -1087604155
+      lucianNoWeapon_108: 1748521204
+      lucianNoWeapon_109: 737848334
+      lucianNoWeapon_11: 1533428534
+      lucianNoWeapon_110: -1006617199
+      lucianNoWeapon_111: -2107672654
+      lucianNoWeapon_112: -1201819028
+      lucianNoWeapon_113: -1538230076
+      lucianNoWeapon_114: 669101390
+      lucianNoWeapon_115: 523607697
+      lucianNoWeapon_116: -795855696
+      lucianNoWeapon_117: -1067709828
+      lucianNoWeapon_118: 731162647
+      lucianNoWeapon_119: -93448599
+      lucianNoWeapon_12: 78824067
+      lucianNoWeapon_120: 1009973326
+      lucianNoWeapon_121: -916995133
+      lucianNoWeapon_122: 1604586765
+      lucianNoWeapon_123: 224055612
+      lucianNoWeapon_124: 1141894082
+      lucianNoWeapon_125: -707816361
+      lucianNoWeapon_126: 68367242
+      lucianNoWeapon_127: 587304587
+      lucianNoWeapon_128: 1149691878
+      lucianNoWeapon_129: 1376586655
+      lucianNoWeapon_13: 1807518397
+      lucianNoWeapon_130: -1431629510
+      lucianNoWeapon_131: 1116563911
+      lucianNoWeapon_132: -262245040
+      lucianNoWeapon_133: 1943893368
+      lucianNoWeapon_134: -174735201
+      lucianNoWeapon_135: -1990361443
+      lucianNoWeapon_136: 1310295226
+      lucianNoWeapon_137: -460226059
+      lucianNoWeapon_138: -1437424558
+      lucianNoWeapon_139: 66762473
+      lucianNoWeapon_14: 1711970958
+      lucianNoWeapon_140: -1022150232
+      lucianNoWeapon_141: -1907864462
+      lucianNoWeapon_142: 1748213275
+      lucianNoWeapon_143: 481536624
+      lucianNoWeapon_144: -1527698337
+      lucianNoWeapon_145: -569113605
+      lucianNoWeapon_146: 1518940293
+      lucianNoWeapon_147: -926358606
+      lucianNoWeapon_148: 506716052
+      lucianNoWeapon_149: 1012015372
+      lucianNoWeapon_15: 514729757
+      lucianNoWeapon_150: 1153925307
+      lucianNoWeapon_151: -829614486
+      lucianNoWeapon_152: -1900611072
+      lucianNoWeapon_153: 22412139
+      lucianNoWeapon_154: -829741396
+      lucianNoWeapon_155: -31116315
+      lucianNoWeapon_156: 1654453658
+      lucianNoWeapon_157: 1402765494
+      lucianNoWeapon_158: -2122159952
+      lucianNoWeapon_159: 219021933
+      lucianNoWeapon_16: -29124057
+      lucianNoWeapon_160: 1418279824
+      lucianNoWeapon_161: -1045660917
+      lucianNoWeapon_162: 913942102
+      lucianNoWeapon_163: -1745253902
+      lucianNoWeapon_164: 1360453096
+      lucianNoWeapon_165: -1679805428
+      lucianNoWeapon_166: 950960766
+      lucianNoWeapon_167: -1607532277
+      lucianNoWeapon_168: 1800843451
+      lucianNoWeapon_169: 1721881302
+      lucianNoWeapon_17: 220428841
+      lucianNoWeapon_170: 797050048
+      lucianNoWeapon_171: 1700630699
+      lucianNoWeapon_172: 469538854
+      lucianNoWeapon_173: 584578999
+      lucianNoWeapon_174: -520877042
+      lucianNoWeapon_175: -999504771
+      lucianNoWeapon_176: -1691189451
+      lucianNoWeapon_177: 2113372023
+      lucianNoWeapon_178: 444803951
+      lucianNoWeapon_179: -585971117
+      lucianNoWeapon_18: -121448390
+      lucianNoWeapon_180: -1885413144
+      lucianNoWeapon_19: 1272148984
+      lucianNoWeapon_2: 192914828
+      lucianNoWeapon_20: -900155786
+      lucianNoWeapon_21: 866536098
+      lucianNoWeapon_22: 1278749401
+      lucianNoWeapon_23: 1400038711
+      lucianNoWeapon_24: -1146493853
+      lucianNoWeapon_25: -1776856656
+      lucianNoWeapon_26: 978238953
+      lucianNoWeapon_27: 1345618993
+      lucianNoWeapon_28: 1480511306
+      lucianNoWeapon_29: -1516738710
+      lucianNoWeapon_3: -170605333
+      lucianNoWeapon_30: 2066307041
+      lucianNoWeapon_31: 282790625
+      lucianNoWeapon_32: -748881553
+      lucianNoWeapon_33: 1637181107
+      lucianNoWeapon_34: -2017299078
+      lucianNoWeapon_35: 2012367071
+      lucianNoWeapon_36: 595881603
+      lucianNoWeapon_37: -1832230809
+      lucianNoWeapon_38: -320789566
+      lucianNoWeapon_39: 1338603818
+      lucianNoWeapon_4: -657909528
+      lucianNoWeapon_40: 296391648
+      lucianNoWeapon_41: 439702314
+      lucianNoWeapon_42: -1825727755
+      lucianNoWeapon_43: -350969507
+      lucianNoWeapon_44: -1683458220
+      lucianNoWeapon_45: -1873307645
+      lucianNoWeapon_46: 1036073599
+      lucianNoWeapon_47: 172629451
+      lucianNoWeapon_48: -744462537
+      lucianNoWeapon_49: 123982428
+      lucianNoWeapon_5: 373832089
+      lucianNoWeapon_50: -1358219175
+      lucianNoWeapon_51: 1209533562
+      lucianNoWeapon_52: -403683482
+      lucianNoWeapon_53: 1578511908
+      lucianNoWeapon_54: 1919618480
+      lucianNoWeapon_55: -1966278453
+      lucianNoWeapon_56: 709057934
+      lucianNoWeapon_57: -2099058707
+      lucianNoWeapon_58: -1391712283
+      lucianNoWeapon_59: -2027503997
+      lucianNoWeapon_6: 502569485
+      lucianNoWeapon_60: -656841657
+      lucianNoWeapon_61: 613120030
+      lucianNoWeapon_62: -1058144428
+      lucianNoWeapon_63: -1736590787
+      lucianNoWeapon_64: -1386244632
+      lucianNoWeapon_65: -1767133579
+      lucianNoWeapon_66: -773540047
+      lucianNoWeapon_67: 1137438155
+      lucianNoWeapon_68: -688838794
+      lucianNoWeapon_69: -1362092499
+      lucianNoWeapon_7: 647232131
+      lucianNoWeapon_70: 1679017526
+      lucianNoWeapon_71: 631816783
+      lucianNoWeapon_72: -958882341
+      lucianNoWeapon_73: -2145725203
+      lucianNoWeapon_74: 2040925478
+      lucianNoWeapon_75: -980998958
+      lucianNoWeapon_76: -1222343261
+      lucianNoWeapon_77: -233103897
+      lucianNoWeapon_78: 1631351881
+      lucianNoWeapon_79: 2035474158
+      lucianNoWeapon_8: 1605541590
+      lucianNoWeapon_80: -1732472381
+      lucianNoWeapon_81: 1062877388
+      lucianNoWeapon_82: 991778432
+      lucianNoWeapon_83: 1012614773
+      lucianNoWeapon_84: 1182806064
+      lucianNoWeapon_85: 2059378384
+      lucianNoWeapon_86: -645153787
+      lucianNoWeapon_87: -1408633143
+      lucianNoWeapon_88: 2128319032
+      lucianNoWeapon_89: -1677995369
+      lucianNoWeapon_9: 600952894
+      lucianNoWeapon_90: 722480339
+      lucianNoWeapon_91: 1896300608
+      lucianNoWeapon_92: 329255259
+      lucianNoWeapon_93: 1513567624
+      lucianNoWeapon_94: -705888392
+      lucianNoWeapon_95: -406105431
+      lucianNoWeapon_96: 484252187
+      lucianNoWeapon_97: 1090455014
+      lucianNoWeapon_98: 1845577813
+      lucianNoWeapon_99: -31357631
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

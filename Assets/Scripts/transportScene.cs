@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class transportScene : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class transportScene : MonoBehaviour
     public string idConnected;
     public GameObject player;
     private CanvasGroup canvasGroup;
+
+    [ Header( "Put mixer here:" ) ]
+    public AudioMixer mixer;
 
     void Start( )
     {
@@ -22,6 +26,36 @@ public class transportScene : MonoBehaviour
             if( ts.id == PlayerPrefs.GetString( "startPosition" ) )
                 player.transform.position = ts.transform.position;
         }
+        StartCoroutine( playMusic( ) );
+    }
+
+    IEnumerator playMusic( )
+    {
+        float originalVolume = PlayerPrefs.GetFloat( "MusicVolume" );
+        float currentVolume = -26f;
+        mixer.SetFloat( "MusicVolume", currentVolume );
+        while( currentVolume < originalVolume )
+        {
+            currentVolume += 0.2f;
+            mixer.SetFloat( "MusicVolume", currentVolume );
+            yield return null;
+        }
+        yield return null;
+    }
+
+    IEnumerator fadeMusic( )
+    {
+        float originalVolume = PlayerPrefs.GetFloat( "MusicVolume" );
+        float currentVolume = PlayerPrefs.GetFloat( "MusicVolume" );
+        float targetVolume = -26f;
+        mixer.SetFloat( "MusicVolume", currentVolume );
+        while( currentVolume > targetVolume )
+        {
+            currentVolume -= 0.3f;
+            mixer.SetFloat( "MusicVolume", currentVolume );
+            yield return null;
+        }
+        yield return null;
     }
 
     public void ChangeToScene( string sceneToChangeTo )
@@ -32,6 +66,7 @@ public class transportScene : MonoBehaviour
             StartCoroutine( ChangeScene( sceneToChangeTo ) );
         else    
             StartCoroutine( ChangeScene( "Village" ) );
+        StartCoroutine( fadeMusic( ) );
     }
 
     public void ChangeSceneFromMain( )
@@ -40,6 +75,7 @@ public class transportScene : MonoBehaviour
         if( PlayerPrefs.GetString( "SceneStart" ) == "Main" )
             PlayerPrefs.SetString( "SceneStart", "Village" );
         StartCoroutine( ChangeScene( PlayerPrefs.GetString( "SceneStart" ) ) );
+        StartCoroutine( fadeMusic( ) );
     }
 
     public void resetPrefs( )

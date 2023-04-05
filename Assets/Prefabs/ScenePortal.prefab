@@ -49,6 +49,7 @@ MonoBehaviour:
   id: apartmentOut
   idConnected: apartmentIn
   player: {fileID: 0}
+  mixer: {fileID: 24100000, guid: 4b00b1768253d428c82763cdd8cbb821, type: 2}
 --- !u!61 &3980522187978390624
 BoxCollider2D:
   m_ObjectHideFlags: 0

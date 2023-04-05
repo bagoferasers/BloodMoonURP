@@ -1,0 +1,838 @@
+fileFormatVersion: 2
+guid: 2e626459848ade644a58fb8ce6b6d610
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 832
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: omenNoWeapon_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f7ce1bdd599d9419c2956cea701056
+      internalID: -738883394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_70
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca884f933cc918478498a45c83b34ce
+      internalID: -1713436999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790fddae0cbc14d4aa4220fff981fe7f
+      internalID: -1216323042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52cfccc62a021f448a23838d4df78fe
+      internalID: -2120879940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7425c0f4630fd5d468e1df70527bd008
+      internalID: -712784218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa94e847b059cd45a0a60585872a499
+      internalID: 1779825174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_75
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba13ed67ba0a83446ab05ed2401b089e
+      internalID: 663792110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_76
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d418eab4ab25c46a52ede9117f4068
+      internalID: -1995349304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_77
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464846f5d7cf5a945876850e92d212e0
+      internalID: -1994559687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6afa57ac2405548b2131ffeb104eed
+      internalID: 1503482820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9a8b376a61e90489a59aa242b8df1a
+      internalID: -624279656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb8d31041d04d74d8d2a4392ed2dde9
+      internalID: -1582052456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdae5681c8f2465478f310898a172718
+      internalID: -1791232616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6baaa61fc9e614e972f85cbf88e44b
+      internalID: 448650403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_91
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df58513e4b62e44383b06e610c53c31
+      internalID: 1344774053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_92
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a76185a4e03d17428a3ff71abaf4281
+      internalID: -2032127223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_93
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e694e2bef95074b98ec3cc9b50232b
+      internalID: 632979499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4788ecd7290384d9bab2ce2b74c19a
+      internalID: 1601187388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_95
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e8e41d2e6517f4dbf584bb96a9a7c1
+      internalID: -70749017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb472cb977da0a642b784b4db856d464
+      internalID: -1521606375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_173
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45785f3e43e305c40b7007a8593e13d0
+      internalID: -1867090795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_174
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcbc65580aa11c47a0e899392a4f053
+      internalID: 972110353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_175
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a014668b57cf9a7448822c201cad4d6f
+      internalID: 919794178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_176
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115e53d410a3ead49b3fff90570ce1b8
+      internalID: -1368905500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omenNoWeapon_177
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295fe6c18a068f64abfafadd0da221b6
+      internalID: -394184144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      omenNoWeapon_0: -1014397254
+      omenNoWeapon_1: -154123525
+      omenNoWeapon_10: 1829491414
+      omenNoWeapon_100: 1837012920
+      omenNoWeapon_101: -1760425082
+      omenNoWeapon_102: 1545567384
+      omenNoWeapon_103: 23983503
+      omenNoWeapon_104: 1002244790
+      omenNoWeapon_105: 1841053056
+      omenNoWeapon_106: -1407917521
+      omenNoWeapon_107: 1929337923
+      omenNoWeapon_108: 1009939223
+      omenNoWeapon_109: 435411123
+      omenNoWeapon_11: -2057260673
+      omenNoWeapon_110: 1161491723
+      omenNoWeapon_111: 1728326806
+      omenNoWeapon_112: -589256474
+      omenNoWeapon_113: 1847631801
+      omenNoWeapon_114: 529335891
+      omenNoWeapon_115: 1866557353
+      omenNoWeapon_116: 282388231
+      omenNoWeapon_117: -1333848606
+      omenNoWeapon_118: 814584434
+      omenNoWeapon_119: 492770178
+      omenNoWeapon_12: 623397874
+      omenNoWeapon_120: -1220626461
+      omenNoWeapon_121: -1942021989
+      omenNoWeapon_122: 240312089
+      omenNoWeapon_123: -1515379759
+      omenNoWeapon_124: -444237721
+      omenNoWeapon_125: 537235678
+      omenNoWeapon_126: -1781103321
+      omenNoWeapon_127: -1634167983
+      omenNoWeapon_128: -1919188099
+      omenNoWeapon_129: -1011744212
+      omenNoWeapon_13: 970116133
+      omenNoWeapon_130: 2010189305
+      omenNoWeapon_131: -992812671
+      omenNoWeapon_132: -527842906
+      omenNoWeapon_133: -76438618
+      omenNoWeapon_134: 2048855242
+      omenNoWeapon_135: -1254626449
+      omenNoWeapon_136: -421599095
+      omenNoWeapon_137: 843553497
+      omenNoWeapon_138: 796733595
+      omenNoWeapon_139: -1832889023
+      omenNoWeapon_14: -1891258780
+      omenNoWeapon_140: -2008123005
+      omenNoWeapon_141: -1335564388
+      omenNoWeapon_142: 710966723
+      omenNoWeapon_143: 1045144157
+      omenNoWeapon_144: 1962749250
+      omenNoWeapon_145: 1389407875
+      omenNoWeapon_146: -2066756810
+      omenNoWeapon_147: 1817213382
+      omenNoWeapon_148: 37140146
+      omenNoWeapon_149: 198067976
+      omenNoWeapon_15: -1494400981
+      omenNoWeapon_150: -1628966305
+      omenNoWeapon_151: -1328309125
+      omenNoWeapon_152: -1461281997
+      omenNoWeapon_153: -747388901
+      omenNoWeapon_154: 1589541196
+      omenNoWeapon_155: -1507248267
+      omenNoWeapon_156: 114360529
+      omenNoWeapon_157: -764590135
+      omenNoWeapon_158: 279987537
+      omenNoWeapon_159: -600821282
+      omenNoWeapon_16: 2136954323
+      omenNoWeapon_160: -1072057412
+      omenNoWeapon_161: -1929834670
+      omenNoWeapon_162: -1001683060
+      omenNoWeapon_163: -623818393
+      omenNoWeapon_164: 1898314494
+      omenNoWeapon_165: 1070538873
+      omenNoWeapon_166: 1152872257
+      omenNoWeapon_167: -1517355788
+      omenNoWeapon_168: 332095266
+      omenNoWeapon_169: 1712156642
+      omenNoWeapon_17: 1844131022
+      omenNoWeapon_170: -1797194841
+      omenNoWeapon_171: 597090446
+      omenNoWeapon_172: -1521606375
+      omenNoWeapon_173: -1867090795
+      omenNoWeapon_174: 972110353
+      omenNoWeapon_175: 919794178
+      omenNoWeapon_176: -1368905500
+      omenNoWeapon_177: -394184144
+      omenNoWeapon_18: 558376235
+      omenNoWeapon_19: -2053389886
+      omenNoWeapon_2: 469662459
+      omenNoWeapon_20: 319710765
+      omenNoWeapon_21: -205590492
+      omenNoWeapon_22: 345627127
+      omenNoWeapon_23: 777963270
+      omenNoWeapon_24: -1999990344
+      omenNoWeapon_25: -706656768
+      omenNoWeapon_26: -1723823192
+      omenNoWeapon_27: -1823261072
+      omenNoWeapon_28: -1729419381
+      omenNoWeapon_29: -1648033050
+      omenNoWeapon_3: -1779490704
+      omenNoWeapon_30: 1844030891
+      omenNoWeapon_31: -1350358846
+      omenNoWeapon_32: 2080105898
+      omenNoWeapon_33: -1923008255
+      omenNoWeapon_34: 136682600
+      omenNoWeapon_35: -1654648474
+      omenNoWeapon_36: 528407736
+      omenNoWeapon_37: -625473957
+      omenNoWeapon_38: -2035816323
+      omenNoWeapon_39: -299682351
+      omenNoWeapon_4: 203310704
+      omenNoWeapon_40: -64101906
+      omenNoWeapon_41: 1808948169
+      omenNoWeapon_42: 563531060
+      omenNoWeapon_43: -1409394547
+      omenNoWeapon_44: 391450149
+      omenNoWeapon_45: 1687805472
+      omenNoWeapon_46: -412465885
+      omenNoWeapon_47: -278757233
+      omenNoWeapon_48: -1187745909
+      omenNoWeapon_49: -1191587485
+      omenNoWeapon_5: 15463399
+      omenNoWeapon_50: -1876790236
+      omenNoWeapon_51: -736075062
+      omenNoWeapon_52: -1987527562
+      omenNoWeapon_53: -1069887023
+      omenNoWeapon_54: -1968677096
+      omenNoWeapon_55: 219126555
+      omenNoWeapon_56: 870331297
+      omenNoWeapon_57: 1984308267
+      omenNoWeapon_58: 123560039
+      omenNoWeapon_59: -1644953813
+      omenNoWeapon_6: -1056091684
+      omenNoWeapon_60: -1140018985
+      omenNoWeapon_61: 477323746
+      omenNoWeapon_62: 1495272386
+      omenNoWeapon_63: -1163748390
+      omenNoWeapon_64: 1769799329
+      omenNoWeapon_65: -317012269
+      omenNoWeapon_66: -872805460
+      omenNoWeapon_67: 1615657045
+      omenNoWeapon_68: 1858411493
+      omenNoWeapon_69: -738883394
+      omenNoWeapon_7: -1190290780
+      omenNoWeapon_70: -1713436999
+      omenNoWeapon_71: -1216323042
+      omenNoWeapon_72: -2120879940
+      omenNoWeapon_73: -712784218
+      omenNoWeapon_74: 1779825174
+      omenNoWeapon_75: 663792110
+      omenNoWeapon_76: -1995349304
+      omenNoWeapon_77: -1994559687
+      omenNoWeapon_78: 1503482820
+      omenNoWeapon_79: 1010478969
+      omenNoWeapon_8: 1895752638
+      omenNoWeapon_80: 1381500026
+      omenNoWeapon_81: 183723505
+      omenNoWeapon_82: 430038617
+      omenNoWeapon_83: 1227837837
+      omenNoWeapon_84: -1796306492
+      omenNoWeapon_85: -1531597410
+      omenNoWeapon_86: 682920731
+      omenNoWeapon_87: -624279656
+      omenNoWeapon_88: -1582052456
+      omenNoWeapon_89: -1791232616
+      omenNoWeapon_9: -517756950
+      omenNoWeapon_90: 448650403
+      omenNoWeapon_91: 1344774053
+      omenNoWeapon_92: -2032127223
+      omenNoWeapon_93: 632979499
+      omenNoWeapon_94: 1601187388
+      omenNoWeapon_95: -70749017
+      omenNoWeapon_96: -955404190
+      omenNoWeapon_97: 336932784
+      omenNoWeapon_98: -903708915
+      omenNoWeapon_99: 92774610
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

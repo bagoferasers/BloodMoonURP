@@ -1,0 +1,859 @@
+fileFormatVersion: 2
+guid: 6ead4c061fa53f14bb95d929e0a84b1b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 832
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rowanNoWeapon_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7257c78bbb707945948c891a92d7380
+      internalID: 1195789367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59cdf5de710d074a826adebca29c059
+      internalID: -1200886889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_70
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71c51f53efc9c7499b10cae4bc00b17
+      internalID: 146263116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16581f06a0027f448a3ed53a19ec947
+      internalID: 195583508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b1408eb39b8f342a0a664e9b2f3357
+      internalID: 1290829715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5155b3596626a8e49b0ee2842e19a738
+      internalID: 160048104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2939d19e2370ee84cab4066aa1c108b4
+      internalID: -141388322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_75
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dce9005c41b3e44f94e11b873f4a6e7
+      internalID: 596686026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_76
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8900561b24dd7c044be7dc075ed08e9f
+      internalID: 1237299627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_77
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a57bd6fdde9cd4cb506f27467d3265
+      internalID: 2033765934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094074063cd33f747a85b5069cf33901
+      internalID: 1966069465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847c638e23b05b8498153c6ff8fddd2c
+      internalID: -869961584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6dbbc02530e88b4e9ba9fd7ffb282b2
+      internalID: -283884139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861b80e1250ba88408ffdc0f857c13d5
+      internalID: 1995183602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e7882c14ea5334787cdafc5d29fd3d
+      internalID: 777167820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_91
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e5dbe44f1d8f34cb8c96c0ca3fc154
+      internalID: 1250897786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_92
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4c8598e9da7f7478686757171677ef
+      internalID: 465153856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_93
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b881d49c83902a4098eff026be781d8
+      internalID: 473697946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2559bf29dfbff3a4ca76779bc7356851
+      internalID: -538246937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_95
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be01d3584ab1f5c4abe6bd940c795fb4
+      internalID: 272352177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35f158aa3d3b15488d701a0ea23b629
+      internalID: -1512130313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_173
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565d8913b2bf7e9488104ebb10de7a8f
+      internalID: 433072643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_174
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62c84111c28b97439dc59499e3dfff2
+      internalID: -1787384591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_175
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d806b2ace03c24449a399d693efe67c4
+      internalID: -654390071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_176
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b505b641ded1514fa7d75371b30a635
+      internalID: -1492536634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanNoWeapon_177
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4223ea8786a516d45ac46c5be230814e
+      internalID: 116438715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      rowanNoWeapon_0: -2077902881
+      rowanNoWeapon_1: -1776152823
+      rowanNoWeapon_10: 754007285
+      rowanNoWeapon_100: -1606959146
+      rowanNoWeapon_101: 1816071031
+      rowanNoWeapon_102: 624433792
+      rowanNoWeapon_103: -1149010139
+      rowanNoWeapon_104: 1930183528
+      rowanNoWeapon_105: -1413246395
+      rowanNoWeapon_106: 1884145839
+      rowanNoWeapon_107: 1805912264
+      rowanNoWeapon_108: -2011624182
+      rowanNoWeapon_109: 2058392417
+      rowanNoWeapon_11: 1104926053
+      rowanNoWeapon_110: -786970026
+      rowanNoWeapon_111: 940375258
+      rowanNoWeapon_112: 342223642
+      rowanNoWeapon_113: 573921241
+      rowanNoWeapon_114: -1862090494
+      rowanNoWeapon_115: 638018190
+      rowanNoWeapon_116: -891452313
+      rowanNoWeapon_117: -1942606579
+      rowanNoWeapon_118: 324035419
+      rowanNoWeapon_119: -1818889552
+      rowanNoWeapon_12: -1895359670
+      rowanNoWeapon_120: -2072092589
+      rowanNoWeapon_121: -821487251
+      rowanNoWeapon_122: 1027448267
+      rowanNoWeapon_123: -699743527
+      rowanNoWeapon_124: -541375712
+      rowanNoWeapon_125: -900071211
+      rowanNoWeapon_126: -1359190470
+      rowanNoWeapon_127: -206334771
+      rowanNoWeapon_128: -1991577426
+      rowanNoWeapon_129: 656258433
+      rowanNoWeapon_13: -944787373
+      rowanNoWeapon_130: -381582221
+      rowanNoWeapon_131: -324585764
+      rowanNoWeapon_132: 802036542
+      rowanNoWeapon_133: 1004095921
+      rowanNoWeapon_134: 1648804427
+      rowanNoWeapon_135: 1667189870
+      rowanNoWeapon_136: 362370389
+      rowanNoWeapon_137: -605780525
+      rowanNoWeapon_138: -822069675
+      rowanNoWeapon_139: -796377669
+      rowanNoWeapon_14: -875021640
+      rowanNoWeapon_140: -541915278
+      rowanNoWeapon_141: 1307630783
+      rowanNoWeapon_142: 663214279
+      rowanNoWeapon_143: -1127138153
+      rowanNoWeapon_144: -38227455
+      rowanNoWeapon_145: -370602374
+      rowanNoWeapon_146: 145549724
+      rowanNoWeapon_147: 70789387
+      rowanNoWeapon_148: 1804642974
+      rowanNoWeapon_149: -1719327128
+      rowanNoWeapon_15: -1537012714
+      rowanNoWeapon_150: 1893652645
+      rowanNoWeapon_151: -1164270481
+      rowanNoWeapon_152: -1759431977
+      rowanNoWeapon_153: 125194215
+      rowanNoWeapon_154: 1745381418
+      rowanNoWeapon_155: -68878199
+      rowanNoWeapon_156: -335553246
+      rowanNoWeapon_157: -1129348803
+      rowanNoWeapon_158: -1989424956
+      rowanNoWeapon_159: 1907545829
+      rowanNoWeapon_16: 128937703
+      rowanNoWeapon_160: 1262418407
+      rowanNoWeapon_161: 2103091677
+      rowanNoWeapon_162: 1416636181
+      rowanNoWeapon_163: -1602994959
+      rowanNoWeapon_164: -1723340060
+      rowanNoWeapon_165: -2002145172
+      rowanNoWeapon_166: 2065664728
+      rowanNoWeapon_167: -1364745319
+      rowanNoWeapon_168: -204519828
+      rowanNoWeapon_169: 667186806
+      rowanNoWeapon_17: 637073567
+      rowanNoWeapon_170: 803120980
+      rowanNoWeapon_171: 735663479
+      rowanNoWeapon_172: -1512130313
+      rowanNoWeapon_173: 433072643
+      rowanNoWeapon_174: -1787384591
+      rowanNoWeapon_175: -654390071
+      rowanNoWeapon_176: -1492536634
+      rowanNoWeapon_177: 116438715
+      rowanNoWeapon_18: -746529538
+      rowanNoWeapon_19: 1252826624
+      rowanNoWeapon_2: -1741155689
+      rowanNoWeapon_20: -1654710540
+      rowanNoWeapon_21: 1409679716
+      rowanNoWeapon_22: 479625906
+      rowanNoWeapon_23: -1423293692
+      rowanNoWeapon_24: 1325317359
+      rowanNoWeapon_25: 1582124887
+      rowanNoWeapon_26: -1252380138
+      rowanNoWeapon_27: -117905061
+      rowanNoWeapon_28: 784752660
+      rowanNoWeapon_29: 377539587
+      rowanNoWeapon_3: 204290399
+      rowanNoWeapon_30: 1608106721
+      rowanNoWeapon_31: -1711482972
+      rowanNoWeapon_32: 1686424810
+      rowanNoWeapon_33: 1978078482
+      rowanNoWeapon_34: -1812251372
+      rowanNoWeapon_35: 1313145671
+      rowanNoWeapon_36: 1583336958
+      rowanNoWeapon_37: 1088818178
+      rowanNoWeapon_38: -60883514
+      rowanNoWeapon_39: -2056994606
+      rowanNoWeapon_4: 988478431
+      rowanNoWeapon_40: -448869736
+      rowanNoWeapon_41: 1923804149
+      rowanNoWeapon_42: -965400197
+      rowanNoWeapon_43: -998288701
+      rowanNoWeapon_44: 1609512531
+      rowanNoWeapon_45: -1323679532
+      rowanNoWeapon_46: 144066468
+      rowanNoWeapon_47: 1846642068
+      rowanNoWeapon_48: 569774006
+      rowanNoWeapon_49: -512961373
+      rowanNoWeapon_5: -618745539
+      rowanNoWeapon_50: 1571935262
+      rowanNoWeapon_51: 1701078559
+      rowanNoWeapon_52: 1647188700
+      rowanNoWeapon_53: -535772497
+      rowanNoWeapon_54: -1145401972
+      rowanNoWeapon_55: 774547608
+      rowanNoWeapon_56: 1873136638
+      rowanNoWeapon_57: 1252255085
+      rowanNoWeapon_58: 1358107619
+      rowanNoWeapon_59: -1386385391
+      rowanNoWeapon_6: -1783127162
+      rowanNoWeapon_60: 1195789367
+      rowanNoWeapon_61: -1336310931
+      rowanNoWeapon_62: -1990164441
+      rowanNoWeapon_63: 2118788875
+      rowanNoWeapon_64: -208385878
+      rowanNoWeapon_65: -1979584143
+      rowanNoWeapon_66: 223917974
+      rowanNoWeapon_67: 2099356870
+      rowanNoWeapon_68: -1814810367
+      rowanNoWeapon_69: -1200886889
+      rowanNoWeapon_7: 1128097877
+      rowanNoWeapon_70: 146263116
+      rowanNoWeapon_71: 195583508
+      rowanNoWeapon_72: 1290829715
+      rowanNoWeapon_73: 160048104
+      rowanNoWeapon_74: -141388322
+      rowanNoWeapon_75: 596686026
+      rowanNoWeapon_76: 1237299627
+      rowanNoWeapon_77: 2033765934
+      rowanNoWeapon_78: 1966069465
+      rowanNoWeapon_79: 850628693
+      rowanNoWeapon_8: 246318076
+      rowanNoWeapon_80: 1733527622
+      rowanNoWeapon_81: -372778199
+      rowanNoWeapon_82: 501249186
+      rowanNoWeapon_83: -1263866505
+      rowanNoWeapon_84: 1426434230
+      rowanNoWeapon_85: 1455422289
+      rowanNoWeapon_86: -1079699617
+      rowanNoWeapon_87: -869961584
+      rowanNoWeapon_88: -283884139
+      rowanNoWeapon_89: 1995183602
+      rowanNoWeapon_9: -2063999268
+      rowanNoWeapon_90: 777167820
+      rowanNoWeapon_91: 1250897786
+      rowanNoWeapon_92: 465153856
+      rowanNoWeapon_93: 473697946
+      rowanNoWeapon_94: -538246937
+      rowanNoWeapon_95: 272352177
+      rowanNoWeapon_96: -527962851
+      rowanNoWeapon_97: -1089100272
+      rowanNoWeapon_98: -1112024910
+      rowanNoWeapon_99: -1172973079
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
