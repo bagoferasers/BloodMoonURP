@@ -27,6 +27,7 @@ public class whenEnterShowThis : MonoBehaviour
     public bool pressed;
     private transportScene transportScene;
     public goToBed bed;
+    
 
     void Start( )
     {
@@ -36,6 +37,7 @@ public class whenEnterShowThis : MonoBehaviour
         spriteRend = circle.GetComponent< SpriteRenderer >( );
         color = spriteRend.color;
         transportScene = sp.GetComponent< transportScene >( );
+        
     }    
 
     void Update( )
@@ -48,7 +50,8 @@ public class whenEnterShowThis : MonoBehaviour
           )
         {
             bed.sleep( );
-            audio.Play( );
+            if( !audio.isPlaying )
+                audio.Play( );
             PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
             PlayerPrefs.Save( );
             transportScene.ChangeToScene( scene );
@@ -69,7 +72,9 @@ public class whenEnterShowThis : MonoBehaviour
                  && GameObject.Find( "oButton" ).GetComponent< Button >( ).interactable == true 
                )
         {
-            audio.Play( );
+            
+            if( !audio.isPlaying )
+                audio.Play( );
             PlayerPrefs.SetString( "startPosition", transportScene.idConnected );
             PlayerPrefs.Save( );
             transportScene.ChangeToScene( scene );
