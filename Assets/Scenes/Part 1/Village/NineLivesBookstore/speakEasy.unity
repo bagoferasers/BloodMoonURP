@@ -2655,7 +2655,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4285076636611081640, guid: 5f332404868c48a4c990a0c5625ade0a, type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.size
-      value: 14
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4285076636611081640, guid: 5f332404868c48a4c990a0c5625ade0a, type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.data[0]
@@ -10173,8 +10173,8 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 953648509
-  m_SortingOrder: 11
+  m_SortingLayerID: 2124250127
+  m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!1 &1835991962
 GameObject:
