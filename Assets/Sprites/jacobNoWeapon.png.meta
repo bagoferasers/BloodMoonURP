@@ -1,0 +1,1300 @@
+fileFormatVersion: 2
+guid: 86b0e3d189f07f1458b747a5ede7434b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 832
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jacobNoWeapon_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c53d1e5442e40e44bb42ecac84c0e30
+      internalID: -1442158501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9fe1e55fbbf2d448c21ba62fcfd579
+      internalID: 741478825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6357c65690c09c14eae6029a7d0795a1
+      internalID: -1464855178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7dbbba2e66760742be162e31b0514d3
+      internalID: 517230135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68a37cc6a420d7479f7c6a000b58ba6
+      internalID: -1624174783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d24d6599e63e04caea346eb9eea144
+      internalID: 1758564616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fba37b5ec4a4b4c8a3d6239ff514aa
+      internalID: 2146096858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13837d98d1edc2c4fbcd70ed33f8c5c3
+      internalID: -704237856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790828bde7fb1f641b27f1ee1595e638
+      internalID: 455957425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5326b3d3ffcc84c9acd10c2ea131c8
+      internalID: -133897655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e9d61d5c1f13f48a864926baab664c
+      internalID: -1154218730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9237a48d92171274e9685da583ace576
+      internalID: -1467557422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7f367fcd2dfcc43bcf30b1bd625585
+      internalID: -1480379053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07c3a46579dcbe4dae86741e1a03e94
+      internalID: 654472048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdb204e8867cbd45a09c60a153ce825
+      internalID: -2010469517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0ac8da2619f124c9c8474b03a38ac1
+      internalID: -386741313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece88ce3c71ed9846b6f8b8a03beaa54
+      internalID: -816375148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59657f4895453ea48ab9682f66d05771
+      internalID: -2064259482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c19571fcd50194ca5a1615386ad7cf
+      internalID: 387004618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d3f419a90a951418a5d02b0af46d89
+      internalID: -1327057002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7573148a100840f48a9a7a366acec7eb
+      internalID: -433281948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169bfc9a8b6c9cb4b8952531eb09b266
+      internalID: 282973356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_70
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106e98fca87ec9a4a8c63a5ea49c2bd4
+      internalID: -180548905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5005a123754d69345b10ba097dfee22d
+      internalID: 591124344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e647284f289d18a4e9834a95355a5d2c
+      internalID: 561110401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cf1e75021e4ae488b4a33b28b747cd
+      internalID: 1621354255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecb68a2bab47f644b44a4b7bc8fb47d
+      internalID: 641202106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_75
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936d24adaabed064cbecefafd27361bb
+      internalID: 1853881118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_76
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ece063518c2624cbf6429d994f62dc
+      internalID: 1316350368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_77
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf272aa30eb1fb46a63df3f04cafd76
+      internalID: -1405972399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460f9a2d546bf6743957ba54fb3ec814
+      internalID: -2141602039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89031031c178384418d8e906297e752e
+      internalID: -47930685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa1aa1cf2ae086439ef1452a47c5661
+      internalID: -1772251646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15126d50cb0f9d4292fc78bdc4b7d72
+      internalID: -677335104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec6af8fa63c3c8498555e355242623e
+      internalID: 559921962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_91
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cae1b7fdb6aea04f8ebd1c41dcdc7ad
+      internalID: 731891388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_92
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216ef9e7b9a5e0a42b991c39457e9051
+      internalID: 1518565271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_93
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b4f5fd4880ff14da607a4d361b4ab0
+      internalID: 2012625416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b9fcc7e27b961438ff2f4f721699d8
+      internalID: 426696205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_95
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e21d9e23a6908428aba2ad0fe18703
+      internalID: -1444282726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62a906b55149864086c0a34bc581432
+      internalID: 379212417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f888bfb8bcf464eb1dc411c38d67ca
+      internalID: -1327800488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_173
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a84616a6ba01548932ae6a2dc39098
+      internalID: 960215046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_174
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1ec7fd2c35ad94faab60a5ab612c3a
+      internalID: -10787092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_175
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692598c631ff0d14d9337a5f9a4664f7
+      internalID: -834927603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_176
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5f72ffb6783b04999c3b137c832a0e
+      internalID: -2075131740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobNoWeapon_177
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530cf51be7461e349a8b908c32eb2ce4
+      internalID: -2112962815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      jacobNoWeapon_0: 1553188750
+      jacobNoWeapon_1: -419523888
+      jacobNoWeapon_10: 517230135
+      jacobNoWeapon_100: -1309017223
+      jacobNoWeapon_101: 613600348
+      jacobNoWeapon_102: -557547422
+      jacobNoWeapon_103: -772387377
+      jacobNoWeapon_104: 1795534411
+      jacobNoWeapon_105: -2057905040
+      jacobNoWeapon_106: -311921042
+      jacobNoWeapon_107: 1963236574
+      jacobNoWeapon_108: -1383512002
+      jacobNoWeapon_109: -1465304064
+      jacobNoWeapon_11: -1624174783
+      jacobNoWeapon_110: 1837263627
+      jacobNoWeapon_111: 1211155632
+      jacobNoWeapon_112: -196687277
+      jacobNoWeapon_113: 551558139
+      jacobNoWeapon_114: -1137913311
+      jacobNoWeapon_115: -490611211
+      jacobNoWeapon_116: -1482036340
+      jacobNoWeapon_117: 1222995012
+      jacobNoWeapon_118: -632680561
+      jacobNoWeapon_119: -1496021635
+      jacobNoWeapon_12: 1758564616
+      jacobNoWeapon_120: 379212417
+      jacobNoWeapon_121: -1921134308
+      jacobNoWeapon_122: 1589678463
+      jacobNoWeapon_123: 1991574075
+      jacobNoWeapon_124: 171043779
+      jacobNoWeapon_125: 1630186332
+      jacobNoWeapon_126: -2107382040
+      jacobNoWeapon_127: 1446666693
+      jacobNoWeapon_128: 1775755455
+      jacobNoWeapon_129: 441152652
+      jacobNoWeapon_13: 2146096858
+      jacobNoWeapon_130: 1300334581
+      jacobNoWeapon_131: -628569530
+      jacobNoWeapon_132: -1106059186
+      jacobNoWeapon_133: 1547312404
+      jacobNoWeapon_134: 100312325
+      jacobNoWeapon_135: 1281373692
+      jacobNoWeapon_136: -1211097079
+      jacobNoWeapon_137: -1802681317
+      jacobNoWeapon_138: 819136792
+      jacobNoWeapon_139: 1564835558
+      jacobNoWeapon_14: -704237856
+      jacobNoWeapon_140: 375787051
+      jacobNoWeapon_141: -1348072142
+      jacobNoWeapon_142: 168616198
+      jacobNoWeapon_143: 1729554313
+      jacobNoWeapon_144: 420585345
+      jacobNoWeapon_145: -481478878
+      jacobNoWeapon_146: -776655145
+      jacobNoWeapon_147: 2084779198
+      jacobNoWeapon_148: 1394908854
+      jacobNoWeapon_149: -459859907
+      jacobNoWeapon_15: 455957425
+      jacobNoWeapon_150: -1788304545
+      jacobNoWeapon_151: 1647603823
+      jacobNoWeapon_152: 1512111629
+      jacobNoWeapon_153: 85868145
+      jacobNoWeapon_154: -1093269188
+      jacobNoWeapon_155: -461253277
+      jacobNoWeapon_156: 1139680201
+      jacobNoWeapon_157: -1295874842
+      jacobNoWeapon_158: 580053610
+      jacobNoWeapon_159: 1534141644
+      jacobNoWeapon_16: -133897655
+      jacobNoWeapon_160: 636013012
+      jacobNoWeapon_161: -1461148064
+      jacobNoWeapon_162: 634491469
+      jacobNoWeapon_163: -308977997
+      jacobNoWeapon_164: 1292843181
+      jacobNoWeapon_165: -1443489818
+      jacobNoWeapon_166: 144659535
+      jacobNoWeapon_167: 739153919
+      jacobNoWeapon_168: -971377677
+      jacobNoWeapon_169: 1341606421
+      jacobNoWeapon_17: -1154218730
+      jacobNoWeapon_170: -631256533
+      jacobNoWeapon_171: -553067779
+      jacobNoWeapon_172: -1327800488
+      jacobNoWeapon_173: 960215046
+      jacobNoWeapon_174: -10787092
+      jacobNoWeapon_175: -834927603
+      jacobNoWeapon_176: -2075131740
+      jacobNoWeapon_177: -2112962815
+      jacobNoWeapon_18: -1467557422
+      jacobNoWeapon_19: -1480379053
+      jacobNoWeapon_2: 316074262
+      jacobNoWeapon_20: 654472048
+      jacobNoWeapon_21: -2010469517
+      jacobNoWeapon_22: -386741313
+      jacobNoWeapon_23: -816375148
+      jacobNoWeapon_24: -2064259482
+      jacobNoWeapon_25: 387004618
+      jacobNoWeapon_26: -1327057002
+      jacobNoWeapon_27: -433281948
+      jacobNoWeapon_28: -373133548
+      jacobNoWeapon_29: 79879814
+      jacobNoWeapon_3: 1637842862
+      jacobNoWeapon_30: -1633364106
+      jacobNoWeapon_31: 366303480
+      jacobNoWeapon_32: -1926335491
+      jacobNoWeapon_33: -940376613
+      jacobNoWeapon_34: -1790476721
+      jacobNoWeapon_35: 468285628
+      jacobNoWeapon_36: 629520742
+      jacobNoWeapon_37: 884296020
+      jacobNoWeapon_38: -865207929
+      jacobNoWeapon_39: -1553123530
+      jacobNoWeapon_4: 108836287
+      jacobNoWeapon_40: 73352148
+      jacobNoWeapon_41: -439632236
+      jacobNoWeapon_42: -1180413256
+      jacobNoWeapon_43: -293079935
+      jacobNoWeapon_44: 460132383
+      jacobNoWeapon_45: -1205960318
+      jacobNoWeapon_46: -1974322028
+      jacobNoWeapon_47: -913046187
+      jacobNoWeapon_48: -2094523720
+      jacobNoWeapon_49: -1563563235
+      jacobNoWeapon_5: 505934414
+      jacobNoWeapon_50: -344731287
+      jacobNoWeapon_51: 1111528162
+      jacobNoWeapon_52: -1010223610
+      jacobNoWeapon_53: -2082261840
+      jacobNoWeapon_54: -1972605886
+      jacobNoWeapon_55: 2076777569
+      jacobNoWeapon_56: -1808378055
+      jacobNoWeapon_57: 1340404253
+      jacobNoWeapon_58: -2113449288
+      jacobNoWeapon_59: 390007769
+      jacobNoWeapon_6: 773943137
+      jacobNoWeapon_60: 1561838478
+      jacobNoWeapon_61: -1140635988
+      jacobNoWeapon_62: 1167891861
+      jacobNoWeapon_63: 889891543
+      jacobNoWeapon_64: 1377783968
+      jacobNoWeapon_65: -458630287
+      jacobNoWeapon_66: 1049628583
+      jacobNoWeapon_67: -377683658
+      jacobNoWeapon_68: -872309719
+      jacobNoWeapon_69: 282973356
+      jacobNoWeapon_7: -1442158501
+      jacobNoWeapon_70: -180548905
+      jacobNoWeapon_71: 591124344
+      jacobNoWeapon_72: 561110401
+      jacobNoWeapon_73: 1621354255
+      jacobNoWeapon_74: 641202106
+      jacobNoWeapon_75: 1853881118
+      jacobNoWeapon_76: 1316350368
+      jacobNoWeapon_77: -1405972399
+      jacobNoWeapon_78: -2141602039
+      jacobNoWeapon_79: 914187088
+      jacobNoWeapon_8: 741478825
+      jacobNoWeapon_80: -95529709
+      jacobNoWeapon_81: 1702157125
+      jacobNoWeapon_82: 998735038
+      jacobNoWeapon_83: -1721300275
+      jacobNoWeapon_84: -2021129253
+      jacobNoWeapon_85: 1822344490
+      jacobNoWeapon_86: 923638981
+      jacobNoWeapon_87: -47930685
+      jacobNoWeapon_88: -1772251646
+      jacobNoWeapon_89: -677335104
+      jacobNoWeapon_9: -1464855178
+      jacobNoWeapon_90: 559921962
+      jacobNoWeapon_91: 731891388
+      jacobNoWeapon_92: 1518565271
+      jacobNoWeapon_93: 2012625416
+      jacobNoWeapon_94: 426696205
+      jacobNoWeapon_95: -1444282726
+      jacobNoWeapon_96: -582328158
+      jacobNoWeapon_97: -753652298
+      jacobNoWeapon_98: 1439894543
+      jacobNoWeapon_99: -1529694363
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

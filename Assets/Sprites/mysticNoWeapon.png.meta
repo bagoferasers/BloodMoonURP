@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 41997ee4bae925540b0d3c166a96d5a5
+guid: 1043f9a0ab07cd54193dc291a975b342
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 42
+  spritePixelsToUnits: 832
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,35 +113,11 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: shadowCharacter_0
+      name: mysticNoWeapon_0
       rect:
         serializedVersion: 2
         x: 0
@@ -149,20 +125,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d7649c9d85443f44a1c3e4dfa858f8d
-      internalID: -1113610895
+      spriteID: 1e8aec7efe760c24e873e67cd25976ac
+      internalID: -186233943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_1
+      name: mysticNoWeapon_1
       rect:
         serializedVersion: 2
         x: 64
@@ -170,20 +146,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2981f38882f127489b01209999b42b0
-      internalID: 10477791
+      spriteID: cfefaf9ce8bfb7e40a5442216bae4266
+      internalID: 282242308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_2
+      name: mysticNoWeapon_2
       rect:
         serializedVersion: 2
         x: 128
@@ -191,20 +167,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7aaf18a72b4a9454886cb3ba859e47c0
-      internalID: 192964929
+      spriteID: 7e7092bb23ed57240907b0cf56b36287
+      internalID: -1863968828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_3
+      name: mysticNoWeapon_3
       rect:
         serializedVersion: 2
         x: 192
@@ -212,20 +188,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39aafca956c22bc4e8fbc799aaf12630
-      internalID: -1543629250
+      spriteID: 85303e248b53db64a892819e0f6b33e0
+      internalID: 2081827378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_4
+      name: mysticNoWeapon_4
       rect:
         serializedVersion: 2
         x: 256
@@ -233,20 +209,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a53a2c0ed0b0fcb469824d019ab7152b
-      internalID: -667663000
+      spriteID: 5bbfa57263ac1704cb088c0b4c72f251
+      internalID: 1424527359
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_5
+      name: mysticNoWeapon_5
       rect:
         serializedVersion: 2
         x: 320
@@ -254,20 +230,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2d2f75ddd2a22244b690e1275094f2d
-      internalID: 1134160295
+      spriteID: 548222d77d44a9244b333029a9f01b72
+      internalID: -788100360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_6
+      name: mysticNoWeapon_6
       rect:
         serializedVersion: 2
         x: 384
@@ -275,20 +251,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d0cbca9c21498e49b47b451db2f25ae
-      internalID: -133789951
+      spriteID: c82a26aadda6b0e4cabdfe34be74d6c6
+      internalID: -1247204346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_7
+      name: mysticNoWeapon_8
       rect:
         serializedVersion: 2
         x: 0
@@ -296,20 +272,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 328dd27a0d5ff5541afb8be9543f7f41
-      internalID: 88631111
+      spriteID: 0bd7a597009b22b4b87329231383e486
+      internalID: 1629847758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_8
+      name: mysticNoWeapon_9
       rect:
         serializedVersion: 2
         x: 64
@@ -317,20 +293,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4dca3a1e5561b24da43f1c8ecab40b0
-      internalID: 1193635759
+      spriteID: ab86b7375f59584449f301119a6f7164
+      internalID: 1180509354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_9
+      name: mysticNoWeapon_10
       rect:
         serializedVersion: 2
         x: 128
@@ -338,20 +314,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 300ed5033e410294596989d0c385fb07
-      internalID: 220088273
+      spriteID: e7dee7b99f3590f459eafb424a73ac91
+      internalID: 1959277546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_10
+      name: mysticNoWeapon_11
       rect:
         serializedVersion: 2
         x: 192
@@ -359,20 +335,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89384cff1afffce45b81a4fda581bc26
-      internalID: -2055249686
+      spriteID: 0335a5577665d4a43840bb1890707086
+      internalID: -1047869695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_11
+      name: mysticNoWeapon_12
       rect:
         serializedVersion: 2
         x: 256
@@ -380,20 +356,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d07928044ae30a44b25e5991bb43a3f
-      internalID: 1301058187
+      spriteID: 3d9ae1c22f30f074fb19a02be9eb66b8
+      internalID: -795717704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_12
+      name: mysticNoWeapon_13
       rect:
         serializedVersion: 2
         x: 320
@@ -401,20 +377,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42f44093f1725d04a81ec639998475e7
-      internalID: -855253608
+      spriteID: 9af6501a847e959438906da1b78dbc93
+      internalID: 1369094921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_13
+      name: mysticNoWeapon_14
       rect:
         serializedVersion: 2
         x: 384
@@ -422,20 +398,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1685ae87c68eb4348a54eb7cd8722b8f
-      internalID: 1030700268
+      spriteID: afbd34bebd03d9142b8b69a06b84e488
+      internalID: -1075180787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_14
+      name: mysticNoWeapon_15
       rect:
         serializedVersion: 2
         x: 0
@@ -443,20 +419,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f295a8c0a33856048bdc1cf9738fcae6
-      internalID: 536450478
+      spriteID: 23b3d655631e3f449b4ec1235ca18ddc
+      internalID: -1362255628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_15
+      name: mysticNoWeapon_16
       rect:
         serializedVersion: 2
         x: 64
@@ -464,20 +440,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0e3e606161665646b5f9195d225bf24
-      internalID: 272685197
+      spriteID: 609d6a2281a430a41a226240ba4b4b93
+      internalID: -184213800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_16
+      name: mysticNoWeapon_17
       rect:
         serializedVersion: 2
         x: 128
@@ -485,20 +461,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10f7ac266d2299541b76962427e9ba3a
-      internalID: -1141229660
+      spriteID: 3bb34ef768d9c7b4bb5d305d3209bd46
+      internalID: -1053563251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_17
+      name: mysticNoWeapon_18
       rect:
         serializedVersion: 2
         x: 192
@@ -506,20 +482,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2f746c6af4310e468939774e68b152d
-      internalID: 4546950
+      spriteID: 293819aa5f06015489fcc400d12a710f
+      internalID: 149808914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_18
+      name: mysticNoWeapon_19
       rect:
         serializedVersion: 2
         x: 256
@@ -527,20 +503,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f66e0ec2cf5faa4b904936bae75afec
-      internalID: -1132724197
+      spriteID: cac36efd6f83f19469c3c6d670b86ba4
+      internalID: -661492413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_19
+      name: mysticNoWeapon_20
       rect:
         serializedVersion: 2
         x: 320
@@ -548,20 +524,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e87ce81c4d54df04dba1531dfa23c306
-      internalID: -792638412
+      spriteID: db2fe7535b5c5ee448350ad98d93650a
+      internalID: -330240000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_20
+      name: mysticNoWeapon_21
       rect:
         serializedVersion: 2
         x: 384
@@ -569,20 +545,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a98223f96a7e93438a672dd05048b38
-      internalID: 898419970
+      spriteID: ef419e6bfb07eed4bbfef8e75bd85f92
+      internalID: -1011986669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_21
+      name: mysticNoWeapon_22
       rect:
         serializedVersion: 2
         x: 0
@@ -590,20 +566,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a8235799325c9c479e270f1bb28adc5
-      internalID: 1393332171
+      spriteID: 6af4254ed5c9a1a4facf0d6010105da8
+      internalID: 141745497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_22
+      name: mysticNoWeapon_23
       rect:
         serializedVersion: 2
         x: 64
@@ -611,20 +587,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a528365c948506419fec52356a56cc8
-      internalID: 577728339
+      spriteID: e09b44ff02699f74a8ea0668a38899f5
+      internalID: 970844478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_23
+      name: mysticNoWeapon_24
       rect:
         serializedVersion: 2
         x: 128
@@ -632,20 +608,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d42e691d72e69a489d2e965d944167c
-      internalID: 1424843082
+      spriteID: 88312dc70878ab446a9b1a779f34f570
+      internalID: -379517713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_24
+      name: mysticNoWeapon_25
       rect:
         serializedVersion: 2
         x: 192
@@ -653,20 +629,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b1659f7db667584da19f7c706cb89ac
-      internalID: -1056838237
+      spriteID: bcc3f72d27829eb428cfb32542cc917f
+      internalID: -2141272197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_25
+      name: mysticNoWeapon_26
       rect:
         serializedVersion: 2
         x: 256
@@ -674,20 +650,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c1469703068dc34ba92fc08334d2fe3
-      internalID: -1240026078
+      spriteID: 55d22dba905e5ed489339e3138ba16ce
+      internalID: 752357219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_26
+      name: mysticNoWeapon_27
       rect:
         serializedVersion: 2
         x: 320
@@ -695,20 +671,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e91659940d80a249a2df7fb0a0bc68e
-      internalID: 645459592
+      spriteID: c3c620a95030b19439e0efd48f4699d0
+      internalID: -1250582570
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_27
+      name: mysticNoWeapon_28
       rect:
         serializedVersion: 2
         x: 384
@@ -716,20 +692,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30fe0ea90d4bd1b4b8ce510c4244dbeb
-      internalID: -1251007708
+      spriteID: 11e01ff01a49b8941a8a89499996230a
+      internalID: 381205136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_28
+      name: mysticNoWeapon_29
       rect:
         serializedVersion: 2
         x: 0
@@ -737,20 +713,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88a030ac0885d93478d0114678a1579b
-      internalID: -546657404
+      spriteID: 8f6dfb8405e7a9e40a47db435c668764
+      internalID: 1511615021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_29
+      name: mysticNoWeapon_30
       rect:
         serializedVersion: 2
         x: 64
@@ -758,20 +734,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19f84400ec01513489c435ffdc4ebfce
-      internalID: 921890414
+      spriteID: 3dec8896d2c15dd41908b719dc871b98
+      internalID: -710375510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_30
+      name: mysticNoWeapon_31
       rect:
         serializedVersion: 2
         x: 128
@@ -779,20 +755,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2466327444bf87042be00432f3ab6d44
-      internalID: 602020251
+      spriteID: 718153c21ffcf6645ae363a531ff1401
+      internalID: 1902423384
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_31
+      name: mysticNoWeapon_32
       rect:
         serializedVersion: 2
         x: 192
@@ -800,20 +776,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a453e3a29e897f41bff2acdacc6f87e
-      internalID: 1817082317
+      spriteID: de8617111651c0045a046820c3ce9876
+      internalID: 1871149621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_32
+      name: mysticNoWeapon_33
       rect:
         serializedVersion: 2
         x: 256
@@ -821,20 +797,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12c4753606224a042a5ee9fdbc523f0e
-      internalID: -1007337980
+      spriteID: b41883b6526f9ac44aa30e2319b12c4e
+      internalID: 1473634207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_33
+      name: mysticNoWeapon_34
       rect:
         serializedVersion: 2
         x: 320
@@ -842,20 +818,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71c94db2bf7a2aa4d967b63812d36f4b
-      internalID: 425564552
+      spriteID: de20b28fbf7674c48ae0aa46829cba0e
+      internalID: 2139256530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_34
+      name: mysticNoWeapon_35
       rect:
         serializedVersion: 2
         x: 384
@@ -863,20 +839,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2e550f88ef1b9d4b9561dacfb98d2dc
-      internalID: -1583424198
+      spriteID: f3935534021013c41837cbec2cf633fb
+      internalID: -670912452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_35
+      name: mysticNoWeapon_36
       rect:
         serializedVersion: 2
         x: 448
@@ -884,20 +860,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8cfc4a70f40c1c4ca6d392dc107e69a
-      internalID: -399894449
+      spriteID: 59bc7ae218e72fd40b19d28abc9f2f8a
+      internalID: 1187315883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_36
+      name: mysticNoWeapon_37
       rect:
         serializedVersion: 2
         x: 0
@@ -905,20 +881,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 494284b61d5e1654aa9300d24b921ea6
-      internalID: -1628441333
+      spriteID: 08ba1123488e993438daf3e313d25057
+      internalID: -1499109126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_37
+      name: mysticNoWeapon_38
       rect:
         serializedVersion: 2
         x: 64
@@ -926,20 +902,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3034e9bf62ebe4745bd15a4260ae0888
-      internalID: 1222851422
+      spriteID: 6b4b9d83bff8e31489e2034768ea3e3b
+      internalID: -615839677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_38
+      name: mysticNoWeapon_39
       rect:
         serializedVersion: 2
         x: 128
@@ -947,20 +923,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3e423c9d756d324888fcbf9447165a5
-      internalID: -721659893
+      spriteID: 11de2e2dca41e1245aa5424e313c5506
+      internalID: -1584286677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_39
+      name: mysticNoWeapon_40
       rect:
         serializedVersion: 2
         x: 192
@@ -968,20 +944,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 463fc5ffa9e082b4c8a090502896e88e
-      internalID: -1380797456
+      spriteID: 1047b145cb6fa224bae155436e302d8d
+      internalID: -483937608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_40
+      name: mysticNoWeapon_41
       rect:
         serializedVersion: 2
         x: 256
@@ -989,20 +965,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58da5df494bcfd94da1cad3c48b5ba06
-      internalID: 963644677
+      spriteID: ef8d1a73aff833a42b6f62e4c19f2aa0
+      internalID: 1657600602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_41
+      name: mysticNoWeapon_42
       rect:
         serializedVersion: 2
         x: 320
@@ -1010,20 +986,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 803abee54195aff4398d563dcbbc102b
-      internalID: -2147065745
+      spriteID: 57292993915550046b5b63f8ebd73edf
+      internalID: -806020520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_42
+      name: mysticNoWeapon_43
       rect:
         serializedVersion: 2
         x: 384
@@ -1031,20 +1007,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75cc971908c90a24693adbd592dae5d5
-      internalID: 387968652
+      spriteID: caa2b5c8e37e56b4cbe2210ba6b67e7f
+      internalID: 1209275268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_43
+      name: mysticNoWeapon_44
       rect:
         serializedVersion: 2
         x: 448
@@ -1052,20 +1028,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32f960aad9565b24587e8275adc5249e
-      internalID: 336946161
+      spriteID: 8ce0bb903906f764884cdb79c04c703f
+      internalID: -376956537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_44
+      name: mysticNoWeapon_45
       rect:
         serializedVersion: 2
         x: 0
@@ -1073,20 +1049,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7630ce22837e8d478dea1545411c8a1
-      internalID: 1904163895
+      spriteID: dbed70d3210951442997c167d45c88d7
+      internalID: -2070000332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_45
+      name: mysticNoWeapon_46
       rect:
         serializedVersion: 2
         x: 64
@@ -1094,20 +1070,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55ac6f3c16ab27545a9945014cb886ff
-      internalID: -2029068779
+      spriteID: dcbf546eb82ecc144a4db813a5feee59
+      internalID: -1214633572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_46
+      name: mysticNoWeapon_47
       rect:
         serializedVersion: 2
         x: 128
@@ -1115,20 +1091,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c20673815e939fe48a69883797bcbcf8
-      internalID: 701682608
+      spriteID: f83e3e1724da0464cbabdf7c1dc1b4dd
+      internalID: 747057580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_47
+      name: mysticNoWeapon_48
       rect:
         serializedVersion: 2
         x: 192
@@ -1136,20 +1112,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30fcbb749da246749886dc560e9d1116
-      internalID: -941629629
+      spriteID: af2dc1cccb3d3d040ae5876cd85147ef
+      internalID: -852945261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_48
+      name: mysticNoWeapon_49
       rect:
         serializedVersion: 2
         x: 256
@@ -1157,20 +1133,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1021011602fa39e41951d4217a4d21e1
-      internalID: -1090942113
+      spriteID: c7296dc3228531c41919e44f1d367064
+      internalID: -2114762742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_49
+      name: mysticNoWeapon_50
       rect:
         serializedVersion: 2
         x: 320
@@ -1178,20 +1154,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f916df72eb20654087fe15c4071394c
-      internalID: 50680795
+      spriteID: fd8b61599755f4444be0db7917e1a3f0
+      internalID: 1679895919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_50
+      name: mysticNoWeapon_51
       rect:
         serializedVersion: 2
         x: 384
@@ -1199,20 +1175,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc2d0dad11aae5e4eaebc9beaa51dcc7
-      internalID: -258069740
+      spriteID: 8850981a85f36d14390601e564add219
+      internalID: 1459654593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_51
+      name: mysticNoWeapon_52
       rect:
         serializedVersion: 2
         x: 448
@@ -1220,20 +1196,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 762b868ea629efe499557ad2453ac10e
-      internalID: 653969888
+      spriteID: d684af0622f0bfc4e8c5531ac66d1c35
+      internalID: -1627545279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_52
+      name: mysticNoWeapon_53
       rect:
         serializedVersion: 2
         x: 0
@@ -1241,20 +1217,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7e2bea1cc648174288404053f265afa
-      internalID: -1540527127
+      spriteID: 24f0483c975a0844e8302a69f562bb80
+      internalID: 202863338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_53
+      name: mysticNoWeapon_54
       rect:
         serializedVersion: 2
         x: 64
@@ -1262,20 +1238,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ccb0f5b73dead04a84cd70861ad5d70
-      internalID: 3108294
+      spriteID: 7b71028cd9b374045bca1a8808b42f8a
+      internalID: 1939504623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_54
+      name: mysticNoWeapon_55
       rect:
         serializedVersion: 2
         x: 128
@@ -1283,20 +1259,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c58aa7ebdf10794eab1cfceab9aafc4
-      internalID: 596907399
+      spriteID: 6166e82fe2c305a47b5d5b66d67bea9e
+      internalID: -1113973514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_55
+      name: mysticNoWeapon_56
       rect:
         serializedVersion: 2
         x: 192
@@ -1304,20 +1280,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00370eb6cf01ae2458a83d25f60a8c06
-      internalID: 2110750810
+      spriteID: dbef26069bf7f4246937931ce409a098
+      internalID: 1847192944
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_56
+      name: mysticNoWeapon_57
       rect:
         serializedVersion: 2
         x: 256
@@ -1325,20 +1301,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c4fb505cf773e5418084bacb830cf1c
-      internalID: 1942031070
+      spriteID: 67918a3285f72c148be1c224186858fe
+      internalID: -573932449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_57
+      name: mysticNoWeapon_58
       rect:
         serializedVersion: 2
         x: 320
@@ -1346,20 +1322,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c097a530c9359747b16f6e7cfa030d9
-      internalID: -2091339343
+      spriteID: afba8b2f6c34f034c8b71f83c1dd4fc2
+      internalID: 1706257748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_58
+      name: mysticNoWeapon_59
       rect:
         serializedVersion: 2
         x: 384
@@ -1367,20 +1343,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4621fbba478c30a4e9aca4bf29d60f6b
-      internalID: 501965812
+      spriteID: fff75b9310c9fda458b428ff20dfe75e
+      internalID: 508107393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_59
+      name: mysticNoWeapon_60
       rect:
         serializedVersion: 2
         x: 448
@@ -1388,20 +1364,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e3b60056b5cd2a45a4141f090ab5f6a
-      internalID: -1492522177
+      spriteID: ea25d44fab4affb418397f61fd394ceb
+      internalID: -1547558266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_60
+      name: mysticNoWeapon_61
       rect:
         serializedVersion: 2
         x: 0
@@ -1409,20 +1385,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb7299de710164e4d91353c414d4731a
-      internalID: 1533329552
+      spriteID: fcd780b187e0c6c489e18431bc32cd35
+      internalID: 2026064816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_61
+      name: mysticNoWeapon_62
       rect:
         serializedVersion: 2
         x: 64
@@ -1430,20 +1406,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 375fca09d31475347878f38119ac012b
-      internalID: -1407753552
+      spriteID: 69adf8355b1a9984d84972a4ea18af81
+      internalID: -1236753388
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_62
+      name: mysticNoWeapon_63
       rect:
         serializedVersion: 2
         x: 128
@@ -1451,20 +1427,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8732029df49e75f47a96133d8ff13d42
-      internalID: 655552292
+      spriteID: 3c54ffeca9c9c97439150acc61374d04
+      internalID: -996909996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_63
+      name: mysticNoWeapon_64
       rect:
         serializedVersion: 2
         x: 192
@@ -1472,20 +1448,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9594f5ee7f4e0014eb6a9575ccee968a
-      internalID: 511902888
+      spriteID: 0244b037cce67b54188b135679cd1123
+      internalID: -1668144434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_64
+      name: mysticNoWeapon_65
       rect:
         serializedVersion: 2
         x: 256
@@ -1493,20 +1469,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c76dce65ddff164d97db4ecde9b6aa8
-      internalID: -449200359
+      spriteID: 3e8e7faa34885ad46b5d8410f6604827
+      internalID: 390913717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_65
+      name: mysticNoWeapon_66
       rect:
         serializedVersion: 2
         x: 320
@@ -1514,20 +1490,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6764cd33190942147bcfb6a0eeb03c0b
-      internalID: -1626600854
+      spriteID: 24211ca1653950849b308eae9e53ff29
+      internalID: -320315768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_66
+      name: mysticNoWeapon_67
       rect:
         serializedVersion: 2
         x: 384
@@ -1535,20 +1511,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac2d5d98ae6aeb14cbf06b1d25955e29
-      internalID: -1790997514
+      spriteID: 88c5a6aa67ae4b34594fe9fc2985d50b
+      internalID: 1943917669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_67
+      name: mysticNoWeapon_68
       rect:
         serializedVersion: 2
         x: 448
@@ -1556,20 +1532,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e6e1f429c92c4344862e777ec282b91
-      internalID: -1600446505
+      spriteID: 51e701af1df45df40848e76320eede8b
+      internalID: 1906768834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_68
+      name: mysticNoWeapon_69
       rect:
         serializedVersion: 2
         x: 512
@@ -1577,20 +1553,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c77e40144dc37bf40ba9e512756cbc7b
-      internalID: 461422143
+      spriteID: fe83b8fc06325c040bfc6a1dd21638b8
+      internalID: -732510138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_69
+      name: mysticNoWeapon_70
       rect:
         serializedVersion: 2
         x: 0
@@ -1598,20 +1574,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdc524c12c3048040a3c44578e1b9a97
-      internalID: -1207957839
+      spriteID: fa98a445f9f9acd4489176673c6a76dd
+      internalID: 1946164587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_70
+      name: mysticNoWeapon_71
       rect:
         serializedVersion: 2
         x: 64
@@ -1619,20 +1595,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f701fa7587074745ab184f2deecc069
-      internalID: -1747638715
+      spriteID: f1d4ed4524b3eb443966377dbb175f82
+      internalID: 1335116557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_71
+      name: mysticNoWeapon_72
       rect:
         serializedVersion: 2
         x: 128
@@ -1640,20 +1616,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9d337b0b993e414286399fbfde3f8ff
-      internalID: 378002247
+      spriteID: da777a80b3c8ad34a9d1573e3a8ce852
+      internalID: -1826804045
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_72
+      name: mysticNoWeapon_73
       rect:
         serializedVersion: 2
         x: 192
@@ -1661,20 +1637,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 541b196c7eb6b2d4493247eefa789f46
-      internalID: -1462671779
+      spriteID: a83b763e248c21e4ea05c1d0349bb703
+      internalID: 61131861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_73
+      name: mysticNoWeapon_74
       rect:
         serializedVersion: 2
         x: 256
@@ -1682,20 +1658,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef5d8277808aa8f4f894a10e416c966d
-      internalID: -971804335
+      spriteID: 280853ceed44ac949b51ba88d2ad6ed2
+      internalID: 1592083140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_74
+      name: mysticNoWeapon_75
       rect:
         serializedVersion: 2
         x: 320
@@ -1703,20 +1679,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e658304d812a52488033b570c066406
-      internalID: 1708526275
+      spriteID: c38ba203bf77cdc45bf4a84e9ef4340d
+      internalID: 1058343759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_75
+      name: mysticNoWeapon_76
       rect:
         serializedVersion: 2
         x: 384
@@ -1724,20 +1700,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a53330d0dc320114ca157b0a24a54fcd
-      internalID: 623907377
+      spriteID: 7ab448b1c7f9383499bdf9d03c56d12d
+      internalID: -489587431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_76
+      name: mysticNoWeapon_77
       rect:
         serializedVersion: 2
         x: 448
@@ -1745,20 +1721,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40595e05ebe9be246a7cd62dcdb8104c
-      internalID: -1420390008
+      spriteID: 2bb501edb65039e41b887daa3d5f2291
+      internalID: 1880782079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_77
+      name: mysticNoWeapon_78
       rect:
         serializedVersion: 2
         x: 512
@@ -1766,20 +1742,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1915b98116a0b354a998fda109094c78
-      internalID: -2041574002
+      spriteID: 84f170176982fd24b935826170eb51fe
+      internalID: -200836066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_78
+      name: mysticNoWeapon_79
       rect:
         serializedVersion: 2
         x: 0
@@ -1787,20 +1763,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2986aa9edbcda0b498960fbc00795d58
-      internalID: 23400314
+      spriteID: e569fe9d1da11ba419fa46126413b5dc
+      internalID: -653022796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_79
+      name: mysticNoWeapon_80
       rect:
         serializedVersion: 2
         x: 64
@@ -1808,20 +1784,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d1abfc992b35704a82dd5374f2b1310
-      internalID: 981763261
+      spriteID: 99d2a8021f8af7e458882e30a075039f
+      internalID: -1192632921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_80
+      name: mysticNoWeapon_81
       rect:
         serializedVersion: 2
         x: 128
@@ -1829,20 +1805,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f56603d90cbc2aa4db1b2044e77c3e51
-      internalID: 1633481148
+      spriteID: fe555cd77106ff245a9c444a71645ecd
+      internalID: 1103607066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_81
+      name: mysticNoWeapon_82
       rect:
         serializedVersion: 2
         x: 192
@@ -1850,20 +1826,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91302110b53675048914399dcc420778
-      internalID: 1019663306
+      spriteID: b42016bcfd3ae89428e9a567494dc5a2
+      internalID: -1928341698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_82
+      name: mysticNoWeapon_83
       rect:
         serializedVersion: 2
         x: 256
@@ -1871,20 +1847,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2ea4cf0af4f2474a8eeee7b0cfe8d0f
-      internalID: 436252857
+      spriteID: 2e23fe32847719345ae49c30dac6d05f
+      internalID: 1345090126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_83
+      name: mysticNoWeapon_84
       rect:
         serializedVersion: 2
         x: 320
@@ -1892,20 +1868,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c36e8ba2b31ae3f4188b29cf3e7f857f
-      internalID: 207571873
+      spriteID: 3aef767c84049e847b8baaf53c8a4a91
+      internalID: 358530599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_84
+      name: mysticNoWeapon_85
       rect:
         serializedVersion: 2
         x: 384
@@ -1913,20 +1889,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23607027620b84f49bcd9024de8cbbbf
-      internalID: -694067156
+      spriteID: 60d755797c95a3d49aa89687c6e42a73
+      internalID: 1045435456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_85
+      name: mysticNoWeapon_86
       rect:
         serializedVersion: 2
         x: 448
@@ -1934,20 +1910,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 503a5822e853a3a419ca217f6586f10a
-      internalID: -990526276
+      spriteID: c309ff8e212f7054ebe8bf8863fc0d5c
+      internalID: 242898670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_86
+      name: mysticNoWeapon_87
       rect:
         serializedVersion: 2
         x: 512
@@ -1955,20 +1931,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f9dfd4f35c9d264ebc64ef9f49a17bb
-      internalID: -749495612
+      spriteID: 2fc9969f27045374083454ac9e508ddd
+      internalID: -1706898543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_87
+      name: mysticNoWeapon_88
       rect:
         serializedVersion: 2
         x: 0
@@ -1976,20 +1952,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2cc8816e7b1b5b43ba823a6f4ac09fa
-      internalID: -1831298407
+      spriteID: 96e7eaffcee107f45bb6272d42d9dd04
+      internalID: -1896765772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_88
+      name: mysticNoWeapon_89
       rect:
         serializedVersion: 2
         x: 64
@@ -1997,20 +1973,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18377ad809a4f634585991ceb39320c6
-      internalID: -1666901257
+      spriteID: 4583f3d770997d942a63b3930efcb0dd
+      internalID: 1403440353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_89
+      name: mysticNoWeapon_90
       rect:
         serializedVersion: 2
         x: 128
@@ -2018,20 +1994,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc1dc34ecfc73004ca9c66fa46d55982
-      internalID: -615602947
+      spriteID: 903724d88915312489b7aa66babbc2bc
+      internalID: -2033109386
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_90
+      name: mysticNoWeapon_91
       rect:
         serializedVersion: 2
         x: 192
@@ -2039,20 +2015,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e613e78a254ef3c48b99d291aed2fd95
-      internalID: -1672604362
+      spriteID: e9c7e241df2c8204fb0a6d6f46f93056
+      internalID: 187432420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_91
+      name: mysticNoWeapon_92
       rect:
         serializedVersion: 2
         x: 256
@@ -2060,20 +2036,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74442435e7c17bf47af46a082b3eb7af
-      internalID: 1881018876
+      spriteID: d609013d54cd07c41a625367d53720dc
+      internalID: -2065988988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_92
+      name: mysticNoWeapon_93
       rect:
         serializedVersion: 2
         x: 320
@@ -2081,20 +2057,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 489c2094014504e45ac9238cda8bba9d
-      internalID: 898110480
+      spriteID: 46746104c34299a41b94f893fad7326f
+      internalID: -1375111606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_93
+      name: mysticNoWeapon_94
       rect:
         serializedVersion: 2
         x: 384
@@ -2102,20 +2078,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a5a6b8912746ca42bd6e82592701efd
-      internalID: 1454032026
+      spriteID: a935c2324957091428dea31b4fae07fd
+      internalID: -77101720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_94
+      name: mysticNoWeapon_95
       rect:
         serializedVersion: 2
         x: 448
@@ -2123,20 +2099,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 077e83bfef501c8498972cf87127a5b6
-      internalID: -1463963932
+      spriteID: 4baeed38e783784498817e56084d0df6
+      internalID: -1341178529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_95
+      name: mysticNoWeapon_96
       rect:
         serializedVersion: 2
         x: 512
@@ -2144,20 +2120,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bee5a3d826ec9d4d978e4c6334fb83e
-      internalID: 1005133562
+      spriteID: 88878deb1f6f6874a8e0422975845c62
+      internalID: -1281085740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_96
+      name: mysticNoWeapon_97
       rect:
         serializedVersion: 2
         x: 0
@@ -2165,20 +2141,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e42cd6b25ad19fe439e8ccd27d877b66
-      internalID: 122918915
+      spriteID: 6980b8a74e832074f9c1163423f187fb
+      internalID: 10800763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_97
+      name: mysticNoWeapon_98
       rect:
         serializedVersion: 2
         x: 64
@@ -2186,20 +2162,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ba9b92db0b386949a42a68ce66b65f6
-      internalID: -1132109893
+      spriteID: 4f93da80bd8e6cd49a07371eccc29fef
+      internalID: -315377378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_98
+      name: mysticNoWeapon_99
       rect:
         serializedVersion: 2
         x: 128
@@ -2207,20 +2183,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d62e449a68478244a85584614a4ddf6
-      internalID: 57898452
+      spriteID: 9d04efff32fe17b47b8f9d2d6e8344f5
+      internalID: -993471389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_99
+      name: mysticNoWeapon_100
       rect:
         serializedVersion: 2
         x: 192
@@ -2228,20 +2204,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da71586a408fd8d479fe164bcb8d6714
-      internalID: -769670566
+      spriteID: 6ff02bd57f2656b4d9181ac4342e5356
+      internalID: -1121400693
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_100
+      name: mysticNoWeapon_101
       rect:
         serializedVersion: 2
         x: 256
@@ -2249,20 +2225,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54289781d7b25424fa4037ef5d642f96
-      internalID: 1511001298
+      spriteID: 6500be60fa40d894e9fd41d5844907aa
+      internalID: -603194609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_101
+      name: mysticNoWeapon_102
       rect:
         serializedVersion: 2
         x: 320
@@ -2270,20 +2246,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb7016904501d4f45b0a9b7212f98ff0
-      internalID: 108721224
+      spriteID: 5dff22d7048487742995345f7184d722
+      internalID: 185606932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_102
+      name: mysticNoWeapon_103
       rect:
         serializedVersion: 2
         x: 0
@@ -2291,20 +2267,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6682f467f4fe27458677765237ef604
-      internalID: 1756274352
+      spriteID: f02f047db76f1af4bacabf3b455449dd
+      internalID: -1802945021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_103
+      name: mysticNoWeapon_104
       rect:
         serializedVersion: 2
         x: 64
@@ -2312,20 +2288,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f21a5e1561d52342b0cc5430e5d9353
-      internalID: -43666841
+      spriteID: 66559751f81833c4a87f92bbccc305a1
+      internalID: -2141591369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_104
+      name: mysticNoWeapon_105
       rect:
         serializedVersion: 2
         x: 128
@@ -2333,20 +2309,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1387a6664cb125a4f94aaa13f421d2ab
-      internalID: 1454462461
+      spriteID: 7494e0e6e22d9f24597490f1280f75fe
+      internalID: 710203094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_105
+      name: mysticNoWeapon_106
       rect:
         serializedVersion: 2
         x: 192
@@ -2354,20 +2330,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22cc5cd19168367408b4ab3bfa80ac6e
-      internalID: -461438028
+      spriteID: f19ae7e57af8f564eb7b4a8a48646f7f
+      internalID: 1184186966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_106
+      name: mysticNoWeapon_107
       rect:
         serializedVersion: 2
         x: 256
@@ -2375,20 +2351,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63f18ed8f8363d64ca1b5e78843abe43
-      internalID: -811321899
+      spriteID: ccf0750cfec83dd43828d9b610046cac
+      internalID: -437717755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_107
+      name: mysticNoWeapon_108
       rect:
         serializedVersion: 2
         x: 320
@@ -2396,20 +2372,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2cca90936e5f8f4b96eacfdf41435f9
-      internalID: 1436037613
+      spriteID: d42d3307e2124054b9f259dad1adf390
+      internalID: -997570147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_108
+      name: mysticNoWeapon_109
       rect:
         serializedVersion: 2
         x: 0
@@ -2417,20 +2393,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87735b28adc58094e8e66623e4611f11
-      internalID: 1441448714
+      spriteID: 5acf3794646a401418bdae037b99a03f
+      internalID: -2102668155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_109
+      name: mysticNoWeapon_110
       rect:
         serializedVersion: 2
         x: 64
@@ -2438,20 +2414,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8be9b9bf22404c42b81be48597b9963
-      internalID: -672798690
+      spriteID: da05638fc27ea3c41b9e3adb1331ab6f
+      internalID: -294604319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_110
+      name: mysticNoWeapon_111
       rect:
         serializedVersion: 2
         x: 128
@@ -2459,20 +2435,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3362c675a9bae164d83032c81654dac8
-      internalID: 1775940533
+      spriteID: 8f89a40c850079d4d8a1e8e4c260d8fc
+      internalID: 844976197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_111
+      name: mysticNoWeapon_112
       rect:
         serializedVersion: 2
         x: 192
@@ -2480,20 +2456,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ccfca1447293034aba48bf2c6e31478
-      internalID: 153741159
+      spriteID: 54b67cc6fea95e84abf287e9be74f012
+      internalID: 1543886679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_112
+      name: mysticNoWeapon_113
       rect:
         serializedVersion: 2
         x: 256
@@ -2501,20 +2477,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 587e19833ea3e55488e30306d2bfac10
-      internalID: 543533863
+      spriteID: 988929eeb026b2f42b934ab4506289ff
+      internalID: -873820479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_113
+      name: mysticNoWeapon_114
       rect:
         serializedVersion: 2
         x: 320
@@ -2522,20 +2498,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d92d84a30dead0340ae1dcd15fbd6bbb
-      internalID: -2057214908
+      spriteID: 201b10fbf589eea49b14898ba054d6c6
+      internalID: -1149447598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_114
+      name: mysticNoWeapon_115
       rect:
         serializedVersion: 2
         x: 0
@@ -2543,20 +2519,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33a04e8b38de9c3498a5d6f9be53e09e
-      internalID: 314406594
+      spriteID: 545f19ec7498b4f4ea239b9cbbff94c8
+      internalID: -456193253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_115
+      name: mysticNoWeapon_116
       rect:
         serializedVersion: 2
         x: 64
@@ -2564,20 +2540,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4fb1c17ef87bae4dbd592547dfec548
-      internalID: 919563799
+      spriteID: 410573d58c8acf243afe7a53c04dfaf0
+      internalID: 680949631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_116
+      name: mysticNoWeapon_117
       rect:
         serializedVersion: 2
         x: 128
@@ -2585,20 +2561,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de2d80a0367a3d543bf89dd41ad77e4f
-      internalID: -140022468
+      spriteID: 4a1cbf317f4025d47981bc8682e13acb
+      internalID: 1609312568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_117
+      name: mysticNoWeapon_118
       rect:
         serializedVersion: 2
         x: 192
@@ -2606,20 +2582,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cb6d2949cd40344ebc6af62e311573a
-      internalID: 891009417
+      spriteID: 24a4f047139b4c645ab3ea98e0f622e8
+      internalID: 1640118476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_118
+      name: mysticNoWeapon_119
       rect:
         serializedVersion: 2
         x: 256
@@ -2627,20 +2603,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fbd79fa9a437e741b2e132386d2ac7a
-      internalID: 2039929121
+      spriteID: 3322ebb28cce1aa41987f5686ba9e86e
+      internalID: 1144396524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_119
+      name: mysticNoWeapon_120
       rect:
         serializedVersion: 2
         x: 320
@@ -2648,20 +2624,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c86d8cfa8dc94da44b0756cc2cb4bce3
-      internalID: 1083667074
+      spriteID: 8b270f55b88aeaf4bb6b76f54d560690
+      internalID: -1134149432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_120
+      name: mysticNoWeapon_121
       rect:
         serializedVersion: 2
         x: 0
@@ -2669,20 +2645,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c46240d0dbad228468f44b7f519e33e7
-      internalID: 795736442
+      spriteID: fc4c9ba0bbf31e64998fccee5030533c
+      internalID: 1681843528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_121
+      name: mysticNoWeapon_122
       rect:
         serializedVersion: 2
         x: 64
@@ -2690,20 +2666,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d59add1dda733b419b0141742b088c2
-      internalID: -1311738982
+      spriteID: 5bbedcdf3a1f59b4dabe45d5112f1365
+      internalID: -1526183414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_122
+      name: mysticNoWeapon_123
       rect:
         serializedVersion: 2
         x: 128
@@ -2711,20 +2687,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bdbc76c4af0c4c42973f1ab67156f11
-      internalID: -1646518986
+      spriteID: 97df0226905ea734cabd9d4dd8dc376f
+      internalID: 553404765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_123
+      name: mysticNoWeapon_124
       rect:
         serializedVersion: 2
         x: 192
@@ -2732,20 +2708,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f007fa32fc2b939489c07e5fa5925532
-      internalID: 24933358
+      spriteID: 105b445f758e8db4d83d65eeec62d05e
+      internalID: -1188468899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_124
+      name: mysticNoWeapon_125
       rect:
         serializedVersion: 2
         x: 256
@@ -2753,20 +2729,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c9ff3d7fa3e27c44bb96edb85e8dd93
-      internalID: -1963917705
+      spriteID: 2ad424af35c92cd499f6c3527a3d2555
+      internalID: 1256166779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_125
+      name: mysticNoWeapon_126
       rect:
         serializedVersion: 2
         x: 320
@@ -2774,20 +2750,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c435f3704d4f67c43aa1de1817e2f129
-      internalID: 1488776894
+      spriteID: 4d12984fd5798b9479f816cccd20cabf
+      internalID: 663621494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_126
+      name: mysticNoWeapon_127
       rect:
         serializedVersion: 2
         x: 384
@@ -2795,20 +2771,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e2caa28d3e054b44af65afd6a4c376d
-      internalID: -509269000
+      spriteID: 4d903bd6604b865498b5573c42f536c0
+      internalID: 1103719827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_127
+      name: mysticNoWeapon_128
       rect:
         serializedVersion: 2
         x: 448
@@ -2816,20 +2792,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5c6543d904e80f478beccdeba974c8f
-      internalID: -407960518
+      spriteID: f78ab87ef4e55eb4ea8e04f792cae9ff
+      internalID: 1579940243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_128
+      name: mysticNoWeapon_129
       rect:
         serializedVersion: 2
         x: 512
@@ -2837,20 +2813,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd51e2a5ca48c9c4bbc5afedeb64ee93
-      internalID: -1820907774
+      spriteID: 98657c133ac28c84694115dbcc7cb40c
+      internalID: -104253596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_129
+      name: mysticNoWeapon_130
       rect:
         serializedVersion: 2
         x: 576
@@ -2858,20 +2834,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4683c6c71edf1014f9d6269ada91e436
-      internalID: -365375685
+      spriteID: bfd2805c4399d834ebf7d73c10fe57d8
+      internalID: 1833064060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_130
+      name: mysticNoWeapon_131
       rect:
         serializedVersion: 2
         x: 640
@@ -2879,20 +2855,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1821403348de8134fbd4f23de7202c90
-      internalID: 920557884
+      spriteID: 80c246414c6da904a94511b2d4997bb9
+      internalID: 1090598819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_131
+      name: mysticNoWeapon_132
       rect:
         serializedVersion: 2
         x: 704
@@ -2900,20 +2876,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 884e1f5a9f5ae29458c6e812f71bfdd3
-      internalID: -1383176569
+      spriteID: 13373b51e3acca54599f5ee43a115a54
+      internalID: 2003315689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_132
+      name: mysticNoWeapon_133
       rect:
         serializedVersion: 2
         x: 768
@@ -2921,20 +2897,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce3c47f5100ee2846aff60657cf65b6d
-      internalID: 1315220916
+      spriteID: 247209a577b04064f98cd329b8bbc62e
+      internalID: -1218079787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_133
+      name: mysticNoWeapon_134
       rect:
         serializedVersion: 2
         x: 0
@@ -2942,20 +2918,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9556dbebb39722b49a522b48af4fc678
-      internalID: 182563897
+      spriteID: f796d5aa2a9813544b338dbbbb6232f2
+      internalID: -1512668370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_134
+      name: mysticNoWeapon_135
       rect:
         serializedVersion: 2
         x: 64
@@ -2963,20 +2939,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d72e7778689d7a4e9ad5a646683b966
-      internalID: -2073954813
+      spriteID: 32f7a92342568694f81ff325493af584
+      internalID: 703947772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_135
+      name: mysticNoWeapon_136
       rect:
         serializedVersion: 2
         x: 128
@@ -2984,20 +2960,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 304f95dabd848614f99111ae961e6ad5
-      internalID: -557970082
+      spriteID: 2179c177cbfb90144b48a8f659c05f4b
+      internalID: -663827337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_136
+      name: mysticNoWeapon_137
       rect:
         serializedVersion: 2
         x: 192
@@ -3005,20 +2981,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38463e96206b83346aaee7c48f3d1501
-      internalID: -1356850333
+      spriteID: f42b459304ff28643be77968747de7ee
+      internalID: -1391597437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_137
+      name: mysticNoWeapon_138
       rect:
         serializedVersion: 2
         x: 256
@@ -3026,20 +3002,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f61f0be3a7126f4aa7e3021192a4695
-      internalID: -1107216448
+      spriteID: 43ee87d27f5700d4aac825c396f307ee
+      internalID: 890164368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_138
+      name: mysticNoWeapon_139
       rect:
         serializedVersion: 2
         x: 320
@@ -3047,20 +3023,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cba33b9a929bdf749a9439337a21c43d
-      internalID: -1854100721
+      spriteID: fcd2a2ee41a0dbd449f5289305e86283
+      internalID: 208151523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_139
+      name: mysticNoWeapon_140
       rect:
         serializedVersion: 2
         x: 384
@@ -3068,20 +3044,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 236628cf143eae047a246933cc9c3277
-      internalID: -617457532
+      spriteID: 6df77e55fc629fe4097a617f7d8ddcd0
+      internalID: 1919022654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_140
+      name: mysticNoWeapon_141
       rect:
         serializedVersion: 2
         x: 448
@@ -3089,20 +3065,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bb3e3d9663179e439e0e20ac889b6d0
-      internalID: -1136015792
+      spriteID: 5749408ba57b52e4a8a423296ce9c5bd
+      internalID: 893017511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_141
+      name: mysticNoWeapon_142
       rect:
         serializedVersion: 2
         x: 512
@@ -3110,20 +3086,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb4017a8b0413724089777f1969bb16c
-      internalID: -1938538755
+      spriteID: d10cafc380ffde6498a856273c0f8d96
+      internalID: 1868271207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_142
+      name: mysticNoWeapon_143
       rect:
         serializedVersion: 2
         x: 576
@@ -3131,20 +3107,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d215278625aecad4396ab3aa8d5217da
-      internalID: -858323068
+      spriteID: df652ae4757415a42ba59cc7017f85d3
+      internalID: 564545828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_143
+      name: mysticNoWeapon_144
       rect:
         serializedVersion: 2
         x: 640
@@ -3152,20 +3128,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54656c2a137ce7248bc22517ab1dcb8e
-      internalID: 1838326674
+      spriteID: 4d4dad87e6778894e9bf2dea1e0b4173
+      internalID: -235976979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_144
+      name: mysticNoWeapon_145
       rect:
         serializedVersion: 2
         x: 704
@@ -3173,20 +3149,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32ad94fec19138d4da4e59c7071513fd
-      internalID: -2004165766
+      spriteID: cf291c1e13fac34449d2aa0639d57ffd
+      internalID: -207100294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_145
+      name: mysticNoWeapon_146
       rect:
         serializedVersion: 2
         x: 768
@@ -3194,20 +3170,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 385b191f44f12974cbed72c6834c378d
-      internalID: 1770816839
+      spriteID: c3cd75b092da7ac48a5873e853e6f237
+      internalID: -1972932224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_146
+      name: mysticNoWeapon_147
       rect:
         serializedVersion: 2
         x: 0
@@ -3215,20 +3191,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e3aa14c3a212f24688ebf35055a09f5
-      internalID: -291289606
+      spriteID: 82d7f53c23fbd6a4a8bd4fc1e8e11849
+      internalID: -1465666922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_147
+      name: mysticNoWeapon_148
       rect:
         serializedVersion: 2
         x: 64
@@ -3236,20 +3212,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 784900807945bc9439fceaba3e6783ba
-      internalID: -1970013728
+      spriteID: 5bcdfe4775e97b743a08d62d64a071a4
+      internalID: -1153001361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_148
+      name: mysticNoWeapon_149
       rect:
         serializedVersion: 2
         x: 128
@@ -3257,20 +3233,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e3e7283ad7a9424886280f29557cc04
-      internalID: 2013415717
+      spriteID: 39623fff2536d11499791989216444bd
+      internalID: -2031188470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_149
+      name: mysticNoWeapon_150
       rect:
         serializedVersion: 2
         x: 192
@@ -3278,20 +3254,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 148bc08f2f7f78f44ac0839b98dfc624
-      internalID: 657543714
+      spriteID: 9f43ea25b72f16b43ad8d001233b4380
+      internalID: 814884755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_150
+      name: mysticNoWeapon_151
       rect:
         serializedVersion: 2
         x: 256
@@ -3299,20 +3275,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 998bc111105240540bf383af9b2c029b
-      internalID: -357568691
+      spriteID: 006f3da31846b5243a64725cb1660b9a
+      internalID: 1179574221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_151
+      name: mysticNoWeapon_152
       rect:
         serializedVersion: 2
         x: 320
@@ -3320,20 +3296,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90a21477ac82b774d944d05322524efb
-      internalID: -552371596
+      spriteID: 04e4036faa9cfd34a8f76d97961afb46
+      internalID: 644186913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_152
+      name: mysticNoWeapon_153
       rect:
         serializedVersion: 2
         x: 384
@@ -3341,20 +3317,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3a121fa9bb05624f9e075f34f6cafd9
-      internalID: -816917916
+      spriteID: 74290cd7c737d2f4e986d4283cbc14c9
+      internalID: 1028615330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_153
+      name: mysticNoWeapon_154
       rect:
         serializedVersion: 2
         x: 448
@@ -3362,20 +3338,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a18fb00acefe8df4888ff5d3954e9526
-      internalID: -1132339185
+      spriteID: dd1b7fe9104d8bc419c900cf09cf8f59
+      internalID: 2058991397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_154
+      name: mysticNoWeapon_155
       rect:
         serializedVersion: 2
         x: 512
@@ -3383,20 +3359,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 500952d946bd15e479a0ffe32c44b647
-      internalID: -1943513284
+      spriteID: f897e2e17ed302349834c4f55f9745ed
+      internalID: -864920372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_155
+      name: mysticNoWeapon_156
       rect:
         serializedVersion: 2
         x: 576
@@ -3404,20 +3380,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d6358dd527bd584098855631c4ead6c
-      internalID: 1280902449
+      spriteID: 71318b64191e45245a7f28adb4866bda
+      internalID: 2076131744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_156
+      name: mysticNoWeapon_157
       rect:
         serializedVersion: 2
         x: 640
@@ -3425,20 +3401,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 536e507fff8f0dc4893bba20fe1450f2
-      internalID: -907688711
+      spriteID: fe84724c2aa858d4a90c32e19af07669
+      internalID: 1936396034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_157
+      name: mysticNoWeapon_158
       rect:
         serializedVersion: 2
         x: 704
@@ -3446,20 +3422,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2b42e5c2ab8e094385a9e0c851c2018
-      internalID: 2139473407
+      spriteID: 7ced028f82859bc44ba41a69e51c386a
+      internalID: -502155751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_158
+      name: mysticNoWeapon_159
       rect:
         serializedVersion: 2
         x: 768
@@ -3467,20 +3443,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0faa16623743bac4e87e7acddb88c7fa
-      internalID: 1913927784
+      spriteID: d127eeca1f8cad94f9994fed53d439ad
+      internalID: -1636703426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_159
+      name: mysticNoWeapon_160
       rect:
         serializedVersion: 2
         x: 0
@@ -3488,20 +3464,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eca918856458a814a88cd45b8cb4a1d2
-      internalID: 414816890
+      spriteID: d4c3c5a996e49294b912e18b99373561
+      internalID: -540185658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_160
+      name: mysticNoWeapon_161
       rect:
         serializedVersion: 2
         x: 64
@@ -3509,20 +3485,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 835008ead8713814e88135a92f400598
-      internalID: 382531233
+      spriteID: 307adb79e09bc694b81da360fe351726
+      internalID: -919296535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_161
+      name: mysticNoWeapon_162
       rect:
         serializedVersion: 2
         x: 128
@@ -3530,20 +3506,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b39057ef12083d6429289210a9d03d5d
-      internalID: 403195102
+      spriteID: 6e7f568630099ea4e8b7d99db020a89a
+      internalID: -938055024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_162
+      name: mysticNoWeapon_163
       rect:
         serializedVersion: 2
         x: 192
@@ -3551,20 +3527,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fa45a4285d929245a3af6500451c518
-      internalID: -719304594
+      spriteID: fae0154405f38ba4d8b039455b534a7c
+      internalID: -961264281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_163
+      name: mysticNoWeapon_164
       rect:
         serializedVersion: 2
         x: 256
@@ -3572,20 +3548,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f61830d87773b4241bc29095154528a2
-      internalID: 38382496
+      spriteID: 5690d56c32d818a4faf8cc628af20d79
+      internalID: 206498713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_164
+      name: mysticNoWeapon_165
       rect:
         serializedVersion: 2
         x: 320
@@ -3593,20 +3569,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f62606340bc0fa147b12e8e1006fbc9d
-      internalID: 2006729024
+      spriteID: 727625019bfac1c4e9ec641c1b2643fb
+      internalID: -576411195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_165
+      name: mysticNoWeapon_166
       rect:
         serializedVersion: 2
         x: 384
@@ -3614,20 +3590,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d62757c589503243bf307840f547b5c
-      internalID: -217543577
+      spriteID: 511b95407455f214c9b24325530c2758
+      internalID: 1567956591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_166
+      name: mysticNoWeapon_167
       rect:
         serializedVersion: 2
         x: 448
@@ -3635,20 +3611,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc5c90228c4806942999cdd76144fd20
-      internalID: -309919453
+      spriteID: 73c55125a3f3b38449973ff4a54b4780
+      internalID: 1259566671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_167
+      name: mysticNoWeapon_168
       rect:
         serializedVersion: 2
         x: 512
@@ -3656,20 +3632,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa14a8a763a02ea4d898d1a3c5a1a968
-      internalID: -786281232
+      spriteID: 06636a1da7d28074dbbed2e29481fa02
+      internalID: -1096993174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_168
+      name: mysticNoWeapon_169
       rect:
         serializedVersion: 2
         x: 576
@@ -3677,20 +3653,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b6c6cb7871f2974a901bb0cf69a554e
-      internalID: 1126275184
+      spriteID: e4f2da1694d9ba44cbb81faa0d6d7abd
+      internalID: -1043718125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_169
+      name: mysticNoWeapon_170
       rect:
         serializedVersion: 2
         x: 640
@@ -3698,20 +3674,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da77f74c7b51a254d9e1066a295aaaf8
-      internalID: -80809427
+      spriteID: 0070e3edd70e72943afa50ca9cab8438
+      internalID: 1892014843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_170
+      name: mysticNoWeapon_171
       rect:
         serializedVersion: 2
         x: 704
@@ -3719,20 +3695,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26e0c6d9329adc44797c11d1a5d8c29a
-      internalID: 111603632
+      spriteID: 45170cb0816de984e801c957f4e12f25
+      internalID: -947087883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_171
+      name: mysticNoWeapon_172
       rect:
         serializedVersion: 2
         x: 768
@@ -3740,20 +3716,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e901d1e9a07ea54c8fda4ae16095938
-      internalID: -2008535394
+      spriteID: 2362d77ec5ca0c041a3cd270bdbec42f
+      internalID: -1711301080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_172
+      name: mysticNoWeapon_173
       rect:
         serializedVersion: 2
         x: 0
@@ -3761,20 +3737,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8038321e832f48549a8a4138cf28d921
-      internalID: -1160967911
+      spriteID: 315695c0893f18242ab8865dedce8921
+      internalID: -1212875437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_173
+      name: mysticNoWeapon_174
       rect:
         serializedVersion: 2
         x: 64
@@ -3782,20 +3758,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 290e2951b54247e48a2d014adfa6c486
-      internalID: 808310828
+      spriteID: a9c5158eef7903f4a9d246ff0dd97f9e
+      internalID: -586163010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_174
+      name: mysticNoWeapon_175
       rect:
         serializedVersion: 2
         x: 128
@@ -3803,20 +3779,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 830d77189745d5e4f98935a288fa9748
-      internalID: 1255604994
+      spriteID: 952ad1bf45a010a44a595478466630da
+      internalID: 520937473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_175
+      name: mysticNoWeapon_176
       rect:
         serializedVersion: 2
         x: 192
@@ -3824,20 +3800,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b9bda4a6aba16847946ba7402e8f347
-      internalID: 575451792
+      spriteID: 9e77deb4fd7b0cc4fb76346f60e128fd
+      internalID: -1901975265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_176
+      name: mysticNoWeapon_177
       rect:
         serializedVersion: 2
         x: 256
@@ -3845,20 +3821,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c46e5039fa935c641bf0ef4cea3a8033
-      internalID: 1384173568
+      spriteID: 70ed57135985c3c48b7ba2bc8bf9d4ff
+      internalID: 1371536462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadowCharacter_177
+      name: mysticNoWeapon_178
       rect:
         serializedVersion: 2
         x: 320
@@ -3866,14 +3842,14 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b73ba5cd6047c9245b939859ef6a975f
-      internalID: 1547165934
+      spriteID: c3dc857d03cc76143ad81e3f43a7a8bc
+      internalID: -1598373033
       vertices: []
       indices: 
       edges: []
@@ -3889,184 +3865,185 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      shadowCharacter_0: -1113610895
-      shadowCharacter_1: 10477791
-      shadowCharacter_10: -2055249686
-      shadowCharacter_100: 1511001298
-      shadowCharacter_101: 108721224
-      shadowCharacter_102: 1756274352
-      shadowCharacter_103: -43666841
-      shadowCharacter_104: 1454462461
-      shadowCharacter_105: -461438028
-      shadowCharacter_106: -811321899
-      shadowCharacter_107: 1436037613
-      shadowCharacter_108: 1441448714
-      shadowCharacter_109: -672798690
-      shadowCharacter_11: 1301058187
-      shadowCharacter_110: 1775940533
-      shadowCharacter_111: 153741159
-      shadowCharacter_112: 543533863
-      shadowCharacter_113: -2057214908
-      shadowCharacter_114: 314406594
-      shadowCharacter_115: 919563799
-      shadowCharacter_116: -140022468
-      shadowCharacter_117: 891009417
-      shadowCharacter_118: 2039929121
-      shadowCharacter_119: 1083667074
-      shadowCharacter_12: -855253608
-      shadowCharacter_120: 795736442
-      shadowCharacter_121: -1311738982
-      shadowCharacter_122: -1646518986
-      shadowCharacter_123: 24933358
-      shadowCharacter_124: -1963917705
-      shadowCharacter_125: 1488776894
-      shadowCharacter_126: -509269000
-      shadowCharacter_127: -407960518
-      shadowCharacter_128: -1820907774
-      shadowCharacter_129: -365375685
-      shadowCharacter_13: 1030700268
-      shadowCharacter_130: 920557884
-      shadowCharacter_131: -1383176569
-      shadowCharacter_132: 1315220916
-      shadowCharacter_133: 182563897
-      shadowCharacter_134: -2073954813
-      shadowCharacter_135: -557970082
-      shadowCharacter_136: -1356850333
-      shadowCharacter_137: -1107216448
-      shadowCharacter_138: -1854100721
-      shadowCharacter_139: -617457532
-      shadowCharacter_14: 536450478
-      shadowCharacter_140: -1136015792
-      shadowCharacter_141: -1938538755
-      shadowCharacter_142: -858323068
-      shadowCharacter_143: 1838326674
-      shadowCharacter_144: -2004165766
-      shadowCharacter_145: 1770816839
-      shadowCharacter_146: -291289606
-      shadowCharacter_147: -1970013728
-      shadowCharacter_148: 2013415717
-      shadowCharacter_149: 657543714
-      shadowCharacter_15: 272685197
-      shadowCharacter_150: -357568691
-      shadowCharacter_151: -552371596
-      shadowCharacter_152: -816917916
-      shadowCharacter_153: -1132339185
-      shadowCharacter_154: -1943513284
-      shadowCharacter_155: 1280902449
-      shadowCharacter_156: -907688711
-      shadowCharacter_157: 2139473407
-      shadowCharacter_158: 1913927784
-      shadowCharacter_159: 414816890
-      shadowCharacter_16: -1141229660
-      shadowCharacter_160: 382531233
-      shadowCharacter_161: 403195102
-      shadowCharacter_162: -719304594
-      shadowCharacter_163: 38382496
-      shadowCharacter_164: 2006729024
-      shadowCharacter_165: -217543577
-      shadowCharacter_166: -309919453
-      shadowCharacter_167: -786281232
-      shadowCharacter_168: 1126275184
-      shadowCharacter_169: -80809427
-      shadowCharacter_17: 4546950
-      shadowCharacter_170: 111603632
-      shadowCharacter_171: -2008535394
-      shadowCharacter_172: -1160967911
-      shadowCharacter_173: 808310828
-      shadowCharacter_174: 1255604994
-      shadowCharacter_175: 575451792
-      shadowCharacter_176: 1384173568
-      shadowCharacter_177: 1547165934
-      shadowCharacter_18: -1132724197
-      shadowCharacter_19: -792638412
-      shadowCharacter_2: 192964929
-      shadowCharacter_20: 898419970
-      shadowCharacter_21: 1393332171
-      shadowCharacter_22: 577728339
-      shadowCharacter_23: 1424843082
-      shadowCharacter_24: -1056838237
-      shadowCharacter_25: -1240026078
-      shadowCharacter_26: 645459592
-      shadowCharacter_27: -1251007708
-      shadowCharacter_28: -546657404
-      shadowCharacter_29: 921890414
-      shadowCharacter_3: -1543629250
-      shadowCharacter_30: 602020251
-      shadowCharacter_31: 1817082317
-      shadowCharacter_32: -1007337980
-      shadowCharacter_33: 425564552
-      shadowCharacter_34: -1583424198
-      shadowCharacter_35: -399894449
-      shadowCharacter_36: -1628441333
-      shadowCharacter_37: 1222851422
-      shadowCharacter_38: -721659893
-      shadowCharacter_39: -1380797456
-      shadowCharacter_4: -667663000
-      shadowCharacter_40: 963644677
-      shadowCharacter_41: -2147065745
-      shadowCharacter_42: 387968652
-      shadowCharacter_43: 336946161
-      shadowCharacter_44: 1904163895
-      shadowCharacter_45: -2029068779
-      shadowCharacter_46: 701682608
-      shadowCharacter_47: -941629629
-      shadowCharacter_48: -1090942113
-      shadowCharacter_49: 50680795
-      shadowCharacter_5: 1134160295
-      shadowCharacter_50: -258069740
-      shadowCharacter_51: 653969888
-      shadowCharacter_52: -1540527127
-      shadowCharacter_53: 3108294
-      shadowCharacter_54: 596907399
-      shadowCharacter_55: 2110750810
-      shadowCharacter_56: 1942031070
-      shadowCharacter_57: -2091339343
-      shadowCharacter_58: 501965812
-      shadowCharacter_59: -1492522177
-      shadowCharacter_6: -133789951
-      shadowCharacter_60: 1533329552
-      shadowCharacter_61: -1407753552
-      shadowCharacter_62: 655552292
-      shadowCharacter_63: 511902888
-      shadowCharacter_64: -449200359
-      shadowCharacter_65: -1626600854
-      shadowCharacter_66: -1790997514
-      shadowCharacter_67: -1600446505
-      shadowCharacter_68: 461422143
-      shadowCharacter_69: -1207957839
-      shadowCharacter_7: 88631111
-      shadowCharacter_70: -1747638715
-      shadowCharacter_71: 378002247
-      shadowCharacter_72: -1462671779
-      shadowCharacter_73: -971804335
-      shadowCharacter_74: 1708526275
-      shadowCharacter_75: 623907377
-      shadowCharacter_76: -1420390008
-      shadowCharacter_77: -2041574002
-      shadowCharacter_78: 23400314
-      shadowCharacter_79: 981763261
-      shadowCharacter_8: 1193635759
-      shadowCharacter_80: 1633481148
-      shadowCharacter_81: 1019663306
-      shadowCharacter_82: 436252857
-      shadowCharacter_83: 207571873
-      shadowCharacter_84: -694067156
-      shadowCharacter_85: -990526276
-      shadowCharacter_86: -749495612
-      shadowCharacter_87: -1831298407
-      shadowCharacter_88: -1666901257
-      shadowCharacter_89: -615602947
-      shadowCharacter_9: 220088273
-      shadowCharacter_90: -1672604362
-      shadowCharacter_91: 1881018876
-      shadowCharacter_92: 898110480
-      shadowCharacter_93: 1454032026
-      shadowCharacter_94: -1463963932
-      shadowCharacter_95: 1005133562
-      shadowCharacter_96: 122918915
-      shadowCharacter_97: -1132109893
-      shadowCharacter_98: 57898452
-      shadowCharacter_99: -769670566
+      mysticNoWeapon_0: -186233943
+      mysticNoWeapon_1: 282242308
+      mysticNoWeapon_10: 1959277546
+      mysticNoWeapon_100: -1121400693
+      mysticNoWeapon_101: -603194609
+      mysticNoWeapon_102: 185606932
+      mysticNoWeapon_103: -1802945021
+      mysticNoWeapon_104: -2141591369
+      mysticNoWeapon_105: 710203094
+      mysticNoWeapon_106: 1184186966
+      mysticNoWeapon_107: -437717755
+      mysticNoWeapon_108: -997570147
+      mysticNoWeapon_109: -2102668155
+      mysticNoWeapon_11: -1047869695
+      mysticNoWeapon_110: -294604319
+      mysticNoWeapon_111: 844976197
+      mysticNoWeapon_112: 1543886679
+      mysticNoWeapon_113: -873820479
+      mysticNoWeapon_114: -1149447598
+      mysticNoWeapon_115: -456193253
+      mysticNoWeapon_116: 680949631
+      mysticNoWeapon_117: 1609312568
+      mysticNoWeapon_118: 1640118476
+      mysticNoWeapon_119: 1144396524
+      mysticNoWeapon_12: -795717704
+      mysticNoWeapon_120: -1134149432
+      mysticNoWeapon_121: 1681843528
+      mysticNoWeapon_122: -1526183414
+      mysticNoWeapon_123: 553404765
+      mysticNoWeapon_124: -1188468899
+      mysticNoWeapon_125: 1256166779
+      mysticNoWeapon_126: 663621494
+      mysticNoWeapon_127: 1103719827
+      mysticNoWeapon_128: 1579940243
+      mysticNoWeapon_129: -104253596
+      mysticNoWeapon_13: 1369094921
+      mysticNoWeapon_130: 1833064060
+      mysticNoWeapon_131: 1090598819
+      mysticNoWeapon_132: 2003315689
+      mysticNoWeapon_133: -1218079787
+      mysticNoWeapon_134: -1512668370
+      mysticNoWeapon_135: 703947772
+      mysticNoWeapon_136: -663827337
+      mysticNoWeapon_137: -1391597437
+      mysticNoWeapon_138: 890164368
+      mysticNoWeapon_139: 208151523
+      mysticNoWeapon_14: -1075180787
+      mysticNoWeapon_140: 1919022654
+      mysticNoWeapon_141: 893017511
+      mysticNoWeapon_142: 1868271207
+      mysticNoWeapon_143: 564545828
+      mysticNoWeapon_144: -235976979
+      mysticNoWeapon_145: -207100294
+      mysticNoWeapon_146: -1972932224
+      mysticNoWeapon_147: -1465666922
+      mysticNoWeapon_148: -1153001361
+      mysticNoWeapon_149: -2031188470
+      mysticNoWeapon_15: -1362255628
+      mysticNoWeapon_150: 814884755
+      mysticNoWeapon_151: 1179574221
+      mysticNoWeapon_152: 644186913
+      mysticNoWeapon_153: 1028615330
+      mysticNoWeapon_154: 2058991397
+      mysticNoWeapon_155: -864920372
+      mysticNoWeapon_156: 2076131744
+      mysticNoWeapon_157: 1936396034
+      mysticNoWeapon_158: -502155751
+      mysticNoWeapon_159: -1636703426
+      mysticNoWeapon_16: -184213800
+      mysticNoWeapon_160: -540185658
+      mysticNoWeapon_161: -919296535
+      mysticNoWeapon_162: -938055024
+      mysticNoWeapon_163: -961264281
+      mysticNoWeapon_164: 206498713
+      mysticNoWeapon_165: -576411195
+      mysticNoWeapon_166: 1567956591
+      mysticNoWeapon_167: 1259566671
+      mysticNoWeapon_168: -1096993174
+      mysticNoWeapon_169: -1043718125
+      mysticNoWeapon_17: -1053563251
+      mysticNoWeapon_170: 1892014843
+      mysticNoWeapon_171: -947087883
+      mysticNoWeapon_172: -1711301080
+      mysticNoWeapon_173: -1212875437
+      mysticNoWeapon_174: -586163010
+      mysticNoWeapon_175: 520937473
+      mysticNoWeapon_176: -1901975265
+      mysticNoWeapon_177: 1371536462
+      mysticNoWeapon_178: -1598373033
+      mysticNoWeapon_18: 149808914
+      mysticNoWeapon_19: -661492413
+      mysticNoWeapon_2: -1863968828
+      mysticNoWeapon_20: -330240000
+      mysticNoWeapon_21: -1011986669
+      mysticNoWeapon_22: 141745497
+      mysticNoWeapon_23: 970844478
+      mysticNoWeapon_24: -379517713
+      mysticNoWeapon_25: -2141272197
+      mysticNoWeapon_26: 752357219
+      mysticNoWeapon_27: -1250582570
+      mysticNoWeapon_28: 381205136
+      mysticNoWeapon_29: 1511615021
+      mysticNoWeapon_3: 2081827378
+      mysticNoWeapon_30: -710375510
+      mysticNoWeapon_31: 1902423384
+      mysticNoWeapon_32: 1871149621
+      mysticNoWeapon_33: 1473634207
+      mysticNoWeapon_34: 2139256530
+      mysticNoWeapon_35: -670912452
+      mysticNoWeapon_36: 1187315883
+      mysticNoWeapon_37: -1499109126
+      mysticNoWeapon_38: -615839677
+      mysticNoWeapon_39: -1584286677
+      mysticNoWeapon_4: 1424527359
+      mysticNoWeapon_40: -483937608
+      mysticNoWeapon_41: 1657600602
+      mysticNoWeapon_42: -806020520
+      mysticNoWeapon_43: 1209275268
+      mysticNoWeapon_44: -376956537
+      mysticNoWeapon_45: -2070000332
+      mysticNoWeapon_46: -1214633572
+      mysticNoWeapon_47: 747057580
+      mysticNoWeapon_48: -852945261
+      mysticNoWeapon_49: -2114762742
+      mysticNoWeapon_5: -788100360
+      mysticNoWeapon_50: 1679895919
+      mysticNoWeapon_51: 1459654593
+      mysticNoWeapon_52: -1627545279
+      mysticNoWeapon_53: 202863338
+      mysticNoWeapon_54: 1939504623
+      mysticNoWeapon_55: -1113973514
+      mysticNoWeapon_56: 1847192944
+      mysticNoWeapon_57: -573932449
+      mysticNoWeapon_58: 1706257748
+      mysticNoWeapon_59: 508107393
+      mysticNoWeapon_6: -1247204346
+      mysticNoWeapon_60: -1547558266
+      mysticNoWeapon_61: 2026064816
+      mysticNoWeapon_62: -1236753388
+      mysticNoWeapon_63: -996909996
+      mysticNoWeapon_64: -1668144434
+      mysticNoWeapon_65: 390913717
+      mysticNoWeapon_66: -320315768
+      mysticNoWeapon_67: 1943917669
+      mysticNoWeapon_68: 1906768834
+      mysticNoWeapon_69: -732510138
+      mysticNoWeapon_7: 797089384
+      mysticNoWeapon_70: 1946164587
+      mysticNoWeapon_71: 1335116557
+      mysticNoWeapon_72: -1826804045
+      mysticNoWeapon_73: 61131861
+      mysticNoWeapon_74: 1592083140
+      mysticNoWeapon_75: 1058343759
+      mysticNoWeapon_76: -489587431
+      mysticNoWeapon_77: 1880782079
+      mysticNoWeapon_78: -200836066
+      mysticNoWeapon_79: -653022796
+      mysticNoWeapon_8: 1629847758
+      mysticNoWeapon_80: -1192632921
+      mysticNoWeapon_81: 1103607066
+      mysticNoWeapon_82: -1928341698
+      mysticNoWeapon_83: 1345090126
+      mysticNoWeapon_84: 358530599
+      mysticNoWeapon_85: 1045435456
+      mysticNoWeapon_86: 242898670
+      mysticNoWeapon_87: -1706898543
+      mysticNoWeapon_88: -1896765772
+      mysticNoWeapon_89: 1403440353
+      mysticNoWeapon_9: 1180509354
+      mysticNoWeapon_90: -2033109386
+      mysticNoWeapon_91: 187432420
+      mysticNoWeapon_92: -2065988988
+      mysticNoWeapon_93: -1375111606
+      mysticNoWeapon_94: -77101720
+      mysticNoWeapon_95: -1341178529
+      mysticNoWeapon_96: -1281085740
+      mysticNoWeapon_97: 10800763
+      mysticNoWeapon_98: -315377378
+      mysticNoWeapon_99: -993471389
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

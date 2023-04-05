@@ -1,0 +1,1433 @@
+fileFormatVersion: 2
+guid: f4582ec93c4e61c42a59720ad99b6b9c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 832
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: elizabethNoWeapon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7509c9bb61ea7ed488151d00f116a530
+      internalID: -817930238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1d0de713806a64fb8d228726a75516
+      internalID: -766652108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc585452129e8db4dab72c0922fb04f4
+      internalID: 910597987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e50859c695b904383faf389dd14b6f
+      internalID: -1172439143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cba9f8fd921c6545b292b90de444737
+      internalID: -1789178309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1847430143c984a4cbc15415b8dae923
+      internalID: -1425819378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdf3b7c125982443a0c14e523bdd5f5
+      internalID: 1463028669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f2a0022ebec9a4893a0b7840fb1a87
+      internalID: -1494141178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150c121ba4d836b4280b59fd3eb39571
+      internalID: 1954163126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84958f7ef7b5e0a4fabcedd30dd1f4dc
+      internalID: 833712932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8b15d59d632aa4fb08b1adfd686120
+      internalID: -530517646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2342a4337d3b9764990de7e19b01d33c
+      internalID: 384830105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6138c35cbabd5e84c983974cc0c69942
+      internalID: 213769157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f0a172879f12445b704c49c1978a0e
+      internalID: 62126921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f763206a19373b749aeb200389df3990
+      internalID: 1017618223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4462e4c13bfac744dbb8d2a1f2c4c70a
+      internalID: 1215633857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba5c6a37978d4d46b8ec9f6a7b4cce7
+      internalID: 1696955729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1778f82d2c8f84e4e8f6197ebccbf4a5
+      internalID: 1544439442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd44f568c60cdff49bee124ceb206f0d
+      internalID: 1593510844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b2ae94535b44e4f9cd9f7baccf5204
+      internalID: 20020775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833cf50f266e83d42bb09fef8f288e27
+      internalID: 1253789496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8474fb5ab336d1c4ebbe0b48e04527de
+      internalID: -139985861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7a69aa3ca06214bbc5799de03e72a8
+      internalID: -913143625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5185d59306126a418b3c749c894257a
+      internalID: -1829002159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7286f2cfd9de19d4cbe3da451cf90352
+      internalID: -235771605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49eab53cbb674f74a9aaf6d9bd75c5e9
+      internalID: -2075408306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_27
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66290b3efcac4974ba6ae4bf6412ceda
+      internalID: -581526072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94821b7176b747145aeb04c9bd953f71
+      internalID: 1580728600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155197fbe5b8945458509229bcd0e228
+      internalID: 931843505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_71
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801041f729e1d6c4a946f82a70a374e7
+      internalID: 1417054735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_72
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cc6fd99d9a5e04da8d71e8987debba
+      internalID: 1489005379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_73
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f17c7acd1434d46889dd97892b3217
+      internalID: 1101111090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_74
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09960b4e678610b459b36f974d8ce20d
+      internalID: 569065323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_75
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603b7297fa807764e9f1051c45507e96
+      internalID: 632484867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d35f19d98f50cc419bc951aaab3ee11
+      internalID: 2039143043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_77
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582830c968ca5a34d86598b71920ea1d
+      internalID: 413239951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_78
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fad8ae2d6b40b2429c8f5d823b617aa
+      internalID: -1238442315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6100038f28195684d85b14f65168947b
+      internalID: -1773885064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c514daf7c26e44e4a95f3c08405a214c
+      internalID: -1054347434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_89
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bdf5cb0845ff240b4ecdbffcfc66b9
+      internalID: 1198161321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_90
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb4bcb3703e66142a1b88a060f7cf6d
+      internalID: -401759661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_91
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92724446e6e63d4faf874b7b8d7b2ed
+      internalID: -1227777656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_92
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26c5d3a1e3ded245b3c0be9da02dc45
+      internalID: -699933004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_93
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ca6fb05cd4bc749a2175e99c08970f
+      internalID: 1202153308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_94
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2489099504cd146b490d9003236ada
+      internalID: -2085980520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_95
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e58ede39a834d24785914d213c01e16
+      internalID: -1471242083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_96
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4e91335fff84b46b9ba49a5e8cc341
+      internalID: 1458118102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_179
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f484d9d49b3514f8ae544da5c88b7c
+      internalID: -451996690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_180
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64407d01413d85d41a2955cb28f4449b
+      internalID: -1828498731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_181
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8a9075992483b4f88e2b6b157552a3
+      internalID: -1989128708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_182
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c79b2aa1c001042b1111f9176269f6
+      internalID: 1620720911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_183
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cfdf76b554b2b46a97e5eda5f1021a
+      internalID: -1023693219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elizabethNoWeapon_184
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad463f99a69ff9a44835fd9fe7666ee4
+      internalID: -1114828398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      elizabethNoWeapon_0: -817930238
+      elizabethNoWeapon_1: -766652108
+      elizabethNoWeapon_10: 833712932
+      elizabethNoWeapon_100: 126689489
+      elizabethNoWeapon_101: -890682947
+      elizabethNoWeapon_102: 425409357
+      elizabethNoWeapon_103: -1201006505
+      elizabethNoWeapon_104: -785086514
+      elizabethNoWeapon_105: 535841446
+      elizabethNoWeapon_106: -479531700
+      elizabethNoWeapon_107: 716713252
+      elizabethNoWeapon_108: 1632594637
+      elizabethNoWeapon_109: 1302529722
+      elizabethNoWeapon_11: -530517646
+      elizabethNoWeapon_110: -550662750
+      elizabethNoWeapon_111: 327597258
+      elizabethNoWeapon_112: 1299190414
+      elizabethNoWeapon_113: 1062407842
+      elizabethNoWeapon_114: -1951356054
+      elizabethNoWeapon_115: 1914968132
+      elizabethNoWeapon_116: -1028991385
+      elizabethNoWeapon_117: 805760151
+      elizabethNoWeapon_118: -1802181935
+      elizabethNoWeapon_119: 1198889972
+      elizabethNoWeapon_12: 384830105
+      elizabethNoWeapon_120: 580800407
+      elizabethNoWeapon_121: 1508518610
+      elizabethNoWeapon_122: -250004097
+      elizabethNoWeapon_123: -538395022
+      elizabethNoWeapon_124: 1492692848
+      elizabethNoWeapon_125: -768531916
+      elizabethNoWeapon_126: -680510409
+      elizabethNoWeapon_127: -1886187771
+      elizabethNoWeapon_128: 40279923
+      elizabethNoWeapon_129: 529973894
+      elizabethNoWeapon_13: 213769157
+      elizabethNoWeapon_130: -80974055
+      elizabethNoWeapon_131: -878860644
+      elizabethNoWeapon_132: -1873881594
+      elizabethNoWeapon_133: 771465397
+      elizabethNoWeapon_134: -1555281064
+      elizabethNoWeapon_135: 1406141185
+      elizabethNoWeapon_136: -1758305988
+      elizabethNoWeapon_137: 1361477511
+      elizabethNoWeapon_138: 41115423
+      elizabethNoWeapon_139: 1834473435
+      elizabethNoWeapon_14: 62126921
+      elizabethNoWeapon_140: -1969118575
+      elizabethNoWeapon_141: 2041614470
+      elizabethNoWeapon_142: -235576514
+      elizabethNoWeapon_143: -1464682604
+      elizabethNoWeapon_144: 1239483611
+      elizabethNoWeapon_145: 359493021
+      elizabethNoWeapon_146: -735272256
+      elizabethNoWeapon_147: 1650063467
+      elizabethNoWeapon_148: -1549559868
+      elizabethNoWeapon_149: 359344458
+      elizabethNoWeapon_15: 1017618223
+      elizabethNoWeapon_150: -1175704478
+      elizabethNoWeapon_151: -603770244
+      elizabethNoWeapon_152: -56673334
+      elizabethNoWeapon_153: 2094500284
+      elizabethNoWeapon_154: -2024067661
+      elizabethNoWeapon_155: -355483603
+      elizabethNoWeapon_156: -729024359
+      elizabethNoWeapon_157: -781056896
+      elizabethNoWeapon_158: 451123167
+      elizabethNoWeapon_159: -1134286151
+      elizabethNoWeapon_16: 1215633857
+      elizabethNoWeapon_160: -822421921
+      elizabethNoWeapon_161: -857404281
+      elizabethNoWeapon_162: -801569906
+      elizabethNoWeapon_163: 1981016470
+      elizabethNoWeapon_164: 1445257400
+      elizabethNoWeapon_165: 1999387001
+      elizabethNoWeapon_166: 874460971
+      elizabethNoWeapon_167: 2033538306
+      elizabethNoWeapon_168: 1069659575
+      elizabethNoWeapon_169: 1404800315
+      elizabethNoWeapon_17: 1696955729
+      elizabethNoWeapon_170: -768989077
+      elizabethNoWeapon_171: -2066297173
+      elizabethNoWeapon_172: -293493166
+      elizabethNoWeapon_173: 1410937571
+      elizabethNoWeapon_174: 1031017074
+      elizabethNoWeapon_175: 1927746751
+      elizabethNoWeapon_176: 483066213
+      elizabethNoWeapon_177: 972000002
+      elizabethNoWeapon_178: 1330196458
+      elizabethNoWeapon_179: -451996690
+      elizabethNoWeapon_18: 1544439442
+      elizabethNoWeapon_180: -1828498731
+      elizabethNoWeapon_181: -1989128708
+      elizabethNoWeapon_182: 1620720911
+      elizabethNoWeapon_183: -1023693219
+      elizabethNoWeapon_184: -1114828398
+      elizabethNoWeapon_19: 1593510844
+      elizabethNoWeapon_2: 910597987
+      elizabethNoWeapon_20: 20020775
+      elizabethNoWeapon_21: 1253789496
+      elizabethNoWeapon_22: -139985861
+      elizabethNoWeapon_23: -913143625
+      elizabethNoWeapon_24: -1829002159
+      elizabethNoWeapon_25: -235771605
+      elizabethNoWeapon_26: -2075408306
+      elizabethNoWeapon_27: -581526072
+      elizabethNoWeapon_28: 1580728600
+      elizabethNoWeapon_29: -1268927336
+      elizabethNoWeapon_3: -1172439143
+      elizabethNoWeapon_30: -1127520363
+      elizabethNoWeapon_31: 109228267
+      elizabethNoWeapon_32: 1569573184
+      elizabethNoWeapon_33: 1536171635
+      elizabethNoWeapon_34: 1481745850
+      elizabethNoWeapon_35: -1208574229
+      elizabethNoWeapon_36: -1110546393
+      elizabethNoWeapon_37: 1601791564
+      elizabethNoWeapon_38: -609387533
+      elizabethNoWeapon_39: 2026161555
+      elizabethNoWeapon_4: -1789178309
+      elizabethNoWeapon_40: 175938646
+      elizabethNoWeapon_41: 1667963345
+      elizabethNoWeapon_42: 1509710321
+      elizabethNoWeapon_43: -1890649315
+      elizabethNoWeapon_44: 513418261
+      elizabethNoWeapon_45: 746507257
+      elizabethNoWeapon_46: -1552721272
+      elizabethNoWeapon_47: 357903675
+      elizabethNoWeapon_48: 424538284
+      elizabethNoWeapon_49: -1970933294
+      elizabethNoWeapon_5: -1425819378
+      elizabethNoWeapon_50: 1233316510
+      elizabethNoWeapon_51: -1470940308
+      elizabethNoWeapon_52: -1547163165
+      elizabethNoWeapon_53: -1183248057
+      elizabethNoWeapon_54: 1407986727
+      elizabethNoWeapon_55: -1670843996
+      elizabethNoWeapon_56: -1626954636
+      elizabethNoWeapon_57: -576879140
+      elizabethNoWeapon_58: 1381371032
+      elizabethNoWeapon_59: 1226013551
+      elizabethNoWeapon_6: 1463028669
+      elizabethNoWeapon_60: 226631257
+      elizabethNoWeapon_61: 675809116
+      elizabethNoWeapon_62: -1172895176
+      elizabethNoWeapon_63: -1805009237
+      elizabethNoWeapon_64: -1885547134
+      elizabethNoWeapon_65: 151202566
+      elizabethNoWeapon_66: 789668071
+      elizabethNoWeapon_67: -82979401
+      elizabethNoWeapon_68: -744955720
+      elizabethNoWeapon_69: -1507138592
+      elizabethNoWeapon_7: 442203652
+      elizabethNoWeapon_70: 931843505
+      elizabethNoWeapon_71: 1417054735
+      elizabethNoWeapon_72: 1489005379
+      elizabethNoWeapon_73: 1101111090
+      elizabethNoWeapon_74: 569065323
+      elizabethNoWeapon_75: 632484867
+      elizabethNoWeapon_76: 2039143043
+      elizabethNoWeapon_77: 413239951
+      elizabethNoWeapon_78: -1238442315
+      elizabethNoWeapon_79: -1773885064
+      elizabethNoWeapon_8: -1494141178
+      elizabethNoWeapon_80: 2103604901
+      elizabethNoWeapon_81: -249956870
+      elizabethNoWeapon_82: 1473012986
+      elizabethNoWeapon_83: 5999333
+      elizabethNoWeapon_84: -110108490
+      elizabethNoWeapon_85: -845190148
+      elizabethNoWeapon_86: 1861315210
+      elizabethNoWeapon_87: 849995474
+      elizabethNoWeapon_88: -1054347434
+      elizabethNoWeapon_89: 1198161321
+      elizabethNoWeapon_9: 1954163126
+      elizabethNoWeapon_90: -401759661
+      elizabethNoWeapon_91: -1227777656
+      elizabethNoWeapon_92: -699933004
+      elizabethNoWeapon_93: 1202153308
+      elizabethNoWeapon_94: -2085980520
+      elizabethNoWeapon_95: -1471242083
+      elizabethNoWeapon_96: 1458118102
+      elizabethNoWeapon_97: 926181775
+      elizabethNoWeapon_98: 1372401110
+      elizabethNoWeapon_99: -42088281
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
