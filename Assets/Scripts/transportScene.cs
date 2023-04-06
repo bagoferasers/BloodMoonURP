@@ -76,6 +76,7 @@ public class transportScene : MonoBehaviour
             PlayerPrefs.SetString( "SceneStart", "Village" );
         StartCoroutine( ChangeScene( PlayerPrefs.GetString( "SceneStart" ) ) );
         StartCoroutine( fadeMusic( ) );
+        PlayerPrefs.SetInt( "HasStartedGame", 1 );
     }
 
     public void resetPrefs( )
