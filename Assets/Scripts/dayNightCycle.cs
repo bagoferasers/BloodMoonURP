@@ -12,8 +12,8 @@ public class dayNightCycle : MonoBehaviour
 
     void Start()
     {
-        //DontDestroyOnLoad( this.gameObject );
-        Debug.Log( PlayerPrefs.GetFloat( "timeOfDay" ) );
+        DontDestroyOnLoad( this.gameObject );
+
         //if just starting game, set timeOfDay to morning
         if( PlayerPrefs.GetFloat( "timeOfDay" ) == 0f )
             PlayerPrefs.SetFloat( "timeOfDay", 0.4f );
@@ -23,6 +23,8 @@ public class dayNightCycle : MonoBehaviour
     void Update()
     {            
         checkForWaiting( );
+
+        checkForObjectsForNight( );
 
         //pass float to lights
         setLightsToTime( PlayerPrefs.GetFloat( "timeOfDay" ) );
@@ -37,7 +39,8 @@ public class dayNightCycle : MonoBehaviour
     private void setLightsToTime( float time )
     {
         GameObject[] globalLights = GameObject.FindGameObjectsWithTag( "GlobalLights" );
-        GameObject[] objectsForNight = GameObject.FindGameObjectsWithTag( "ObjectsForNight" );        
+                
+
         if( goBack == true )
         {
             time = PlayerPrefs.GetFloat( "timeOfDay" );
@@ -64,7 +67,6 @@ public class dayNightCycle : MonoBehaviour
     {
 
     }
-
     private void setSoundsToTime( float time )
     {
 
@@ -82,6 +84,26 @@ public class dayNightCycle : MonoBehaviour
             StartCoroutine( waitForDayNight( timeToWait, true ) );
             PlayerPrefs.SetFloat( "timeOfDay", 1f ); 
         }
+    }
+
+    private void checkForObjectsForNight( )
+    {
+        GameObject[] objectsForNight = GameObject.FindGameObjectsWithTag( "ObjectsForNight" );
+        if( PlayerPrefs.GetFloat( "timeOfDay") > 0.6f )
+        {
+            foreach( GameObject g in objectsForNight )
+            {
+                g.GetComponent< UnityEngine.Rendering.Universal.Light2D >( ).intensity = 0;
+            }       
+        }
+        else
+        {
+            foreach( GameObject g in objectsForNight )
+            {
+                g.GetComponent< UnityEngine.Rendering.Universal.Light2D >( ).intensity = 1;
+            }   
+        }
+        
     }
 
     IEnumerator waitForDayNight( float timeToWait, bool gb )
