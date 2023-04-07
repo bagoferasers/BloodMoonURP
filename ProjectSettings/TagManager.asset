@@ -11,6 +11,8 @@ TagManager:
   - HurtTileMap
   - Bed
   - cat
+  - GlobalLights
+  - ObjectsForNight
   layers:
   - Default
   - TransparentFX

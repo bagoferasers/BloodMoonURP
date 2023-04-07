@@ -26,7 +26,6 @@ public class Music : MonoBehaviour
     {
         masterSlider.value = PlayerPrefs.GetFloat( "MasterVolume" );
         systemSlider.value = PlayerPrefs.GetFloat( "SystemVolume" );
-        //musicSlider.value = PlayerPrefs.GetFloat( "MusicVolume" );
         effectsSlider.value = PlayerPrefs.GetFloat( "EffectsVolume" );
         random = Random.Range( 0f, 1f );
         howManySilent = 0.5f;
