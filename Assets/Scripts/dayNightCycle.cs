@@ -6,14 +6,16 @@ public class dayNightCycle : MonoBehaviour
 {
     private bool goBack = false;
     private float time;
+
     public float timeToWait;
+    public float valueToIncrementAndDecrement;
 
     void Start()
     {
         //DontDestroyOnLoad( this.gameObject );
-
+        Debug.Log( PlayerPrefs.GetFloat( "timeOfDay" ) );
         //if just starting game, set timeOfDay to morning
-        if( PlayerPrefs.GetFloat( "HasStartedGame" ) == 0f )
+        if( PlayerPrefs.GetFloat( "timeOfDay" ) == 0f )
             PlayerPrefs.SetFloat( "timeOfDay", 0.4f );
     }
 
@@ -39,7 +41,7 @@ public class dayNightCycle : MonoBehaviour
         if( goBack == true )
         {
             time = PlayerPrefs.GetFloat( "timeOfDay" );
-            time -= 0.001f * Time.deltaTime;
+            time -= valueToIncrementAndDecrement * Time.deltaTime;
             PlayerPrefs.SetFloat( "timeOfDay", time );
             foreach( GameObject g in globalLights )
             {
@@ -49,7 +51,7 @@ public class dayNightCycle : MonoBehaviour
         else if( goBack == false )
         {
             time = PlayerPrefs.GetFloat( "timeOfDay" );
-            time += 0.001f * Time.deltaTime;
+            time += valueToIncrementAndDecrement * Time.deltaTime;
             PlayerPrefs.SetFloat( "timeOfDay", time );
             foreach( GameObject g in globalLights )
             {
