@@ -26,14 +26,13 @@ public class dayNightCycle : MonoBehaviour
         {
             PlayerPrefs.SetFloat( "timeOfDay", 1f );
             StartCoroutine( waitForDayNight( timeToWait ) );
-            goBack = true;                  
         }
         else if( PlayerPrefs.GetFloat( "timeOfDay" ) < 0.2f )
         {
             PlayerPrefs.SetFloat( "timeOfDay", 0.2f );
             StartCoroutine( waitForDayNight( timeToWait ) );
-            goBack = false;                  
         }
+
         //pass float to lights
         setLightsToTime( PlayerPrefs.GetFloat( "timeOfDay" ) );
 
@@ -52,7 +51,7 @@ public class dayNightCycle : MonoBehaviour
         {
             Debug.Log( "goBack is true" );      
             time = PlayerPrefs.GetFloat( "timeOfDay" );
-            time -= 0.0001f;
+            time -= 0.1f * Time.deltaTime;
             PlayerPrefs.SetFloat( "timeOfDay", time );
             foreach( GameObject g in globalLights )
             {
@@ -63,7 +62,7 @@ public class dayNightCycle : MonoBehaviour
         {
             Debug.Log( "goBack is false" );                        
             time = PlayerPrefs.GetFloat( "timeOfDay" );
-            time += 0.0001f;
+            time += 0.1f * Time.deltaTime;
             PlayerPrefs.SetFloat( "timeOfDay", time );
             foreach( GameObject g in globalLights )
             {
@@ -85,5 +84,9 @@ public class dayNightCycle : MonoBehaviour
     IEnumerator waitForDayNight( float timeToWait )
     {
         yield return new WaitForSeconds( timeToWait );
+        if( PlayerPrefs.GetFloat( "timeOfDay" ) >= 1f )
+            goBack = true;                  
+        else if( PlayerPrefs.GetFloat( "timeOfDay" ) <= 0.2f )
+            goBack = false;                  
     }
 }
