@@ -19,19 +19,8 @@ public class dayNightCycle : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        //update float over time
-
-        if( PlayerPrefs.GetFloat( "timeOfDay" ) > 1f )
-        {
-            PlayerPrefs.SetFloat( "timeOfDay", 1f );
-            StartCoroutine( waitForDayNight( timeToWait ) );
-        }
-        else if( PlayerPrefs.GetFloat( "timeOfDay" ) < 0.2f )
-        {
-            PlayerPrefs.SetFloat( "timeOfDay", 0.2f );
-            StartCoroutine( waitForDayNight( timeToWait ) );
-        }
+    {            
+        checkForWaiting( );
 
         //pass float to lights
         setLightsToTime( PlayerPrefs.GetFloat( "timeOfDay" ) );
@@ -49,9 +38,8 @@ public class dayNightCycle : MonoBehaviour
         GameObject[] objectsForNight = GameObject.FindGameObjectsWithTag( "ObjectsForNight" );        
         if( goBack == true )
         {
-            Debug.Log( "goBack is true" );      
             time = PlayerPrefs.GetFloat( "timeOfDay" );
-            time -= 0.1f * Time.deltaTime;
+            time -= 0.001f * Time.deltaTime;
             PlayerPrefs.SetFloat( "timeOfDay", time );
             foreach( GameObject g in globalLights )
             {
@@ -60,9 +48,8 @@ public class dayNightCycle : MonoBehaviour
         }
         else if( goBack == false )
         {
-            Debug.Log( "goBack is false" );                        
             time = PlayerPrefs.GetFloat( "timeOfDay" );
-            time += 0.1f * Time.deltaTime;
+            time += 0.001f * Time.deltaTime;
             PlayerPrefs.SetFloat( "timeOfDay", time );
             foreach( GameObject g in globalLights )
             {
@@ -81,12 +68,23 @@ public class dayNightCycle : MonoBehaviour
 
     }
 
-    IEnumerator waitForDayNight( float timeToWait )
+    private void checkForWaiting( )
+    { 
+        if( PlayerPrefs.GetFloat( "timeOfDay" ) < 0.2f )
+        {
+            StartCoroutine( waitForDayNight( timeToWait, false ) );
+            PlayerPrefs.SetFloat( "timeOfDay", 0.2f ); 
+        }    
+        else if( PlayerPrefs.GetFloat( "timeOfDay" ) > 1f )
+        {
+            StartCoroutine( waitForDayNight( timeToWait, true ) );
+            PlayerPrefs.SetFloat( "timeOfDay", 1f ); 
+        }
+    }
+
+    IEnumerator waitForDayNight( float timeToWait, bool gb )
     {
-        yield return new WaitForSeconds( timeToWait );
-        if( PlayerPrefs.GetFloat( "timeOfDay" ) >= 1f )
-            goBack = true;                  
-        else if( PlayerPrefs.GetFloat( "timeOfDay" ) <= 0.2f )
-            goBack = false;                  
+        yield return new WaitForSeconds( timeToWait ); 
+        goBack = gb;
     }
 }
