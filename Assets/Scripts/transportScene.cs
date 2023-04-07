@@ -97,6 +97,10 @@ public class transportScene : MonoBehaviour
         PlayerPrefs.SetFloat( "SystemVolume", sysVol );
         PlayerPrefs.SetFloat( "EffectsVolume", effVol );
         PlayerPrefs.SetString( "SceneStart", "Village" );
+        PlayerPrefs.SetFloat( "MaxHealth", 20f );
+        PlayerPrefs.SetFloat( "MaxShield", 20f );
+        PlayerPrefs.SetFloat( "Health", 15f );
+        PlayerPrefs.SetFloat( "Shield", 15f );
 
         // cry
     }
