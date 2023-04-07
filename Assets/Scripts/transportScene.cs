@@ -72,6 +72,7 @@ public class transportScene : MonoBehaviour
     public void ChangeSceneFromMain( )
     {
         FadeThisOnePlease( );
+        PlayerPrefs.SetFloat( "timeOfDay", 0.4f );
         if( PlayerPrefs.GetString( "SceneStart" ) == "Main" )
             PlayerPrefs.SetString( "SceneStart", "Village" );
         StartCoroutine( ChangeScene( PlayerPrefs.GetString( "SceneStart" ) ) );

@@ -17,11 +17,9 @@ public class goToBed : MonoBehaviour
 
     public void sleep( )
     {
-        Debug.Log( "Sleeping" );
         shieldBar.value = PlayerPrefs.GetFloat( "MaxHealth" );
         healthBar.value = PlayerPrefs.GetFloat( "MaxShield" );
         float time = PlayerPrefs.GetFloat( "timeOfDay" );
-        Debug.Log( PlayerPrefs.GetFloat( "timeOfDay" ) );
         if( time < 0.7f && notPressed )
         {
             time += 0.3f;
@@ -38,6 +36,5 @@ public class goToBed : MonoBehaviour
             notPressed = false;
         }
         PlayerPrefs.SetFloat( "timeOfDay", time );
-        Debug.Log( PlayerPrefs.GetFloat( "timeOfDay" ) );
     }
 }

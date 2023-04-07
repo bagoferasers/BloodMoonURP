@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class dayNightCycle : MonoBehaviour
 {
-    private bool goBack = false;
+    private bool goBack = true;
     private float time;
 
     public float timeToWait;
@@ -13,10 +13,6 @@ public class dayNightCycle : MonoBehaviour
     void Start()
     {
         DontDestroyOnLoad( this.gameObject );
-
-        //if just starting game, set timeOfDay to morning
-        if( PlayerPrefs.GetFloat( "timeOfDay" ) == 0f )
-            PlayerPrefs.SetFloat( "timeOfDay", 0.4f );
     }
 
     // Update is called once per frame
