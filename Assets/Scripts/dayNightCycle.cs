@@ -6,6 +6,7 @@ public class dayNightCycle : MonoBehaviour
 {
     private bool goBack = true;
     private float time;
+    public static bool breakWait = false;
 
     public float timeToWait;
     public float valueToIncrementAndDecrement;
@@ -104,7 +105,22 @@ public class dayNightCycle : MonoBehaviour
 
     IEnumerator waitForDayNight( float timeToWait, bool gb )
     {
-        yield return new WaitForSeconds( timeToWait ); 
+        float time = 0f;
+        while ( time < timeToWait )
+        {
+            time += valueToIncrementAndDecrement * Time.deltaTime;
+            if( breakWait )
+            {
+                Debug.Log( "breakWait is true" );
+                breakWait = false;
+                goBack = gb;
+                setLightsToTime( PlayerPrefs.GetFloat( "timeOfDay" ) );
+                setObjectsToTime( PlayerPrefs.GetFloat( "timeOfDay" ) );
+                setSoundsToTime( PlayerPrefs.GetFloat( "timeOfDay" ) );
+                yield break;
+            }
+            yield return null;
+        }
         goBack = gb;
     }
 }

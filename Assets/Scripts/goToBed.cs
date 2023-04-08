@@ -20,21 +20,30 @@ public class goToBed : MonoBehaviour
         shieldBar.value = PlayerPrefs.GetFloat( "MaxHealth" );
         healthBar.value = PlayerPrefs.GetFloat( "MaxShield" );
         float time = PlayerPrefs.GetFloat( "timeOfDay" );
+
         if( time < 0.7f && notPressed )
         {
+            Debug.Log( "Time < 0.7f" );
             time += 0.3f;
             notPressed = false;
+            PlayerPrefs.SetFloat( "timeOfDay", time );
+            Debug.Log( PlayerPrefs.GetFloat( "timeOfDay" ) );
+            dayNightCycle.breakWait = true;
         }
             
-        else if( time > 0.7f && notPressed )
+        else if( time > 0.7f && notPressed ) // not working
         {
+            Debug.Log( "Time > 0.7f" );
             float difference = 0;
             float waitTime = 0.3f;
             float remaining = 1f - time;
             remaining -= waitTime;
             time = 0.2f + remaining;
             notPressed = false;
+            PlayerPrefs.SetFloat( "timeOfDay", time );
+            Debug.Log( PlayerPrefs.GetFloat( "timeOfDay" ) );
+            dayNightCycle.breakWait = true;
         }
-        PlayerPrefs.SetFloat( "timeOfDay", time );
+
     }
 }
