@@ -56,7 +56,6 @@ public class HealthShield : MonoBehaviour
         shieldMaxText.text = pm.healthBar.maxValue.ToString( );
         healthMaxText.text = pm.shieldBar.maxValue.ToString( );
         PlayerPrefs.SetFloat( "MaxHealth", pm.healthBar.maxValue );
-        Debug.Log( PlayerPrefs.GetFloat( "MaxHealth" ) );
         PlayerPrefs.SetFloat( "MaxShield", pm.shieldBar.maxValue );
         PlayerPrefs.SetFloat( "Health", pm.healthBar.value );
         PlayerPrefs.SetFloat( "Shield", pm.shieldBar.value );

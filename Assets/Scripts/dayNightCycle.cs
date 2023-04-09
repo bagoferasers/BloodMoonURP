@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class dayNightCycle : MonoBehaviour
 {
-    private bool goBack = true;
+    public static bool goBack = true;
     private float time;
     public static bool breakWait = false;
 
@@ -19,10 +19,6 @@ public class dayNightCycle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {            
-        checkForWaiting( );
-
-        checkForObjectsForNight( );
-
         //pass float to lights
         setLightsToTime( PlayerPrefs.GetFloat( "timeOfDay" ) );
 
@@ -31,6 +27,10 @@ public class dayNightCycle : MonoBehaviour
 
         //pass float to sounds changing
         setSoundsToTime( PlayerPrefs.GetFloat( "timeOfDay" ) );
+
+        checkForObjectsForNight( );
+        
+        checkForWaiting( );
     }
 
     private void setLightsToTime( float time )
@@ -108,7 +108,7 @@ public class dayNightCycle : MonoBehaviour
         float time = 0f;
         while ( time < timeToWait )
         {
-            time += valueToIncrementAndDecrement * Time.deltaTime;
+            time += valueToIncrementAndDecrement * Time.fixedDeltaTime;
             if( breakWait )
             {
                 Debug.Log( "breakWait is true" );
