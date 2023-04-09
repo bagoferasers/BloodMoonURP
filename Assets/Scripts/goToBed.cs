@@ -62,4 +62,15 @@ public class goToBed : MonoBehaviour
             dayNightCycle.goBack = false;
         }
     }
+
+    void Update( ) 
+    {
+        if( PlayerPrefs.GetFloat( "timeOfDay" ) < 0.3f )
+        {
+            Debug.Log( "timeOfDay < 0.3f");
+            float sleepy = PlayerPrefs.GetFloat( "Health" );
+            sleepy -= 0.001f * Time.deltaTime;
+            PlayerPrefs.SetFloat( "Health", sleepy );
+        }
+    }
 }

@@ -119,6 +119,7 @@ public class dayNightCycle : MonoBehaviour
                 setSoundsToTime( PlayerPrefs.GetFloat( "timeOfDay" ) );
                 yield break;
             }
+
             yield return null;
         }
         goBack = gb;
