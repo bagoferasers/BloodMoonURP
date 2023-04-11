@@ -1,14 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class dayNightCycle : MonoBehaviour
 {
     public static bool goBack = true;
     private float time;
     public static bool breakWait = false;
-
     public float timeToWait;
+    private Slider healthBar;
     public float valueToIncrementAndDecrement;
 
     void Start()
@@ -19,6 +20,12 @@ public class dayNightCycle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {            
+        if( PlayerPrefs.GetFloat( "timeOfDay" ) < 0.3f )
+        {
+            Debug.Log( "timeOfDay < 0.3f");
+            StartCoroutine( sleepOrDie( ) );
+        }
+
         //pass float to lights
         setLightsToTime( PlayerPrefs.GetFloat( "timeOfDay" ) );
 
@@ -31,6 +38,12 @@ public class dayNightCycle : MonoBehaviour
         checkForObjectsForNight( );
         
         checkForWaiting( );
+    }
+
+    IEnumerator sleepOrDie( )
+    {
+        GameObject.Find( "HealthBar" ).GetComponent< Slider >( ).value -= 0.00001f;
+        yield return null;
     }
 
     private void setLightsToTime( float time )
