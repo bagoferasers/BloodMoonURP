@@ -64,5 +64,6 @@ public class goToBed : MonoBehaviour
             dayNightCycle.goBack = false;
             PlayerPrefs.SetInt( "HaveSlept", 1 );
         }
+        Debug.Log( PlayerPrefs.GetInt( "HaveSlept" ) );
     }
 }

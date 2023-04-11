@@ -29,11 +29,10 @@ public class HealthShield : MonoBehaviour
             shieldMaxText.text = PlayerPrefs.GetFloat( "MaxShield" ).ToString( );
             pm.shieldBar.value = PlayerPrefs.GetFloat( "Shield" );
             shieldText.text = PlayerPrefs.GetFloat( "Shield" ).ToString( );
-            
-            PlayerPrefs.SetInt( "HaveSlept", 0 );
         }
         else
         {       
+            PlayerPrefs.SetInt( "HaveSlept", 0 );
             float maxH = 20f;
             float maxS = 20f;
             pm.healthBar.maxValue = 20f;

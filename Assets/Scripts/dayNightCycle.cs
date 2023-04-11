@@ -38,7 +38,7 @@ public class dayNightCycle : MonoBehaviour
 
     IEnumerator sleepOrDie( )
     {
-        GameObject.Find( "HealthBar" ).GetComponent< Slider >( ).value -= 0.00001f;
+        GameObject.Find( "HealthBar" ).GetComponent< Slider >( ).value -= 0.0001f;
         yield return null;
     }
 
