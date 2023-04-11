@@ -102,6 +102,7 @@ public class transportScene : MonoBehaviour
         PlayerPrefs.SetFloat( "Health", 15f );
         PlayerPrefs.SetFloat( "Shield", 15f );
         PlayerPrefs.SetFloat( "timeOfDay", 0.3f );
+        PlayerPrefs.SetFloat( "DayCanvas", 0.3f );
 
         // cry
     }

@@ -31,6 +31,7 @@ public class goToBed : MonoBehaviour
             dayNightCycle.breakWait = true;
             dayNightCycle.goBack = true;
             PlayerPrefs.SetInt( "HaveSlept", 1 );
+            PlayerPrefs.SetFloat( "DayCanvas", time );
         }
         else if( time > 0.6f && notPressed && dayNightCycle.goBack == true )
         {
@@ -42,6 +43,7 @@ public class goToBed : MonoBehaviour
             dayNightCycle.breakWait = true;
             dayNightCycle.goBack = false;
             PlayerPrefs.SetInt( "HaveSlept", 1 );
+            PlayerPrefs.SetFloat( "DayCanvas", time );
         }
         else if( time > 0.1f && notPressed && dayNightCycle.goBack == false )
         {
@@ -52,6 +54,7 @@ public class goToBed : MonoBehaviour
             Debug.Log( PlayerPrefs.GetFloat( "timeOfDay" ) );
             dayNightCycle.breakWait = true;
             PlayerPrefs.SetInt( "HaveSlept", 1 );
+            PlayerPrefs.SetFloat( "DayCanvas", time );
         }
         else if( time > 0.1f && notPressed && dayNightCycle.goBack == true )
         {
@@ -63,6 +66,7 @@ public class goToBed : MonoBehaviour
             dayNightCycle.breakWait = true;
             dayNightCycle.goBack = false;
             PlayerPrefs.SetInt( "HaveSlept", 1 );
+            PlayerPrefs.SetFloat( "DayCanvas", time );
         }
         Debug.Log( PlayerPrefs.GetInt( "HaveSlept" ) );
     }

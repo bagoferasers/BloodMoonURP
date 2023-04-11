@@ -10,15 +10,21 @@ public class dayNightCycle : MonoBehaviour
     public static bool breakWait = false;
     public float timeToWait;
     public float valueToIncrementAndDecrement;
+    private Color color;
 
     void Start()
     {
         DontDestroyOnLoad( this.gameObject );
+        if( GameObject.Find( "DayCanvas" ) != null )
+            GameObject.Find( "DayCanvas" ).GetComponent< CanvasGroup >( ).alpha = PlayerPrefs.GetFloat( "DayCanvas" );            
     }
 
     // Update is called once per frame
     void Update()
     {            
+        if( GameObject.Find( "DayCanvas" ) != null )
+            GameObject.Find( "DayCanvas" ).GetComponent< CanvasGroup >( ).alpha = PlayerPrefs.GetFloat( "DayCanvas" );            
+            
         if( PlayerPrefs.GetFloat( "timeOfDay" ) < 0.3f && PlayerPrefs.GetInt( "HaveSlept" ) == 0 && GameObject.Find( "HealthBar" ) != null )
             StartCoroutine( sleepOrDie( ) );
 
@@ -51,6 +57,14 @@ public class dayNightCycle : MonoBehaviour
         {
             time = PlayerPrefs.GetFloat( "timeOfDay" );
             time -= valueToIncrementAndDecrement * Time.deltaTime;
+            if( GameObject.Find( "DayCanvas" ) != null )
+            {
+                if( GameObject.Find( "DayCanvas" ).GetComponent< CanvasGroup >( ).alpha > 0 )
+                {
+                    GameObject.Find( "DayCanvas" ).GetComponent< CanvasGroup >( ).alpha -= valueToIncrementAndDecrement * Time.fixedDeltaTime;            
+                    PlayerPrefs.SetFloat( "DayCanvas", GameObject.Find( "DayCanvas" ).GetComponent< CanvasGroup >( ).alpha );
+                }
+            }
             PlayerPrefs.SetFloat( "timeOfDay", time );
             foreach( GameObject g in globalLights )
             {
@@ -61,6 +75,14 @@ public class dayNightCycle : MonoBehaviour
         {
             time = PlayerPrefs.GetFloat( "timeOfDay" );
             time += valueToIncrementAndDecrement * Time.deltaTime;
+            if( GameObject.Find( "DayCanvas" ) != null )
+            {
+                if( GameObject.Find( "DayCanvas" ).GetComponent< CanvasGroup >( ).alpha < 1 )
+                {
+                    GameObject.Find( "DayCanvas" ).GetComponent< CanvasGroup >( ).alpha += valueToIncrementAndDecrement * Time.fixedDeltaTime;            
+                    PlayerPrefs.SetFloat( "DayCanvas", GameObject.Find( "DayCanvas" ).GetComponent< CanvasGroup >( ).alpha );
+                }
+            }
             PlayerPrefs.SetFloat( "timeOfDay", time );
             foreach( GameObject g in globalLights )
             {
