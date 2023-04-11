@@ -1,26 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class dayNightCycle : MonoBehaviour
 {
-    private bool goBack = true;
+    public static bool goBack = true;
     private float time;
-
+    public static bool breakWait = false;
     public float timeToWait;
     public float valueToIncrementAndDecrement;
+    private Color color;
 
     void Start()
     {
         DontDestroyOnLoad( this.gameObject );
+        if( GameObject.Find( "DayCanvas" ) != null )
+            GameObject.Find( "DayCanvas" ).GetComponent< CanvasGroup >( ).alpha = PlayerPrefs.GetFloat( "DayCanvas" );            
     }
 
     // Update is called once per frame
     void Update()
     {            
-        checkForWaiting( );
-
-        checkForObjectsForNight( );
+        if( GameObject.Find( "DayCanvas" ) != null )
+            GameObject.Find( "DayCanvas" ).GetComponent< CanvasGroup >( ).alpha = PlayerPrefs.GetFloat( "DayCanvas" );            
+            
+        if( PlayerPrefs.GetFloat( "timeOfDay" ) < 0.3f && PlayerPrefs.GetInt( "HaveSlept" ) == 0 && GameObject.Find( "HealthBar" ) != null )
+            StartCoroutine( sleepOrDie( ) );
 
         //pass float to lights
         setLightsToTime( PlayerPrefs.GetFloat( "timeOfDay" ) );
@@ -30,6 +36,16 @@ public class dayNightCycle : MonoBehaviour
 
         //pass float to sounds changing
         setSoundsToTime( PlayerPrefs.GetFloat( "timeOfDay" ) );
+
+        checkForObjectsForNight( );
+        
+        checkForWaiting( );
+    }
+
+    IEnumerator sleepOrDie( )
+    {
+        GameObject.Find( "HealthBar" ).GetComponent< Slider >( ).value -= 0.0001f;
+        yield return null;
     }
 
     private void setLightsToTime( float time )
@@ -41,6 +57,14 @@ public class dayNightCycle : MonoBehaviour
         {
             time = PlayerPrefs.GetFloat( "timeOfDay" );
             time -= valueToIncrementAndDecrement * Time.deltaTime;
+            if( GameObject.Find( "DayCanvas" ) != null )
+            {
+                if( GameObject.Find( "DayCanvas" ).GetComponent< CanvasGroup >( ).alpha > 0 )
+                {
+                    GameObject.Find( "DayCanvas" ).GetComponent< CanvasGroup >( ).alpha -= valueToIncrementAndDecrement * Time.fixedDeltaTime;            
+                    PlayerPrefs.SetFloat( "DayCanvas", GameObject.Find( "DayCanvas" ).GetComponent< CanvasGroup >( ).alpha );
+                }
+            }
             PlayerPrefs.SetFloat( "timeOfDay", time );
             foreach( GameObject g in globalLights )
             {
@@ -51,6 +75,14 @@ public class dayNightCycle : MonoBehaviour
         {
             time = PlayerPrefs.GetFloat( "timeOfDay" );
             time += valueToIncrementAndDecrement * Time.deltaTime;
+            if( GameObject.Find( "DayCanvas" ) != null )
+            {
+                if( GameObject.Find( "DayCanvas" ).GetComponent< CanvasGroup >( ).alpha < 1 )
+                {
+                    GameObject.Find( "DayCanvas" ).GetComponent< CanvasGroup >( ).alpha += valueToIncrementAndDecrement * Time.fixedDeltaTime;            
+                    PlayerPrefs.SetFloat( "DayCanvas", GameObject.Find( "DayCanvas" ).GetComponent< CanvasGroup >( ).alpha );
+                }
+            }
             PlayerPrefs.SetFloat( "timeOfDay", time );
             foreach( GameObject g in globalLights )
             {
@@ -74,6 +106,7 @@ public class dayNightCycle : MonoBehaviour
         {
             StartCoroutine( waitForDayNight( timeToWait, false ) );
             PlayerPrefs.SetFloat( "timeOfDay", 0.2f ); 
+            PlayerPrefs.SetInt( "HaveSlept", 0 );
         }    
         else if( PlayerPrefs.GetFloat( "timeOfDay" ) > 1f )
         {
@@ -104,7 +137,23 @@ public class dayNightCycle : MonoBehaviour
 
     IEnumerator waitForDayNight( float timeToWait, bool gb )
     {
-        yield return new WaitForSeconds( timeToWait ); 
+        float time = 0f;
+        while ( time < timeToWait )
+        {
+            time += valueToIncrementAndDecrement * Time.fixedDeltaTime;
+            if( breakWait )
+            {
+                Debug.Log( "breakWait is true" );
+                breakWait = false;
+                goBack = gb;
+                setLightsToTime( PlayerPrefs.GetFloat( "timeOfDay" ) );
+                setObjectsToTime( PlayerPrefs.GetFloat( "timeOfDay" ) );
+                setSoundsToTime( PlayerPrefs.GetFloat( "timeOfDay" ) );
+                yield break;
+            }
+
+            yield return null;
+        }
         goBack = gb;
     }
 }

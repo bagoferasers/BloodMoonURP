@@ -32,6 +32,7 @@ public class HealthShield : MonoBehaviour
         }
         else
         {       
+            PlayerPrefs.SetInt( "HaveSlept", 0 );
             float maxH = 20f;
             float maxS = 20f;
             pm.healthBar.maxValue = 20f;
@@ -56,7 +57,6 @@ public class HealthShield : MonoBehaviour
         shieldMaxText.text = pm.healthBar.maxValue.ToString( );
         healthMaxText.text = pm.shieldBar.maxValue.ToString( );
         PlayerPrefs.SetFloat( "MaxHealth", pm.healthBar.maxValue );
-        Debug.Log( PlayerPrefs.GetFloat( "MaxHealth" ) );
         PlayerPrefs.SetFloat( "MaxShield", pm.shieldBar.maxValue );
         PlayerPrefs.SetFloat( "Health", pm.healthBar.value );
         PlayerPrefs.SetFloat( "Shield", pm.shieldBar.value );
