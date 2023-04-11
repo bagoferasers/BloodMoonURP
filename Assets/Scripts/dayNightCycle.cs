@@ -9,7 +9,6 @@ public class dayNightCycle : MonoBehaviour
     private float time;
     public static bool breakWait = false;
     public float timeToWait;
-    private Slider healthBar;
     public float valueToIncrementAndDecrement;
 
     void Start()
@@ -20,11 +19,8 @@ public class dayNightCycle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {            
-        if( PlayerPrefs.GetFloat( "timeOfDay" ) < 0.3f )
-        {
-            Debug.Log( "timeOfDay < 0.3f");
+        if( PlayerPrefs.GetFloat( "timeOfDay" ) < 0.3f && PlayerPrefs.GetInt( "HaveSlept" ) == 0 && GameObject.Find( "HealthBar" ) != null )
             StartCoroutine( sleepOrDie( ) );
-        }
 
         //pass float to lights
         setLightsToTime( PlayerPrefs.GetFloat( "timeOfDay" ) );
@@ -88,6 +84,7 @@ public class dayNightCycle : MonoBehaviour
         {
             StartCoroutine( waitForDayNight( timeToWait, false ) );
             PlayerPrefs.SetFloat( "timeOfDay", 0.2f ); 
+            PlayerPrefs.SetInt( "HaveSlept", 0 );
         }    
         else if( PlayerPrefs.GetFloat( "timeOfDay" ) > 1f )
         {

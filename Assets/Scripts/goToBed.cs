@@ -21,45 +21,48 @@ public class goToBed : MonoBehaviour
         healthBar.value = PlayerPrefs.GetFloat( "MaxShield" );
         float time = PlayerPrefs.GetFloat( "timeOfDay" );
 
-        if( time > 0.7f && notPressed && dayNightCycle.goBack == false )
+        if( time > 0.6f && notPressed && dayNightCycle.goBack == false )
         {
-            Debug.Log( "time > 0.5f && notPressed && dayNightCycle.goBack == false" );
-            time = 0.8f;
+            Debug.Log( "time > 0.6f && notPressed && dayNightCycle.goBack == false" );
+            time = 0.9f;
             notPressed = false;
             PlayerPrefs.SetFloat( "timeOfDay", time );
             Debug.Log( PlayerPrefs.GetFloat( "timeOfDay" ) );
             dayNightCycle.breakWait = true;
             dayNightCycle.goBack = true;
+            PlayerPrefs.SetInt( "HaveSlept", 1 );
         }
-        else if( time > 0.2f && notPressed && dayNightCycle.goBack == false )
+        else if( time > 0.6f && notPressed && dayNightCycle.goBack == true )
         {
-            Debug.Log( "time > 0.2f && notPressed && dayNightCycle.goBack == false" );
-            time = 0.7f;
+            Debug.Log( "time > 0.6f && notPressed && dayNightCycle.goBack == true" );
+            time = 0.3f;
             notPressed = false;
             PlayerPrefs.SetFloat( "timeOfDay", time );
             Debug.Log( PlayerPrefs.GetFloat( "timeOfDay" ) );
             dayNightCycle.breakWait = true;
             dayNightCycle.goBack = false;
+            PlayerPrefs.SetInt( "HaveSlept", 1 );
         }
-        else if( time > 0.7f && notPressed && dayNightCycle.goBack == true )
+        else if( time > 0.1f && notPressed && dayNightCycle.goBack == false )
         {
-            Debug.Log( "time > 0.7f && notPressed && dayNightCycle.goBack == true" );
-            time = 0.2f;
+            Debug.Log( "time > 0.1f && notPressed && dayNightCycle.goBack == false" );
+            time = 0.6f;
+            notPressed = false;
+            PlayerPrefs.SetFloat( "timeOfDay", time );
+            Debug.Log( PlayerPrefs.GetFloat( "timeOfDay" ) );
+            dayNightCycle.breakWait = true;
+            PlayerPrefs.SetInt( "HaveSlept", 1 );
+        }
+        else if( time > 0.1f && notPressed && dayNightCycle.goBack == true )
+        {
+            Debug.Log( "time > 0.1f && notPressed && dayNightCycle.goBack == true" );
+            time = 0.6f;
             notPressed = false;
             PlayerPrefs.SetFloat( "timeOfDay", time );
             Debug.Log( PlayerPrefs.GetFloat( "timeOfDay" ) );
             dayNightCycle.breakWait = true;
             dayNightCycle.goBack = false;
-        }
-        else if( time > 0.2f && notPressed && dayNightCycle.goBack == true )
-        {
-            Debug.Log( "time > 0.2f && notPressed && dayNightCycle.goBack == true" );
-            time = 0.4f;
-            notPressed = false;
-            PlayerPrefs.SetFloat( "timeOfDay", time );
-            Debug.Log( PlayerPrefs.GetFloat( "timeOfDay" ) );
-            dayNightCycle.breakWait = true;
-            dayNightCycle.goBack = false;
+            PlayerPrefs.SetInt( "HaveSlept", 1 );
         }
     }
 }
