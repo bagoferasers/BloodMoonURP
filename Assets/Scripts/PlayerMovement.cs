@@ -13,7 +13,6 @@ public class PlayerMovement : MonoBehaviour
     [ Header( "Movement" ) ]
     public float jumpForce;
     public float speed;
-    public float increasedSpeed;
 
     [ Header( "Walk Audio: " ) ]
     public AudioSource walk;
@@ -32,8 +31,7 @@ public class PlayerMovement : MonoBehaviour
     private bool walkBool;
     [ Header( "Put Music script here:")]
     public Music music;
-    //[ Header( "Put catSounds script here:")]
-    //public catSounds catSounds;
+
     private bool isTouching;
 
     [ Header( "HurtboxValues" ) ]
@@ -57,7 +55,6 @@ public class PlayerMovement : MonoBehaviour
         }
         isTouching = false;
         runBool = false;
-        walkBool = false;
         rb2d = GetComponent<Rigidbody2D>( );
         moveLeft = false;
         moveRight = false;
@@ -65,9 +62,6 @@ public class PlayerMovement : MonoBehaviour
         animator = GetComponent< Animator >( );
         buttonPressedLeft = 0;
         buttonPressedRight = 0;
-        timeBetweenTapsLeft = 0f;
-        timeBetweenTapsRight = 0f;
-        originalSpeed = speed;
         oButton = GameObject.Find( "oButton" ).GetComponent< Button >( );
         pauseButton = GameObject.Find( "PauseBlackButton" ).GetComponent< Button >( );
         leftButton = GameObject.Find( "LeftBlackButton" ).GetComponent< Button >( );
@@ -96,58 +90,21 @@ public class PlayerMovement : MonoBehaviour
         // handle double tap movement to start running... need to find a way to integrate this with
         // a new character animation
 
-        if( walkBool && !walk.isPlaying )
+        if( runBool && !run.isPlaying )
         {
-            run.Stop( );
-            walk.Play( );
-        }
-        else if( runBool && !run.isPlaying )
-        {
-            walk.Stop( );
             run.Play( );
         }
-        else if( !walkBool && !runBool )
+        else if( !runBool )
         {
-            walk.Stop( );
             run.Stop( );
         }
-        // double tap for left
-        if( !arePaused && ( moveLeft ) )
-        {
-            if( buttonPressedLeft == 2 && timeBetweenTapsLeft < 0.4f )
-            {
-                speed = increasedSpeed;
-                animator.SetBool( "run", true );
-            }
-        }
-        else if( !arePaused && ( moveRight ) )
-        {
-            if( buttonPressedRight == 2 && timeBetweenTapsRight < 0.4f )
-            {
-                speed = increasedSpeed;
-                animator.SetBool( "run", true );
-            }
-        }
 
-        // if button down
-        if( buttonPressedLeft != 0 )
-            timeBetweenTapsLeft += Time.deltaTime;
-
-        if( buttonPressedRight != 0 )
-            timeBetweenTapsRight += Time.deltaTime;
-
-        if( timeBetweenTapsLeft > 0.4f && moveLeft != true  )
+        if( moveLeft != true  )
         {
-            speed = originalSpeed;
-            buttonPressedLeft = 0;
-            timeBetweenTapsLeft = 0f;
             animator.SetBool( "run", false );
         }
-        if( timeBetweenTapsRight > 0.4f && moveRight != true  )
+        else if( moveRight != true  )
         {
-            speed = originalSpeed;
-            buttonPressedRight = 0;
-            timeBetweenTapsRight = 0f;
             animator.SetBool( "run", false );
         }
         ///////////////////////////////////////////////////////////////////////////////////////////
@@ -158,39 +115,20 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool( "right", true );
             animator.SetBool( "left", false ); 
-            if( speed == originalSpeed )
-            {
-                walkBool = true;
-                runBool = false;
-            }
-            else if( speed == increasedSpeed )
-            {
-                runBool = true;
-                walkBool = false;
-            }
+            runBool = true;
             rb2d.velocity = new Vector2( 1 * speed * Time.deltaTime, rb2d.velocity.y);
         }
         else if( !arePaused && moveLeft )
         {
             animator.SetBool( "left", true );
             animator.SetBool( "right", false );
-            if( speed == originalSpeed )
-            {
-                walkBool = true;
-                runBool = false;
-            }
-            else if( speed == increasedSpeed )
-            {
-                runBool = true;
-                walkBool = false;
-            }
+            runBool = true;
             rb2d.velocity = new Vector2( -1 * speed * Time.deltaTime, rb2d.velocity.y);
         }
         else
         {
             animator.SetBool( "left", false ); 
             animator.SetBool( "right", false ); 
-            walkBool = false;
             runBool = false;
         }
     }
@@ -205,16 +143,6 @@ public class PlayerMovement : MonoBehaviour
     {
         moveLeft = true;
         animator.SetInteger( "motionX", -1 );
-    }
-
-    public void buttonClickLeft( )
-    {
-        buttonPressedLeft += 1;
-    }
-
-    public void buttonClickRight( )
-    {
-        buttonPressedRight += 1;
     }
 
     public void attack( )
@@ -242,11 +170,6 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    //public void pet( )
-    //{
-        //catSounds.isPetting = true;
-    //}
-
     private void OnCollisionEnter2D( Collision2D other ) 
     {
         if( other.gameObject.CompareTag( "TileMap" ) )
@@ -273,7 +196,6 @@ public class PlayerMovement : MonoBehaviour
         moveLeft = false;
         moveRight = false;
         rb2d.velocity = Vector2.zero;
-        speed = originalSpeed;
         animator.SetInteger( "motionX", 0 );
     }
 
