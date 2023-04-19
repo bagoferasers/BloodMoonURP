@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c76f84c6b13b04845ba099b92519c74e
+guid: 991d3bc8418af21429df6f1c1bfaff81
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 42
+  spritePixelsToUnits: 832
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,3776 +113,4205 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_0
+      name: mainAttackLeft_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1280
+        x: 49
+        y: 2048
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a2a853591f82c049a728480b0d6312b
-      internalID: 393027249
+      spriteID: add9626815e46a8499fba5cf29c1f9dc
+      internalID: 969110260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_1
+      name: mainAttackLeft_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 1280
+        x: 113
+        y: 2048
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe19def6f628fbc41a58d8b92a878318
-      internalID: 706203899
+      spriteID: 8fc806c0db1beed4f9534b516637b0d4
+      internalID: -1300781184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_2
+      name: mainAttackLeft_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 1280
+        x: 177
+        y: 2048
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 993639a8001dc9f40a761adf38e54359
-      internalID: -1423968722
+      spriteID: 6928bca70dbe59a4f8dfa29905838955
+      internalID: -1724214283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_3
+      name: mainAttackLeft_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 1280
+        x: 241
+        y: 2048
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cff7e6507035854882029ab76e2fb9e
-      internalID: 1860983132
+      spriteID: 9fece1611ce08ff4ea593b51d4d7d3cc
+      internalID: 1982031551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_4
+      name: mainAttackLeft_4
       rect:
         serializedVersion: 2
-        x: 256
-        y: 1280
+        x: 305
+        y: 2048
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a05afc768106a2f48a839a760061a6df
-      internalID: -1162011342
+      spriteID: 707e69aab8b6c3043aabbae7faccfa6e
+      internalID: -429289160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_5
+      name: mainAttackLeft_5
       rect:
         serializedVersion: 2
-        x: 320
-        y: 1280
+        x: 369
+        y: 2048
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e85076954d8e337429eb214017004cb6
-      internalID: 97559737
+      spriteID: 742c3b68ce37cd347bb051f8a1926ea4
+      internalID: 1718369686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_6
+      name: mainAttackLeft_6
       rect:
         serializedVersion: 2
-        x: 384
-        y: 1280
+        x: 433
+        y: 2048
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b710a7d034d426840844b5d2ef0997cb
-      internalID: -242264798
+      spriteID: 101566657e945a849ac959ebfb1613dd
+      internalID: -831376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_7
+      name: mainAttackLeft_7
       rect:
         serializedVersion: 2
-        x: 448
-        y: 1280
+        x: 49
+        y: 1984
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e579cef37edc9f74491d5298ae4b05e1
-      internalID: -865763569
+      spriteID: 36502a3b031c76546bd066c39b88bb76
+      internalID: -236534688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_8
+      name: mainAttackLeft_8
       rect:
         serializedVersion: 2
-        x: 0
+        x: 113
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f55e43d167de44393b428d6a817e1c
+      internalID: 2138081370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_9
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91426403a7e1ee94aa225de92d635092
+      internalID: -689125993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_10
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baec674feca2485439883fc8d8908f7b
+      internalID: -1412649493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_11
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beadf1646ea4f6941b205c3d42147f42
+      internalID: 974266576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_12
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3a9d66004bf614bac23a6c26e206c2
+      internalID: 1739622448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_13
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0db8ba5f18f2b4798eaf31d7cc5b73
+      internalID: 276641821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_14
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1920
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e580f9fd28d6a4542ad4bc85ee53d220
+      internalID: 1048534576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_15
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1920
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa882a705cde6548a5d6b9b5f42c65e
+      internalID: -1636714946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_16
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1920
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e876aa1f94d585498a72095fb20129b
+      internalID: -1890226831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_17
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1920
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83354b46f7f16104d9ca7e7e553e123f
+      internalID: 2055617915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_18
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1920
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02f30eecf9459a4ea93688182db6fb5
+      internalID: 1193236958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_19
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1920
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09dddda2a466e304cabb6485ee2b4ffb
+      internalID: 1132234760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_20
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846a47a85d627f4478e2afa274ac6851
+      internalID: 718220673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_21
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3bc9fd2e7a6c94fbb8be5be6bee39d
+      internalID: 612784881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_22
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0c39081a8e99246855701e0022598b
+      internalID: -51848650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_23
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd715c90d5c453e408c0487fa390088a
+      internalID: -1731758936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_24
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbf08108a4768a4299a6e0249056eba
+      internalID: 1271679373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_25
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0716afd5ebc4381409d69471a6d6f7a1
+      internalID: -602165884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_26
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7f42d3b5f910e44a0040cbde27e47f
+      internalID: 611620963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_27
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c52139e52023d4bb317a2afb9c3593
+      internalID: -1738159375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_28
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915376417a093e34a9f128cfc6f85c9d
+      internalID: 222220940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_29
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdf6d0213aa86744bd31783fe1816ba
+      internalID: -794384657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_30
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13612fab5499134e80cd34ea9e09b6f
+      internalID: 1063082942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_31
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa9b38362bd73f439339d34f67be272
+      internalID: -487785765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_32
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cf1fc70a2780242931c28c15d8aa49
+      internalID: 1793955338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_33
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a293151a836e244be1bfa96c231c89
+      internalID: -33941684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_34
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44d042e7c21c2a47b84346cee85652d
+      internalID: -754016468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_35
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8d97ecd60b04448919974919f5ba57
+      internalID: 1570499886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_36
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b2cdfd53494444b9c652f41f2e00c5
+      internalID: 1762857219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_37
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cbb767d94167f4d9f974f8536c3f5e
+      internalID: 1807257663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_38
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc016dbf449fa74a8de7d176a11e522
+      internalID: -247698387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_39
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1834588e1f62631419c247997078a6a9
+      internalID: -237798338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_40
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3499313d4e43bc429aeb6f4d9456297
+      internalID: 282050096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_41
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c4d16089949fb4fade29157e17e7cb
+      internalID: 1469122588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_42
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfce22edadac4554e8df0d3b7ad3823a
+      internalID: -626413628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_43
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c9202bdc77c2c468388bb78c352b21
+      internalID: 263328418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_44
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9276b73f7ec180049b774f2ca9d37a00
+      internalID: -1020495155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_45
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ce68aa066a9624a8a944eabaac3ee4
+      internalID: -1801428320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_46
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adab525bd3aa5b743b81220feb7b06e1
+      internalID: 637418926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_47
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de33d15d7ac8eb64f9be51b331d6baa5
+      internalID: -908878682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_48
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45dfddb2f3a15814f8ffe625339a318e
+      internalID: -345831613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_49
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f08c6034dd19904698baf655ff355c3
+      internalID: 1958119151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_50
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83914b169a9b6124fa3d975e317b609a
+      internalID: 12936057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_51
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7a7b0cd63ccda43ae043aabf3c1bfc
+      internalID: -807859510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_52
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94037768e7a49c439545813fa6ead03
+      internalID: 2033588371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_53
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af47de0540e0e440814be3d3eac170c
+      internalID: -833865472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_54
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599aa372d04fcc243aea909be171f53d
+      internalID: 706465053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_55
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2f0589f879a8240b2694807d992c54
+      internalID: 1420662537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_56
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3f6a479f2730a4cbd78a86e6a2f645
+      internalID: -888141170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_57
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61668bc59070dd47810806b594aec5b
+      internalID: -1261399952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_58
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ee5ff654a27414db41ef83199bedff
+      internalID: 81121809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_59
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33752db582ac86f40bbf30a7ba9eab4a
+      internalID: -1939042548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_60
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe197fc3063387d46b3340d5252c9ff2
+      internalID: -72762545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_61
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1bc8765aa96b64ca6468daa404735b
+      internalID: -1909666251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_62
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111e9c584f118a545a2afcb48fc0d965
+      internalID: 318755336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_63
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4392537cb3f059d4890eb7f7dd612b11
+      internalID: -1345060910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_64
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe1250ae8643784d9f02c048c98223f
+      internalID: 1568541205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_65
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8cc20515f8ae75448a36da577112247
+      internalID: -494850710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_66
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22289950c35ac144cac71463bbb34342
+      internalID: 2055096897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_67
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7619cd648dcc5e2468cea1e77ebf5b67
+      internalID: -1045014166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_68
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46257f24bedd5a44b1f12b1b39cbb6f
+      internalID: 1533484279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_69
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a33235dfc0b0d45ba265b1a9bf6f7f
+      internalID: -664808450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_70
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f614e3a2118b1e54b9184352ce551a99
+      internalID: 1504685233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_71
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2c1e7f53b720d459705938ed308cc0
+      internalID: 1685066440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_72
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b966cbce4ed19d468fc3ee406cb9bf6
+      internalID: -1577304121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_73
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61262f1248039548b34f027805fad89
+      internalID: 2073551664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_74
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243e8438dec8f4040a87771f9c633ac8
+      internalID: 952591142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_75
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e47239afc6db84a8f49e9e3256ef4d
+      internalID: 1037652763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_76
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cfd362599829a48ae6451e29682ae8
+      internalID: 1037130449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_77
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c29af856e4023469af55a3fffe27c5
+      internalID: 1777812478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_78
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a373ba498a8beb40bdbd0db016a91a8
+      internalID: -372210807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_79
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d0fa0391a3f1d499214a8c461a3c0b
+      internalID: -2081886008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_80
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2918ec8af193b304a9dcea253fa8e2fe
+      internalID: 729069724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_81
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5257f15ced99126489f2bfe95b6f590d
+      internalID: -1555419238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_82
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d579b1a21ce82d42905c90ec046ac69
+      internalID: -1462672825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_83
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae96385eb10d999488c1b2b11a139d8f
+      internalID: -1278000920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_84
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a29c3aaa429784ebb1fad594b70106
+      internalID: 1118194532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_85
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c410d3b9789a748bbaab6e08cac129
+      internalID: -1922586958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_86
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a57f6abece7dad429b3f505efc29f17
+      internalID: -1946400878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_87
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb746140457377c43a0d4ed259e0f5e1
+      internalID: -729280631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_88
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c62cbbb2232d14b8c1d798f9f0c25b
+      internalID: 526156662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_89
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7e419bd32ee884ab07dc308977bcf3
+      internalID: 1037731179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_90
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68457e367827eba46b2c487a03706c1d
+      internalID: 433074199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_91
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c8b2e2346a8eb48a593ba15963cd5c
+      internalID: -1061095502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_92
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b00c8d0ae76cea4c9fd4fd3eb09619b
+      internalID: 1165557446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_93
+      rect:
+        serializedVersion: 2
+        x: 49
         y: 1216
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12df4c30eda074a44b4d0e9c93aaf656
-      internalID: 834447806
+      spriteID: e66e01a45524ac94dbcc5bc07143ee2a
+      internalID: 853678597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_9
+      name: mainAttackLeft_94
       rect:
         serializedVersion: 2
-        x: 64
+        x: 113
         y: 1216
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c5167f7820a51342b731fb7d710a60c
-      internalID: 1725878538
+      spriteID: 8d60e48b335e3d747928d7de2689e8e3
+      internalID: 2051561754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_10
+      name: mainAttackLeft_95
       rect:
         serializedVersion: 2
-        x: 128
+        x: 177
         y: 1216
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 623f00339673a6047b022685eabdc604
-      internalID: 1826937682
+      spriteID: fa0911601e90343439a3d78cbdaa4ad0
+      internalID: -1481724882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_11
+      name: mainAttackLeft_96
       rect:
         serializedVersion: 2
-        x: 192
+        x: 241
         y: 1216
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73e71867f41bc9d47bded0b8e475ed0d
-      internalID: -124437655
+      spriteID: eb9eb9c8873af80408c6d24c49e4e29c
+      internalID: -1441042022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_12
+      name: mainAttackLeft_97
       rect:
         serializedVersion: 2
-        x: 256
+        x: 305
         y: 1216
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0f0b51b0b0474a44b97e2a07e954d25
-      internalID: -1999630399
+      spriteID: ee30172af1ac9ac4cb6706547c768569
+      internalID: 1092540914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_13
+      name: mainAttackLeft_98
       rect:
         serializedVersion: 2
-        x: 320
-        y: 1216
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbe643e861f78b3418f90fee163736c2
-      internalID: 567722939
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_14
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 1216
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dcfe6759938d5b8449e318499952c947
-      internalID: 666697645
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_15
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 49
         y: 1152
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 070a604594e8c264ab7429ef65cb42db
-      internalID: 1768550597
+      spriteID: 202e4b77d94b0d24f922eb40f0b9c6fe
+      internalID: -1001973509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_16
+      name: mainAttackLeft_99
       rect:
         serializedVersion: 2
-        x: 64
+        x: 113
         y: 1152
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b66b36341d00524cafb08f4f46f0660
-      internalID: 21745663
+      spriteID: 8bfb59c9dde8cd944a58067cd51985ba
+      internalID: 1942344060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_17
+      name: mainAttackLeft_100
       rect:
         serializedVersion: 2
-        x: 128
+        x: 177
         y: 1152
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f439b5661ac8c5468340630b28d479f
-      internalID: -1162652197
+      spriteID: 384c624d5c6dd7049bd42a3975d4271e
+      internalID: -347350736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_18
+      name: mainAttackLeft_101
       rect:
         serializedVersion: 2
-        x: 192
+        x: 241
         y: 1152
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 364f0873182341f46a5ca07609694573
-      internalID: -635008424
+      spriteID: 84e638126916c6348a6c201f845e95fd
+      internalID: 211944318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_19
+      name: mainAttackLeft_102
       rect:
         serializedVersion: 2
-        x: 256
+        x: 305
         y: 1152
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36faf2788e9c38f42b280eeef356db89
-      internalID: 1141528290
+      spriteID: 7dbba9171824245449c0e82a73022fe1
+      internalID: -818752823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_20
+      name: mainAttackLeft_103
       rect:
         serializedVersion: 2
-        x: 320
+        x: 369
         y: 1152
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a708e030fe689c8438e990c8205dfbeb
-      internalID: 93257200
+      spriteID: 5844880f1cea23f4194e5b4f40333dd9
+      internalID: -827770023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_21
+      name: mainAttackLeft_104
       rect:
         serializedVersion: 2
-        x: 384
-        y: 1152
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b42db108424d51449c76ecc8cc0d642
-      internalID: 2096245504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_22
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 49
         y: 1088
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed4465295f305d040a9520a1d2cdaba8
-      internalID: 1836121702
+      spriteID: fa88f79b4e16729459a633975cd9aacc
+      internalID: -1870619213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_23
+      name: mainAttackLeft_105
       rect:
         serializedVersion: 2
-        x: 64
+        x: 113
         y: 1088
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fa6c12a4f222054b81d58aa0cd3f7bb
-      internalID: -1793352702
+      spriteID: dafa6283a7af59c429d9bccca6af7956
+      internalID: 974511403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_24
+      name: mainAttackLeft_106
       rect:
         serializedVersion: 2
-        x: 128
+        x: 177
         y: 1088
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88634f3631ebae8409b122b3ae7ef266
-      internalID: 638920841
+      spriteID: a24e1134f5a57ff4784fea1858487d67
+      internalID: -1055865533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_25
+      name: mainAttackLeft_107
       rect:
         serializedVersion: 2
-        x: 192
+        x: 241
         y: 1088
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c1d6954cc7283544a2fffc07db50632
-      internalID: 554082225
+      spriteID: b8d5cf0758827e348a3efb33796e25fc
+      internalID: -859597899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_26
+      name: mainAttackLeft_108
       rect:
         serializedVersion: 2
-        x: 256
+        x: 305
         y: 1088
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31898d5e30ede7f41a277704cbd904e1
-      internalID: 690669245
+      spriteID: f3c8e01bb8aaea044877bfdc9def72ae
+      internalID: -587189643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_27
+      name: mainAttackLeft_109
       rect:
         serializedVersion: 2
-        x: 320
+        x: 369
         y: 1088
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b30a308038dfa1d41800c8769253f2ae
-      internalID: -1213755840
+      spriteID: c4bf9ef55022b8145906e1cad3c7c692
+      internalID: -1275579667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_28
+      name: mainAttackLeft_110
       rect:
         serializedVersion: 2
-        x: 384
-        y: 1088
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1218ee2a0ab099e45abcc1057d89aacd
-      internalID: 1909462091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_29
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 49
         y: 1024
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43093c79e5bd6df40aa18fb5bba5d926
-      internalID: -389166767
+      spriteID: a872131938988dc4899f792453325c78
+      internalID: 1809477412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_30
+      name: mainAttackLeft_111
       rect:
         serializedVersion: 2
-        x: 64
+        x: 113
         y: 1024
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d89c82b8ea385584391c9282c0e3393f
-      internalID: 389092516
+      spriteID: db28b492b8e68df4eb5ed37f39e7954e
+      internalID: -121838505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_31
+      name: mainAttackLeft_112
       rect:
         serializedVersion: 2
-        x: 128
+        x: 177
         y: 1024
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a2c39a818f47064bb665f7c30d63264
-      internalID: 1033538785
+      spriteID: 29bf3f043f1891c48bdddf9397058a72
+      internalID: -633583584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_32
+      name: mainAttackLeft_113
       rect:
         serializedVersion: 2
-        x: 192
+        x: 241
         y: 1024
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2eb430a9e5d8b64cb404e828f5ef4ff
-      internalID: -1262905425
+      spriteID: 4cfb03366441ed746949a4413d51876a
+      internalID: 2070784575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_33
+      name: mainAttackLeft_114
       rect:
         serializedVersion: 2
-        x: 256
+        x: 305
         y: 1024
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 023e70ccaea81d44c83775a8a4a07dc7
-      internalID: -1106005572
+      spriteID: d8333eab83e27714fa7e44f86f0645a5
+      internalID: -658664388
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_34
+      name: mainAttackLeft_115
       rect:
         serializedVersion: 2
-        x: 320
+        x: 369
         y: 1024
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96a3c0c45c86ba448b6ecf03ea4bb595
-      internalID: 1471221734
+      spriteID: aaab09c21b3cf224bb09d04a4974768e
+      internalID: -792262456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_35
+      name: mainAttackLeft_116
       rect:
         serializedVersion: 2
-        x: 384
+        x: 433
         y: 1024
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ce4d0d7603374b488522c3f515d4e02
-      internalID: -1672043998
+      spriteID: b6f9ad1ed10ad5e43bc906a0c911d1e4
+      internalID: -609679175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_36
+      name: mainAttackLeft_117
       rect:
         serializedVersion: 2
-        x: 448
+        x: 497
         y: 1024
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e1c4a93425678b43a057f5cb18b91b1
-      internalID: 1902674870
+      spriteID: 1baf47488d9701d4ab996077a50cf792
+      internalID: -958440891
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_37
+      name: mainAttackLeft_118
       rect:
         serializedVersion: 2
-        x: 0
+        x: 561
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d55665f4599bd148b2cb3d9d9c7a85d
+      internalID: -1345900479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_119
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af8b21d426fc214ca40f8b2d96682c2
+      internalID: -228730547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_120
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f8d4ec2273d754d9666719a4a76103
+      internalID: -1936180801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_121
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f73cc4a838b7b4e9f5acc3bf0d698e
+      internalID: -1936657620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_122
+      rect:
+        serializedVersion: 2
+        x: 49
         y: 960
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfaf9b202ce5ee4408e34ef7dab7d567
-      internalID: 1987816488
+      spriteID: 0ed81d17851925c4482589560a4671e6
+      internalID: 346020620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_38
+      name: mainAttackLeft_123
       rect:
         serializedVersion: 2
-        x: 64
+        x: 113
         y: 960
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36a7a094e07a38a4a901a7e0bb6e90f1
-      internalID: 1364415512
+      spriteID: 748eff22a5748ae48ab75f8f80124619
+      internalID: 273518505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_39
+      name: mainAttackLeft_124
       rect:
         serializedVersion: 2
-        x: 128
+        x: 177
         y: 960
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbd97432ff458294f99b63828ea2535d
-      internalID: 1198052219
+      spriteID: e44709977a87cf1458f5aa03a8ca9fce
+      internalID: -574720078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_40
+      name: mainAttackLeft_125
       rect:
         serializedVersion: 2
-        x: 192
+        x: 241
         y: 960
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38195bc618e8c834a9991940e60fc55d
-      internalID: 831817738
+      spriteID: 0f9c52a088ef1f34dab0ab0d9c004972
+      internalID: 867410488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_41
+      name: mainAttackLeft_126
       rect:
         serializedVersion: 2
-        x: 256
+        x: 305
         y: 960
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ce319f582f4c8d4ebbd7d76cf6a99f6
-      internalID: -942897002
+      spriteID: fdae93e376a0f5b4f87529ed7b790678
+      internalID: 1738893208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_42
+      name: mainAttackLeft_127
       rect:
         serializedVersion: 2
-        x: 320
+        x: 369
         y: 960
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 503c2afaf4ded7e4ab2a0dd03840f456
-      internalID: 1475117727
+      spriteID: a7daa5ae0d02eb94fbfd903cfa9e2104
+      internalID: -556285650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_43
+      name: mainAttackLeft_128
       rect:
         serializedVersion: 2
-        x: 384
+        x: 433
         y: 960
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81d31846a626e6444846eb87ed8fa715
-      internalID: -1146034168
+      spriteID: 84abf57cc89ae6a43bcbf2e7d5852adc
+      internalID: -1827176730
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_44
+      name: mainAttackLeft_129
       rect:
         serializedVersion: 2
-        x: 448
+        x: 497
         y: 960
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c14fc74cc65ae864f8a1a3fad6588a20
-      internalID: -1641664338
+      spriteID: 7bc4699b00e78234e8009f914e87f7d4
+      internalID: 1949876009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_45
+      name: mainAttackLeft_130
       rect:
         serializedVersion: 2
-        x: 0
+        x: 561
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de80873ee1678784287ad93c39ba769f
+      internalID: 1984355718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_131
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ad94ad3f651f8499a9cae21ff821ed
+      internalID: 1820790365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_132
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddd92211a9ae2f4487e23d96ab5e333
+      internalID: 539244470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_133
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6da6f44ed821274894b6f63832fb358
+      internalID: -613804561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_134
+      rect:
+        serializedVersion: 2
+        x: 49
         y: 896
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b57f2c7bbe8200d48a0bf88442c85ed4
-      internalID: 1710146168
+      spriteID: 5ff62eeac69d42546a82cfb72915fc79
+      internalID: 1993414209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_46
+      name: mainAttackLeft_135
       rect:
         serializedVersion: 2
-        x: 64
+        x: 113
         y: 896
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 895cb210a0c97614897e20cb76aa60ca
-      internalID: -473169139
+      spriteID: ad3659edf7f544d4a818c63d3df80359
+      internalID: 614582004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_47
+      name: mainAttackLeft_136
       rect:
         serializedVersion: 2
-        x: 128
+        x: 177
         y: 896
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e0b4d45de3349344b3a71849be071d9
-      internalID: 2052339428
+      spriteID: 337d1166cdcca7a419cf7c91b58e2abb
+      internalID: 240217501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_48
+      name: mainAttackLeft_137
       rect:
         serializedVersion: 2
-        x: 192
+        x: 241
         y: 896
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2b7e854128b4a04db01c56cf5ab30da
-      internalID: 1557792302
+      spriteID: f6fd35d228b423e4c9da7e591790e6fa
+      internalID: 273920652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_49
+      name: mainAttackLeft_138
       rect:
         serializedVersion: 2
-        x: 256
+        x: 305
         y: 896
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32d1c65d30b2da2439184635aa1aaa15
-      internalID: 291009425
+      spriteID: 55245b8ade77ec1478b8c895a8bf9aac
+      internalID: 35471365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_50
+      name: mainAttackLeft_139
       rect:
         serializedVersion: 2
-        x: 320
+        x: 369
         y: 896
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27d7eabf716d3ae449369d7ecc766bd4
-      internalID: -2083659771
+      spriteID: 5830adffa332eb341ad01eb828f18eae
+      internalID: -89877500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_51
+      name: mainAttackLeft_140
       rect:
         serializedVersion: 2
-        x: 384
+        x: 433
         y: 896
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f702b9da68babe4884feb79cee22a1f
-      internalID: -1608555541
+      spriteID: 05bf00a43576a7b4d9ba5b90b0036e74
+      internalID: -589912775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_52
+      name: mainAttackLeft_141
       rect:
         serializedVersion: 2
-        x: 448
+        x: 497
         y: 896
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b438197eb3faf7d498d8d589f8d9aa07
-      internalID: 1486169734
+      spriteID: 507475fa91dc0ec4c91ace72326b6277
+      internalID: 1535515959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_53
+      name: mainAttackLeft_142
       rect:
         serializedVersion: 2
-        x: 0
+        x: 561
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50115fc1440a02041bed22c9133f2554
+      internalID: 920064769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_143
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00fedea29cca254eb387a886bd765ba
+      internalID: -1340392915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_144
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfe120131e15f9429c4e13efb363b2b
+      internalID: -11145331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_145
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98aa35c68650994eb98864c50ab65e3
+      internalID: 577668218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_146
+      rect:
+        serializedVersion: 2
+        x: 49
         y: 832
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd5701c4dd0fc824b99833266c838c4b
-      internalID: 243873797
+      spriteID: 485125c320ca64043a6c675ae967a799
+      internalID: -1358289177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_54
+      name: mainAttackLeft_147
       rect:
         serializedVersion: 2
-        x: 64
+        x: 113
         y: 832
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ca6dc16aeca5ce4abacaf63a24cd384
-      internalID: 77569373
+      spriteID: fa7515009fdd4124ea0558694c234c17
+      internalID: -1885005944
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_55
+      name: mainAttackLeft_148
       rect:
         serializedVersion: 2
-        x: 128
+        x: 177
         y: 832
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fb1ea2082eb2144787cff5942fb388a
-      internalID: 780801455
+      spriteID: 1934f7a9fd495464381c407f10dbeff3
+      internalID: 1025970500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_56
+      name: mainAttackLeft_149
       rect:
         serializedVersion: 2
-        x: 192
+        x: 241
         y: 832
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b060157ace9849042b1a48b8ec3a7115
-      internalID: -1682372481
+      spriteID: 74d21958048e4cf4dadfcbda3482ce38
+      internalID: 2053481801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_57
+      name: mainAttackLeft_150
       rect:
         serializedVersion: 2
-        x: 256
+        x: 305
         y: 832
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07975622ff75b904f9e195cd622818b7
-      internalID: -281211318
+      spriteID: bc9c2ff34ae32c340b3e599291b26245
+      internalID: 263646026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_58
+      name: mainAttackLeft_151
       rect:
         serializedVersion: 2
-        x: 320
+        x: 369
         y: 832
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93753f59e0d73fb429a087d269a671c9
-      internalID: -1252105137
+      spriteID: 287c42ff859e6514e98ec0cf988c4d57
+      internalID: 1473104637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_59
+      name: mainAttackLeft_152
       rect:
         serializedVersion: 2
-        x: 384
+        x: 433
         y: 832
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11ccaa1d9e4ff9641b84db12b5166608
-      internalID: -1413255862
+      spriteID: ef3498fcb2a2a3c4a9ca65ccd7fb1a64
+      internalID: -1506179542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_60
+      name: mainAttackLeft_153
       rect:
         serializedVersion: 2
-        x: 448
+        x: 497
         y: 832
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f40b4aee00dcd646aac5adb4e24804d
-      internalID: 1562979509
+      spriteID: 43bca2e22f51090459d5b847ee65dca5
+      internalID: 614177313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_61
+      name: mainAttackLeft_154
       rect:
         serializedVersion: 2
-        x: 0
+        x: 561
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96472b4ce092994e85d23edeba8d71a
+      internalID: 1815527874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_155
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e703c376f1ffd664b946b20e195a12c9
+      internalID: -809037129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_156
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6255fc3dce2ac7f439048c9c2c93c2fb
+      internalID: -1407289929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_157
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edc0ed3eb26bd34ba718ace9935ed64
+      internalID: 825936364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_158
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646ce0cf1319ebd4ba23abd9df664cd7
+      internalID: 549366341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_159
+      rect:
+        serializedVersion: 2
+        x: 49
         y: 768
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5e93381067122d40acc2cf826040f0b
-      internalID: 1090953088
+      spriteID: 3293e5c51c3a4ff4d8f0726737ee44e8
+      internalID: -70385260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_62
+      name: mainAttackLeft_160
       rect:
         serializedVersion: 2
-        x: 64
+        x: 113
         y: 768
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7f0b058561834747ab91c830cfd7be2
-      internalID: 319880869
+      spriteID: dd23f39249e4f91499c0a72f51ff23bd
+      internalID: 1669912581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_63
+      name: mainAttackLeft_161
       rect:
         serializedVersion: 2
-        x: 128
+        x: 177
         y: 768
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a41b5c33a214de64784909d4a1540a6b
-      internalID: -1870148967
+      spriteID: 5d2d341dd45d4ab4685c21e2065fd25a
+      internalID: -1119152510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_64
+      name: mainAttackLeft_162
       rect:
         serializedVersion: 2
-        x: 192
+        x: 241
         y: 768
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d793001e1b4d7a488f2ebfd1b104cf7
-      internalID: -227899809
+      spriteID: dfaebe3b5ae4e4340b50d5e4d6436d09
+      internalID: -1863768287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_65
+      name: mainAttackLeft_163
       rect:
         serializedVersion: 2
-        x: 256
+        x: 305
         y: 768
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c148c2338305d54d8492a3c8349ff7b
-      internalID: 808767184
+      spriteID: 505275f0f0751534491c12e3ce8bfa3c
+      internalID: -1204433514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_66
+      name: mainAttackLeft_164
       rect:
         serializedVersion: 2
-        x: 320
+        x: 369
         y: 768
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fc28043ad23c7f4c981ffe262e3d6da
-      internalID: -912682959
+      spriteID: de10e702dd4969f40ab29b5eddd352ad
+      internalID: 1923183433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_67
+      name: mainAttackLeft_165
       rect:
         serializedVersion: 2
-        x: 384
-        y: 768
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74c937b6269a0ab4a9b6df5f69c58186
-      internalID: 2055330341
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_68
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 768
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1bb321f297b23bb4a92d746002844b4c
-      internalID: 1171449846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_69
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 768
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d01009906ae08c24e9f91544e69e88ef
-      internalID: -788100521
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_70
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 49
         y: 704
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92506733e60a491459ed657de8c56dcd
-      internalID: 1395038764
+      spriteID: 1f3dcae9401a0b440835250d04f818a7
+      internalID: -40947743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_71
+      name: mainAttackLeft_166
       rect:
         serializedVersion: 2
-        x: 64
+        x: 177
         y: 704
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb049798d4458174b8566cb6cb448f83
-      internalID: 919088305
+      spriteID: 830aea71d6f9e994c96d44f477bfabb6
+      internalID: -1326268482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_72
+      name: mainAttackLeft_167
       rect:
         serializedVersion: 2
-        x: 128
+        x: 241
         y: 704
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc1c38d5ae2e4414c98d09e3eed763de
-      internalID: 1911598427
+      spriteID: 092be035216667146925e69f4b528248
+      internalID: 1876680424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_73
+      name: mainAttackLeft_168
       rect:
         serializedVersion: 2
-        x: 192
-        y: 704
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7c7c68e0bc276d409bd1ce0f44efddb
-      internalID: -1828304455
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_74
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 704
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 893ae2b0c7af58042bc137b1c7ca48fc
-      internalID: -1806657550
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_75
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 704
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20323fdeb8cd8bb4484fdd7c4a453c62
-      internalID: -986523487
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_76
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 704
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8197b0111ea9d6140aa28e6aa1f8da30
-      internalID: 477066363
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_77
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 704
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 510d39e59910d4d46b25513bcf48927c
-      internalID: -1183681606
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_78
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 704
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4190caf1c8c3c164c8d04385a3b93759
-      internalID: -1020945106
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_79
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 49
         y: 640
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f1fbf4cf33cff64fa0fe6195334fbc4
-      internalID: -1578631316
+      spriteID: 824da030f3ae8384c9f9e5d31be55119
+      internalID: -1239238182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_80
+      name: mainAttackLeft_169
       rect:
         serializedVersion: 2
-        x: 64
+        x: 241
         y: 640
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ee04b93ea1d4a8419ab3a878ffec135
-      internalID: -102670894
+      spriteID: 73e08a6ab143ad34e8fd4dc9b70c0c77
+      internalID: -1051728515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_81
+      name: mainAttackLeft_170
       rect:
         serializedVersion: 2
-        x: 128
+        x: 433
         y: 640
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09dfde0b06d4a8748b0138a7573b4e0a
-      internalID: 851760733
+      spriteID: c6b5c428df265e547bd2b6bb112dfb54
+      internalID: 943902563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_82
+      name: mainAttackLeft_171
       rect:
         serializedVersion: 2
-        x: 192
+        x: 625
         y: 640
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebd2419e165ab9b449cb574ced3f002a
-      internalID: -661443939
+      spriteID: a1992cae4c8452d419cfaaf4a1049b3c
+      internalID: -114849703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_83
+      name: mainAttackLeft_172
       rect:
         serializedVersion: 2
-        x: 256
+        x: 817
         y: 640
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b44f1191db63a1a4dad370d25aad0a53
-      internalID: -568423266
+      spriteID: badc9c38faca1b040b89ffd13bf5df94
+      internalID: 2020282819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_84
+      name: mainAttackLeft_173
       rect:
         serializedVersion: 2
-        x: 320
+        x: 881
         y: 640
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c945def67932f154ab5760d34864ef76
-      internalID: 1650940485
+      spriteID: aa280482c5337cb488ce035fbc75598b
+      internalID: -630592931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_85
+      name: mainAttackLeft_174
       rect:
         serializedVersion: 2
-        x: 384
+        x: 1009
         y: 640
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 813a3feef91e5ed419ff540b05c50929
-      internalID: -260623310
+      spriteID: 3e6d21a80eab948449d5e1a432e760b6
+      internalID: 160912448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_86
+      name: mainAttackLeft_175
       rect:
         serializedVersion: 2
-        x: 448
+        x: 1073
         y: 640
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a52c8f8e6df164f419f7e5317e57fbe9
-      internalID: 1030456006
+      spriteID: 08fd9d008d83a514ab2bcac4aeb074df
+      internalID: -591754192
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_87
+      name: mainAttackLeft_176
       rect:
         serializedVersion: 2
-        x: 512
-        y: 640
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2dbad43374f54e64fabee3f2357b8f74
-      internalID: 685874365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_88
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 576
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f31a4eb34ce437a488a9ba7e79242f9e
-      internalID: -575620048
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_89
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 576
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: adda66a8364d3e8469488d80f1e95068
-      internalID: 1078974768
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_90
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 576
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28caedfcbcba47349af72d1c47bfb873
-      internalID: 1354168272
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_91
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 576
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a0781d00b5816834c9e695f60a9f8630
-      internalID: 1997796197
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_92
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 576
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 352e8732cf8480941a2a7da762d49d1a
-      internalID: 1128714288
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_93
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 576
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60a079c283dcf04479d898b99f58d65a
-      internalID: 714002988
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_94
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 576
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93c084162e4d19a419237af141b3a42f
-      internalID: 767368022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_95
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 576
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c7b99f465f722ae4ebe3b2bd20966473
-      internalID: -1358898147
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_96
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 576
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72b4acd3b9ba7ff47afc42280c022079
-      internalID: 838006875
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_97
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 512
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd664cd2823a83741ad7eb76e04652ac
-      internalID: 1270866463
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_98
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 512
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee6eb01bfb53f314e94c03a4ae414358
-      internalID: -1675180187
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_99
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 512
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce1289d99cb58b541b59cf6f8cd01a4d
-      internalID: -1499052728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_100
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 512
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c35f51b5072e87c4db384f258526f8df
-      internalID: -2130998555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_101
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 512
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e32e446978fa255468e1a9e8f2086546
-      internalID: -718887296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_102
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 512
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd3925b4caf67034e84cfefb0f078337
-      internalID: -1428178362
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_103
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 49
         y: 448
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61f495c8d98217b478e1a397d615db75
-      internalID: -529986739
+      spriteID: d6e355c48697fc441b2ffb65ba38be27
+      internalID: 1870971015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_104
+      name: mainAttackLeft_177
       rect:
         serializedVersion: 2
-        x: 64
+        x: 241
         y: 448
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b39b265d3e9e2841bb4ddd67a724d12
-      internalID: -476636743
+      spriteID: e9eeec68f49a8a34ea52dff9d2ae3511
+      internalID: 1287179378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_105
+      name: mainAttackLeft_178
       rect:
         serializedVersion: 2
-        x: 128
+        x: 433
         y: 448
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9520e0146f1a52c40a189046bfd47572
-      internalID: 1774017904
+      spriteID: 753145cf5c909d44b8de8d4e84393891
+      internalID: -1704167439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_106
+      name: mainAttackLeft_179
       rect:
         serializedVersion: 2
-        x: 192
+        x: 625
         y: 448
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24411d28171697a419ca3ff8f0aabd44
-      internalID: 2058228521
+      spriteID: 291bf3f158021a045b557916f41c26e9
+      internalID: -1945480367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_107
+      name: mainAttackLeft_180
       rect:
         serializedVersion: 2
-        x: 256
+        x: 817
         y: 448
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08fd623ab3761e248b406b66c73c178e
-      internalID: -1001204121
+      spriteID: 1890de7a605bbeb4299953aaace7f739
+      internalID: 1444556211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_108
+      name: mainAttackLeft_181
       rect:
         serializedVersion: 2
-        x: 320
+        x: 1009
         y: 448
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8febd3fa5a5ee364caa84c0ccf756319
-      internalID: -1943174451
+      spriteID: 8370e65d5ef9136419b09e0ab775eff0
+      internalID: 785573907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_109
+      name: mainAttackLeft_182
       rect:
         serializedVersion: 2
-        x: 0
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67265c044181c2744a0a47b8adb3f43b
-      internalID: 446082388
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_110
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 764d054a31c9b8e4788d7630c9474b19
-      internalID: -1843917089
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_111
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c631865e01bfa3448649dedde0ef797
-      internalID: 114496850
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_112
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 885267014ef211544a19b12d0125599c
-      internalID: -310072376
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_113
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00ceaa5d827941a4ea3ba0458182dc13
-      internalID: -2055983242
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_114
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4859c8041aecd9b48ac1d592b7e8c7af
-      internalID: 960588062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_115
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe2facc29a390e843836d742fb572751
-      internalID: 27896626
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_116
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8807ed911a02d574db2893306c9973a8
-      internalID: -1679622610
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_117
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7a34d4a44d6e8448b19fed2f2af5946
-      internalID: 1941884532
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_118
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b1cc0001830eec4c848152942f4bef9
-      internalID: 637901443
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_119
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e53492f22efb2e346a3f55586d09fac8
-      internalID: 2008173852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_120
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e932dc883fb573469f08398a638f520
-      internalID: -587565564
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_121
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 49
         y: 256
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abf810d5d387da040b35e912a939bb22
-      internalID: -301088115
+      spriteID: bc3be983fd7ab564fbc260ee61bb75ca
+      internalID: 222897461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_122
+      name: mainAttackLeft_183
       rect:
         serializedVersion: 2
-        x: 64
+        x: 241
         y: 256
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dc1a8e736c6b054b98359561076f367
-      internalID: -625931807
+      spriteID: 30b12a8953c4fb542a694e02e98150f1
+      internalID: -1421511242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_123
+      name: mainAttackLeft_184
       rect:
         serializedVersion: 2
-        x: 128
+        x: 433
         y: 256
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc6c9b3cadd018a41b0564a200036a89
-      internalID: 1714369188
+      spriteID: 290f02b6394c3d94e808d6b454eeba3a
+      internalID: 1051821930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_124
+      name: mainAttackLeft_185
       rect:
         serializedVersion: 2
-        x: 192
+        x: 625
         y: 256
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d359f67df2700ec42b5b890e26293fcf
-      internalID: 1397347966
+      spriteID: 5d3dfa14dd4ce204f929061bfafc009a
+      internalID: 332184712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_125
+      name: mainAttackLeft_186
       rect:
         serializedVersion: 2
-        x: 256
+        x: 817
         y: 256
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5055f85c3ad498545bd6a6b759e77923
-      internalID: -1121549034
+      spriteID: bc88c7f4da47d8b44b60e41806e36501
+      internalID: 766472598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_126
+      name: mainAttackLeft_187
       rect:
         serializedVersion: 2
-        x: 320
+        x: 881
         y: 256
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fbeaa8fcf2ee504dbfd2bdd323975f2
-      internalID: -162718213
+      spriteID: 604032cba05108e4097229dbdceae1e8
+      internalID: -634842791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_127
+      name: mainAttackLeft_188
       rect:
         serializedVersion: 2
-        x: 384
+        x: 1009
         y: 256
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65e018f6c2eff5e489fbe3985ee5ee92
-      internalID: 988998607
+      spriteID: 25b7a8f9c0a33764eab55fcc695b6251
+      internalID: -145415722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_128
+      name: mainAttackLeft_189
       rect:
         serializedVersion: 2
-        x: 448
+        x: 1073
         y: 256
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0a707a673e32a349ad97927224cc6dc
-      internalID: 1158478316
+      spriteID: 14291bb708e0dee4591e8388e489f47a
+      internalID: 799472770
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_129
+      name: mainAttackLeft_190
       rect:
         serializedVersion: 2
-        x: 512
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dd75f6b9dc987704cbbbadb4dc273b44
-      internalID: 2002655925
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_130
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4265230c485a9264fbab3d4c6aacdf52
-      internalID: -1039620155
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_131
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e74d6d4f9ae31f94aa3dddaa50f79e0a
-      internalID: -1926592496
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_132
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb7c04d0555c4b540a6be51cdbf8e09a
-      internalID: 1004048860
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_133
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 63f665415ce1fa74e9b6d04cb295943c
-      internalID: 1721132294
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_134
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa244e96779ae8a4fab29eaf43d23523
-      internalID: 2038513691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_135
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6eaba713c671f14f9fb6e6f8f9f6fad
-      internalID: -334990709
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_136
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9cea6d9745f9de74987fb98d8306bd4b
-      internalID: -591398868
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_137
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0aaf6e8d52dcf3e4daeaee84c18a2fbe
-      internalID: 476351328
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_138
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28b91517f41b865458e72769a348e31f
-      internalID: -625769986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_139
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7be5820091d43b64a90d4fa32e7cd9ce
-      internalID: -1819762542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_140
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd998aff731ab924fb7036072c4cca94
-      internalID: 1813720969
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_141
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1860c91be341e6641828799cb5fb49ba
-      internalID: -1673664315
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_142
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec90f550f7be61f47bad8028094a7495
-      internalID: 701299914
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_143
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a7209fe31113d0419708a3c49ea5e96
-      internalID: 509194567
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_144
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ebe6e5c78074ec542b14381683292102
-      internalID: -1894492628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_145
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c7279fe307268e8478364235abb0aa79
-      internalID: -442143179
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_146
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49d334eb37fc80846ba9a0f762d73716
-      internalID: -248172993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_147
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce4b5e29f3d335f4e81a4311dca20762
-      internalID: 1997181592
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_148
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e04350de24884b4790419eecdcd9fe0
-      internalID: 1289862892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_149
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c26fe457884ff94e8359736281f7c2f
-      internalID: 2031329803
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_150
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a35bf8255db3f6c4b88fe1e6b7fe8158
-      internalID: 1100820043
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_151
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a2406cf6cc40324689190268a7d8cb2
-      internalID: -1513318275
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_152
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8e7b4a29e9e087468b56e818eb148bf
-      internalID: 1506954684
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_153
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 106b1af930992484188e3b6a890da599
-      internalID: 1786152275
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_154
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3505820500d25b4cbda658e10f5b72d
-      internalID: 396451639
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_155
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7289e651fadfbbe499d2f735869cf241
-      internalID: 1515235665
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_156
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe0d44420106da944842e7ad7b3d69d5
-      internalID: -586145856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_157
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 806743013be0b7349929758dfdc0ed89
-      internalID: -745630063
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_158
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0307ae780a0181b42b1e4568dee107f9
-      internalID: -2031572137
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_159
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26abb461334436a4dae0f1f1519493cc
-      internalID: 1107604013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_160
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 49
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3cbfb2032742664d9cb59b88f5c9741
-      internalID: 1198059525
+      spriteID: 5550d37a6d1a9f6459034e1054bdc74d
+      internalID: 245468339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_161
+      name: mainAttackLeft_191
       rect:
         serializedVersion: 2
-        x: 64
+        x: 113
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0eb0fc9a19545174d9962ebd7466dc1e
-      internalID: 857295079
+      spriteID: 668399791e05d964db102b6f64337635
+      internalID: -278900768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_162
+      name: mainAttackLeft_192
       rect:
         serializedVersion: 2
-        x: 128
+        x: 241
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b00d0ea7aaeab54182f7815250513b9
-      internalID: -729385461
+      spriteID: 6be2f0c2826c22643bd6ae2c5704f587
+      internalID: -1144425156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_163
+      name: mainAttackLeft_193
       rect:
         serializedVersion: 2
-        x: 192
+        x: 433
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b2843d6f7873bb4d847d28161b97265
-      internalID: -565683494
+      spriteID: 010b750191990664091c0dd9e362c858
+      internalID: 1549577311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_164
+      name: mainAttackLeft_194
       rect:
         serializedVersion: 2
-        x: 256
+        x: 625
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddf43dbc3092b7248ad78cb9454f70de
-      internalID: -507056314
+      spriteID: 575202b464f3913429aa785119ff72ec
+      internalID: 2109107988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_165
+      name: mainAttackLeft_195
       rect:
         serializedVersion: 2
-        x: 320
+        x: 689
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4772b44e76a0854f92d2fd6da56ee38
-      internalID: -1362739162
+      spriteID: 5e0130816e3b0f74bbc34b9c85fdfc1d
+      internalID: 1498203896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_166
+      name: mainAttackLeft_196
       rect:
         serializedVersion: 2
-        x: 384
+        x: 817
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5aac8b2f99b58f479e6e5d8cf7eaa0e
-      internalID: 2041756566
+      spriteID: 073c8e9e82fd0194fa05bff57d7242ab
+      internalID: -634379652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_167
+      name: mainAttackLeft_197
       rect:
         serializedVersion: 2
-        x: 448
+        x: 881
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8dd4528f76e89d44a933853e17631d5b
-      internalID: -100703356
+      spriteID: 232ffb537802fce4ba745f58ae8983be
+      internalID: -1390864016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_168
+      name: mainAttackLeft_198
       rect:
         serializedVersion: 2
-        x: 512
+        x: 1009
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5baf4648decd9aa40a430f2c0986f2c8
-      internalID: -1818123764
+      spriteID: 8286bb5af8c9ef5418d9792309f12a02
+      internalID: -1533155454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainCharacterRangerOutfit_169
+      name: mainAttackLeft_199
       rect:
         serializedVersion: 2
-        x: 576
+        x: 1073
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27eb540822910114a99ca2d5f49b88d0
-      internalID: 424902501
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_170
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5561d409807e40249aab20aec173d28f
-      internalID: -955748576
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_171
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d98952c856af7d438030d847c9cd093
-      internalID: 1211374056
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_172
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 778d3504074888946898bf27f31b1bcb
-      internalID: -991850534
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_173
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae3517511e8ddc54abc92f6bf9c01b52
-      internalID: -1928343194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_174
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b7933af4e2d86544b97bbe3205cc0f4
-      internalID: 7395431
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_175
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 191a57f1e0c21d44494628679370f022
-      internalID: -537310210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_176
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41b4a09508b841144a1324291b5d035f
-      internalID: -992439967
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_177
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5c5c1d2da4e16d4fa7dc5314b1152f9
-      internalID: 1366291841
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mainCharacterRangerOutfit_178
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33eb9fe73859b8a4c92226782e1dd5c4
-      internalID: 418165210
+      spriteID: 44d4538d73d28ff48a115d5de65c14d4
+      internalID: -1536127763
       vertices: []
       indices: 
       edges: []
@@ -3898,185 +4327,206 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mainCharacterRangerOutfit_0: 393027249
-      mainCharacterRangerOutfit_1: 706203899
-      mainCharacterRangerOutfit_10: 1826937682
-      mainCharacterRangerOutfit_100: -2130998555
-      mainCharacterRangerOutfit_101: -718887296
-      mainCharacterRangerOutfit_102: -1428178362
-      mainCharacterRangerOutfit_103: -529986739
-      mainCharacterRangerOutfit_104: -476636743
-      mainCharacterRangerOutfit_105: 1774017904
-      mainCharacterRangerOutfit_106: 2058228521
-      mainCharacterRangerOutfit_107: -1001204121
-      mainCharacterRangerOutfit_108: -1943174451
-      mainCharacterRangerOutfit_109: 446082388
-      mainCharacterRangerOutfit_11: -124437655
-      mainCharacterRangerOutfit_110: -1843917089
-      mainCharacterRangerOutfit_111: 114496850
-      mainCharacterRangerOutfit_112: -310072376
-      mainCharacterRangerOutfit_113: -2055983242
-      mainCharacterRangerOutfit_114: 960588062
-      mainCharacterRangerOutfit_115: 27896626
-      mainCharacterRangerOutfit_116: -1679622610
-      mainCharacterRangerOutfit_117: 1941884532
-      mainCharacterRangerOutfit_118: 637901443
-      mainCharacterRangerOutfit_119: 2008173852
-      mainCharacterRangerOutfit_12: -1999630399
-      mainCharacterRangerOutfit_120: -587565564
-      mainCharacterRangerOutfit_121: -301088115
-      mainCharacterRangerOutfit_122: -625931807
-      mainCharacterRangerOutfit_123: 1714369188
-      mainCharacterRangerOutfit_124: 1397347966
-      mainCharacterRangerOutfit_125: -1121549034
-      mainCharacterRangerOutfit_126: -162718213
-      mainCharacterRangerOutfit_127: 988998607
-      mainCharacterRangerOutfit_128: 1158478316
-      mainCharacterRangerOutfit_129: 2002655925
-      mainCharacterRangerOutfit_13: 567722939
-      mainCharacterRangerOutfit_130: -1039620155
-      mainCharacterRangerOutfit_131: -1926592496
-      mainCharacterRangerOutfit_132: 1004048860
-      mainCharacterRangerOutfit_133: 1721132294
-      mainCharacterRangerOutfit_134: 2038513691
-      mainCharacterRangerOutfit_135: -334990709
-      mainCharacterRangerOutfit_136: -591398868
-      mainCharacterRangerOutfit_137: 476351328
-      mainCharacterRangerOutfit_138: -625769986
-      mainCharacterRangerOutfit_139: -1819762542
-      mainCharacterRangerOutfit_14: 666697645
-      mainCharacterRangerOutfit_140: 1813720969
-      mainCharacterRangerOutfit_141: -1673664315
-      mainCharacterRangerOutfit_142: 701299914
-      mainCharacterRangerOutfit_143: 509194567
-      mainCharacterRangerOutfit_144: -1894492628
-      mainCharacterRangerOutfit_145: -442143179
-      mainCharacterRangerOutfit_146: -248172993
-      mainCharacterRangerOutfit_147: 1997181592
-      mainCharacterRangerOutfit_148: 1289862892
-      mainCharacterRangerOutfit_149: 2031329803
-      mainCharacterRangerOutfit_15: 1768550597
-      mainCharacterRangerOutfit_150: 1100820043
-      mainCharacterRangerOutfit_151: -1513318275
-      mainCharacterRangerOutfit_152: 1506954684
-      mainCharacterRangerOutfit_153: 1786152275
-      mainCharacterRangerOutfit_154: 396451639
-      mainCharacterRangerOutfit_155: 1515235665
-      mainCharacterRangerOutfit_156: -586145856
-      mainCharacterRangerOutfit_157: -745630063
-      mainCharacterRangerOutfit_158: -2031572137
-      mainCharacterRangerOutfit_159: 1107604013
-      mainCharacterRangerOutfit_16: 21745663
-      mainCharacterRangerOutfit_160: 1198059525
-      mainCharacterRangerOutfit_161: 857295079
-      mainCharacterRangerOutfit_162: -729385461
-      mainCharacterRangerOutfit_163: -565683494
-      mainCharacterRangerOutfit_164: -507056314
-      mainCharacterRangerOutfit_165: -1362739162
-      mainCharacterRangerOutfit_166: 2041756566
-      mainCharacterRangerOutfit_167: -100703356
-      mainCharacterRangerOutfit_168: -1818123764
-      mainCharacterRangerOutfit_169: 424902501
-      mainCharacterRangerOutfit_17: -1162652197
-      mainCharacterRangerOutfit_170: -955748576
-      mainCharacterRangerOutfit_171: 1211374056
-      mainCharacterRangerOutfit_172: -991850534
-      mainCharacterRangerOutfit_173: -1928343194
-      mainCharacterRangerOutfit_174: 7395431
-      mainCharacterRangerOutfit_175: -537310210
-      mainCharacterRangerOutfit_176: -992439967
-      mainCharacterRangerOutfit_177: 1366291841
-      mainCharacterRangerOutfit_178: 418165210
-      mainCharacterRangerOutfit_18: -635008424
-      mainCharacterRangerOutfit_19: 1141528290
-      mainCharacterRangerOutfit_2: -1423968722
-      mainCharacterRangerOutfit_20: 93257200
-      mainCharacterRangerOutfit_21: 2096245504
-      mainCharacterRangerOutfit_22: 1836121702
-      mainCharacterRangerOutfit_23: -1793352702
-      mainCharacterRangerOutfit_24: 638920841
-      mainCharacterRangerOutfit_25: 554082225
-      mainCharacterRangerOutfit_26: 690669245
-      mainCharacterRangerOutfit_27: -1213755840
-      mainCharacterRangerOutfit_28: 1909462091
-      mainCharacterRangerOutfit_29: -389166767
-      mainCharacterRangerOutfit_3: 1860983132
-      mainCharacterRangerOutfit_30: 389092516
-      mainCharacterRangerOutfit_31: 1033538785
-      mainCharacterRangerOutfit_32: -1262905425
-      mainCharacterRangerOutfit_33: -1106005572
-      mainCharacterRangerOutfit_34: 1471221734
-      mainCharacterRangerOutfit_35: -1672043998
-      mainCharacterRangerOutfit_36: 1902674870
-      mainCharacterRangerOutfit_37: 1987816488
-      mainCharacterRangerOutfit_38: 1364415512
-      mainCharacterRangerOutfit_39: 1198052219
-      mainCharacterRangerOutfit_4: -1162011342
-      mainCharacterRangerOutfit_40: 831817738
-      mainCharacterRangerOutfit_41: -942897002
-      mainCharacterRangerOutfit_42: 1475117727
-      mainCharacterRangerOutfit_43: -1146034168
-      mainCharacterRangerOutfit_44: -1641664338
-      mainCharacterRangerOutfit_45: 1710146168
-      mainCharacterRangerOutfit_46: -473169139
-      mainCharacterRangerOutfit_47: 2052339428
-      mainCharacterRangerOutfit_48: 1557792302
-      mainCharacterRangerOutfit_49: 291009425
-      mainCharacterRangerOutfit_5: 97559737
-      mainCharacterRangerOutfit_50: -2083659771
-      mainCharacterRangerOutfit_51: -1608555541
-      mainCharacterRangerOutfit_52: 1486169734
-      mainCharacterRangerOutfit_53: 243873797
-      mainCharacterRangerOutfit_54: 77569373
-      mainCharacterRangerOutfit_55: 780801455
-      mainCharacterRangerOutfit_56: -1682372481
-      mainCharacterRangerOutfit_57: -281211318
-      mainCharacterRangerOutfit_58: -1252105137
-      mainCharacterRangerOutfit_59: -1413255862
-      mainCharacterRangerOutfit_6: -242264798
-      mainCharacterRangerOutfit_60: 1562979509
-      mainCharacterRangerOutfit_61: 1090953088
-      mainCharacterRangerOutfit_62: 319880869
-      mainCharacterRangerOutfit_63: -1870148967
-      mainCharacterRangerOutfit_64: -227899809
-      mainCharacterRangerOutfit_65: 808767184
-      mainCharacterRangerOutfit_66: -912682959
-      mainCharacterRangerOutfit_67: 2055330341
-      mainCharacterRangerOutfit_68: 1171449846
-      mainCharacterRangerOutfit_69: -788100521
-      mainCharacterRangerOutfit_7: -865763569
-      mainCharacterRangerOutfit_70: 1395038764
-      mainCharacterRangerOutfit_71: 919088305
-      mainCharacterRangerOutfit_72: 1911598427
-      mainCharacterRangerOutfit_73: -1828304455
-      mainCharacterRangerOutfit_74: -1806657550
-      mainCharacterRangerOutfit_75: -986523487
-      mainCharacterRangerOutfit_76: 477066363
-      mainCharacterRangerOutfit_77: -1183681606
-      mainCharacterRangerOutfit_78: -1020945106
-      mainCharacterRangerOutfit_79: -1578631316
-      mainCharacterRangerOutfit_8: 834447806
-      mainCharacterRangerOutfit_80: -102670894
-      mainCharacterRangerOutfit_81: 851760733
-      mainCharacterRangerOutfit_82: -661443939
-      mainCharacterRangerOutfit_83: -568423266
-      mainCharacterRangerOutfit_84: 1650940485
-      mainCharacterRangerOutfit_85: -260623310
-      mainCharacterRangerOutfit_86: 1030456006
-      mainCharacterRangerOutfit_87: 685874365
-      mainCharacterRangerOutfit_88: -575620048
-      mainCharacterRangerOutfit_89: 1078974768
-      mainCharacterRangerOutfit_9: 1725878538
-      mainCharacterRangerOutfit_90: 1354168272
-      mainCharacterRangerOutfit_91: 1997796197
-      mainCharacterRangerOutfit_92: 1128714288
-      mainCharacterRangerOutfit_93: 714002988
-      mainCharacterRangerOutfit_94: 767368022
-      mainCharacterRangerOutfit_95: -1358898147
-      mainCharacterRangerOutfit_96: 838006875
-      mainCharacterRangerOutfit_97: 1270866463
-      mainCharacterRangerOutfit_98: -1675180187
-      mainCharacterRangerOutfit_99: -1499052728
+      mainAttackLeft_0: 969110260
+      mainAttackLeft_1: -1300781184
+      mainAttackLeft_10: -1412649493
+      mainAttackLeft_100: -347350736
+      mainAttackLeft_101: 211944318
+      mainAttackLeft_102: -818752823
+      mainAttackLeft_103: -827770023
+      mainAttackLeft_104: -1870619213
+      mainAttackLeft_105: 974511403
+      mainAttackLeft_106: -1055865533
+      mainAttackLeft_107: -859597899
+      mainAttackLeft_108: -587189643
+      mainAttackLeft_109: -1275579667
+      mainAttackLeft_11: 974266576
+      mainAttackLeft_110: 1809477412
+      mainAttackLeft_111: -121838505
+      mainAttackLeft_112: -633583584
+      mainAttackLeft_113: 2070784575
+      mainAttackLeft_114: -658664388
+      mainAttackLeft_115: -792262456
+      mainAttackLeft_116: -609679175
+      mainAttackLeft_117: -958440891
+      mainAttackLeft_118: -1345900479
+      mainAttackLeft_119: -228730547
+      mainAttackLeft_12: 1739622448
+      mainAttackLeft_120: -1936180801
+      mainAttackLeft_121: -1936657620
+      mainAttackLeft_122: 346020620
+      mainAttackLeft_123: 273518505
+      mainAttackLeft_124: -574720078
+      mainAttackLeft_125: 867410488
+      mainAttackLeft_126: 1738893208
+      mainAttackLeft_127: -556285650
+      mainAttackLeft_128: -1827176730
+      mainAttackLeft_129: 1949876009
+      mainAttackLeft_13: 276641821
+      mainAttackLeft_130: 1984355718
+      mainAttackLeft_131: 1820790365
+      mainAttackLeft_132: 539244470
+      mainAttackLeft_133: -613804561
+      mainAttackLeft_134: 1993414209
+      mainAttackLeft_135: 614582004
+      mainAttackLeft_136: 240217501
+      mainAttackLeft_137: 273920652
+      mainAttackLeft_138: 35471365
+      mainAttackLeft_139: -89877500
+      mainAttackLeft_14: 1048534576
+      mainAttackLeft_140: -589912775
+      mainAttackLeft_141: 1535515959
+      mainAttackLeft_142: 920064769
+      mainAttackLeft_143: -1340392915
+      mainAttackLeft_144: -11145331
+      mainAttackLeft_145: 577668218
+      mainAttackLeft_146: -1358289177
+      mainAttackLeft_147: -1885005944
+      mainAttackLeft_148: 1025970500
+      mainAttackLeft_149: 2053481801
+      mainAttackLeft_15: -1636714946
+      mainAttackLeft_150: 263646026
+      mainAttackLeft_151: 1473104637
+      mainAttackLeft_152: -1506179542
+      mainAttackLeft_153: 614177313
+      mainAttackLeft_154: 1815527874
+      mainAttackLeft_155: -809037129
+      mainAttackLeft_156: -1407289929
+      mainAttackLeft_157: 825936364
+      mainAttackLeft_158: 549366341
+      mainAttackLeft_159: -70385260
+      mainAttackLeft_16: -1890226831
+      mainAttackLeft_160: 1669912581
+      mainAttackLeft_161: -1119152510
+      mainAttackLeft_162: -1863768287
+      mainAttackLeft_163: -1204433514
+      mainAttackLeft_164: 1923183433
+      mainAttackLeft_165: -40947743
+      mainAttackLeft_166: -1326268482
+      mainAttackLeft_167: 1876680424
+      mainAttackLeft_168: -1239238182
+      mainAttackLeft_169: -1051728515
+      mainAttackLeft_17: 2055617915
+      mainAttackLeft_170: 943902563
+      mainAttackLeft_171: -114849703
+      mainAttackLeft_172: 2020282819
+      mainAttackLeft_173: -630592931
+      mainAttackLeft_174: 160912448
+      mainAttackLeft_175: -591754192
+      mainAttackLeft_176: 1870971015
+      mainAttackLeft_177: 1287179378
+      mainAttackLeft_178: -1704167439
+      mainAttackLeft_179: -1945480367
+      mainAttackLeft_18: 1193236958
+      mainAttackLeft_180: 1444556211
+      mainAttackLeft_181: 785573907
+      mainAttackLeft_182: 222897461
+      mainAttackLeft_183: -1421511242
+      mainAttackLeft_184: 1051821930
+      mainAttackLeft_185: 332184712
+      mainAttackLeft_186: 766472598
+      mainAttackLeft_187: -634842791
+      mainAttackLeft_188: -145415722
+      mainAttackLeft_189: 799472770
+      mainAttackLeft_19: 1132234760
+      mainAttackLeft_190: 245468339
+      mainAttackLeft_191: -278900768
+      mainAttackLeft_192: -1144425156
+      mainAttackLeft_193: 1549577311
+      mainAttackLeft_194: 2109107988
+      mainAttackLeft_195: 1498203896
+      mainAttackLeft_196: -634379652
+      mainAttackLeft_197: -1390864016
+      mainAttackLeft_198: -1533155454
+      mainAttackLeft_199: -1536127763
+      mainAttackLeft_2: -1724214283
+      mainAttackLeft_20: 718220673
+      mainAttackLeft_21: 612784881
+      mainAttackLeft_22: -51848650
+      mainAttackLeft_23: -1731758936
+      mainAttackLeft_24: 1271679373
+      mainAttackLeft_25: -602165884
+      mainAttackLeft_26: 611620963
+      mainAttackLeft_27: -1738159375
+      mainAttackLeft_28: 222220940
+      mainAttackLeft_29: -794384657
+      mainAttackLeft_3: 1982031551
+      mainAttackLeft_30: 1063082942
+      mainAttackLeft_31: -487785765
+      mainAttackLeft_32: 1793955338
+      mainAttackLeft_33: -33941684
+      mainAttackLeft_34: -754016468
+      mainAttackLeft_35: 1570499886
+      mainAttackLeft_36: 1762857219
+      mainAttackLeft_37: 1807257663
+      mainAttackLeft_38: -247698387
+      mainAttackLeft_39: -237798338
+      mainAttackLeft_4: -429289160
+      mainAttackLeft_40: 282050096
+      mainAttackLeft_41: 1469122588
+      mainAttackLeft_42: -626413628
+      mainAttackLeft_43: 263328418
+      mainAttackLeft_44: -1020495155
+      mainAttackLeft_45: -1801428320
+      mainAttackLeft_46: 637418926
+      mainAttackLeft_47: -908878682
+      mainAttackLeft_48: -345831613
+      mainAttackLeft_49: 1958119151
+      mainAttackLeft_5: 1718369686
+      mainAttackLeft_50: 12936057
+      mainAttackLeft_51: -807859510
+      mainAttackLeft_52: 2033588371
+      mainAttackLeft_53: -833865472
+      mainAttackLeft_54: 706465053
+      mainAttackLeft_55: 1420662537
+      mainAttackLeft_56: -888141170
+      mainAttackLeft_57: -1261399952
+      mainAttackLeft_58: 81121809
+      mainAttackLeft_59: -1939042548
+      mainAttackLeft_6: -831376
+      mainAttackLeft_60: -72762545
+      mainAttackLeft_61: -1909666251
+      mainAttackLeft_62: 318755336
+      mainAttackLeft_63: -1345060910
+      mainAttackLeft_64: 1568541205
+      mainAttackLeft_65: -494850710
+      mainAttackLeft_66: 2055096897
+      mainAttackLeft_67: -1045014166
+      mainAttackLeft_68: 1533484279
+      mainAttackLeft_69: -664808450
+      mainAttackLeft_7: -236534688
+      mainAttackLeft_70: 1504685233
+      mainAttackLeft_71: 1685066440
+      mainAttackLeft_72: -1577304121
+      mainAttackLeft_73: 2073551664
+      mainAttackLeft_74: 952591142
+      mainAttackLeft_75: 1037652763
+      mainAttackLeft_76: 1037130449
+      mainAttackLeft_77: 1777812478
+      mainAttackLeft_78: -372210807
+      mainAttackLeft_79: -2081886008
+      mainAttackLeft_8: 2138081370
+      mainAttackLeft_80: 729069724
+      mainAttackLeft_81: -1555419238
+      mainAttackLeft_82: -1462672825
+      mainAttackLeft_83: -1278000920
+      mainAttackLeft_84: 1118194532
+      mainAttackLeft_85: -1922586958
+      mainAttackLeft_86: -1946400878
+      mainAttackLeft_87: -729280631
+      mainAttackLeft_88: 526156662
+      mainAttackLeft_89: 1037731179
+      mainAttackLeft_9: -689125993
+      mainAttackLeft_90: 433074199
+      mainAttackLeft_91: -1061095502
+      mainAttackLeft_92: 1165557446
+      mainAttackLeft_93: 853678597
+      mainAttackLeft_94: 2051561754
+      mainAttackLeft_95: -1481724882
+      mainAttackLeft_96: -1441042022
+      mainAttackLeft_97: 1092540914
+      mainAttackLeft_98: -1001973509
+      mainAttackLeft_99: 1942344060
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
