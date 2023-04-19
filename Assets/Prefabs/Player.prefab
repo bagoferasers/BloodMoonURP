@@ -3426,8 +3426,7 @@ MonoBehaviour:
   healthBar: {fileID: 7976623599476926508}
   shieldBar: {fileID: 4351502801225646314}
   jumpForce: 300
-  speed: 150
-  increasedSpeed: 300
+  speed: 280
   walk: {fileID: 6665255307297143420}
   run: {fileID: 6665255307297143423}
   music: {fileID: 6665255307297143422}
