@@ -5311,6 +5311,18 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1740264029}
+    - target: {fileID: 6665255307297143401, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
+      propertyPath: m_Size.x
+      value: 0.07692308
+      objectReference: {fileID: 0}
+    - target: {fileID: 6665255307297143401, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
+      propertyPath: m_Size.y
+      value: 0.07692308
+      objectReference: {fileID: 0}
+    - target: {fileID: 6665255307297143401, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6665255307297143403, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
       propertyPath: m_Name
       value: Player

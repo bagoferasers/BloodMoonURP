@@ -1,0 +1,4535 @@
+fileFormatVersion: 2
+guid: 991d3bc8418af21429df6f1c1bfaff81
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 832
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mainAttackLeft_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 2048
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add9626815e46a8499fba5cf29c1f9dc
+      internalID: 969110260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 2048
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc806c0db1beed4f9534b516637b0d4
+      internalID: -1300781184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_2
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 2048
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6928bca70dbe59a4f8dfa29905838955
+      internalID: -1724214283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_3
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 2048
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fece1611ce08ff4ea593b51d4d7d3cc
+      internalID: 1982031551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_4
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 2048
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707e69aab8b6c3043aabbae7faccfa6e
+      internalID: -429289160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_5
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 2048
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742c3b68ce37cd347bb051f8a1926ea4
+      internalID: 1718369686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_6
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 2048
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101566657e945a849ac959ebfb1613dd
+      internalID: -831376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_7
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36502a3b031c76546bd066c39b88bb76
+      internalID: -236534688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_8
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f55e43d167de44393b428d6a817e1c
+      internalID: 2138081370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_9
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91426403a7e1ee94aa225de92d635092
+      internalID: -689125993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_10
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baec674feca2485439883fc8d8908f7b
+      internalID: -1412649493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_11
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beadf1646ea4f6941b205c3d42147f42
+      internalID: 974266576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_12
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3a9d66004bf614bac23a6c26e206c2
+      internalID: 1739622448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_13
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0db8ba5f18f2b4798eaf31d7cc5b73
+      internalID: 276641821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_14
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1920
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e580f9fd28d6a4542ad4bc85ee53d220
+      internalID: 1048534576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_15
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1920
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa882a705cde6548a5d6b9b5f42c65e
+      internalID: -1636714946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_16
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1920
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e876aa1f94d585498a72095fb20129b
+      internalID: -1890226831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_17
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1920
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83354b46f7f16104d9ca7e7e553e123f
+      internalID: 2055617915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_18
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1920
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02f30eecf9459a4ea93688182db6fb5
+      internalID: 1193236958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_19
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1920
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09dddda2a466e304cabb6485ee2b4ffb
+      internalID: 1132234760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_20
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846a47a85d627f4478e2afa274ac6851
+      internalID: 718220673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_21
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3bc9fd2e7a6c94fbb8be5be6bee39d
+      internalID: 612784881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_22
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0c39081a8e99246855701e0022598b
+      internalID: -51848650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_23
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd715c90d5c453e408c0487fa390088a
+      internalID: -1731758936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_24
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbf08108a4768a4299a6e0249056eba
+      internalID: 1271679373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_25
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0716afd5ebc4381409d69471a6d6f7a1
+      internalID: -602165884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_26
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7f42d3b5f910e44a0040cbde27e47f
+      internalID: 611620963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_27
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c52139e52023d4bb317a2afb9c3593
+      internalID: -1738159375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_28
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915376417a093e34a9f128cfc6f85c9d
+      internalID: 222220940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_29
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdf6d0213aa86744bd31783fe1816ba
+      internalID: -794384657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_30
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13612fab5499134e80cd34ea9e09b6f
+      internalID: 1063082942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_31
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa9b38362bd73f439339d34f67be272
+      internalID: -487785765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_32
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cf1fc70a2780242931c28c15d8aa49
+      internalID: 1793955338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_33
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a293151a836e244be1bfa96c231c89
+      internalID: -33941684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_34
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44d042e7c21c2a47b84346cee85652d
+      internalID: -754016468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_35
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8d97ecd60b04448919974919f5ba57
+      internalID: 1570499886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_36
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b2cdfd53494444b9c652f41f2e00c5
+      internalID: 1762857219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_37
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cbb767d94167f4d9f974f8536c3f5e
+      internalID: 1807257663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_38
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc016dbf449fa74a8de7d176a11e522
+      internalID: -247698387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_39
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1834588e1f62631419c247997078a6a9
+      internalID: -237798338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_40
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3499313d4e43bc429aeb6f4d9456297
+      internalID: 282050096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_41
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c4d16089949fb4fade29157e17e7cb
+      internalID: 1469122588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_42
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfce22edadac4554e8df0d3b7ad3823a
+      internalID: -626413628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_43
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c9202bdc77c2c468388bb78c352b21
+      internalID: 263328418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_44
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9276b73f7ec180049b774f2ca9d37a00
+      internalID: -1020495155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_45
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ce68aa066a9624a8a944eabaac3ee4
+      internalID: -1801428320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_46
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adab525bd3aa5b743b81220feb7b06e1
+      internalID: 637418926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_47
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de33d15d7ac8eb64f9be51b331d6baa5
+      internalID: -908878682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_48
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45dfddb2f3a15814f8ffe625339a318e
+      internalID: -345831613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_49
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f08c6034dd19904698baf655ff355c3
+      internalID: 1958119151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_50
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83914b169a9b6124fa3d975e317b609a
+      internalID: 12936057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_51
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7a7b0cd63ccda43ae043aabf3c1bfc
+      internalID: -807859510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_52
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94037768e7a49c439545813fa6ead03
+      internalID: 2033588371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_53
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af47de0540e0e440814be3d3eac170c
+      internalID: -833865472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_54
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599aa372d04fcc243aea909be171f53d
+      internalID: 706465053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_55
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2f0589f879a8240b2694807d992c54
+      internalID: 1420662537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_56
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3f6a479f2730a4cbd78a86e6a2f645
+      internalID: -888141170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_57
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61668bc59070dd47810806b594aec5b
+      internalID: -1261399952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_58
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ee5ff654a27414db41ef83199bedff
+      internalID: 81121809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_59
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33752db582ac86f40bbf30a7ba9eab4a
+      internalID: -1939042548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_60
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe197fc3063387d46b3340d5252c9ff2
+      internalID: -72762545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_61
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1bc8765aa96b64ca6468daa404735b
+      internalID: -1909666251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_62
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111e9c584f118a545a2afcb48fc0d965
+      internalID: 318755336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_63
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4392537cb3f059d4890eb7f7dd612b11
+      internalID: -1345060910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_64
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe1250ae8643784d9f02c048c98223f
+      internalID: 1568541205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_65
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8cc20515f8ae75448a36da577112247
+      internalID: -494850710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_66
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22289950c35ac144cac71463bbb34342
+      internalID: 2055096897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_67
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7619cd648dcc5e2468cea1e77ebf5b67
+      internalID: -1045014166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_68
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46257f24bedd5a44b1f12b1b39cbb6f
+      internalID: 1533484279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_69
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a33235dfc0b0d45ba265b1a9bf6f7f
+      internalID: -664808450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_70
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f614e3a2118b1e54b9184352ce551a99
+      internalID: 1504685233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_71
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2c1e7f53b720d459705938ed308cc0
+      internalID: 1685066440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_72
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b966cbce4ed19d468fc3ee406cb9bf6
+      internalID: -1577304121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_73
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61262f1248039548b34f027805fad89
+      internalID: 2073551664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_74
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243e8438dec8f4040a87771f9c633ac8
+      internalID: 952591142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_75
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e47239afc6db84a8f49e9e3256ef4d
+      internalID: 1037652763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_76
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cfd362599829a48ae6451e29682ae8
+      internalID: 1037130449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_77
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c29af856e4023469af55a3fffe27c5
+      internalID: 1777812478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_78
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a373ba498a8beb40bdbd0db016a91a8
+      internalID: -372210807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_79
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d0fa0391a3f1d499214a8c461a3c0b
+      internalID: -2081886008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_80
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2918ec8af193b304a9dcea253fa8e2fe
+      internalID: 729069724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_81
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5257f15ced99126489f2bfe95b6f590d
+      internalID: -1555419238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_82
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d579b1a21ce82d42905c90ec046ac69
+      internalID: -1462672825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_83
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae96385eb10d999488c1b2b11a139d8f
+      internalID: -1278000920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_84
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a29c3aaa429784ebb1fad594b70106
+      internalID: 1118194532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_85
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c410d3b9789a748bbaab6e08cac129
+      internalID: -1922586958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_86
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a57f6abece7dad429b3f505efc29f17
+      internalID: -1946400878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_87
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb746140457377c43a0d4ed259e0f5e1
+      internalID: -729280631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_88
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c62cbbb2232d14b8c1d798f9f0c25b
+      internalID: 526156662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_89
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7e419bd32ee884ab07dc308977bcf3
+      internalID: 1037731179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_90
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68457e367827eba46b2c487a03706c1d
+      internalID: 433074199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_91
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c8b2e2346a8eb48a593ba15963cd5c
+      internalID: -1061095502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_92
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b00c8d0ae76cea4c9fd4fd3eb09619b
+      internalID: 1165557446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_93
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66e01a45524ac94dbcc5bc07143ee2a
+      internalID: 853678597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_94
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d60e48b335e3d747928d7de2689e8e3
+      internalID: 2051561754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_95
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0911601e90343439a3d78cbdaa4ad0
+      internalID: -1481724882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_96
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9eb9c8873af80408c6d24c49e4e29c
+      internalID: -1441042022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_97
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee30172af1ac9ac4cb6706547c768569
+      internalID: 1092540914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_98
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202e4b77d94b0d24f922eb40f0b9c6fe
+      internalID: -1001973509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_99
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfb59c9dde8cd944a58067cd51985ba
+      internalID: 1942344060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_100
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384c624d5c6dd7049bd42a3975d4271e
+      internalID: -347350736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_101
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e638126916c6348a6c201f845e95fd
+      internalID: 211944318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_102
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbba9171824245449c0e82a73022fe1
+      internalID: -818752823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_103
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5844880f1cea23f4194e5b4f40333dd9
+      internalID: -827770023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_104
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa88f79b4e16729459a633975cd9aacc
+      internalID: -1870619213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_105
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafa6283a7af59c429d9bccca6af7956
+      internalID: 974511403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_106
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24e1134f5a57ff4784fea1858487d67
+      internalID: -1055865533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_107
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d5cf0758827e348a3efb33796e25fc
+      internalID: -859597899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_108
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c8e01bb8aaea044877bfdc9def72ae
+      internalID: -587189643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_109
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4bf9ef55022b8145906e1cad3c7c692
+      internalID: -1275579667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_110
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a872131938988dc4899f792453325c78
+      internalID: 1809477412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_111
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db28b492b8e68df4eb5ed37f39e7954e
+      internalID: -121838505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_112
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bf3f043f1891c48bdddf9397058a72
+      internalID: -633583584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_113
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfb03366441ed746949a4413d51876a
+      internalID: 2070784575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_114
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8333eab83e27714fa7e44f86f0645a5
+      internalID: -658664388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_115
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaab09c21b3cf224bb09d04a4974768e
+      internalID: -792262456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_116
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f9ad1ed10ad5e43bc906a0c911d1e4
+      internalID: -609679175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_117
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1baf47488d9701d4ab996077a50cf792
+      internalID: -958440891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_118
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d55665f4599bd148b2cb3d9d9c7a85d
+      internalID: -1345900479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_119
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af8b21d426fc214ca40f8b2d96682c2
+      internalID: -228730547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_120
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f8d4ec2273d754d9666719a4a76103
+      internalID: -1936180801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_121
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f73cc4a838b7b4e9f5acc3bf0d698e
+      internalID: -1936657620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_122
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed81d17851925c4482589560a4671e6
+      internalID: 346020620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_123
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748eff22a5748ae48ab75f8f80124619
+      internalID: 273518505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_124
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44709977a87cf1458f5aa03a8ca9fce
+      internalID: -574720078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_125
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9c52a088ef1f34dab0ab0d9c004972
+      internalID: 867410488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_126
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdae93e376a0f5b4f87529ed7b790678
+      internalID: 1738893208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_127
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7daa5ae0d02eb94fbfd903cfa9e2104
+      internalID: -556285650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_128
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84abf57cc89ae6a43bcbf2e7d5852adc
+      internalID: -1827176730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_129
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc4699b00e78234e8009f914e87f7d4
+      internalID: 1949876009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_130
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de80873ee1678784287ad93c39ba769f
+      internalID: 1984355718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_131
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ad94ad3f651f8499a9cae21ff821ed
+      internalID: 1820790365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_132
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddd92211a9ae2f4487e23d96ab5e333
+      internalID: 539244470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_133
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6da6f44ed821274894b6f63832fb358
+      internalID: -613804561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_134
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff62eeac69d42546a82cfb72915fc79
+      internalID: 1993414209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_135
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3659edf7f544d4a818c63d3df80359
+      internalID: 614582004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_136
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337d1166cdcca7a419cf7c91b58e2abb
+      internalID: 240217501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_137
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fd35d228b423e4c9da7e591790e6fa
+      internalID: 273920652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_138
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55245b8ade77ec1478b8c895a8bf9aac
+      internalID: 35471365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_139
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5830adffa332eb341ad01eb828f18eae
+      internalID: -89877500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_140
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05bf00a43576a7b4d9ba5b90b0036e74
+      internalID: -589912775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_141
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507475fa91dc0ec4c91ace72326b6277
+      internalID: 1535515959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_142
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50115fc1440a02041bed22c9133f2554
+      internalID: 920064769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_143
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00fedea29cca254eb387a886bd765ba
+      internalID: -1340392915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_144
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfe120131e15f9429c4e13efb363b2b
+      internalID: -11145331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_145
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98aa35c68650994eb98864c50ab65e3
+      internalID: 577668218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_146
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485125c320ca64043a6c675ae967a799
+      internalID: -1358289177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_147
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7515009fdd4124ea0558694c234c17
+      internalID: -1885005944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_148
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1934f7a9fd495464381c407f10dbeff3
+      internalID: 1025970500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_149
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d21958048e4cf4dadfcbda3482ce38
+      internalID: 2053481801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_150
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9c2ff34ae32c340b3e599291b26245
+      internalID: 263646026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_151
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287c42ff859e6514e98ec0cf988c4d57
+      internalID: 1473104637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_152
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3498fcb2a2a3c4a9ca65ccd7fb1a64
+      internalID: -1506179542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_153
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bca2e22f51090459d5b847ee65dca5
+      internalID: 614177313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_154
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96472b4ce092994e85d23edeba8d71a
+      internalID: 1815527874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_155
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e703c376f1ffd664b946b20e195a12c9
+      internalID: -809037129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_156
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6255fc3dce2ac7f439048c9c2c93c2fb
+      internalID: -1407289929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_157
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edc0ed3eb26bd34ba718ace9935ed64
+      internalID: 825936364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_158
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646ce0cf1319ebd4ba23abd9df664cd7
+      internalID: 549366341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_159
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 768
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3293e5c51c3a4ff4d8f0726737ee44e8
+      internalID: -70385260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_160
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 768
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd23f39249e4f91499c0a72f51ff23bd
+      internalID: 1669912581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_161
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 768
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2d341dd45d4ab4685c21e2065fd25a
+      internalID: -1119152510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_162
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 768
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfaebe3b5ae4e4340b50d5e4d6436d09
+      internalID: -1863768287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_163
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 768
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505275f0f0751534491c12e3ce8bfa3c
+      internalID: -1204433514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_164
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 768
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de10e702dd4969f40ab29b5eddd352ad
+      internalID: 1923183433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_165
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 704
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3dcae9401a0b440835250d04f818a7
+      internalID: -40947743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_166
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 704
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830aea71d6f9e994c96d44f477bfabb6
+      internalID: -1326268482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_167
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 704
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092be035216667146925e69f4b528248
+      internalID: 1876680424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_168
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824da030f3ae8384c9f9e5d31be55119
+      internalID: -1239238182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_169
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e08a6ab143ad34e8fd4dc9b70c0c77
+      internalID: -1051728515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_170
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b5c428df265e547bd2b6bb112dfb54
+      internalID: 943902563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_171
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1992cae4c8452d419cfaaf4a1049b3c
+      internalID: -114849703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_172
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badc9c38faca1b040b89ffd13bf5df94
+      internalID: 2020282819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_173
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa280482c5337cb488ce035fbc75598b
+      internalID: -630592931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_174
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6d21a80eab948449d5e1a432e760b6
+      internalID: 160912448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_175
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fd9d008d83a514ab2bcac4aeb074df
+      internalID: -591754192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_176
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e355c48697fc441b2ffb65ba38be27
+      internalID: 1870971015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_177
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9eeec68f49a8a34ea52dff9d2ae3511
+      internalID: 1287179378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_178
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753145cf5c909d44b8de8d4e84393891
+      internalID: -1704167439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_179
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291bf3f158021a045b557916f41c26e9
+      internalID: -1945480367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_180
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1890de7a605bbeb4299953aaace7f739
+      internalID: 1444556211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_181
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8370e65d5ef9136419b09e0ab775eff0
+      internalID: 785573907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_182
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3be983fd7ab564fbc260ee61bb75ca
+      internalID: 222897461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_183
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b12a8953c4fb542a694e02e98150f1
+      internalID: -1421511242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_184
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290f02b6394c3d94e808d6b454eeba3a
+      internalID: 1051821930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_185
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3dfa14dd4ce204f929061bfafc009a
+      internalID: 332184712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_186
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc88c7f4da47d8b44b60e41806e36501
+      internalID: 766472598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_187
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604032cba05108e4097229dbdceae1e8
+      internalID: -634842791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_188
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b7a8f9c0a33764eab55fcc695b6251
+      internalID: -145415722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_189
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14291bb708e0dee4591e8388e489f47a
+      internalID: 799472770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_190
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5550d37a6d1a9f6459034e1054bdc74d
+      internalID: 245468339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_191
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668399791e05d964db102b6f64337635
+      internalID: -278900768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_192
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be2f0c2826c22643bd6ae2c5704f587
+      internalID: -1144425156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_193
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010b750191990664091c0dd9e362c858
+      internalID: 1549577311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_194
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575202b464f3913429aa785119ff72ec
+      internalID: 2109107988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_195
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0130816e3b0f74bbc34b9c85fdfc1d
+      internalID: 1498203896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_196
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073c8e9e82fd0194fa05bff57d7242ab
+      internalID: -634379652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_197
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232ffb537802fce4ba745f58ae8983be
+      internalID: -1390864016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_198
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8286bb5af8c9ef5418d9792309f12a02
+      internalID: -1533155454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainAttackLeft_199
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d4538d73d28ff48a115d5de65c14d4
+      internalID: -1536127763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mainAttackLeft_0: 969110260
+      mainAttackLeft_1: -1300781184
+      mainAttackLeft_10: -1412649493
+      mainAttackLeft_100: -347350736
+      mainAttackLeft_101: 211944318
+      mainAttackLeft_102: -818752823
+      mainAttackLeft_103: -827770023
+      mainAttackLeft_104: -1870619213
+      mainAttackLeft_105: 974511403
+      mainAttackLeft_106: -1055865533
+      mainAttackLeft_107: -859597899
+      mainAttackLeft_108: -587189643
+      mainAttackLeft_109: -1275579667
+      mainAttackLeft_11: 974266576
+      mainAttackLeft_110: 1809477412
+      mainAttackLeft_111: -121838505
+      mainAttackLeft_112: -633583584
+      mainAttackLeft_113: 2070784575
+      mainAttackLeft_114: -658664388
+      mainAttackLeft_115: -792262456
+      mainAttackLeft_116: -609679175
+      mainAttackLeft_117: -958440891
+      mainAttackLeft_118: -1345900479
+      mainAttackLeft_119: -228730547
+      mainAttackLeft_12: 1739622448
+      mainAttackLeft_120: -1936180801
+      mainAttackLeft_121: -1936657620
+      mainAttackLeft_122: 346020620
+      mainAttackLeft_123: 273518505
+      mainAttackLeft_124: -574720078
+      mainAttackLeft_125: 867410488
+      mainAttackLeft_126: 1738893208
+      mainAttackLeft_127: -556285650
+      mainAttackLeft_128: -1827176730
+      mainAttackLeft_129: 1949876009
+      mainAttackLeft_13: 276641821
+      mainAttackLeft_130: 1984355718
+      mainAttackLeft_131: 1820790365
+      mainAttackLeft_132: 539244470
+      mainAttackLeft_133: -613804561
+      mainAttackLeft_134: 1993414209
+      mainAttackLeft_135: 614582004
+      mainAttackLeft_136: 240217501
+      mainAttackLeft_137: 273920652
+      mainAttackLeft_138: 35471365
+      mainAttackLeft_139: -89877500
+      mainAttackLeft_14: 1048534576
+      mainAttackLeft_140: -589912775
+      mainAttackLeft_141: 1535515959
+      mainAttackLeft_142: 920064769
+      mainAttackLeft_143: -1340392915
+      mainAttackLeft_144: -11145331
+      mainAttackLeft_145: 577668218
+      mainAttackLeft_146: -1358289177
+      mainAttackLeft_147: -1885005944
+      mainAttackLeft_148: 1025970500
+      mainAttackLeft_149: 2053481801
+      mainAttackLeft_15: -1636714946
+      mainAttackLeft_150: 263646026
+      mainAttackLeft_151: 1473104637
+      mainAttackLeft_152: -1506179542
+      mainAttackLeft_153: 614177313
+      mainAttackLeft_154: 1815527874
+      mainAttackLeft_155: -809037129
+      mainAttackLeft_156: -1407289929
+      mainAttackLeft_157: 825936364
+      mainAttackLeft_158: 549366341
+      mainAttackLeft_159: -70385260
+      mainAttackLeft_16: -1890226831
+      mainAttackLeft_160: 1669912581
+      mainAttackLeft_161: -1119152510
+      mainAttackLeft_162: -1863768287
+      mainAttackLeft_163: -1204433514
+      mainAttackLeft_164: 1923183433
+      mainAttackLeft_165: -40947743
+      mainAttackLeft_166: -1326268482
+      mainAttackLeft_167: 1876680424
+      mainAttackLeft_168: -1239238182
+      mainAttackLeft_169: -1051728515
+      mainAttackLeft_17: 2055617915
+      mainAttackLeft_170: 943902563
+      mainAttackLeft_171: -114849703
+      mainAttackLeft_172: 2020282819
+      mainAttackLeft_173: -630592931
+      mainAttackLeft_174: 160912448
+      mainAttackLeft_175: -591754192
+      mainAttackLeft_176: 1870971015
+      mainAttackLeft_177: 1287179378
+      mainAttackLeft_178: -1704167439
+      mainAttackLeft_179: -1945480367
+      mainAttackLeft_18: 1193236958
+      mainAttackLeft_180: 1444556211
+      mainAttackLeft_181: 785573907
+      mainAttackLeft_182: 222897461
+      mainAttackLeft_183: -1421511242
+      mainAttackLeft_184: 1051821930
+      mainAttackLeft_185: 332184712
+      mainAttackLeft_186: 766472598
+      mainAttackLeft_187: -634842791
+      mainAttackLeft_188: -145415722
+      mainAttackLeft_189: 799472770
+      mainAttackLeft_19: 1132234760
+      mainAttackLeft_190: 245468339
+      mainAttackLeft_191: -278900768
+      mainAttackLeft_192: -1144425156
+      mainAttackLeft_193: 1549577311
+      mainAttackLeft_194: 2109107988
+      mainAttackLeft_195: 1498203896
+      mainAttackLeft_196: -634379652
+      mainAttackLeft_197: -1390864016
+      mainAttackLeft_198: -1533155454
+      mainAttackLeft_199: -1536127763
+      mainAttackLeft_2: -1724214283
+      mainAttackLeft_20: 718220673
+      mainAttackLeft_21: 612784881
+      mainAttackLeft_22: -51848650
+      mainAttackLeft_23: -1731758936
+      mainAttackLeft_24: 1271679373
+      mainAttackLeft_25: -602165884
+      mainAttackLeft_26: 611620963
+      mainAttackLeft_27: -1738159375
+      mainAttackLeft_28: 222220940
+      mainAttackLeft_29: -794384657
+      mainAttackLeft_3: 1982031551
+      mainAttackLeft_30: 1063082942
+      mainAttackLeft_31: -487785765
+      mainAttackLeft_32: 1793955338
+      mainAttackLeft_33: -33941684
+      mainAttackLeft_34: -754016468
+      mainAttackLeft_35: 1570499886
+      mainAttackLeft_36: 1762857219
+      mainAttackLeft_37: 1807257663
+      mainAttackLeft_38: -247698387
+      mainAttackLeft_39: -237798338
+      mainAttackLeft_4: -429289160
+      mainAttackLeft_40: 282050096
+      mainAttackLeft_41: 1469122588
+      mainAttackLeft_42: -626413628
+      mainAttackLeft_43: 263328418
+      mainAttackLeft_44: -1020495155
+      mainAttackLeft_45: -1801428320
+      mainAttackLeft_46: 637418926
+      mainAttackLeft_47: -908878682
+      mainAttackLeft_48: -345831613
+      mainAttackLeft_49: 1958119151
+      mainAttackLeft_5: 1718369686
+      mainAttackLeft_50: 12936057
+      mainAttackLeft_51: -807859510
+      mainAttackLeft_52: 2033588371
+      mainAttackLeft_53: -833865472
+      mainAttackLeft_54: 706465053
+      mainAttackLeft_55: 1420662537
+      mainAttackLeft_56: -888141170
+      mainAttackLeft_57: -1261399952
+      mainAttackLeft_58: 81121809
+      mainAttackLeft_59: -1939042548
+      mainAttackLeft_6: -831376
+      mainAttackLeft_60: -72762545
+      mainAttackLeft_61: -1909666251
+      mainAttackLeft_62: 318755336
+      mainAttackLeft_63: -1345060910
+      mainAttackLeft_64: 1568541205
+      mainAttackLeft_65: -494850710
+      mainAttackLeft_66: 2055096897
+      mainAttackLeft_67: -1045014166
+      mainAttackLeft_68: 1533484279
+      mainAttackLeft_69: -664808450
+      mainAttackLeft_7: -236534688
+      mainAttackLeft_70: 1504685233
+      mainAttackLeft_71: 1685066440
+      mainAttackLeft_72: -1577304121
+      mainAttackLeft_73: 2073551664
+      mainAttackLeft_74: 952591142
+      mainAttackLeft_75: 1037652763
+      mainAttackLeft_76: 1037130449
+      mainAttackLeft_77: 1777812478
+      mainAttackLeft_78: -372210807
+      mainAttackLeft_79: -2081886008
+      mainAttackLeft_8: 2138081370
+      mainAttackLeft_80: 729069724
+      mainAttackLeft_81: -1555419238
+      mainAttackLeft_82: -1462672825
+      mainAttackLeft_83: -1278000920
+      mainAttackLeft_84: 1118194532
+      mainAttackLeft_85: -1922586958
+      mainAttackLeft_86: -1946400878
+      mainAttackLeft_87: -729280631
+      mainAttackLeft_88: 526156662
+      mainAttackLeft_89: 1037731179
+      mainAttackLeft_9: -689125993
+      mainAttackLeft_90: 433074199
+      mainAttackLeft_91: -1061095502
+      mainAttackLeft_92: 1165557446
+      mainAttackLeft_93: 853678597
+      mainAttackLeft_94: 2051561754
+      mainAttackLeft_95: -1481724882
+      mainAttackLeft_96: -1441042022
+      mainAttackLeft_97: 1092540914
+      mainAttackLeft_98: -1001973509
+      mainAttackLeft_99: 1942344060
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
