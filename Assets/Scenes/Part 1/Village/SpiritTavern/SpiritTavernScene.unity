@@ -5420,7 +5420,7 @@ PrefabInstance:
       objectReference: {fileID: 6665255306439664688}
     - target: {fileID: 8818716444469084449, guid: b92cbb75f6d859a41a969b99192e9598, type: 3}
       propertyPath: idleTime
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 8818716444469084449, guid: b92cbb75f6d859a41a969b99192e9598, type: 3}
       propertyPath: attackRange
@@ -5428,7 +5428,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8818716444469084449, guid: b92cbb75f6d859a41a969b99192e9598, type: 3}
       propertyPath: patrolRange
-      value: 5
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818716444469084509, guid: b92cbb75f6d859a41a969b99192e9598, type: 3}
+      propertyPath: m_SortingLayer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818716444469084509, guid: b92cbb75f6d859a41a969b99192e9598, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818716444469084509, guid: b92cbb75f6d859a41a969b99192e9598, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1009285047
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92cbb75f6d859a41a969b99192e9598, type: 3}
