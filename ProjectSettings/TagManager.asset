@@ -13,6 +13,7 @@ TagManager:
   - cat
   - GlobalLights
   - ObjectsForNight
+  - Wall
   layers:
   - Default
   - TransparentFX
