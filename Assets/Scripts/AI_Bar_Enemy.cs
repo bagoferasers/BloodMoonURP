@@ -20,11 +20,12 @@ public class AI_Bar_Enemy : MonoBehaviour
         Idle, Patrol, Chase, Attack
     }
 
-    private AIState currentState;
+    public AIState currentState;
     private Vector3 initialPos;
     private float dest = 0f;
     private bool facingRight = true;
     private bool collided = false;
+    private bool hasWaited = false;
 
     // Start is called before the first frame update
     void Start()
@@ -50,9 +51,9 @@ public class AI_Bar_Enemy : MonoBehaviour
                 break;
             case AIState.Patrol:
                 if( facingRight )
-                    animator.Play( "RowanRightRun" );
+                    animator.Play( "RowanRight" );
                 else
-                    animator.Play( "RowanLeftRun" );
+                    animator.Play( "RowanLeft" );
                 break;
             case AIState.Chase:
                 if( facingRight )
@@ -71,20 +72,20 @@ public class AI_Bar_Enemy : MonoBehaviour
 
     IEnumerator waitRandomTime( )
     {
-        float f = Random.Range( 5f, idleTime );
+        hasWaited = true;
+        float f = Random.Range( 0f, idleTime );
         yield return new WaitForSeconds( f );
         ChangeAIState( AIState.Patrol );
+        hasWaited = false;
     }
 
     void OnCollisionEnter2D( Collision2D collision )
     {
         if( collision.collider.CompareTag( "Wall" ) )
         {
-            Debug.Log( "collided" );
             animator.SetInteger( "motionX", 0 );
             collided = true;
             ChangeAIState( AIState.Idle );
-            StartCoroutine( waitRandomTime( ) );
             facingRight = !facingRight;
             dest = facingRight ? initialPos.x + patrolRange : initialPos.x - patrolRange;
         }
@@ -101,14 +102,17 @@ public class AI_Bar_Enemy : MonoBehaviour
         switch( currentState )
         {
             case AIState.Idle:
-                StartCoroutine( waitRandomTime( ) );
-                ChangeAIState( AIState.Idle );
+                if( !hasWaited )
+                    StartCoroutine( waitRandomTime( ) );
                 break;
             case AIState.Patrol:
                 float distanceRemaining = Mathf.Abs( dest - transform.position.x );
                 float distanceBetween = Mathf.Abs( player.position.x - transform.position.x );
                 if( distanceBetween <= attackRange )
+                {
                     ChangeAIState( AIState.Chase );
+                }
+                    
 
                 if( distanceRemaining > 0.1f )
                 {
@@ -116,13 +120,11 @@ public class AI_Bar_Enemy : MonoBehaviour
                     {
                         rb2D.velocity = new Vector2( speed, rb2D.velocity.y );
                         animator.SetInteger( "motionX", 1 );
-                        ChangeAIState( AIState.Patrol );
                     }
                     else
                     {
                         rb2D.velocity = new Vector2( -speed, rb2D.velocity.y );
                         animator.SetInteger( "motionX", -1 );
-                        ChangeAIState( AIState.Patrol );
                     }                        
                 }
                 else
@@ -135,17 +137,16 @@ public class AI_Bar_Enemy : MonoBehaviour
             case AIState.Chase:
                 if( player != null )
                 {
+                    float updatedSpeed = speed * 2;
                     if( player.position.x < transform.position.x )
                     {
-                        rb2D.velocity = new Vector2( -speed, rb2D.velocity.y );
-                        animator.SetInteger( "motionX", 1 );
-                        ChangeAIState( AIState.Chase );
+                        rb2D.velocity = new Vector2( -updatedSpeed, rb2D.velocity.y );
+                        animator.SetInteger( "motionX", -1 );
                     }
                     else
                     {
-                        rb2D.velocity = new Vector2( speed, rb2D.velocity.y );
-                        animator.SetInteger( "motionX", -1 );
-                        ChangeAIState( AIState.Chase );
+                        rb2D.velocity = new Vector2( updatedSpeed, rb2D.velocity.y );
+                        animator.SetInteger( "motionX", 1 );
                     }
                 }
                 break;
@@ -154,6 +155,10 @@ public class AI_Bar_Enemy : MonoBehaviour
                 rb2D.velocity = Vector2.zero;
                 if ( player != null && ( player.position.x < transform.position.x ) )
                     ChangeAIState( AIState.Chase );
+                else
+                {
+                    
+                }
                 break;
             }
         }
