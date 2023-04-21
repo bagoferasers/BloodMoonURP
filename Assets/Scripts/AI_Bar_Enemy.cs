@@ -51,9 +51,9 @@ public class AI_Bar_Enemy : MonoBehaviour
                 break;
             case AIState.Patrol:
                 if( facingRight )
-                    animator.Play( "RowanRight" );
+                    animator.Play( "RowanRightRun" );
                 else
-                    animator.Play( "RowanLeft" );
+                    animator.Play( "RowanLeftRun" );
                 break;
             case AIState.Chase:
                 if( facingRight )
@@ -73,7 +73,7 @@ public class AI_Bar_Enemy : MonoBehaviour
     IEnumerator waitRandomTime( )
     {
         hasWaited = true;
-        float f = Random.Range( 0f, idleTime );
+        float f = Random.Range( 1f, idleTime );
         yield return new WaitForSeconds( f );
         ChangeAIState( AIState.Patrol );
         hasWaited = false;
@@ -110,10 +110,13 @@ public class AI_Bar_Enemy : MonoBehaviour
                 float distanceBetween = Mathf.Abs( player.position.x - transform.position.x );
                 if( distanceBetween <= attackRange )
                 {
+                    if( player.position.x < transform.position.x )
+                        facingRight = false;
+                    else 
+                        facingRight = true;
                     ChangeAIState( AIState.Chase );
                 }
                     
-
                 if( distanceRemaining > 0.1f )
                 {
                     if( facingRight )
@@ -130,6 +133,7 @@ public class AI_Bar_Enemy : MonoBehaviour
                 else
                 {
                     ChangeAIState( AIState.Idle );
+                    animator.SetInteger( "motionX", 0 );
                     facingRight = !facingRight;
                     dest = facingRight ? initialPos.x + patrolRange : initialPos.x - patrolRange;
                 }
@@ -140,11 +144,13 @@ public class AI_Bar_Enemy : MonoBehaviour
                     float updatedSpeed = speed * 2;
                     if( player.position.x < transform.position.x )
                     {
+                        facingRight = false;
                         rb2D.velocity = new Vector2( -updatedSpeed, rb2D.velocity.y );
                         animator.SetInteger( "motionX", -1 );
                     }
-                    else
+                    else if( player.position.x > transform.position.x )
                     {
+                        facingRight = true;
                         rb2D.velocity = new Vector2( updatedSpeed, rb2D.velocity.y );
                         animator.SetInteger( "motionX", 1 );
                     }
