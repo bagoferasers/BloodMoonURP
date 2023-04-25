@@ -13,15 +13,11 @@ public class AI_Bar_Enemy : MonoBehaviour
     public float patrolRange = 4f;
     public float idleTime = 2f;
     public float attackWaitTime = 0.5f;
-
     public Rigidbody2D rb2D;
-    //public SpriteRenderer spriteRenderer;
-
     public enum AIState 
     {
         Idle, Patrol, Chase, Attack
     }
-
     public AIState currentState;
     private Vector3 initialPos;
     private float dest = 0f;
@@ -36,7 +32,7 @@ public class AI_Bar_Enemy : MonoBehaviour
     {
         initialPos = transform.position;
         updatedSpeed = speed * speedMultiplier;
-        ChangeAIState( AIState.Idle );
+        ChangeAIState( state: AIState.Idle );
     }
 
     void Update( ) 
@@ -46,23 +42,21 @@ public class AI_Bar_Enemy : MonoBehaviour
         switch( currentState )
         {
             case AIState.Idle:
-                // handle case if player is within range
-                CheckChase( distanceBetween );
-                waitRandomTime( );
+                CheckChase( distance: distanceBetween );
                 break;
             case AIState.Patrol:
                 // handle case if player is within range
-                CheckChase( distanceBetween );
+                CheckChase( distance: distanceBetween );
                 // handle patroling
-                RemainingPatrolDistance( distanceRemaining );  
+                RemainingPatrolDistance( distance: distanceRemaining );  
                 break;
             case AIState.Chase:
                 // handle case if player is out of range
                 if( distanceBetween > attackRange )
-                    ChangeAIState( AIState.Idle );
+                    ChangeAIState( state: AIState.Idle );
                 // handle case if player is within attack range
                 else if( distanceBetween < 1f )
-                    ChangeAIState( AIState.Attack );
+                    ChangeAIState( state: AIState.Attack );
                 GoChase( );
                 break;
             case AIState.Attack:
@@ -73,28 +67,13 @@ public class AI_Bar_Enemy : MonoBehaviour
 
     public void ChangeAIState( AIState state )
     {
-        Debug.Log( currentState );
         currentState = state;
-        Debug.Log( "Entered CHANGEAISTATE" );
-
         switch( currentState )
         {
             case AIState.Idle:
-                Debug.Log( "Entered CHANGEAISTATE IDLE" );
                 rb2D.velocity = Vector2.zero;
                 animator.SetInteger( "motionX", 0 );
-                Debug.Log( "After animator set int" );
-                if( facingRight )
-                {
-                    animator.SetBool( "right", true );
-                    animator.SetBool( "left", false );
-                }
-                else
-                {
-                    animator.SetBool( "right", false );
-                    animator.SetBool( "left", true );
-                }
-                Debug.Log( "After everything in changeaistate for idle" );
+                StartCoroutine( waitRandomTime( ) );
                 break;
             case AIState.Patrol:
                 if( facingRight )
@@ -121,7 +100,7 @@ public class AI_Bar_Enemy : MonoBehaviour
                 }
                 break;
             case AIState.Attack:
-                    animator.SetBool( "attack", true );
+                animator.SetBool( "attack", true );
                 break;
         }
     }
@@ -130,9 +109,9 @@ public class AI_Bar_Enemy : MonoBehaviour
     {
         Debug.Log( "Waitingrandomtime" );
         hasWaited = true;
-        float f = Random.Range( 1f, idleTime );
+        float f = Random.Range( 0f, idleTime );
         yield return new WaitForSeconds( f );
-        ChangeAIState( AIState.Patrol );
+        ChangeAIState( state: AIState.Patrol );
         hasWaited = false;
     }
 
@@ -152,7 +131,7 @@ public class AI_Bar_Enemy : MonoBehaviour
         {
             facingRight = !facingRight;
             dest = facingRight ? initialPos.x + patrolRange : initialPos.x - patrolRange;
-            ChangeAIState( AIState.Idle );
+            ChangeAIState( state: AIState.Idle );
         }
     }
 
@@ -161,11 +140,12 @@ public class AI_Bar_Enemy : MonoBehaviour
         Debug.Log( "Checking Chase" );
         if( distanceBetween <= attackRange )
         {
+            Debug.Log( "distanceBetween <= attackRange" );
             if( player.position.x < transform.position.x )
                 facingRight = false;
             else 
                 facingRight = true;
-            ChangeAIState( AIState.Chase );
+            ChangeAIState( state: AIState.Chase );
         }
     }
 
@@ -188,7 +168,6 @@ public class AI_Bar_Enemy : MonoBehaviour
     public void RemainingPatrolDistance( float distance )
     {
         Debug.Log( "Entered remaniningPatrolDistance" );
-        distance = Mathf.Abs( dest - transform.position.x );
         if( distance > 0.1f )
         {
             if( facingRight )
@@ -204,9 +183,9 @@ public class AI_Bar_Enemy : MonoBehaviour
         }
         else
         {
-            //facingRight = !facingRight;
+            facingRight = !facingRight;
             dest = facingRight ? initialPos.x + patrolRange : initialPos.x - patrolRange;
-            ChangeAIState( AIState.Idle );
+            ChangeAIState( state: AIState.Idle );
         }
     }
 }
