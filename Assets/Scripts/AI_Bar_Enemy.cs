@@ -11,8 +11,8 @@ public class AI_Bar_Enemy : MonoBehaviour
     public Transform player;
     public float attackRange = 2f;
     public float patrolRange = 4f;
-    public float idleTime = 2f;
-    public float attackWaitTime = 0.5f;
+    public float idleTime = 0f;
+    public float attackWaitTime = 0.2f;
     public Rigidbody2D rb2D;
     public enum AIState 
     {
@@ -60,7 +60,11 @@ public class AI_Bar_Enemy : MonoBehaviour
                 GoChase( );
                 break;
             case AIState.Attack:
-                //
+                rb2D.velocity = Vector2.zero;
+                if( player.position.x < transform.position.x )
+                    facingRight = false;
+                else 
+                    facingRight = true;
                 break;
         }
     }
@@ -73,7 +77,8 @@ public class AI_Bar_Enemy : MonoBehaviour
             case AIState.Idle:
                 rb2D.velocity = Vector2.zero;
                 animator.SetInteger( "motionX", 0 );
-                StartCoroutine( waitRandomTime( ) );
+                if( !hasWaited )
+                    StartCoroutine( waitRandomTime( ) );
                 break;
             case AIState.Patrol:
                 if( facingRight )
@@ -100,7 +105,8 @@ public class AI_Bar_Enemy : MonoBehaviour
                 }
                 break;
             case AIState.Attack:
-                animator.SetBool( "attack", true );
+                if( !hasWaited )
+                    StartCoroutine( waitForAttack( ) );
                 break;
         }
     }
@@ -119,10 +125,10 @@ public class AI_Bar_Enemy : MonoBehaviour
     {
         hasWaited = true;
         animator.SetBool( "attack", true );
-        float f = Random.Range( 0f, attackWaitTime );
-        yield return new WaitForSeconds( f );
+        yield return new WaitForSeconds( .5f );
         animator.SetBool( "attack", false );
         hasWaited = false;
+        ChangeAIState( state: AIState.Chase );
     }
 
     void OnCollisionEnter2D( Collision2D collision )
