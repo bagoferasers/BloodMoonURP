@@ -117,4579 +117,4348 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rowanWeapon_30
+      name: rowanLeftWeapon_0
       rect:
         serializedVersion: 2
-        x: 128
-        y: 1792
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b9e150be070009b44b8b7f16e9c9f2ad
-      internalID: -1018826635
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_31
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 1792
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93a05a3aba41f564db5e7fa6512a4c79
-      internalID: -1559893798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_32
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 1792
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ecb0567a19a1a145918ac94eda8d2fc
-      internalID: 480370310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_33
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 1792
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 038ca6e48f6de1e4e958898334a4a73a
-      internalID: -357288003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_34
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 1792
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69ce5084c736cd84287bbbba1a93a4d5
-      internalID: 273354553
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_35
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 1792
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c98bead99f785a4892a155e63420ef8
-      internalID: -832743526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_36
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1728
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: baa705fc49649844fbbe47f990c17905
-      internalID: -2135368631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_42
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 1728
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b21eb2a8e05eb648944065fc1bf73ed
-      internalID: -1103774769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_43
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 1728
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 954dbdc15f19fcb47b9ce347aea750aa
-      internalID: 1788902833
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_44
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1664
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2fd4cd8e933b1ba4bbd7584fa96c05d3
-      internalID: -1088702618
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_45
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 1664
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72e529d728ba0e1418db34540c5ed670
-      internalID: -1361066604
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_46
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 1664
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f51b0f8c4ae4b694aa0d5f03b4fad393
-      internalID: 205759974
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_47
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 1664
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00530ce92072e054bbf57ead87060815
-      internalID: 1612267477
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_0
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 53
         y: 2048
         width: 64
         height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.3, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 975c4fe1704452e489be45fef816c12f
-      internalID: -1540760673
+      spriteID: 614dc9b73668d6c489efd70f2fef64ec
+      internalID: 680020287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_1
+      name: rowanLeftWeapon_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 117
         y: 2048
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1afcdefc5b6612d499e440fc89ca1e0f
-      internalID: -580626370
+      spriteID: 8413057ae2c5e5d47bdc00cf2a5d1a0d
+      internalID: 1136185351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_2
+      name: rowanLeftWeapon_2
       rect:
         serializedVersion: 2
-        x: 128
+        x: 181
         y: 2048
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ec795b3022ddc4409ee83e0e98de38d
-      internalID: 1890044009
+      spriteID: 160a7ff09bca4f0469fc2535bce0c2ef
+      internalID: 1906204385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_3
+      name: rowanLeftWeapon_3
       rect:
         serializedVersion: 2
-        x: 192
+        x: 245
         y: 2048
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 754a7a61cdd844340aaa649cdf0de694
-      internalID: 845388481
+      spriteID: 5b26a195fc9bfad408799ac24798cbe5
+      internalID: 702450906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_4
+      name: rowanLeftWeapon_4
       rect:
         serializedVersion: 2
-        x: 256
+        x: 309
         y: 2048
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a57f2dcaa77218409b80b4d19de1e5e
-      internalID: -189958275
+      spriteID: b0381e44f7075ad47904d1e82f3a5781
+      internalID: -948867447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_5
+      name: rowanLeftWeapon_5
       rect:
         serializedVersion: 2
-        x: 320
+        x: 373
         y: 2048
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b01f6d5485dfa4439f1dfe60c6ca058
-      internalID: -1444794700
+      spriteID: fe0cf6660f131ca4cbeda3d8aacba108
+      internalID: 1138133669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_6
+      name: rowanLeftWeapon_6
       rect:
         serializedVersion: 2
-        x: 384
-        y: 2048
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4798871a5518a534da85688d43b2a537
-      internalID: -328054251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_7
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 53
         y: 1984
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d48cd0386fec7574aaafe73842df8adc
-      internalID: -1563187636
+      spriteID: 47df0e652624bfe428b66c4634685a8d
+      internalID: 1279970719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_8
+      name: rowanLeftWeapon_7
       rect:
         serializedVersion: 2
-        x: 64
+        x: 117
         y: 1984
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf3ac4d905d7d6b4aaee6bb2b0eebff7
-      internalID: -1857272311
+      spriteID: 77d5ae8ef48c40a4fa1d22528ed20d7e
+      internalID: -1123245065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_9
+      name: rowanLeftWeapon_8
       rect:
         serializedVersion: 2
-        x: 128
+        x: 181
         y: 1984
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46d207a936b06cd48b8d2b859a80aafd
-      internalID: -30188650
+      spriteID: 5ba5817ab65b8d148beb9f5f749a252f
+      internalID: 1463422949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_10
+      name: rowanLeftWeapon_9
       rect:
         serializedVersion: 2
-        x: 192
+        x: 245
         y: 1984
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98a18b7813d9ac342ad295d42b933a9c
-      internalID: 368881768
+      spriteID: 41836bdbe84eabd49a59734254a02f94
+      internalID: -1748694166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_11
+      name: rowanLeftWeapon_10
       rect:
         serializedVersion: 2
-        x: 256
+        x: 309
         y: 1984
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9360af3077dfe0349bd7f047049c0b0c
-      internalID: -2144282097
+      spriteID: 0eaefe81522c41447a1fe92d02c43ea4
+      internalID: -313612210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_12
+      name: rowanLeftWeapon_11
       rect:
         serializedVersion: 2
-        x: 320
+        x: 373
         y: 1984
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c08b04c76da827349b53d8fac40c47b7
-      internalID: -1417449767
+      spriteID: a8a8e568cb7698e4490ca4bae8219b3e
+      internalID: 1118076932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_13
+      name: rowanLeftWeapon_12
       rect:
         serializedVersion: 2
-        x: 384
-        y: 1984
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 81ef3d6d53798924a84f3c49574b788b
-      internalID: 894622259
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_14
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 53
         y: 1920
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d04bde5f2b573794d8de965df593dc21
-      internalID: -1955431638
+      spriteID: 41f2c8156018e254f88557e17e14b900
+      internalID: 374337782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_15
+      name: rowanLeftWeapon_13
       rect:
         serializedVersion: 2
-        x: 64
+        x: 117
         y: 1920
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b94588345be4b144d9e172d7db14adbc
-      internalID: -307579684
+      spriteID: 8395e6437910c2b46af418783979ce9d
+      internalID: 529643506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_16
+      name: rowanLeftWeapon_14
       rect:
         serializedVersion: 2
-        x: 128
+        x: 181
         y: 1920
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce3808eaca089bf4c9841f7723b78ed4
-      internalID: 589571
+      spriteID: 30354f446b4921549af4ceb449e0cdfa
+      internalID: -756315408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_17
+      name: rowanLeftWeapon_15
       rect:
         serializedVersion: 2
-        x: 192
+        x: 245
         y: 1920
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a36a27799a990148b038873d4a85637
-      internalID: 301900361
+      spriteID: a0921c5cbd7da0a4ba59b118d93c1be3
+      internalID: 1520579147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_18
+      name: rowanLeftWeapon_16
       rect:
         serializedVersion: 2
-        x: 256
+        x: 309
         y: 1920
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4e9d7c45ffb5f94590f3012776ceca8
-      internalID: 774646263
+      spriteID: 3b82978298c908e49bb737a33d28936d
+      internalID: -1543560352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_19
+      name: rowanLeftWeapon_17
       rect:
         serializedVersion: 2
-        x: 320
+        x: 373
         y: 1920
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 172cb690aad1f524ebd5de2096c5fa66
-      internalID: -1549204600
+      spriteID: a985820a1590a7847b8d2b232b2be1e4
+      internalID: -1518915614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_20
+      name: rowanLeftWeapon_18
       rect:
         serializedVersion: 2
-        x: 384
-        y: 1920
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58157c1c0cb864e4b8b8183f29478cb1
-      internalID: 1282980439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_21
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 53
         y: 1856
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b72ce429530cd9744ad0adc471f84f9c
-      internalID: 240125772
+      spriteID: 4a167a24fc9335b4fb028e180c144cf0
+      internalID: 1853361312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_22
+      name: rowanLeftWeapon_19
       rect:
         serializedVersion: 2
-        x: 64
+        x: 117
         y: 1856
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bfaa66cb6b16d243b2e60e021e001cb
-      internalID: 51322544
+      spriteID: a6c03ff9909803c49b3f33ebbb29b611
+      internalID: 1572866277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_23
+      name: rowanLeftWeapon_20
       rect:
         serializedVersion: 2
-        x: 128
+        x: 181
         y: 1856
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65c6b9a62c81e104eb411d4c14e8958b
-      internalID: -806794468
+      spriteID: 8b0b67ea1d8996f40a035745703f522d
+      internalID: 1851091030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_24
+      name: rowanLeftWeapon_21
       rect:
         serializedVersion: 2
-        x: 192
+        x: 245
         y: 1856
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 490dba8400c8a0644b5ab43bf689160a
-      internalID: 3121044
+      spriteID: 7442cdc4537f41f4cbc9a71a1c3d4a4d
+      internalID: 285388067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_25
+      name: rowanLeftWeapon_22
       rect:
         serializedVersion: 2
-        x: 256
+        x: 309
         y: 1856
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e8c396b4e91cbb448411c022dc931c5
-      internalID: -1329124705
+      spriteID: 3288164211660b24598e79d9beaacffc
+      internalID: -1988951772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_26
+      name: rowanLeftWeapon_23
       rect:
         serializedVersion: 2
-        x: 320
+        x: 373
         y: 1856
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64174a245afef5d449083d6cae24ca7c
-      internalID: 1164747482
+      spriteID: 4df526867944c9d489c511401eb256b5
+      internalID: 646815746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_27
+      name: rowanLeftWeapon_24
       rect:
         serializedVersion: 2
-        x: 384
-        y: 1856
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f656bd2a3ab64e4eb800788358a974b
-      internalID: 996256357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_28
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 53
         y: 1792
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88d4516dba1ed594792e940a6dd0974c
-      internalID: 1605720491
+      spriteID: 33aeb6bd1e70ea64685e38389db00020
+      internalID: -2108961471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_29
+      name: rowanLeftWeapon_25
       rect:
         serializedVersion: 2
-        x: 64
+        x: 117
         y: 1792
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a69d184cdc3308940b6e12c7aec80e6e
-      internalID: -2115253035
+      spriteID: ae416f9d34b0f2b4e9d143dac3150955
+      internalID: 1018690347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_37
+      name: rowanLeftWeapon_26
       rect:
         serializedVersion: 2
-        x: 64
+        x: 181
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52daa3ecebd5884f9a95c84e1a1baab
+      internalID: 1798796091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanLeftWeapon_27
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ad6c33dd70a4d47956175efcafb973
+      internalID: 1935404629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanLeftWeapon_28
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31483475837eaf45970e3945c93f116
+      internalID: 1323312318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanLeftWeapon_29
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e301bee01c53e46942ee4cc53dde4b
+      internalID: -177111766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanLeftWeapon_30
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64e4f2043587574c8da3d9217dc2fc5
+      internalID: 574015567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanLeftWeapon_31
+      rect:
+        serializedVersion: 2
+        x: 53
         y: 1728
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc0b7bb92e6b1234fb3af20c385f2ff4
-      internalID: 823761416
+      spriteID: 8513975406ca97d4eb4c088aaf50d5c6
+      internalID: -1209913292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_38
+      name: rowanLeftWeapon_32
       rect:
         serializedVersion: 2
-        x: 128
+        x: 117
         y: 1728
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce76b7576ca9d264c90be45d3f73b07d
-      internalID: -1012987006
+      spriteID: 395981beedeb63c44a70f0e15cd5fe1c
+      internalID: 1745601592
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_39
+      name: rowanLeftWeapon_33
       rect:
         serializedVersion: 2
-        x: 192
+        x: 181
         y: 1728
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0665a5b4867f92c43b76b02f7cf2e029
-      internalID: 1863130055
+      spriteID: d6df23c742c417b41bdd57094430987c
+      internalID: -1522898084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_40
+      name: rowanLeftWeapon_34
       rect:
         serializedVersion: 2
-        x: 256
+        x: 245
         y: 1728
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abdc7967dd074b44cbc9492dc00010a7
-      internalID: 564992289
+      spriteID: eeacc942a1efc424ab7c6220eba859e0
+      internalID: -922530736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_41
+      name: rowanLeftWeapon_35
       rect:
         serializedVersion: 2
-        x: 320
+        x: 309
         y: 1728
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fad7a574a0a89f74d9691f10ed5e2d03
-      internalID: -462068054
+      spriteID: de8b402e8892f844a896dc6a37be3846
+      internalID: 1031642024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_48
+      name: rowanLeftWeapon_36
       rect:
         serializedVersion: 2
-        x: 256
+        x: 373
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49330ba29a8b27442839d9cd2306227b
+      internalID: 2011625085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanLeftWeapon_37
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683d4030510fcb54687a18d882c01812
+      internalID: -227858195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanLeftWeapon_38
+      rect:
+        serializedVersion: 2
+        x: 53
         y: 1664
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c13f68662eb424c488eaa0344179c089
-      internalID: 495111858
+      spriteID: a588ca3e0bd45f043b96e75eaab37b17
+      internalID: -100917409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_49
+      name: rowanLeftWeapon_39
       rect:
         serializedVersion: 2
-        x: 320
+        x: 117
         y: 1664
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ece62b576380ad48ac764bcf90b3984
-      internalID: 1268856422
+      spriteID: d30419d24835c7d478b6935885171338
+      internalID: -1674946498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_50
+      name: rowanLeftWeapon_40
       rect:
         serializedVersion: 2
-        x: 384
+        x: 181
         y: 1664
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24169ae6cc392894aa4a367bea528a44
-      internalID: 771967242
+      spriteID: a0c3342f941b3ab43bb096e1aa564b33
+      internalID: -1614524698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_51
+      name: rowanLeftWeapon_41
       rect:
         serializedVersion: 2
-        x: 448
+        x: 245
         y: 1664
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d32a2cae8ef99834cb31cb61ecab20ae
-      internalID: -1207978045
+      spriteID: 9758ab8f3bce77748bb89b08309805b5
+      internalID: 178138989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_52
+      name: rowanLeftWeapon_42
       rect:
         serializedVersion: 2
-        x: 0
+        x: 309
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6f34c57c0f48147bef50fedb58e62b
+      internalID: 1613776520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanLeftWeapon_43
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598f668c47e1665428519981d2747256
+      internalID: -379853462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanLeftWeapon_44
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109ff32a9f4cf5041872d91e1e22c6d9
+      internalID: 1557150784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanLeftWeapon_45
+      rect:
+        serializedVersion: 2
+        x: 53
         y: 1600
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06d3273a53b9de94c9e98088e52a6629
-      internalID: -359073353
+      spriteID: db74e78e093dc1647b66149e65e4dfb6
+      internalID: 335035276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_53
+      name: rowanLeftWeapon_46
       rect:
         serializedVersion: 2
-        x: 64
+        x: 117
         y: 1600
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3525b868a4732874f815a266b0d4d7ee
-      internalID: -427747627
+      spriteID: e5449114525a11d4aa3f57eab5ed19cd
+      internalID: -1316700910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_54
+      name: rowanLeftWeapon_47
       rect:
         serializedVersion: 2
-        x: 128
+        x: 181
         y: 1600
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73c4669605a91db45adb64d58aa0a743
-      internalID: -1592404838
+      spriteID: cf51501b01aab0449be50c4bfd447f33
+      internalID: 5641166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_55
+      name: rowanLeftWeapon_48
       rect:
         serializedVersion: 2
-        x: 192
+        x: 245
         y: 1600
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09b6a16f1c5ab1643bfd9480249385e9
-      internalID: 401949652
+      spriteID: 864d3882ceb1c6b49a919e4facb2fc1c
+      internalID: 1636256403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_56
+      name: rowanLeftWeapon_49
       rect:
         serializedVersion: 2
-        x: 256
+        x: 309
         y: 1600
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14eef7d9917a95848bd45c2e75538375
-      internalID: -299718373
+      spriteID: 4149ccbf2e831be46998d212785acc22
+      internalID: 2076425567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_57
+      name: rowanLeftWeapon_50
       rect:
         serializedVersion: 2
-        x: 320
+        x: 373
         y: 1600
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4b55ee8fa7eab843b35901f38acbbac
-      internalID: -991189350
+      spriteID: 1be4f901e96dec14b9bae64ccf48f9b3
+      internalID: 1232379408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_58
+      name: rowanLeftWeapon_51
       rect:
         serializedVersion: 2
-        x: 384
+        x: 437
         y: 1600
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0183a499c9c4fd04483a722fc12cf2fb
-      internalID: 547094628
+      spriteID: 0927f1462d5cd394cb7a8e0ba14d25d9
+      internalID: -2064817932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_59
+      name: rowanLeftWeapon_52
       rect:
         serializedVersion: 2
-        x: 448
-        y: 1600
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46a27ef531db4634b80cd51e92a08ae1
-      internalID: 1165145145
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_60
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 53
         y: 1536
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 413f3d62c65a8bf4d840832b303a9a90
-      internalID: -684032382
+      spriteID: 4cc114105f2a6e24abe585cd7dae82a6
+      internalID: 1145489308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_61
+      name: rowanLeftWeapon_53
       rect:
         serializedVersion: 2
-        x: 64
+        x: 117
         y: 1536
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a827a92bb90beb43bed8486a586668e
-      internalID: -125467482
+      spriteID: d927f2e5e3c6e764ea8aac865bb7ef89
+      internalID: -1144183804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_62
+      name: rowanLeftWeapon_54
       rect:
         serializedVersion: 2
-        x: 128
+        x: 181
         y: 1536
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57305a284b44d9f49ba61e43d1420014
-      internalID: -818357819
+      spriteID: 5a380ba22a24e2941b4d98cbc6b3b967
+      internalID: -1716464846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_63
+      name: rowanLeftWeapon_55
       rect:
         serializedVersion: 2
-        x: 192
+        x: 245
         y: 1536
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68ef5c16088c84245ad5aa4251a5b3c2
-      internalID: 1048659618
+      spriteID: 65174250d634e4c4d9bacb04baf5c770
+      internalID: 2144648873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_64
+      name: rowanLeftWeapon_56
       rect:
         serializedVersion: 2
-        x: 256
+        x: 309
         y: 1536
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d8a5908604d8ec43b8b73142beaa3d2
-      internalID: -343213888
+      spriteID: 3d63e2bc449e14e40bd673cad87e0447
+      internalID: 1017785014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_65
+      name: rowanLeftWeapon_57
       rect:
         serializedVersion: 2
-        x: 320
+        x: 373
         y: 1536
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1917c3b9a5481de4d96c90bc2b9df193
-      internalID: 1513495228
+      spriteID: 7746054682732d2499152e4f1e05b475
+      internalID: 2014487335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_66
+      name: rowanLeftWeapon_58
       rect:
         serializedVersion: 2
-        x: 384
+        x: 437
         y: 1536
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1797e7be19a0151499fc73e448f98af5
-      internalID: -1109470235
+      spriteID: 8cb3ad3dfb8248c48937afec846cc112
+      internalID: -548854817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_67
+      name: rowanLeftWeapon_59
       rect:
         serializedVersion: 2
-        x: 448
+        x: 501
         y: 1536
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2692fb29d639eb7418fd308e341117d2
-      internalID: 519827681
+      spriteID: 63e60dd333ab9554eb6a5bb96d90ed96
+      internalID: -256874627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_68
+      name: rowanLeftWeapon_60
       rect:
         serializedVersion: 2
-        x: 512
+        x: 565
         y: 1536
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f51ce92b536b27e4197ee8f1395cde9a
-      internalID: -2109160800
+      spriteID: 1ff0fbfaea3e0a44388b4fcf9d0d0973
+      internalID: 866582205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_69
+      name: rowanLeftWeapon_61
       rect:
         serializedVersion: 2
-        x: 0
+        x: 53
         y: 1472
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f683a9d6968a36143832dd85443abc72
-      internalID: 1941024393
+      spriteID: b4672da5110b8144084b2580a98ca6f3
+      internalID: -659491052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_70
+      name: rowanLeftWeapon_62
       rect:
         serializedVersion: 2
-        x: 64
+        x: 117
         y: 1472
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72599428ff5c67d4ebae23c1e8bb1b07
-      internalID: -774017524
+      spriteID: b72e9e11dd495c54f9ed7d54e8fbeb5a
+      internalID: -1613694417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_71
+      name: rowanLeftWeapon_63
       rect:
         serializedVersion: 2
-        x: 128
+        x: 181
         y: 1472
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c4c52a2b86fbd147abe5f605c372db5
-      internalID: -467068031
+      spriteID: 062fa80c8fdb97148ac8c4bb3e271c58
+      internalID: 1849822643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_72
+      name: rowanLeftWeapon_64
       rect:
         serializedVersion: 2
-        x: 192
+        x: 245
         y: 1472
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aeb7fc4ca96d8cf4786b1abd6c592240
-      internalID: -373178283
+      spriteID: ec622d41f28740d4984eb2b84f2fad7d
+      internalID: -945750296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_73
+      name: rowanLeftWeapon_65
       rect:
         serializedVersion: 2
-        x: 256
+        x: 309
         y: 1472
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d815d0c08ad27b4fa6940dc366d235a
-      internalID: 284125347
+      spriteID: 93c5c4346a9cbd6428b60b4ae60fbff2
+      internalID: -407937201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_74
+      name: rowanLeftWeapon_66
       rect:
         serializedVersion: 2
-        x: 320
+        x: 373
         y: 1472
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e73a7592ea9cb8a48b3b71cf808f6380
-      internalID: 2122272088
+      spriteID: c7c02dbe98058a547afc4955bbc784f9
+      internalID: -1388631979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_75
+      name: rowanLeftWeapon_67
       rect:
         serializedVersion: 2
-        x: 384
+        x: 437
         y: 1472
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc6568e35742a9d4cb60f593f0015a7a
-      internalID: -800053729
+      spriteID: 359d07d0ced83fc45b26806a520696f4
+      internalID: -35859833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_76
+      name: rowanLeftWeapon_68
       rect:
         serializedVersion: 2
-        x: 448
+        x: 501
         y: 1472
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eaaef2e8d2df09e4185e7aa97ab1b26b
-      internalID: -1025494271
+      spriteID: cf0572a5f05762a4e8eaaf7ac1508fd4
+      internalID: 2127744329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_77
+      name: rowanLeftWeapon_69
       rect:
         serializedVersion: 2
-        x: 512
+        x: 565
         y: 1472
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d01067f37a0cd1488603cda92e4f20d
-      internalID: 1515171306
+      spriteID: 1b03c59b723b4604a85d4114d44b02d2
+      internalID: -732173707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_78
+      name: rowanLeftWeapon_70
       rect:
         serializedVersion: 2
-        x: 0
+        x: 53
         y: 1408
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4a4461a178ad564a84fc7207d51f032
-      internalID: 1958236874
+      spriteID: a1d85668d92f76d4db5b09000a23d36b
+      internalID: -1572107002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_79
+      name: rowanLeftWeapon_71
       rect:
         serializedVersion: 2
-        x: 64
+        x: 117
         y: 1408
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9dd4ee0ebb863b342813036dc5e683f8
-      internalID: 231191560
+      spriteID: d73d6156a0e68324b9784de816ace05d
+      internalID: 1310314205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_80
+      name: rowanLeftWeapon_72
       rect:
         serializedVersion: 2
-        x: 128
+        x: 181
         y: 1408
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9acda3a970105cf4583ed5e39c284964
-      internalID: -1515107350
+      spriteID: 34a03eede09c0744eb6494c6c60f5f5e
+      internalID: -948560125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_81
+      name: rowanLeftWeapon_73
       rect:
         serializedVersion: 2
-        x: 192
+        x: 245
         y: 1408
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 304dd52934aa7a7488035ef9d6b55bbe
-      internalID: -82493183
+      spriteID: bcbeca1065b749a4988600e981f064c5
+      internalID: -1483104188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_82
+      name: rowanLeftWeapon_74
       rect:
         serializedVersion: 2
-        x: 256
+        x: 309
         y: 1408
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b87ab47ef676aa4439036d99e5ddf964
-      internalID: -1578280567
+      spriteID: 30913b50e543b4448a3235b0a75c0fe4
+      internalID: -1288325165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_83
+      name: rowanLeftWeapon_75
       rect:
         serializedVersion: 2
-        x: 320
+        x: 373
         y: 1408
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d59f06dd8b5c6a74dae2898a685b18f1
-      internalID: -705043546
+      spriteID: 0fbada0c25ffad047bfd8741cdc17cc4
+      internalID: 1878622133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_84
+      name: rowanLeftWeapon_76
       rect:
         serializedVersion: 2
-        x: 384
+        x: 437
         y: 1408
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b860ba1f066ac4e4aa4e64a73cd8ea6c
-      internalID: -1792120010
+      spriteID: 43213175e5143684489e9cea5e768d30
+      internalID: -1464408741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_85
+      name: rowanLeftWeapon_77
       rect:
         serializedVersion: 2
-        x: 448
+        x: 501
         y: 1408
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e82ac360612a3c44bef448e3cbb79d8
-      internalID: -1615081241
+      spriteID: 125a789a1841b0a498f6777303db0fc8
+      internalID: 1681542657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_86
+      name: rowanLeftWeapon_78
       rect:
         serializedVersion: 2
-        x: 512
+        x: 565
         y: 1408
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 855701e79ed71d94d8b8ca6809d07b99
-      internalID: 1509851776
+      spriteID: e1e62ef962d74044ca8c48e8aa36a659
+      internalID: -724956746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_87
+      name: rowanLeftWeapon_79
       rect:
         serializedVersion: 2
-        x: 0
+        x: 53
         y: 1344
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70b8d1316f974554787f95509c93e0d5
-      internalID: 1993579327
+      spriteID: 04e785382fcc5a64797e9fcd044f7791
+      internalID: -80836295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_88
+      name: rowanLeftWeapon_80
       rect:
         serializedVersion: 2
-        x: 64
+        x: 117
         y: 1344
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99e3c7a0ff2986649928a60a9987ecc8
-      internalID: -864110602
+      spriteID: 1b1c37460524a6b4db12bbff203a3ab8
+      internalID: 20342246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_89
+      name: rowanLeftWeapon_81
       rect:
         serializedVersion: 2
-        x: 128
+        x: 181
         y: 1344
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93712dbb37881c2489951f38ebd4b4c3
-      internalID: -1298343312
+      spriteID: 58b57c6195786eb4ca412254d4ccc6e9
+      internalID: 1859129545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_90
+      name: rowanLeftWeapon_82
       rect:
         serializedVersion: 2
-        x: 192
+        x: 245
         y: 1344
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f6523413c3601c49acf194c6c7fa80b
-      internalID: 1232071297
+      spriteID: 9694efcfe93007a43a838c8ae12a55d2
+      internalID: -1295462430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_91
+      name: rowanLeftWeapon_83
       rect:
         serializedVersion: 2
-        x: 256
+        x: 309
         y: 1344
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dae6df5929978764a80e8497ee9ecefc
-      internalID: 604562303
+      spriteID: 120e20ea1b882544f95b0e1712e85103
+      internalID: -1299456650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_92
+      name: rowanLeftWeapon_84
       rect:
         serializedVersion: 2
-        x: 320
+        x: 373
         y: 1344
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c93f07a41db37774cb4bab2118717c62
-      internalID: -1865526816
+      spriteID: 5134397e5fa8a6640a04ecc50ca16a24
+      internalID: 575099364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_93
+      name: rowanLeftWeapon_85
       rect:
         serializedVersion: 2
-        x: 384
+        x: 437
         y: 1344
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88c657d6affccd9459a28101eb833066
-      internalID: -73144755
+      spriteID: a14ffff94336baa4781d4645be2c1d1d
+      internalID: 1565562110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_94
+      name: rowanLeftWeapon_86
       rect:
         serializedVersion: 2
-        x: 448
+        x: 501
         y: 1344
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15e70df9dee2f6349a3452c555a6e38a
-      internalID: 1817386384
+      spriteID: 6a4428352253d68408b25f672107f609
+      internalID: 78767294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_95
+      name: rowanLeftWeapon_87
       rect:
         serializedVersion: 2
-        x: 512
-        y: 1344
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b7d13439d5002246ac6aaed955f2a7f
-      internalID: -430013308
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_96
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 53
         y: 1280
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc19c2106892ca848adb93b37857a191
-      internalID: 1472088072
+      spriteID: 86df2276292b6674e8fa95fbee3af670
+      internalID: -451780350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_97
+      name: rowanLeftWeapon_88
       rect:
         serializedVersion: 2
-        x: 64
+        x: 117
         y: 1280
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1ffc9ea3a381dd45b920bdcd0b3d5c4
-      internalID: 268937779
+      spriteID: a9d3cedfa0204c643b6887613cba0086
+      internalID: 2053161612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_98
+      name: rowanLeftWeapon_89
       rect:
         serializedVersion: 2
-        x: 128
+        x: 181
         y: 1280
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7aebf732c15e504395c780626951b8a
-      internalID: -1507752283
+      spriteID: b7dc149e492798d4e984d6b36557dab6
+      internalID: 1197842347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_99
+      name: rowanLeftWeapon_90
       rect:
         serializedVersion: 2
-        x: 192
+        x: 245
         y: 1280
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc13436e9ffe1ac48a0bf5024a62dc98
-      internalID: -1914758724
+      spriteID: eb71eb9f33455c14d8ce200b17de9b40
+      internalID: 951650461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_100
+      name: rowanLeftWeapon_91
       rect:
         serializedVersion: 2
-        x: 256
+        x: 309
         y: 1280
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c07555f62c9c1d4bb339b49d5f33268
-      internalID: 663066326
+      spriteID: a842c37f54e7fe647adc3661b7fcb443
+      internalID: 488659447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_101
+      name: rowanLeftWeapon_92
       rect:
         serializedVersion: 2
-        x: 320
+        x: 373
         y: 1280
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53f735abe1c584f42b6486c2ad5d226e
-      internalID: -887547577
+      spriteID: 69278fe4e26c4294497faa0bb06c4065
+      internalID: 1085572127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_102
+      name: rowanLeftWeapon_93
       rect:
         serializedVersion: 2
-        x: 0
+        x: 53
         y: 1216
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c26018cedf1d37d49ac6afda0a502bfc
-      internalID: 1749467700
+      spriteID: 43715c306da1a4241ad7a9e78d8ae875
+      internalID: 188722487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_103
+      name: rowanLeftWeapon_94
       rect:
         serializedVersion: 2
-        x: 64
+        x: 117
         y: 1216
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc0b9b4db936b104c91658fe7aef2211
-      internalID: -1682499972
+      spriteID: 76ffb1229ed0b6c4abff4b555b5dd1bb
+      internalID: -1237303835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_104
+      name: rowanLeftWeapon_95
       rect:
         serializedVersion: 2
-        x: 128
+        x: 181
         y: 1216
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb752da46f9ee2145b56e46eccadbebf
-      internalID: -1240756073
+      spriteID: 6a1a371139cff5146ac2809ed9756845
+      internalID: -1483028754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_105
+      name: rowanLeftWeapon_96
       rect:
         serializedVersion: 2
-        x: 192
+        x: 245
         y: 1216
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08da862634e76ec4c853dfb3beede3d9
-      internalID: 121367684
+      spriteID: c4362eb8cbc8ee547b22bed3dfab6a2f
+      internalID: 1564216854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_106
+      name: rowanLeftWeapon_97
       rect:
         serializedVersion: 2
-        x: 256
+        x: 309
         y: 1216
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fa099ff85c80454ebbbd12b0b086f8c
-      internalID: -1410934826
+      spriteID: f55889ac5bd6b594a8375e54221b6c98
+      internalID: -1046439690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_107
+      name: rowanLeftWeapon_98
       rect:
         serializedVersion: 2
-        x: 320
-        y: 1216
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8238a0501f2e9d749b520550c947522e
-      internalID: -169149072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_108
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 53
         y: 1152
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3896d5c8f3a4a474e823d98b57b94334
-      internalID: -1847340981
+      spriteID: 906d8ba1000b2c84a88110c5d62679fb
+      internalID: -1309984046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_109
+      name: rowanLeftWeapon_99
       rect:
         serializedVersion: 2
-        x: 64
+        x: 117
         y: 1152
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4355ea5219b54649bed59e65255c6b5
-      internalID: 2009091760
+      spriteID: de78f95ca60c42741a4dab8c25041570
+      internalID: 1952382780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_110
+      name: rowanLeftWeapon_100
       rect:
         serializedVersion: 2
-        x: 128
+        x: 181
         y: 1152
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5904149d241fd549aa27bcdffea3d5c
-      internalID: -910807637
+      spriteID: 582de80e784ec664ebfd2c2ad244c1b8
+      internalID: -1079274275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_111
+      name: rowanLeftWeapon_101
       rect:
         serializedVersion: 2
-        x: 192
+        x: 245
         y: 1152
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14d4cd0818ccb964b89b5885f7c9ba0e
-      internalID: -975300204
+      spriteID: bbb9120e1d0d8774f9a9ecc497c3d649
+      internalID: 1967004876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_112
+      name: rowanLeftWeapon_102
       rect:
         serializedVersion: 2
-        x: 256
+        x: 309
         y: 1152
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d451c8c41f9c8c4984a73ad988c1a70
-      internalID: 851740257
+      spriteID: 2f59223633a46d74a82eb284a1517f03
+      internalID: -698497287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_113
+      name: rowanLeftWeapon_103
       rect:
         serializedVersion: 2
-        x: 320
+        x: 373
         y: 1152
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a739e6bebb51d094c847ac29412a0615
-      internalID: -1486827215
+      spriteID: 5764a35e75acfac41b6a1afd0f2223f5
+      internalID: 1306372771
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_114
+      name: rowanLeftWeapon_104
       rect:
         serializedVersion: 2
-        x: 0
+        x: 53
         y: 1088
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c501acf0a1689084d888498d34cd0612
-      internalID: 526728148
+      spriteID: 82d613105c792564ab57380419e65307
+      internalID: 1589949990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_115
+      name: rowanLeftWeapon_105
       rect:
         serializedVersion: 2
-        x: 64
+        x: 117
         y: 1088
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36268b6ebeeaff242a45c10056fafa8e
-      internalID: -1435897053
+      spriteID: c68e9e4ed71bb7d44b4ae8d4d55aa423
+      internalID: 90372664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_116
+      name: rowanLeftWeapon_106
       rect:
         serializedVersion: 2
-        x: 128
+        x: 181
         y: 1088
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4334ee42725f12643964ee446286eb7a
-      internalID: 961115650
+      spriteID: fffc78d6ef7486047a82fba3df7285b9
+      internalID: 217659211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_117
+      name: rowanLeftWeapon_107
       rect:
         serializedVersion: 2
-        x: 192
+        x: 245
         y: 1088
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 028fba0fe0488f643ab0b91896e0829b
-      internalID: 309493784
+      spriteID: c22587923e831a147a869e1d13bd97fa
+      internalID: 64642517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_118
+      name: rowanLeftWeapon_108
       rect:
         serializedVersion: 2
-        x: 256
+        x: 309
         y: 1088
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9142f320259e5a2499df3f4831dda085
-      internalID: -954737383
+      spriteID: 659c0eb0f9a5109449b90fffe27985a6
+      internalID: -774424661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_119
+      name: rowanLeftWeapon_109
       rect:
         serializedVersion: 2
-        x: 320
-        y: 1088
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b8a2fd9d29c08a4a952a7fb6cb48b45
-      internalID: -1099175451
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_120
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 53
         y: 1024
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1c52aa57a402754d94938546e970f5e
-      internalID: -346693610
+      spriteID: 5c19eff218707bc44944eda6b2589cfe
+      internalID: -24057937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_121
+      name: rowanLeftWeapon_110
       rect:
         serializedVersion: 2
-        x: 64
+        x: 117
         y: 1024
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4edaa2eddf96b14c9f25f2ac5ad2edb
-      internalID: 1592754382
+      spriteID: 16bb5808d3ae86c46b48e5cd5b9c2c55
+      internalID: -1095910949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_122
+      name: rowanLeftWeapon_111
       rect:
         serializedVersion: 2
-        x: 128
+        x: 181
         y: 1024
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 665ff700d0cfe2245a7b8ff3657860b5
-      internalID: -458172628
+      spriteID: eab5158a502da564aa7636f70f18d894
+      internalID: -2060503927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_123
+      name: rowanLeftWeapon_112
       rect:
         serializedVersion: 2
-        x: 192
+        x: 245
         y: 1024
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82c42ba04ba074541af85759bc72138a
-      internalID: -1170426366
+      spriteID: e6dedfbc62be3444ba0496a63992d509
+      internalID: 1622285452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_124
+      name: rowanLeftWeapon_113
       rect:
         serializedVersion: 2
-        x: 256
+        x: 309
         y: 1024
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89580c52d38159842aba75b9e6389fee
-      internalID: -1857264023
+      spriteID: f97c738dc4db4ce458d99e8b5b3a038a
+      internalID: 824987371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_125
+      name: rowanLeftWeapon_114
       rect:
         serializedVersion: 2
-        x: 320
+        x: 373
         y: 1024
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcbd2d118b397374fa4ea880640232db
-      internalID: 1292639634
+      spriteID: 1422752991b1d7a439ae4036da95dcdf
+      internalID: -1809591226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_126
+      name: rowanLeftWeapon_115
       rect:
         serializedVersion: 2
-        x: 384
+        x: 437
         y: 1024
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa64900f375183e4896fec9b3d1d11e2
-      internalID: 1706900603
+      spriteID: 41b0deaf18835a4459d3a415cb464b4c
+      internalID: 1785463160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_127
+      name: rowanLeftWeapon_116
       rect:
         serializedVersion: 2
-        x: 448
+        x: 501
         y: 1024
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16ed234708d325b4aaf95d2adeb46af5
-      internalID: -584329558
+      spriteID: a8fc1cdc1e1a13d4ba83e2f448681a2e
+      internalID: 797297720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_128
+      name: rowanLeftWeapon_117
       rect:
         serializedVersion: 2
-        x: 512
+        x: 565
         y: 1024
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c2ecbf9269a1d042bb1b6b6c4bb534c
-      internalID: -1994878290
+      spriteID: 39b03f4a889867f44bc9ae81af9ccb2d
+      internalID: -1347467039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_129
+      name: rowanLeftWeapon_118
       rect:
         serializedVersion: 2
-        x: 576
+        x: 629
         y: 1024
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b00a5e36dbdb1a45ae89fcf996e08f3
-      internalID: -867131237
+      spriteID: 768a7e2bf35c2b74d9fe084db794c167
+      internalID: -863560210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_130
+      name: rowanLeftWeapon_119
       rect:
         serializedVersion: 2
-        x: 640
+        x: 693
         y: 1024
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57b73f7a97abbff45b6e03cbb38a4f77
-      internalID: -1136606590
+      spriteID: 9fec5daed3d143f4cabaedb963aac957
+      internalID: -1512127310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_131
+      name: rowanLeftWeapon_120
       rect:
         serializedVersion: 2
-        x: 704
+        x: 757
         y: 1024
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdc65082d8e184e4fa9bb3b7c7045068
-      internalID: 151873449
+      spriteID: c7f1296693894c14c9000d99aba74aa7
+      internalID: -791488205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_132
+      name: rowanLeftWeapon_121
       rect:
         serializedVersion: 2
-        x: 768
-        y: 1024
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 270dfde15309bda4c892b1e5942c097f
-      internalID: 865982266
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_133
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 53
         y: 960
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c32264a4f183a5e4eb56199aaa0d5399
-      internalID: -578484193
+      spriteID: 14d22088c963eb843ab71da52fd1e933
+      internalID: -914897196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_134
+      name: rowanLeftWeapon_122
       rect:
         serializedVersion: 2
-        x: 64
+        x: 117
         y: 960
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dd7999ff289d634db3093c005696628
-      internalID: -1279772977
+      spriteID: e77f538221d8e8249b1001862114b02a
+      internalID: -50483669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_135
+      name: rowanLeftWeapon_123
       rect:
         serializedVersion: 2
-        x: 128
+        x: 181
         y: 960
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65d0baa13c96e76438d513f931eb7382
-      internalID: 260834465
+      spriteID: ec5898e59df2cca43a927de86fa6d7e2
+      internalID: -2129911242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_136
+      name: rowanLeftWeapon_124
       rect:
         serializedVersion: 2
-        x: 192
+        x: 245
         y: 960
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 866b3da529780d54b8266bd78cc91141
-      internalID: 884271501
+      spriteID: 8fa1a7d5ae2cad3439adef5454ae49e5
+      internalID: 84997696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_137
+      name: rowanLeftWeapon_125
       rect:
         serializedVersion: 2
-        x: 256
+        x: 309
         y: 960
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a17df239eb4c2b742b61a53db06daceb
-      internalID: 928758013
+      spriteID: d95fa9832facc184e86ed7316d617160
+      internalID: 308987483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_138
+      name: rowanLeftWeapon_126
       rect:
         serializedVersion: 2
-        x: 320
+        x: 373
         y: 960
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4641707eb3659674e8e79a3b10460f68
-      internalID: 685159432
+      spriteID: aaa664e401f458f4589467bd26266a28
+      internalID: 1052200609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_139
+      name: rowanLeftWeapon_127
       rect:
         serializedVersion: 2
-        x: 384
+        x: 437
         y: 960
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f0203f48b57b63468f66c9b65ca5714
-      internalID: 804134644
+      spriteID: 2a554ae54faeed7428152f6c3743ecac
+      internalID: -233311721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_140
+      name: rowanLeftWeapon_128
       rect:
         serializedVersion: 2
-        x: 448
+        x: 501
         y: 960
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bef4e3f9dcae07458a55d3e3e2845e8
-      internalID: -1465412172
+      spriteID: 7a64febec3808464ebf693332b2bf6f6
+      internalID: -932457773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_141
+      name: rowanLeftWeapon_129
       rect:
         serializedVersion: 2
-        x: 512
+        x: 565
         y: 960
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68626d0a131075d4abc63d1fa57a3467
-      internalID: -492547601
+      spriteID: 774d1a5e866b2d4458d4148f3722fab4
+      internalID: 341397225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_142
+      name: rowanLeftWeapon_130
       rect:
         serializedVersion: 2
-        x: 576
+        x: 629
         y: 960
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 264cbf10c8385034190a72dac201d749
-      internalID: -1582153201
+      spriteID: 48f19e81901025741a52ae34e98208dd
+      internalID: -1487914042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_143
+      name: rowanLeftWeapon_131
       rect:
         serializedVersion: 2
-        x: 640
+        x: 693
         y: 960
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae9821492bb5ddf438c395b1609f105d
-      internalID: 1075349233
+      spriteID: 82ea95ef2ec3ba84097cd60d81525520
+      internalID: -1398913838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_144
+      name: rowanLeftWeapon_132
       rect:
         serializedVersion: 2
-        x: 704
+        x: 757
         y: 960
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f3fb0e68050e594b9ba47e7e14d0b22
-      internalID: 1681907896
+      spriteID: 1c37249198f17864fa3c31618b6da4fb
+      internalID: 109947559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_145
+      name: rowanLeftWeapon_133
       rect:
         serializedVersion: 2
-        x: 768
-        y: 960
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b6d859b09d5b76d45b9f7fe206c80679
-      internalID: 1238207599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_146
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 53
         y: 896
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e430dbce1b145d3489ee17d080887625
-      internalID: -1606068945
+      spriteID: da2e4b9b7a7ddbd41bba5e0fbdd8001c
+      internalID: 1161850400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_147
+      name: rowanLeftWeapon_134
       rect:
         serializedVersion: 2
-        x: 64
+        x: 117
         y: 896
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4e8cb57a9f926046adceb87b21819d9
-      internalID: 1184194413
+      spriteID: 4d3298505de0b0046a579a0ac0d39094
+      internalID: 1105957427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_148
+      name: rowanLeftWeapon_135
       rect:
         serializedVersion: 2
-        x: 128
+        x: 181
         y: 896
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30c38c0eb45cfbd48bfc1177ecfcd67f
-      internalID: 445016506
+      spriteID: d5b18acd22058ff458831340aadf01e4
+      internalID: 1499259448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_149
+      name: rowanLeftWeapon_136
       rect:
         serializedVersion: 2
-        x: 192
+        x: 245
         y: 896
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70559b5babc93324e8c5d2b5f9f76efc
-      internalID: 2054592152
+      spriteID: 7eb0f226e02370343bea6f6303e4b049
+      internalID: -1876001110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_150
+      name: rowanLeftWeapon_137
       rect:
         serializedVersion: 2
-        x: 256
+        x: 309
         y: 896
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa9d0647f2026854291e53bafd2cacb3
-      internalID: 1333077152
+      spriteID: af020ead28d73be47a26fb3e2219123c
+      internalID: 1853523529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_151
+      name: rowanLeftWeapon_138
       rect:
         serializedVersion: 2
-        x: 320
+        x: 373
         y: 896
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 586b2bf4322cdfd4584a2a6d3e21b36f
-      internalID: -1931228400
+      spriteID: 01eac77f6ba16c14b9f7fb9897aa1eb9
+      internalID: -2132911160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_152
+      name: rowanLeftWeapon_139
       rect:
         serializedVersion: 2
-        x: 384
+        x: 437
         y: 896
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0b4e80f9cfa4ba4381007ebc276a04a
-      internalID: 1128705313
+      spriteID: 4d3606041fffb5f4ab865473a8f70301
+      internalID: -928905723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_153
+      name: rowanLeftWeapon_140
       rect:
         serializedVersion: 2
-        x: 448
+        x: 501
         y: 896
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c65902f274073164786719478eb82bfb
-      internalID: 647953008
+      spriteID: 968ebe87556195341ae4934d54d28008
+      internalID: -435359128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_154
+      name: rowanLeftWeapon_141
       rect:
         serializedVersion: 2
-        x: 512
+        x: 565
         y: 896
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40d1b62c68c8f804f89af8ad0818d911
-      internalID: 2065181121
+      spriteID: a6f4eca86bb173d4abac843bbdb7026e
+      internalID: 1659482813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_155
+      name: rowanLeftWeapon_142
       rect:
         serializedVersion: 2
-        x: 576
+        x: 629
         y: 896
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4a657f0bb0df46428fc43aa24dfda24
-      internalID: -1593648688
+      spriteID: 1b3823a13a8c443408f8988ed8d237a3
+      internalID: -20240253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_156
+      name: rowanLeftWeapon_143
       rect:
         serializedVersion: 2
-        x: 640
+        x: 693
         y: 896
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3199b3453302f4e47be7e1fae8ff38c9
-      internalID: -2126595863
+      spriteID: 535dff0e81af41648b8302b4cac838f6
+      internalID: 1081089381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_157
+      name: rowanLeftWeapon_144
       rect:
         serializedVersion: 2
-        x: 704
+        x: 757
         y: 896
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55a94ca49fc4c71469d82e7d49201de2
-      internalID: 897853842
+      spriteID: 729c399c87c0db7419b33e2f575fa323
+      internalID: 1555068107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_158
+      name: rowanLeftWeapon_145
       rect:
         serializedVersion: 2
-        x: 768
-        y: 896
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39e7a16b5285b7740bb0a434f480b92b
-      internalID: -1626917603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_159
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 53
         y: 832
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b35f7f53db0c56c49b4f2c65d8722a3b
-      internalID: 1281360394
+      spriteID: 1fcf63663b802af49a3a7d3b50dc2f13
+      internalID: 1105283094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_160
+      name: rowanLeftWeapon_146
       rect:
         serializedVersion: 2
-        x: 64
+        x: 117
         y: 832
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a83c67a6866189a4a92f6cb4500c1912
-      internalID: -199955043
+      spriteID: e328d831afaa1604d9f4b3cff44175f5
+      internalID: -552460238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_161
+      name: rowanLeftWeapon_147
       rect:
         serializedVersion: 2
-        x: 128
+        x: 181
         y: 832
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc916ce36973d3f4c96e9063727eedb9
-      internalID: -38222844
+      spriteID: 3335690f8c533ab4fa80380a29506d88
+      internalID: -1780752930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_162
+      name: rowanLeftWeapon_148
       rect:
         serializedVersion: 2
-        x: 192
+        x: 245
         y: 832
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6e3f7541c4b5d943b700adbf6d796e1
-      internalID: -1155563186
+      spriteID: a38ec0e57903e864e8cd4dabdaf55977
+      internalID: 972355150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_163
+      name: rowanLeftWeapon_149
       rect:
         serializedVersion: 2
-        x: 256
+        x: 309
         y: 832
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b53dfba508a477649b65c28469fb79e8
-      internalID: -1589064524
+      spriteID: 1fe09dc4295a81c4a87e79c3d4b6ff29
+      internalID: 2050460824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_164
+      name: rowanLeftWeapon_150
       rect:
         serializedVersion: 2
-        x: 320
+        x: 373
         y: 832
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa5d346f104062c4b9b52e54657b8eb8
-      internalID: 878629626
+      spriteID: 0d4a9612fbb2cf5438b3b6e25d0c3247
+      internalID: -1489377739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_165
+      name: rowanLeftWeapon_151
       rect:
         serializedVersion: 2
-        x: 384
+        x: 437
         y: 832
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6621bfab7cd56f4d81907b767867151
-      internalID: 267611245
+      spriteID: 04f4e099d5f012c409c1546abb7033a4
+      internalID: -433578898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_166
+      name: rowanLeftWeapon_152
       rect:
         serializedVersion: 2
-        x: 448
+        x: 501
         y: 832
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8919b05445f3c734ca1dbed5e970cb1a
-      internalID: 2049808014
+      spriteID: 89237f6b3c011e5498d5973460da0752
+      internalID: 1919926456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_167
+      name: rowanLeftWeapon_153
       rect:
         serializedVersion: 2
-        x: 512
+        x: 565
         y: 832
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf2bedffa84a7e0418d4ddc311172042
-      internalID: -406700703
+      spriteID: bd1e11de5f0ef78488fabfeadfa83b38
+      internalID: 1038209823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_168
+      name: rowanLeftWeapon_154
       rect:
         serializedVersion: 2
-        x: 576
+        x: 629
         y: 832
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3030a0a7c4689b04780bd7e7b7aa66ef
-      internalID: -598998349
+      spriteID: 3c854d929c9f9dc4c8d3d61f77e325b0
+      internalID: 1750334181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_169
+      name: rowanLeftWeapon_155
       rect:
         serializedVersion: 2
-        x: 640
+        x: 693
         y: 832
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8fe0e328b0e8344f8ea656f946893a9
-      internalID: -2121514538
+      spriteID: 55ad8aed2994bde45a2efcc8fe62950b
+      internalID: 2032240053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_170
+      name: rowanLeftWeapon_156
       rect:
         serializedVersion: 2
-        x: 704
+        x: 757
         y: 832
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d54e1231c71237641a5049492c635977
-      internalID: -1256866846
+      spriteID: 012e8d70b009e114ba18c9648c43a206
+      internalID: 385120364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_171
+      name: rowanLeftWeapon_157
       rect:
         serializedVersion: 2
-        x: 768
-        y: 832
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7cb6effd50351904086561c9ea6fff2e
-      internalID: 468340832
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_172
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 53
         y: 768
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c352348d957d2bb43bce0f69c1186154
-      internalID: -127517978
+      spriteID: a141c5ce9b4c2004d90d1c4cfc31392a
+      internalID: 749017221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_173
+      name: rowanLeftWeapon_158
       rect:
         serializedVersion: 2
-        x: 64
+        x: 117
         y: 768
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c6358f20f9e1ab4db1f678f72535067
-      internalID: 1922781113
+      spriteID: f075d28592ec6e94caed568d92bbde8e
+      internalID: -47038881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_174
+      name: rowanLeftWeapon_159
       rect:
         serializedVersion: 2
-        x: 128
+        x: 181
         y: 768
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18c3c9488d367c241b9ac3d328025991
-      internalID: -1865234462
+      spriteID: 15d43bebc45f1c540a0cbb560386c147
+      internalID: -494040023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_175
+      name: rowanLeftWeapon_160
       rect:
         serializedVersion: 2
-        x: 192
+        x: 245
         y: 768
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d484d14a75592f641b2f547d9aab6307
-      internalID: -1113161598
+      spriteID: a75b657772e72c146a32380627c8f6a4
+      internalID: 1449525305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_176
+      name: rowanLeftWeapon_161
       rect:
         serializedVersion: 2
-        x: 256
+        x: 309
         y: 768
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32701746d74dde44c9fead525a85d0b2
-      internalID: -260603085
+      spriteID: de99db614c8efc546867ce3b478e5b22
+      internalID: 521251799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_177
+      name: rowanLeftWeapon_162
       rect:
         serializedVersion: 2
-        x: 320
+        x: 373
         y: 768
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e45a87d9c370654f9818cfff0e09407
-      internalID: -820967707
+      spriteID: ecde87f8ecb2ecd4d989b569bb2d1e01
+      internalID: 313093946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_178
+      name: rowanLeftWeapon_163
       rect:
         serializedVersion: 2
-        x: 384
-        y: 768
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0870ef8d524a952428bc63e0fd4b59e3
-      internalID: -1662378920
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_179
-      rect:
-        serializedVersion: 2
-        x: 256
+        x: 245
         y: 704
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbab154977d6e574b9baae6ad774922d
-      internalID: 1084555998
+      spriteID: be049965a691abc479246161a7a944f1
+      internalID: -1903317724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_180
+      name: rowanLeftWeapon_164
       rect:
         serializedVersion: 2
-        x: 320
+        x: 309
         y: 704
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df222ebfcd548d4479cbe5d6d96fb89e
-      internalID: -1967052221
+      spriteID: 8a0ab6a7b4b0d0c45ac6ec872e8f328f
+      internalID: 1804074296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_181
+      name: rowanLeftWeapon_165
       rect:
         serializedVersion: 2
-        x: 64
+        x: 53
         y: 640
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7d60ddb43c19764ea2520f4dca9afd4
-      internalID: -1208318477
+      spriteID: ac15fbf39ee93564fb912935d190741c
+      internalID: -1369805235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_182
+      name: rowanLeftWeapon_166
       rect:
         serializedVersion: 2
-        x: 256
+        x: 117
         y: 640
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d537d948d2dcc6449a9c5d3d32e4cc89
-      internalID: 579123818
+      spriteID: 2346b1d49ee75994f85154c403e14d9a
+      internalID: -1201082536
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_183
+      name: rowanLeftWeapon_167
       rect:
         serializedVersion: 2
-        x: 448
+        x: 245
         y: 640
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 598677d3a9e5622489004803ca377971
-      internalID: 1862882311
+      spriteID: af658488a01e71747ade3780d756a898
+      internalID: 546102798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_184
+      name: rowanLeftWeapon_168
       rect:
         serializedVersion: 2
-        x: 640
+        x: 309
         y: 640
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 758fd4fdbf427944ca9e0b1c81ae78ac
-      internalID: 167783764
+      spriteID: 83f5cea7dda118b4b8c193138777c469
+      internalID: 173571002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_185
+      name: rowanLeftWeapon_169
       rect:
         serializedVersion: 2
-        x: 832
+        x: 437
         y: 640
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1f5b1611dce2444a909cf1ae9e143ac
-      internalID: 1513704839
+      spriteID: a69edfc5ae068074c85461a499c8350b
+      internalID: -2126624371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_186
+      name: rowanLeftWeapon_170
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 629
         y: 640
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b634f08c3c810d04f8763dfa772a12d4
-      internalID: -4531488
+      spriteID: a95a14048caa26040a04a441d0830967
+      internalID: -1693002681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_187
+      name: rowanLeftWeapon_171
       rect:
         serializedVersion: 2
-        x: 1088
+        x: 693
         y: 640
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f7c2cfbccaf9cc40813cb426f06da7e
-      internalID: 1107850917
+      spriteID: 6acf721f00d2bb94188758b3e648d151
+      internalID: -1732679227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_188
+      name: rowanLeftWeapon_172
       rect:
         serializedVersion: 2
-        x: 64
+        x: 821
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1378d8c072640da4088929d51cfa1adf
+      internalID: -1910527061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanLeftWeapon_173
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37325dd635e732644ac86efd5019881a
+      internalID: 325056853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanLeftWeapon_174
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e40360b9c44aec4f9bf3ff567d9f9b6
+      internalID: 137019928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanLeftWeapon_175
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287d0d6740f43ef4eb870a3b2ae521ef
+      internalID: 298264570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanLeftWeapon_176
+      rect:
+        serializedVersion: 2
+        x: 53
         y: 448
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 253468ac803e3dc409fac7e4ecb88b4e
-      internalID: 1156700396
+      spriteID: b4b1d989c5f955948be000e4ddf27b80
+      internalID: 1469899742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_189
+      name: rowanLeftWeapon_178
       rect:
         serializedVersion: 2
-        x: 256
+        x: 245
         y: 448
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 386c42ff0fd489d4182370a47c9e0563
-      internalID: -1399351259
+      spriteID: cddbfad50f842bd45ad01782ad8bab41
+      internalID: 536965807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_190
+      name: rowanLeftWeapon_179
       rect:
         serializedVersion: 2
-        x: 448
+        x: 437
         y: 448
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26a64d7de8f0f5e449e01b900feea08a
-      internalID: -277836224
+      spriteID: 2784fb18417bc524ca95326f3ba4d4b5
+      internalID: 1144057425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_191
+      name: rowanLeftWeapon_180
       rect:
         serializedVersion: 2
-        x: 576
+        x: 629
         y: 448
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec76e6565ff4e2646bc63237de10e36f
-      internalID: -1176653520
+      spriteID: 68707e98f438b47409c11e596d38d343
+      internalID: -797949009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_192
+      name: rowanLeftWeapon_182
       rect:
         serializedVersion: 2
-        x: 640
+        x: 821
         y: 448
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e838b5f6b88d92d48bf38d16e6535e16
-      internalID: 1289817539
+      spriteID: 2ddeb052fb702204297016d004c899cd
+      internalID: 540746471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_193
+      name: rowanLeftWeapon_184
       rect:
         serializedVersion: 2
-        x: 768
+        x: 1013
         y: 448
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8391de7053c154747aca1ab0eec0cd23
-      internalID: -1043531336
+      spriteID: 097f42c91e5833b4da75331f5e191792
+      internalID: 273591669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_194
+      name: rowanLeftWeapon_185
       rect:
         serializedVersion: 2
-        x: 832
-        y: 448
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b6a21f572ebfc543a8e6a26bc16fbcf
-      internalID: -1320893800
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_195
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 448
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d1b5e1a5102c63a41b8fd91462f5559b
-      internalID: 1209415603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_196
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 448
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af1a3637f4f3d2544b7ddb28930f745d
-      internalID: 1702702000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rowanWeapon_197
-      rect:
-        serializedVersion: 2
-        x: 64
+        x: 53
         y: 256
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce27e25373c2ad4438f06620a7deff7d
-      internalID: -1773764954
+      spriteID: 9e848c950b7e80b4d83dd17b279b8c49
+      internalID: 1494494670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_198
+      name: rowanLeftWeapon_186
       rect:
         serializedVersion: 2
-        x: 256
+        x: 117
         y: 256
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14f9b4b8e7d184e459a8818c6c1b33c4
-      internalID: -1594987044
+      spriteID: ad156ac478c0d5247aff27333e2ee89e
+      internalID: -906979875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_199
+      name: rowanLeftWeapon_187
       rect:
         serializedVersion: 2
-        x: 448
+        x: 245
         y: 256
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95229943d554945458c7047777a2dc07
-      internalID: -295405778
+      spriteID: 8d334265b1e846b40bb4ce4fc61df705
+      internalID: -354083161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_200
+      name: rowanLeftWeapon_188
       rect:
         serializedVersion: 2
-        x: 640
+        x: 309
         y: 256
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09a040d6058455249a2a9353c19020ed
-      internalID: -533374967
+      spriteID: 3dcad6dd3ab641d42a1bbac0e8642c22
+      internalID: 862216288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_201
+      name: rowanLeftWeapon_189
       rect:
         serializedVersion: 2
-        x: 832
+        x: 437
         y: 256
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39012d1d1b56bee4ca1a561e60df2670
-      internalID: 403398332
+      spriteID: 7e47a880af4423040ba47745b2a9cac1
+      internalID: 235285874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_202
+      name: rowanLeftWeapon_190
       rect:
         serializedVersion: 2
-        x: 896
+        x: 629
         y: 256
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 813dcbd3c617756459558190c02a1797
-      internalID: 30959633
+      spriteID: 521aaffb6b4f50749ba8ee24a233209b
+      internalID: -1742901888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_203
+      name: rowanLeftWeapon_191
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 693
         y: 256
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 697aa54b3bb5d2944a4bca6d95b8f50d
-      internalID: -1315261104
+      spriteID: 8b56d8bbcfaec9848b535591439c11cc
+      internalID: -949472824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_204
+      name: rowanLeftWeapon_192
       rect:
         serializedVersion: 2
-        x: 1088
+        x: 821
         y: 256
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3565e004b2a8fb4b8c6cae931e2b3b7
-      internalID: -1689990297
+      spriteID: f0bdbda2e82ff1944b39920e98671d38
+      internalID: -1349108560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_205
+      name: rowanLeftWeapon_193
       rect:
         serializedVersion: 2
-        x: 832
+        x: 885
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec84a0161a91a644d886ab7673bd4422
+      internalID: -1627957095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanLeftWeapon_194
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bdaa2d0b5272d4db2e9e2905e56413
+      internalID: 1843915568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanLeftWeapon_195
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abeca7764503fb3429650e004c2ccc6e
+      internalID: 1740661896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanLeftWeapon_196
+      rect:
+        serializedVersion: 2
+        x: 821
         y: 192
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6b28c6efaef9644d85030ee25e627b4
-      internalID: 837659718
+      spriteID: 5603d3b7c1cdb54478f987b41810c742
+      internalID: -1836837241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_206
+      name: rowanLeftWeapon_197
       rect:
         serializedVersion: 2
-        x: 896
+        x: 885
         y: 192
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d67204aa244e3304aba8b5c895ec7d5a
-      internalID: 1865478056
+      spriteID: b66d05f1a4464874db9153a90de1d66e
+      internalID: 938855292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_207
+      name: rowanLeftWeapon_198
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 1013
         y: 192
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7709587746a1cf747a83bc7731e92a89
-      internalID: -1657371609
+      spriteID: 0d7a7f623c8f7f54babbd02211e070cb
+      internalID: -1547922563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_208
+      name: rowanLeftWeapon_199
       rect:
         serializedVersion: 2
-        x: 1088
+        x: 1077
         y: 192
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea807beac457aa842909d27a00d76d9e
-      internalID: 422097984
+      spriteID: 30bd0c930315f6042b87be4bc0306b02
+      internalID: 1257228873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_209
+      name: rowanLeftWeapon_200
       rect:
         serializedVersion: 2
-        x: 64
+        x: 53
         y: 64
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea3f4f5638ff2094e9e99c38c2c4ebcf
-      internalID: -1684731217
+      spriteID: 6bc2325928819e04cb65646a0aa29107
+      internalID: -1498748976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_210
+      name: rowanLeftWeapon_201
       rect:
         serializedVersion: 2
-        x: 256
+        x: 117
         y: 64
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5799f2b18afe1244eb63a970c155bf0d
-      internalID: 943362915
+      spriteID: 9c6af2d6dc26fe6438d9da6ddee5c4f1
+      internalID: 482690738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_211
+      name: rowanLeftWeapon_202
       rect:
         serializedVersion: 2
-        x: 448
+        x: 245
         y: 64
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 470046f0556eefa4f9310632411e58b9
-      internalID: -45715602
+      spriteID: d4ac0fa367bcc104d8f79d72072ecce5
+      internalID: -1045703562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_212
+      name: rowanLeftWeapon_203
       rect:
         serializedVersion: 2
-        x: 640
+        x: 437
         y: 64
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f933f76df414e054aa0f581eda513393
-      internalID: -1459746461
+      spriteID: f47456c8e42f14648ae0eb3f7e1762c7
+      internalID: 782471978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_213
+      name: rowanLeftWeapon_204
       rect:
         serializedVersion: 2
-        x: 704
+        x: 629
         y: 64
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e44733a0e9940b648816dbf5f18bc984
-      internalID: -2044307233
+      spriteID: c1035ca888345f54f95310a3d3707867
+      internalID: 750094898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_214
+      name: rowanLeftWeapon_205
       rect:
         serializedVersion: 2
-        x: 832
+        x: 693
         y: 64
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6eca9d36c9152844f8460cab21cc9f8c
-      internalID: -1629040173
+      spriteID: 348907c0496a81e42b27566fe8fc86e7
+      internalID: 1489652655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_215
+      name: rowanLeftWeapon_206
       rect:
         serializedVersion: 2
-        x: 896
+        x: 821
         y: 64
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40df50d65bb492140884bbd0e55eac9d
-      internalID: 562785271
+      spriteID: f09698c6014d4204db15e9b39532e66e
+      internalID: 2035296219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_216
+      name: rowanLeftWeapon_207
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 885
         y: 64
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f771d4457c6af7f41828419e647ba58f
-      internalID: -499834073
+      spriteID: 9452f5ffbf51be446afc00f8760d15cc
+      internalID: 687866871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rowanWeapon_217
+      name: rowanLeftWeapon_208
       rect:
         serializedVersion: 2
-        x: 1088
+        x: 1013
         y: 64
         width: 64
         height: 64
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c2abb1c81bcf3a4687d35b841a14e11
-      internalID: 1746754163
+      spriteID: 1f9e820b1a0d38c4792d6b77da2dd631
+      internalID: 61487762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rowanLeftWeapon_209
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff43623f3a450340922d09e91233325
+      internalID: -1197574459
       vertices: []
       indices: 
       edges: []
@@ -4705,224 +4474,216 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      rowanWeapon_0: -1540760673
-      rowanWeapon_1: -580626370
-      rowanWeapon_10: 368881768
-      rowanWeapon_100: 663066326
-      rowanWeapon_101: -887547577
-      rowanWeapon_102: 1749467700
-      rowanWeapon_103: -1682499972
-      rowanWeapon_104: -1240756073
-      rowanWeapon_105: 121367684
-      rowanWeapon_106: -1410934826
-      rowanWeapon_107: -169149072
-      rowanWeapon_108: -1847340981
-      rowanWeapon_109: 2009091760
-      rowanWeapon_11: -2144282097
-      rowanWeapon_110: -910807637
-      rowanWeapon_111: -975300204
-      rowanWeapon_112: 851740257
-      rowanWeapon_113: -1486827215
-      rowanWeapon_114: 526728148
-      rowanWeapon_115: -1435897053
-      rowanWeapon_116: 961115650
-      rowanWeapon_117: 309493784
-      rowanWeapon_118: -954737383
-      rowanWeapon_119: -1099175451
-      rowanWeapon_12: -1417449767
-      rowanWeapon_120: -346693610
-      rowanWeapon_121: 1592754382
-      rowanWeapon_122: -458172628
-      rowanWeapon_123: -1170426366
-      rowanWeapon_124: -1857264023
-      rowanWeapon_125: 1292639634
-      rowanWeapon_126: 1706900603
-      rowanWeapon_127: -584329558
-      rowanWeapon_128: -1994878290
-      rowanWeapon_129: -867131237
-      rowanWeapon_13: 894622259
-      rowanWeapon_130: -1136606590
-      rowanWeapon_131: 151873449
-      rowanWeapon_132: 865982266
-      rowanWeapon_133: -578484193
-      rowanWeapon_134: -1279772977
-      rowanWeapon_135: 260834465
-      rowanWeapon_136: 884271501
-      rowanWeapon_137: 928758013
-      rowanWeapon_138: 685159432
-      rowanWeapon_139: 804134644
-      rowanWeapon_14: -1955431638
-      rowanWeapon_140: -1465412172
-      rowanWeapon_141: -492547601
-      rowanWeapon_142: -1582153201
-      rowanWeapon_143: 1075349233
-      rowanWeapon_144: 1681907896
-      rowanWeapon_145: 1238207599
-      rowanWeapon_146: -1606068945
-      rowanWeapon_147: 1184194413
-      rowanWeapon_148: 445016506
-      rowanWeapon_149: 2054592152
-      rowanWeapon_15: -307579684
-      rowanWeapon_150: 1333077152
-      rowanWeapon_151: -1931228400
-      rowanWeapon_152: 1128705313
-      rowanWeapon_153: 647953008
-      rowanWeapon_154: 2065181121
-      rowanWeapon_155: -1593648688
-      rowanWeapon_156: -2126595863
-      rowanWeapon_157: 897853842
-      rowanWeapon_158: -1626917603
-      rowanWeapon_159: 1281360394
-      rowanWeapon_16: 589571
-      rowanWeapon_160: -199955043
-      rowanWeapon_161: -38222844
-      rowanWeapon_162: -1155563186
-      rowanWeapon_163: -1589064524
-      rowanWeapon_164: 878629626
-      rowanWeapon_165: 267611245
-      rowanWeapon_166: 2049808014
-      rowanWeapon_167: -406700703
-      rowanWeapon_168: -598998349
-      rowanWeapon_169: -2121514538
-      rowanWeapon_17: 301900361
-      rowanWeapon_170: -1256866846
-      rowanWeapon_171: 468340832
-      rowanWeapon_172: -127517978
-      rowanWeapon_173: 1922781113
-      rowanWeapon_174: -1865234462
-      rowanWeapon_175: -1113161598
-      rowanWeapon_176: -260603085
-      rowanWeapon_177: -820967707
-      rowanWeapon_178: -1662378920
-      rowanWeapon_179: 1084555998
-      rowanWeapon_18: 774646263
-      rowanWeapon_180: -1967052221
-      rowanWeapon_181: -1208318477
-      rowanWeapon_182: 579123818
-      rowanWeapon_183: 1862882311
-      rowanWeapon_184: 167783764
-      rowanWeapon_185: 1513704839
-      rowanWeapon_186: -4531488
-      rowanWeapon_187: 1107850917
-      rowanWeapon_188: 1156700396
-      rowanWeapon_189: -1399351259
-      rowanWeapon_19: -1549204600
-      rowanWeapon_190: -277836224
-      rowanWeapon_191: -1176653520
-      rowanWeapon_192: 1289817539
-      rowanWeapon_193: -1043531336
-      rowanWeapon_194: -1320893800
-      rowanWeapon_195: 1209415603
-      rowanWeapon_196: 1702702000
-      rowanWeapon_197: -1773764954
-      rowanWeapon_198: -1594987044
-      rowanWeapon_199: -295405778
-      rowanWeapon_2: 1890044009
-      rowanWeapon_20: 1282980439
-      rowanWeapon_200: -533374967
-      rowanWeapon_201: 403398332
-      rowanWeapon_202: 30959633
-      rowanWeapon_203: -1315261104
-      rowanWeapon_204: -1689990297
-      rowanWeapon_205: 837659718
-      rowanWeapon_206: 1865478056
-      rowanWeapon_207: -1657371609
-      rowanWeapon_208: 422097984
-      rowanWeapon_209: -1684731217
-      rowanWeapon_21: 240125772
-      rowanWeapon_210: 943362915
-      rowanWeapon_211: -45715602
-      rowanWeapon_212: -1459746461
-      rowanWeapon_213: -2044307233
-      rowanWeapon_214: -1629040173
-      rowanWeapon_215: 562785271
-      rowanWeapon_216: -499834073
-      rowanWeapon_217: 1746754163
-      rowanWeapon_22: 51322544
-      rowanWeapon_23: -806794468
-      rowanWeapon_24: 3121044
-      rowanWeapon_25: -1329124705
-      rowanWeapon_26: 1164747482
-      rowanWeapon_27: 996256357
-      rowanWeapon_28: 1605720491
-      rowanWeapon_29: -2115253035
-      rowanWeapon_3: 845388481
-      rowanWeapon_30: -1018826635
-      rowanWeapon_31: -1559893798
-      rowanWeapon_32: 480370310
-      rowanWeapon_33: -357288003
-      rowanWeapon_34: 273354553
-      rowanWeapon_35: -832743526
-      rowanWeapon_36: -2135368631
-      rowanWeapon_37: 823761416
-      rowanWeapon_38: -1012987006
-      rowanWeapon_39: 1863130055
-      rowanWeapon_4: -189958275
-      rowanWeapon_40: 564992289
-      rowanWeapon_41: -462068054
-      rowanWeapon_42: -1103774769
-      rowanWeapon_43: 1788902833
-      rowanWeapon_44: -1088702618
-      rowanWeapon_45: -1361066604
-      rowanWeapon_46: 205759974
-      rowanWeapon_47: 1612267477
-      rowanWeapon_48: 495111858
-      rowanWeapon_49: 1268856422
-      rowanWeapon_5: -1444794700
-      rowanWeapon_50: 771967242
-      rowanWeapon_51: -1207978045
-      rowanWeapon_52: -359073353
-      rowanWeapon_53: -427747627
-      rowanWeapon_54: -1592404838
-      rowanWeapon_55: 401949652
-      rowanWeapon_56: -299718373
-      rowanWeapon_57: -991189350
-      rowanWeapon_58: 547094628
-      rowanWeapon_59: 1165145145
-      rowanWeapon_6: -328054251
-      rowanWeapon_60: -684032382
-      rowanWeapon_61: -125467482
-      rowanWeapon_62: -818357819
-      rowanWeapon_63: 1048659618
-      rowanWeapon_64: -343213888
-      rowanWeapon_65: 1513495228
-      rowanWeapon_66: -1109470235
-      rowanWeapon_67: 519827681
-      rowanWeapon_68: -2109160800
-      rowanWeapon_69: 1941024393
-      rowanWeapon_7: -1563187636
-      rowanWeapon_70: -774017524
-      rowanWeapon_71: -467068031
-      rowanWeapon_72: -373178283
-      rowanWeapon_73: 284125347
-      rowanWeapon_74: 2122272088
-      rowanWeapon_75: -800053729
-      rowanWeapon_76: -1025494271
-      rowanWeapon_77: 1515171306
-      rowanWeapon_78: 1958236874
-      rowanWeapon_79: 231191560
-      rowanWeapon_8: -1857272311
-      rowanWeapon_80: -1515107350
-      rowanWeapon_81: -82493183
-      rowanWeapon_82: -1578280567
-      rowanWeapon_83: -705043546
-      rowanWeapon_84: -1792120010
-      rowanWeapon_85: -1615081241
-      rowanWeapon_86: 1509851776
-      rowanWeapon_87: 1993579327
-      rowanWeapon_88: -864110602
-      rowanWeapon_89: -1298343312
-      rowanWeapon_9: -30188650
-      rowanWeapon_90: 1232071297
-      rowanWeapon_91: 604562303
-      rowanWeapon_92: -1865526816
-      rowanWeapon_93: -73144755
-      rowanWeapon_94: 1817386384
-      rowanWeapon_95: -430013308
-      rowanWeapon_96: 1472088072
-      rowanWeapon_97: 268937779
-      rowanWeapon_98: -1507752283
-      rowanWeapon_99: -1914758724
+      rowanLeftWeapon_0: 680020287
+      rowanLeftWeapon_1: 1136185351
+      rowanLeftWeapon_10: -313612210
+      rowanLeftWeapon_100: -1079274275
+      rowanLeftWeapon_101: 1967004876
+      rowanLeftWeapon_102: -698497287
+      rowanLeftWeapon_103: 1306372771
+      rowanLeftWeapon_104: 1589949990
+      rowanLeftWeapon_105: 90372664
+      rowanLeftWeapon_106: 217659211
+      rowanLeftWeapon_107: 64642517
+      rowanLeftWeapon_108: -774424661
+      rowanLeftWeapon_109: -24057937
+      rowanLeftWeapon_11: 1118076932
+      rowanLeftWeapon_110: -1095910949
+      rowanLeftWeapon_111: -2060503927
+      rowanLeftWeapon_112: 1622285452
+      rowanLeftWeapon_113: 824987371
+      rowanLeftWeapon_114: -1809591226
+      rowanLeftWeapon_115: 1785463160
+      rowanLeftWeapon_116: 797297720
+      rowanLeftWeapon_117: -1347467039
+      rowanLeftWeapon_118: -863560210
+      rowanLeftWeapon_119: -1512127310
+      rowanLeftWeapon_12: 374337782
+      rowanLeftWeapon_120: -791488205
+      rowanLeftWeapon_121: -914897196
+      rowanLeftWeapon_122: -50483669
+      rowanLeftWeapon_123: -2129911242
+      rowanLeftWeapon_124: 84997696
+      rowanLeftWeapon_125: 308987483
+      rowanLeftWeapon_126: 1052200609
+      rowanLeftWeapon_127: -233311721
+      rowanLeftWeapon_128: -932457773
+      rowanLeftWeapon_129: 341397225
+      rowanLeftWeapon_13: 529643506
+      rowanLeftWeapon_130: -1487914042
+      rowanLeftWeapon_131: -1398913838
+      rowanLeftWeapon_132: 109947559
+      rowanLeftWeapon_133: 1161850400
+      rowanLeftWeapon_134: 1105957427
+      rowanLeftWeapon_135: 1499259448
+      rowanLeftWeapon_136: -1876001110
+      rowanLeftWeapon_137: 1853523529
+      rowanLeftWeapon_138: -2132911160
+      rowanLeftWeapon_139: -928905723
+      rowanLeftWeapon_14: -756315408
+      rowanLeftWeapon_140: -435359128
+      rowanLeftWeapon_141: 1659482813
+      rowanLeftWeapon_142: -20240253
+      rowanLeftWeapon_143: 1081089381
+      rowanLeftWeapon_144: 1555068107
+      rowanLeftWeapon_145: 1105283094
+      rowanLeftWeapon_146: -552460238
+      rowanLeftWeapon_147: -1780752930
+      rowanLeftWeapon_148: 972355150
+      rowanLeftWeapon_149: 2050460824
+      rowanLeftWeapon_15: 1520579147
+      rowanLeftWeapon_150: -1489377739
+      rowanLeftWeapon_151: -433578898
+      rowanLeftWeapon_152: 1919926456
+      rowanLeftWeapon_153: 1038209823
+      rowanLeftWeapon_154: 1750334181
+      rowanLeftWeapon_155: 2032240053
+      rowanLeftWeapon_156: 385120364
+      rowanLeftWeapon_157: 749017221
+      rowanLeftWeapon_158: -47038881
+      rowanLeftWeapon_159: -494040023
+      rowanLeftWeapon_16: -1543560352
+      rowanLeftWeapon_160: 1449525305
+      rowanLeftWeapon_161: 521251799
+      rowanLeftWeapon_162: 313093946
+      rowanLeftWeapon_163: -1903317724
+      rowanLeftWeapon_164: 1804074296
+      rowanLeftWeapon_165: -1369805235
+      rowanLeftWeapon_166: -1201082536
+      rowanLeftWeapon_167: 546102798
+      rowanLeftWeapon_168: 173571002
+      rowanLeftWeapon_169: -2126624371
+      rowanLeftWeapon_17: -1518915614
+      rowanLeftWeapon_170: -1693002681
+      rowanLeftWeapon_171: -1732679227
+      rowanLeftWeapon_172: -1910527061
+      rowanLeftWeapon_173: 325056853
+      rowanLeftWeapon_174: 137019928
+      rowanLeftWeapon_175: 298264570
+      rowanLeftWeapon_176: 1469899742
+      rowanLeftWeapon_177: -1409727584
+      rowanLeftWeapon_178: 536965807
+      rowanLeftWeapon_179: 1144057425
+      rowanLeftWeapon_18: 1853361312
+      rowanLeftWeapon_180: -797949009
+      rowanLeftWeapon_181: -738427639
+      rowanLeftWeapon_182: 540746471
+      rowanLeftWeapon_183: 1550290330
+      rowanLeftWeapon_184: 273591669
+      rowanLeftWeapon_185: 1494494670
+      rowanLeftWeapon_186: -906979875
+      rowanLeftWeapon_187: -354083161
+      rowanLeftWeapon_188: 862216288
+      rowanLeftWeapon_189: 235285874
+      rowanLeftWeapon_19: 1572866277
+      rowanLeftWeapon_190: -1742901888
+      rowanLeftWeapon_191: -949472824
+      rowanLeftWeapon_192: -1349108560
+      rowanLeftWeapon_193: -1627957095
+      rowanLeftWeapon_194: 1843915568
+      rowanLeftWeapon_195: 1740661896
+      rowanLeftWeapon_196: -1836837241
+      rowanLeftWeapon_197: 938855292
+      rowanLeftWeapon_198: -1547922563
+      rowanLeftWeapon_199: 1257228873
+      rowanLeftWeapon_2: 1906204385
+      rowanLeftWeapon_20: 1851091030
+      rowanLeftWeapon_200: -1498748976
+      rowanLeftWeapon_201: 482690738
+      rowanLeftWeapon_202: -1045703562
+      rowanLeftWeapon_203: 782471978
+      rowanLeftWeapon_204: 750094898
+      rowanLeftWeapon_205: 1489652655
+      rowanLeftWeapon_206: 2035296219
+      rowanLeftWeapon_207: 687866871
+      rowanLeftWeapon_208: 61487762
+      rowanLeftWeapon_209: -1197574459
+      rowanLeftWeapon_21: 285388067
+      rowanLeftWeapon_22: -1988951772
+      rowanLeftWeapon_23: 646815746
+      rowanLeftWeapon_24: -2108961471
+      rowanLeftWeapon_25: 1018690347
+      rowanLeftWeapon_26: 1798796091
+      rowanLeftWeapon_27: 1935404629
+      rowanLeftWeapon_28: 1323312318
+      rowanLeftWeapon_29: -177111766
+      rowanLeftWeapon_3: 702450906
+      rowanLeftWeapon_30: 574015567
+      rowanLeftWeapon_31: -1209913292
+      rowanLeftWeapon_32: 1745601592
+      rowanLeftWeapon_33: -1522898084
+      rowanLeftWeapon_34: -922530736
+      rowanLeftWeapon_35: 1031642024
+      rowanLeftWeapon_36: 2011625085
+      rowanLeftWeapon_37: -227858195
+      rowanLeftWeapon_38: -100917409
+      rowanLeftWeapon_39: -1674946498
+      rowanLeftWeapon_4: -948867447
+      rowanLeftWeapon_40: -1614524698
+      rowanLeftWeapon_41: 178138989
+      rowanLeftWeapon_42: 1613776520
+      rowanLeftWeapon_43: -379853462
+      rowanLeftWeapon_44: 1557150784
+      rowanLeftWeapon_45: 335035276
+      rowanLeftWeapon_46: -1316700910
+      rowanLeftWeapon_47: 5641166
+      rowanLeftWeapon_48: 1636256403
+      rowanLeftWeapon_49: 2076425567
+      rowanLeftWeapon_5: 1138133669
+      rowanLeftWeapon_50: 1232379408
+      rowanLeftWeapon_51: -2064817932
+      rowanLeftWeapon_52: 1145489308
+      rowanLeftWeapon_53: -1144183804
+      rowanLeftWeapon_54: -1716464846
+      rowanLeftWeapon_55: 2144648873
+      rowanLeftWeapon_56: 1017785014
+      rowanLeftWeapon_57: 2014487335
+      rowanLeftWeapon_58: -548854817
+      rowanLeftWeapon_59: -256874627
+      rowanLeftWeapon_6: 1279970719
+      rowanLeftWeapon_60: 866582205
+      rowanLeftWeapon_61: -659491052
+      rowanLeftWeapon_62: -1613694417
+      rowanLeftWeapon_63: 1849822643
+      rowanLeftWeapon_64: -945750296
+      rowanLeftWeapon_65: -407937201
+      rowanLeftWeapon_66: -1388631979
+      rowanLeftWeapon_67: -35859833
+      rowanLeftWeapon_68: 2127744329
+      rowanLeftWeapon_69: -732173707
+      rowanLeftWeapon_7: -1123245065
+      rowanLeftWeapon_70: -1572107002
+      rowanLeftWeapon_71: 1310314205
+      rowanLeftWeapon_72: -948560125
+      rowanLeftWeapon_73: -1483104188
+      rowanLeftWeapon_74: -1288325165
+      rowanLeftWeapon_75: 1878622133
+      rowanLeftWeapon_76: -1464408741
+      rowanLeftWeapon_77: 1681542657
+      rowanLeftWeapon_78: -724956746
+      rowanLeftWeapon_79: -80836295
+      rowanLeftWeapon_8: 1463422949
+      rowanLeftWeapon_80: 20342246
+      rowanLeftWeapon_81: 1859129545
+      rowanLeftWeapon_82: -1295462430
+      rowanLeftWeapon_83: -1299456650
+      rowanLeftWeapon_84: 575099364
+      rowanLeftWeapon_85: 1565562110
+      rowanLeftWeapon_86: 78767294
+      rowanLeftWeapon_87: -451780350
+      rowanLeftWeapon_88: 2053161612
+      rowanLeftWeapon_89: 1197842347
+      rowanLeftWeapon_9: -1748694166
+      rowanLeftWeapon_90: 951650461
+      rowanLeftWeapon_91: 488659447
+      rowanLeftWeapon_92: 1085572127
+      rowanLeftWeapon_93: 188722487
+      rowanLeftWeapon_94: -1237303835
+      rowanLeftWeapon_95: -1483028754
+      rowanLeftWeapon_96: 1564216854
+      rowanLeftWeapon_97: -1046439690
+      rowanLeftWeapon_98: -1309984046
+      rowanLeftWeapon_99: 1952382780
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

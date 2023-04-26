@@ -23,11 +23,9 @@ public class goToBed : MonoBehaviour
 
         if( time > 0.6f && notPressed && dayNightCycle.goBack == false )
         {
-            Debug.Log( "time > 0.6f && notPressed && dayNightCycle.goBack == false" );
             time = 0.9f;
             notPressed = false;
             PlayerPrefs.SetFloat( "timeOfDay", time );
-            Debug.Log( PlayerPrefs.GetFloat( "timeOfDay" ) );
             dayNightCycle.breakWait = true;
             dayNightCycle.goBack = true;
             PlayerPrefs.SetInt( "HaveSlept", 1 );
@@ -35,11 +33,9 @@ public class goToBed : MonoBehaviour
         }
         else if( time > 0.6f && notPressed && dayNightCycle.goBack == true )
         {
-            Debug.Log( "time > 0.6f && notPressed && dayNightCycle.goBack == true" );
             time = 0.3f;
             notPressed = false;
             PlayerPrefs.SetFloat( "timeOfDay", time );
-            Debug.Log( PlayerPrefs.GetFloat( "timeOfDay" ) );
             dayNightCycle.breakWait = true;
             dayNightCycle.goBack = false;
             PlayerPrefs.SetInt( "HaveSlept", 1 );
@@ -47,27 +43,22 @@ public class goToBed : MonoBehaviour
         }
         else if( time > 0.1f && notPressed && dayNightCycle.goBack == false )
         {
-            Debug.Log( "time > 0.1f && notPressed && dayNightCycle.goBack == false" );
             time = 0.6f;
             notPressed = false;
             PlayerPrefs.SetFloat( "timeOfDay", time );
-            Debug.Log( PlayerPrefs.GetFloat( "timeOfDay" ) );
             dayNightCycle.breakWait = true;
             PlayerPrefs.SetInt( "HaveSlept", 1 );
             PlayerPrefs.SetFloat( "DayCanvas", time );
         }
         else if( time > 0.1f && notPressed && dayNightCycle.goBack == true )
         {
-            Debug.Log( "time > 0.1f && notPressed && dayNightCycle.goBack == true" );
             time = 0.6f;
             notPressed = false;
             PlayerPrefs.SetFloat( "timeOfDay", time );
-            Debug.Log( PlayerPrefs.GetFloat( "timeOfDay" ) );
             dayNightCycle.breakWait = true;
             dayNightCycle.goBack = false;
             PlayerPrefs.SetInt( "HaveSlept", 1 );
             PlayerPrefs.SetFloat( "DayCanvas", time );
         }
-        Debug.Log( PlayerPrefs.GetInt( "HaveSlept" ) );
     }
 }

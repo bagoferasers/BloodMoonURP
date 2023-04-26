@@ -5447,6 +5447,22 @@ PrefabInstance:
       propertyPath: attackWaitTime
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8818716444469084451, guid: b92cbb75f6d859a41a969b99192e9598, type: 3}
+      propertyPath: m_Size.x
+      value: 0.020992313
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818716444469084451, guid: b92cbb75f6d859a41a969b99192e9598, type: 3}
+      propertyPath: m_Size.y
+      value: 0.043184776
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818716444469084451, guid: b92cbb75f6d859a41a969b99192e9598, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.038685832
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818716444469084451, guid: b92cbb75f6d859a41a969b99192e9598, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.028403085
+      objectReference: {fileID: 0}
     - target: {fileID: 8818716444469084509, guid: b92cbb75f6d859a41a969b99192e9598, type: 3}
       propertyPath: m_SortingLayer
       value: 8
