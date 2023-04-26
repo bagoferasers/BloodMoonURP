@@ -8,6 +8,11 @@ public class AI_Bar_Enemy : MonoBehaviour
     [ Header( "Player Health and Shields" ) ]
     public Slider PlayerHealthBar;
     public Slider PlayerShieldBar;
+
+    public Slider EnemyHealthBar;
+    public Slider EnemyShieldBar;
+
+    public GameObject EnemyHealthShield;
     public ParticleSystem PlayerBloodRight;
     public ParticleSystem PlayerBloodLeft;
     public ParticleSystem EnemyBloodRight;
@@ -44,6 +49,17 @@ public class AI_Bar_Enemy : MonoBehaviour
         initialPos = transform.position;
         updatedSpeed = speed * speedMultiplier;
         ChangeAIState( state: AIState.Idle );
+        if( PlayerPrefs.GetFloat( "EnemyShield" ) == 0 && PlayerPrefs.GetFloat( "EnemyHealth" ) == 0 )
+        {
+            PlayerPrefs.SetFloat( "EnemyShield", EnemyShieldBar.value );  
+            PlayerPrefs.SetFloat( "EnemyHealth", EnemyHealthBar.value );
+        }
+        else
+        {
+            EnemyShieldBar.value = PlayerPrefs.GetFloat( "EnemyShield" );  
+            EnemyHealthBar.value = PlayerPrefs.GetFloat( "EnemyHealth" );            
+        }
+
     }
 
     void Update( ) 
@@ -53,6 +69,16 @@ public class AI_Bar_Enemy : MonoBehaviour
 
         if( playerAnimator.GetBool( "attack" ) == true )
         {
+            if( EnemyShieldBar.value > 0f )
+            {
+                EnemyShieldBar.value -= axeHurt;
+                PlayerPrefs.SetFloat( "EnemyShield", EnemyShieldBar.value );            
+            }
+            else if( EnemyHealthBar.value > 0f )
+            {
+                EnemyHealthBar.value -= axeHurt;
+                PlayerPrefs.SetFloat( "EnemyHealth", EnemyHealthBar.value );
+            }
             if( facingRight )
                 EnemyBloodLeft.Play( );
             else
@@ -62,15 +88,18 @@ public class AI_Bar_Enemy : MonoBehaviour
         switch( currentState )
         {
             case AIState.Idle:
+                EnemyHealthShield.SetActive( false );
                 CheckChase( distance: distanceBetween );
                 break;
             case AIState.Patrol:
+                EnemyHealthShield.SetActive( false );
                 // handle case if player is within range
                 CheckChase( distance: distanceBetween );
                 // handle patroling
                 RemainingPatrolDistance( distance: distanceRemaining );  
                 break;
             case AIState.Chase:
+                EnemyHealthShield.SetActive( true );
                 // handle case if player is out of range
                 if( distanceBetween > attackRange )
                     ChangeAIState( state: AIState.Idle );
@@ -113,6 +142,7 @@ public class AI_Bar_Enemy : MonoBehaviour
                 }
                 break;
             case AIState.Chase:
+
                 if( facingRight )
                 {
                     animator.SetBool( "right", true );
@@ -133,7 +163,6 @@ public class AI_Bar_Enemy : MonoBehaviour
 
     IEnumerator waitRandomTime( )
     {
-        Debug.Log( "Waitingrandomtime" );
         hasWaited = true;
         float f = Random.Range( 0f, idleTime );
         yield return new WaitForSeconds( f );
@@ -179,10 +208,8 @@ public class AI_Bar_Enemy : MonoBehaviour
 
     public void CheckChase( float distance )
     {
-        Debug.Log( "Checking Chase" );
         if( distanceBetween <= attackRange )
         {
-            Debug.Log( "distanceBetween <= attackRange" );
             if( player.position.x < transform.position.x )
                 facingRight = false;
             else 
@@ -209,7 +236,6 @@ public class AI_Bar_Enemy : MonoBehaviour
 
     public void RemainingPatrolDistance( float distance )
     {
-        Debug.Log( "Entered remaniningPatrolDistance" );
         if( distance > 0.1f )
         {
             if( facingRight )
