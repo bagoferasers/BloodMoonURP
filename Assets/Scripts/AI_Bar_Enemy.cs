@@ -1,10 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AI_Bar_Enemy : MonoBehaviour
 {
+    [ Header( "Player Health and Shields" ) ]
+    public Slider PlayerHealthBar;
+    public Slider PlayerShieldBar;
+    public ParticleSystem PlayerBloodRight;
+    public ParticleSystem PlayerBloodLeft;
+    public ParticleSystem EnemyBloodRight;
+    public ParticleSystem EnemyBloodLeft;
     public Animator animator;
+    public Animator playerAnimator;
     public float speed = 2f;
     public float speedMultiplier = 2f;
     public bool platformer = true;
@@ -27,6 +36,8 @@ public class AI_Bar_Enemy : MonoBehaviour
     private float distanceRemaining;
     private float updatedSpeed;
 
+    public float axeHurt;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +50,15 @@ public class AI_Bar_Enemy : MonoBehaviour
     {
         distanceBetween = Mathf.Abs( player.position.x - transform.position.x );
         distanceRemaining = Mathf.Abs( dest - transform.position.x ); 
+
+        if( playerAnimator.GetBool( "attack" ) == true )
+        {
+            if( facingRight )
+                EnemyBloodLeft.Play( );
+            else
+                EnemyBloodRight.Play( );
+        }
+
         switch( currentState )
         {
             case AIState.Idle:
@@ -125,6 +145,22 @@ public class AI_Bar_Enemy : MonoBehaviour
     {
         hasWaited = true;
         animator.SetBool( "attack", true );
+        if( !facingRight )
+            PlayerBloodLeft.Play( );
+        else
+            PlayerBloodRight.Play( );
+        
+        if( PlayerShieldBar.value > 0f )
+        {
+            PlayerShieldBar.value -= axeHurt;
+            PlayerPrefs.SetFloat( "Shield", PlayerShieldBar.value );            
+        }
+        else if( PlayerHealthBar.value > 0f )
+        {
+            PlayerHealthBar.value -= axeHurt;
+            PlayerPrefs.SetFloat( "Health", PlayerHealthBar.value );
+        }
+
         yield return new WaitForSeconds( .5f );
         animator.SetBool( "attack", false );
         hasWaited = false;
