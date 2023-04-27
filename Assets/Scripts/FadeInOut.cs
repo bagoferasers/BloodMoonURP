@@ -18,7 +18,6 @@ public class FadeInOut : MonoBehaviour
     {
         if(  PlayerPrefs.GetInt( "HaveSlept" ) == 0 )
         {
-            Debug.Log( "PlayerPrefs have slept is zero " );
             gameObject.SetActive( true );
             if( fade == false )
                 StartCoroutine( fadeIn( ) );
