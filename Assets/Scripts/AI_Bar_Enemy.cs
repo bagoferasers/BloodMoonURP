@@ -220,9 +220,10 @@ public class AI_Bar_Enemy : MonoBehaviour
 
     IEnumerator deathMovement( )
     {
-        
         while( transform.position.y > targetY )
         {
+            EnemyBloodLeft.Play( );
+            EnemyBloodRight.Play( );
             Vector3 pos = transform.position;
             pos.y -= s * Time.deltaTime;
             transform.position = pos;
@@ -230,6 +231,8 @@ public class AI_Bar_Enemy : MonoBehaviour
         }
         while( Quaternion.Angle( transform.rotation, pos ) > 0.01f )
         {
+            EnemyBloodLeft.Play( );
+            EnemyBloodRight.Play( );
             transform.rotation = Quaternion.RotateTowards( transform.rotation, pos, s * Time.deltaTime );
             yield return null;
         }
