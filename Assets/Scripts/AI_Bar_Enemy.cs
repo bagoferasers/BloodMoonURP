@@ -89,6 +89,9 @@ public class AI_Bar_Enemy : MonoBehaviour
         {
             case AIState.Idle:
                 EnemyHealthShield.SetActive( false );
+                animator.SetBool( "attack", false );
+                animator.SetInteger( "motionX", 0 );
+                rb2D.velocity = Vector2.zero;
                 CheckChase( distance: distanceBetween );
                 break;
             case AIState.Patrol:
@@ -101,10 +104,10 @@ public class AI_Bar_Enemy : MonoBehaviour
             case AIState.Chase:
                 EnemyHealthShield.SetActive( true );
                 // handle case if player is out of range
-                if( distanceBetween > attackRange )
+                if( ( !facingRight && distanceBetween > attackRange + 0.5f ) || ( facingRight && distanceBetween > attackRange + 4f ) )
                     ChangeAIState( state: AIState.Idle );
                 // handle case if player is within attack range
-                else if( distanceBetween < 1f )
+                else if( ( !facingRight && distanceBetween < 0.5f ) || ( facingRight && distanceBetween < 4f ) )
                     ChangeAIState( state: AIState.Attack );
                 GoChase( );
                 break;
@@ -125,6 +128,7 @@ public class AI_Bar_Enemy : MonoBehaviour
         {
             case AIState.Idle:
                 rb2D.velocity = Vector2.zero;
+                animator.SetBool( "attack", false );
                 animator.SetInteger( "motionX", 0 );
                 if( !hasWaited )
                     StartCoroutine( waitRandomTime( ) );
@@ -208,7 +212,7 @@ public class AI_Bar_Enemy : MonoBehaviour
 
     public void CheckChase( float distance )
     {
-        if( distanceBetween <= attackRange )
+        if( ( !facingRight && distanceBetween < attackRange + 0.5f ) || ( facingRight && distanceBetween < attackRange + 4f ) )
         {
             if( player.position.x < transform.position.x )
                 facingRight = false;
@@ -220,13 +224,13 @@ public class AI_Bar_Enemy : MonoBehaviour
 
     public void GoChase( )
     {
-        if( player.position.x < transform.position.x )// handle case of chasing player right and left
+        if( player.position.x < ( transform.position.x + 0.5f ) )// handle case of chasing player right and left
         {
             facingRight = false;
             animator.SetInteger( "motionX", -1 );
             rb2D.velocity = new Vector2( -updatedSpeed, rb2D.velocity.y );
         }
-        else if( player.position.x > transform.position.x )
+        else if( player.position.x > ( transform.position.x + 4f ) )
         {
             facingRight = true;
             animator.SetInteger( "motionX", 1 );
