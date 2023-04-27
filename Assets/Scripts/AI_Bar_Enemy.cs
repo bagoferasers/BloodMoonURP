@@ -9,6 +9,8 @@ public class AI_Bar_Enemy : MonoBehaviour
     public Slider PlayerHealthBar;
     public Slider PlayerShieldBar;
 
+    public AnimationClip die;
+
     public Slider EnemyHealthBar;
     public Slider EnemyShieldBar;
 
@@ -30,7 +32,7 @@ public class AI_Bar_Enemy : MonoBehaviour
     public Rigidbody2D rb2D;
     public enum AIState 
     {
-        Idle, Patrol, Chase, Attack
+        Idle, Patrol, Chase, Attack, Dead
     }
     public AIState currentState;
     private Vector3 initialPos;
@@ -41,13 +43,18 @@ public class AI_Bar_Enemy : MonoBehaviour
     private float distanceRemaining;
     private float updatedSpeed;
 
+    public float s = 1f;
+    public float targetY = -8f;
+    public float targetRotationX = -40f;
     public float axeHurt;
+    private Quaternion pos;
 
     // Start is called before the first frame update
     void Start()
     {
         initialPos = transform.position;
         updatedSpeed = speed * speedMultiplier;
+        pos = Quaternion.Euler( targetRotationX, transform.rotation.y, transform.rotation.z );
         ChangeAIState( state: AIState.Idle );
         if( PlayerPrefs.GetFloat( "EnemyShield" ) == 0 && PlayerPrefs.GetFloat( "EnemyHealth" ) == 0 )
         {
@@ -66,6 +73,9 @@ public class AI_Bar_Enemy : MonoBehaviour
     {
         distanceBetween = Mathf.Abs( player.position.x - transform.position.x );
         distanceRemaining = Mathf.Abs( dest - transform.position.x ); 
+
+        if( EnemyHealthBar.value == 0f )
+            ChangeAIState( state: AIState.Dead );
 
         if( playerAnimator.GetBool( "attack" ) == true )
         {
@@ -162,6 +172,14 @@ public class AI_Bar_Enemy : MonoBehaviour
                 if( !hasWaited )
                     StartCoroutine( waitForAttack( ) );
                 break;
+            case AIState.Dead:
+                animator.Play( die.name );
+                StartCoroutine( deathMovement( ) );
+                EnemyShieldBar.value = 0f;
+                EnemyHealthBar.value = 0f;
+                rb2D.isKinematic = true;
+                EnemyHealthShield.SetActive( false );
+                break;            
         }
     }
 
@@ -198,6 +216,23 @@ public class AI_Bar_Enemy : MonoBehaviour
         animator.SetBool( "attack", false );
         hasWaited = false;
         ChangeAIState( state: AIState.Chase );
+    }
+
+    IEnumerator deathMovement( )
+    {
+        
+        while( transform.position.y > targetY )
+        {
+            Vector3 pos = transform.position;
+            pos.y -= s * Time.deltaTime;
+            transform.position = pos;
+            yield return null;
+        }
+        while( Quaternion.Angle( transform.rotation, pos ) > 0.01f )
+        {
+            transform.rotation = Quaternion.RotateTowards( transform.rotation, pos, s * Time.deltaTime );
+            yield return null;
+        }
     }
 
     void OnCollisionEnter2D( Collision2D collision )
