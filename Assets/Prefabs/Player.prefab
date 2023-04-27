@@ -15706,8 +15706,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 7976623599476926508}
   shieldBar: {fileID: 4351502801225646314}
-  jumpForce: 300
-  speed: 280
+  jumpForce: 370
+  speed: 300
   walk: {fileID: 6665255307297143420}
   run: {fileID: 6665255307297143423}
   music: {fileID: 6665255307297143422}
@@ -17130,10 +17130,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.20833334
+    x: 0.36770836
     y: 0
-    width: 0.3564815
-    height: 0.35648146
+    width: 0.4925926
+    height: 0.49259257
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60

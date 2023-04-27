@@ -9,6 +9,11 @@ public class AI_Bar_Enemy : MonoBehaviour
     public Slider PlayerHealthBar;
     public Slider PlayerShieldBar;
 
+    public Text healthText;
+    public Text healthMaxText;
+    public Text shieldText;
+    public Text shieldMaxText;
+
     public AnimationClip die;
 
     public Slider EnemyHealthBar;
@@ -48,18 +53,20 @@ public class AI_Bar_Enemy : MonoBehaviour
     public float targetRotationX = -40f;
     public float axeHurt;
     private Quaternion pos;
+    //private float frozenPositionY;
 
     // Start is called before the first frame update
     void Start()
     {
+        //frozenPositionY = transform.position.y;
         initialPos = transform.position;
         updatedSpeed = speed * speedMultiplier;
         pos = Quaternion.Euler( targetRotationX, transform.rotation.y, transform.rotation.z );
         ChangeAIState( state: AIState.Idle );
-        if( PlayerPrefs.GetFloat( "EnemyShield" ) == 0 && PlayerPrefs.GetFloat( "EnemyHealth" ) == 0 )
+        if( PlayerPrefs.GetInt( "HasStartedGame" ) != 1 )
         {
-            PlayerPrefs.SetFloat( "EnemyShield", EnemyShieldBar.value );  
-            PlayerPrefs.SetFloat( "EnemyHealth", EnemyHealthBar.value );
+            PlayerPrefs.SetFloat( "EnemyShield", EnemyShieldBar.maxValue );  
+            PlayerPrefs.SetFloat( "EnemyHealth", EnemyHealthBar.maxValue );
         }
         else
         {
@@ -71,6 +78,14 @@ public class AI_Bar_Enemy : MonoBehaviour
 
     void Update( ) 
     {
+        if( currentState == AIState.Dead )
+            rb2D.constraints = RigidbodyConstraints2D.FreezePositionY;
+
+        healthText.text = EnemyHealthBar.value.ToString( );
+        healthMaxText.text = EnemyHealthBar.maxValue.ToString( );
+        shieldText.text = EnemyShieldBar.value.ToString( );
+        shieldMaxText.text = EnemyShieldBar.maxValue.ToString( );
+
         distanceBetween = Mathf.Abs( player.position.x - transform.position.x );
         distanceRemaining = Mathf.Abs( dest - transform.position.x ); 
 
@@ -115,7 +130,11 @@ public class AI_Bar_Enemy : MonoBehaviour
                 EnemyHealthShield.SetActive( true );
                 // handle case if player is out of range
                 if( ( !facingRight && distanceBetween > attackRange + 0.5f ) || ( facingRight && distanceBetween > attackRange + 4f ) )
+                {
+                    shieldText.text = EnemyShieldBar.maxValue.ToString( );
+                    EnemyShieldBar.value = EnemyShieldBar.maxValue;
                     ChangeAIState( state: AIState.Idle );
+                }
                 // handle case if player is within attack range
                 else if( ( !facingRight && distanceBetween < 0.5f ) || ( facingRight && distanceBetween < 4f ) )
                     ChangeAIState( state: AIState.Attack );
