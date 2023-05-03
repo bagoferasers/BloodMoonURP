@@ -75,7 +75,6 @@ public class onMapButton : MonoBehaviour
 
     public void viewQuests( )
     {
-        Debug.Log( "viewQuests is pressed" );
         GameObject.Find( "Quests" ).GetComponent< Canvas >( ).sortingOrder = 1;
         GameObject.Find( "Map" ).GetComponent< Canvas >( ).sortingOrder = 0;
         ColorUtility.TryParseHtmlString("#FFE9BD", out c);
@@ -86,7 +85,6 @@ public class onMapButton : MonoBehaviour
 
     public void viewMap( )
     {
-        Debug.Log( "viewMap is pressed" );
         GameObject.Find( "Quests" ).GetComponent< Canvas >( ).sortingOrder = 0;
         GameObject.Find( "Map" ).GetComponent< Canvas >( ).sortingOrder = 1;
         ColorUtility.TryParseHtmlString("#FFE9BD", out c);

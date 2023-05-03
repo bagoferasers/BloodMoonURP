@@ -11261,13 +11261,13 @@ MonoBehaviour:
   speedMultiplier: 2
   platformer: 1
   player: {fileID: 0}
-  attackRange: 2
-  patrolRange: 4
-  idleTime: 2
+  attackRange: 3
+  patrolRange: 6
+  idleTime: 3
   attackWaitTime: 0.2
   rb2D: {fileID: 0}
   currentState: 0
-  s: 1
+  s: 20
   targetY: -8
   targetRotationX: -40
   axeHurt: 0

@@ -8,16 +8,13 @@ public class AI_Bar_Enemy : MonoBehaviour
     [ Header( "Player Health and Shields" ) ]
     public Slider PlayerHealthBar;
     public Slider PlayerShieldBar;
-
     public Text healthText;
     public Text healthMaxText;
     public Text shieldText;
     public Text shieldMaxText;
-
     public AnimationClip die;
     public Slider EnemyHealthBar;
     public Slider EnemyShieldBar;
-
     public GameObject EnemyHealthShield;
     public ParticleSystem PlayerBloodRight;
     public ParticleSystem PlayerBloodLeft;
@@ -46,48 +43,58 @@ public class AI_Bar_Enemy : MonoBehaviour
     private float distanceBetween;
     private float distanceRemaining;
     private float updatedSpeed;
-
     public float s = 1f;
     public float targetY = -8f;
     public float targetRotationX = -40f;
     public float axeHurt;
     private Quaternion pos;
-    //private float frozenPositionY;
 
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log( "Current State : " + currentState );
         EnemyShieldBar.value = EnemyShieldBar.maxValue;
         EnemyHealthBar.value = EnemyHealthBar.maxValue;
         rb2D.isKinematic = false;
         initialPos = transform.position;
         updatedSpeed = speed * speedMultiplier;
         pos = Quaternion.Euler( targetRotationX, transform.rotation.y, transform.rotation.z );
-        ChangeAIState( state: AIState.Idle );
-
-
-
 
 //////////////////am I the problem???????????????/////////////////////////////////////////////////
+        if( PlayerPrefs.GetString( "AISTATE" ) == "Dead" )
+        {
+            transform.position = new Vector2( PlayerPrefs.GetFloat( "EnemyXPos" ), PlayerPrefs.GetFloat( "EnemyYPos" ) );
+            Debug.Log( "AI is DEAD!!!!!!!!" );
+            EnemyBloodLeft.Stop( );
+            EnemyBloodRight.Stop( );  
+            EnemyShieldBar.value = 0f;
+            EnemyHealthBar.value = 0f;
+        }
+        else
+        {
+            Debug.Log( "AI is NOT DEAD!!!!!!!!" );
+            ChangeAIState( state: AIState.Idle );
+            if( PlayerPrefs.GetFloat( "EnemyHealth" ) == 0 )
+            {
+                Debug.Log( "AI health is 0!!!!!!!!" );
+                EnemyHealthBar.value = EnemyHealthBar.maxValue;
+            }
+            else
+            {
+                Debug.Log( "AI health is NOT 0!!!!!!!!" );
+                EnemyHealthBar.value = PlayerPrefs.GetFloat( "EnemyHealth" );
+            }
 
-        // if( PlayerPrefs.GetInt( "HasStartedGame" ) != 1 )
-        // {
-            PlayerPrefs.SetFloat( "EnemyShield", EnemyShieldBar.maxValue );  
-            PlayerPrefs.SetFloat( "EnemyHealth", EnemyHealthBar.maxValue );
-        // }
-        // else
-        // {
-        //     EnemyShieldBar.value = PlayerPrefs.GetFloat( "EnemyShield" );  
-        //     EnemyHealthBar.value = PlayerPrefs.GetFloat( "EnemyHealth" );            
-        // }
-
-
-
-
-
-
-
+            if( PlayerPrefs.GetFloat( "EnemyShield" ) == 0 )
+            {
+                Debug.Log( "AI shield is 0!!!!!!!!" );
+                EnemyShieldBar.value = EnemyShieldBar.maxValue;
+            }
+            else
+            {
+                Debug.Log( "AI shield is NOT0!!!!!!!!" );
+                EnemyShieldBar.value = PlayerPrefs.GetFloat( "EnemyShield" );
+            }
+        }
     }
 
     void Update( ) 
@@ -106,7 +113,10 @@ public class AI_Bar_Enemy : MonoBehaviour
         distanceRemaining = Mathf.Abs( dest - transform.position.x ); 
 
         if( EnemyHealthBar.value == 0f && currentState != AIState.Dead )
+        {
+            Debug.Log( "Changing to Dead" );
             ChangeAIState( state: AIState.Dead );
+        }
 
         if( playerAnimator.GetBool( "attack" ) == true )
         {
@@ -172,6 +182,7 @@ public class AI_Bar_Enemy : MonoBehaviour
         switch( currentState )
         {
             case AIState.Idle:
+                PlayerPrefs.SetString( "AISTATE", "Idle" );
                 rb2D.velocity = Vector2.zero;
                 animator.SetBool( "attack", false );
                 animator.SetInteger( "motionX", 0 );
@@ -179,6 +190,7 @@ public class AI_Bar_Enemy : MonoBehaviour
                     StartCoroutine( waitRandomTime( ) );
                 break;
             case AIState.Patrol:
+                PlayerPrefs.SetString( "AISTATE", "Patrol" );
                 if( facingRight )
                 {
                     animator.SetBool( "right", true );
@@ -191,7 +203,7 @@ public class AI_Bar_Enemy : MonoBehaviour
                 }
                 break;
             case AIState.Chase:
-
+                PlayerPrefs.SetString( "AISTATE", "Chase" );
                 if( facingRight )
                 {
                     animator.SetBool( "right", true );
@@ -204,16 +216,21 @@ public class AI_Bar_Enemy : MonoBehaviour
                 }
                 break;
             case AIState.Attack:
+                PlayerPrefs.SetString( "AISTATE", "Attack" );
                 if( !hasWaited )
                     StartCoroutine( waitForAttack( ) );
                 break;
             case AIState.Dead:
+                Debug.Log( "Changing to Dead!" );
+                PlayerPrefs.SetString( "AISTATE", "Dead" );
                 animator.Play( die.name );
                 StartCoroutine( deathMovement( ) );
                 EnemyShieldBar.value = 0f;
                 EnemyHealthBar.value = 0f;
                 rb2D.isKinematic = true;
                 EnemyHealthShield.SetActive( false );
+                PlayerPrefs.SetFloat( "EnemyXPos", transform.position.x );
+                PlayerPrefs.SetFloat( "EnemyYPos", transform.position.y );
                 break;            
         }
     }
@@ -255,6 +272,7 @@ public class AI_Bar_Enemy : MonoBehaviour
 
     IEnumerator deathMovement( )
     {
+        Debug.Log( "Moving for death! " );
         while( transform.position.y > targetY )
         {
             EnemyBloodLeft.Play( );
@@ -271,6 +289,8 @@ public class AI_Bar_Enemy : MonoBehaviour
             transform.rotation = Quaternion.RotateTowards( transform.rotation, pos, s * Time.deltaTime );
             yield return null;
         }
+        EnemyBloodLeft.Stop( );
+        EnemyBloodRight.Stop( );
     }
 
     void OnCollisionEnter2D( Collision2D collision )

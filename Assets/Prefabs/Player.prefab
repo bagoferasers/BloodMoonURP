@@ -18011,9 +18011,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 1
-    height: 1
+    y: 0.39537036
+    width: 0.14895834
+    height: 0.14895833
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -18741,6 +18741,8 @@ MonoBehaviour:
   right: {fileID: 3858090295200426552}
   left: {fileID: 8906118366687605567}
   upButton: {fileID: 6665255307693260941}
+  rightImage: {fileID: 4644203134486836270}
+  leftImage: {fileID: 5479062837641681014}
 --- !u!1 &8821697158736045182
 GameObject:
   m_ObjectHideFlags: 0
