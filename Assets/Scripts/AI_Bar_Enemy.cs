@@ -15,7 +15,6 @@ public class AI_Bar_Enemy : MonoBehaviour
     public Text shieldMaxText;
 
     public AnimationClip die;
-
     public Slider EnemyHealthBar;
     public Slider EnemyShieldBar;
 
@@ -58,21 +57,36 @@ public class AI_Bar_Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //frozenPositionY = transform.position.y;
+        Debug.Log( "Current State : " + currentState );
+        EnemyShieldBar.value = EnemyShieldBar.maxValue;
+        EnemyHealthBar.value = EnemyHealthBar.maxValue;
+        rb2D.isKinematic = false;
         initialPos = transform.position;
         updatedSpeed = speed * speedMultiplier;
         pos = Quaternion.Euler( targetRotationX, transform.rotation.y, transform.rotation.z );
         ChangeAIState( state: AIState.Idle );
-        if( PlayerPrefs.GetInt( "HasStartedGame" ) != 1 )
-        {
+
+
+
+
+//////////////////am I the problem???????????????/////////////////////////////////////////////////
+
+        // if( PlayerPrefs.GetInt( "HasStartedGame" ) != 1 )
+        // {
             PlayerPrefs.SetFloat( "EnemyShield", EnemyShieldBar.maxValue );  
             PlayerPrefs.SetFloat( "EnemyHealth", EnemyHealthBar.maxValue );
-        }
-        else
-        {
-            EnemyShieldBar.value = PlayerPrefs.GetFloat( "EnemyShield" );  
-            EnemyHealthBar.value = PlayerPrefs.GetFloat( "EnemyHealth" );            
-        }
+        // }
+        // else
+        // {
+        //     EnemyShieldBar.value = PlayerPrefs.GetFloat( "EnemyShield" );  
+        //     EnemyHealthBar.value = PlayerPrefs.GetFloat( "EnemyHealth" );            
+        // }
+
+
+
+
+
+
 
     }
 
@@ -80,6 +94,8 @@ public class AI_Bar_Enemy : MonoBehaviour
     {
         if( currentState == AIState.Dead )
             rb2D.constraints = RigidbodyConstraints2D.FreezePositionY;
+        else
+            rb2D.constraints &= ~RigidbodyConstraints2D.FreezePositionY;
 
         healthText.text = EnemyHealthBar.value.ToString( );
         healthMaxText.text = EnemyHealthBar.maxValue.ToString( );
@@ -89,7 +105,7 @@ public class AI_Bar_Enemy : MonoBehaviour
         distanceBetween = Mathf.Abs( player.position.x - transform.position.x );
         distanceRemaining = Mathf.Abs( dest - transform.position.x ); 
 
-        if( EnemyHealthBar.value == 0f )
+        if( EnemyHealthBar.value == 0f && currentState != AIState.Dead )
             ChangeAIState( state: AIState.Dead );
 
         if( playerAnimator.GetBool( "attack" ) == true )
