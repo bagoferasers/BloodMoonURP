@@ -2147,6 +2147,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!225 &1495936852 stripped
+CanvasGroup:
+  m_CorrespondingSourceObject: {fileID: 1682482490851189462, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
+  m_PrefabInstance: {fileID: 6377902597967987365}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1514330289
 GameObject:
   m_ObjectHideFlags: 0
@@ -5355,6 +5360,14 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4910810218077974334, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
+      propertyPath: mapCanvas
+      value: 
+      objectReference: {fileID: 1495936852}
+    - target: {fileID: 5348532442741762349, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6436809538393574310, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -5437,6 +5450,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6665255308045507602, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
       propertyPath: m_NormalizedViewPortRect.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6665255308045507602, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
+      propertyPath: m_NormalizedViewPortRect.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6665255308045507602, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
@@ -5616,7 +5633,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8818716444469084449, guid: b92cbb75f6d859a41a969b99192e9598, type: 3}
       propertyPath: s
-      value: 0.5
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8818716444469084449, guid: b92cbb75f6d859a41a969b99192e9598, type: 3}
       propertyPath: die

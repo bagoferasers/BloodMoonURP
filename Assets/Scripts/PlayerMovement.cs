@@ -219,7 +219,7 @@ public class PlayerMovement : MonoBehaviour
     public void onExitPause( )
     {
         // hide menu
-        FadePauseMenu( );
+        m.alpha = 0;
 
         // now interact with buttons
         pauseButton.interactable = true;
@@ -228,26 +228,8 @@ public class PlayerMovement : MonoBehaviour
         upButton.interactable = true;
         oButton.interactable = true;
         attackButton.interactable = true;
+
         arePaused = false;
         m.interactable = false;
-    }
-
-    public void FadePauseMenu( )
-    {
-        StartCoroutine( FadeMeOut( ) );
-    }
-
-    /* Fades scene to black by decrementing alpha over time. */
-    IEnumerator FadeMeOut( )
-    {
-        GameObject template = GameObject.Find( "Template" );
-        CanvasGroup canvasGroup = template.GetComponent< CanvasGroup >( );
-
-        while( canvasGroup.alpha > 0 )
-        {
-            canvasGroup.alpha -= Time.deltaTime;
-            yield return null;
-        }
-        yield return null;
     }
 }
