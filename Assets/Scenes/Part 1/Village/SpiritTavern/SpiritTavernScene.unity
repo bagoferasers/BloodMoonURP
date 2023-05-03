@@ -2493,6 +2493,23 @@ SortingGroup:
   m_SortingLayerID: -1009285047
   m_SortingLayer: 8
   m_SortingOrder: 1
+--- !u!1 &1663037755 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5699350124015180543, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
+  m_PrefabInstance: {fileID: 6377902597967987365}
+  m_PrefabAsset: {fileID: 0}
+--- !u!225 &1663037757
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663037755}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1728642890
 GameObject:
   m_ObjectHideFlags: 0
@@ -5355,6 +5372,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4910810218077974334, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
+      propertyPath: mapCanvas
+      value: 
+      objectReference: {fileID: 1663037757}
     - target: {fileID: 6436809538393574310, guid: 8b53de9fc5a5ac94494722fd41b40877, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
