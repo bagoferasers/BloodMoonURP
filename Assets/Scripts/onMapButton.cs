@@ -11,26 +11,22 @@ public class onMapButton : MonoBehaviour
     private Button pauseButton, attackButton, oButton;
     public EventTrigger leftButton;
     public EventTrigger rightButton;
+    public Button right, left;
     public EventTrigger upButton;
+    public RawImage rightImage;
+    public RawImage leftImage;
+    private Color c;
     // Start is called before the first frame update
     void Start()
     {
         oButton = GameObject.Find( "oButton" ).GetComponent< Button >( );
         pauseButton = GameObject.Find( "PauseBlackButton" ).GetComponent< Button >( );
-        // leftButton = GameObject.Find( "LeftBlackButton" ).GetComponent< Button >( );
-        // rightButton = GameObject.Find( "RightBlackButton" ).GetComponent< Button >( );
-        // upButton = GameObject.Find( "UpBlackButton" ).GetComponent< Button >( );
         attackButton = GameObject.Find( "Attack" ).GetComponent< Button >( );
-
-        arePaused = false;
         mapCanvas.alpha = 0;
         mapCanvas.interactable = false;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        arePaused = false;
+        right.interactable = false;
+        left.interactable = false;
     }
 
     public void setPauseForMap( )
@@ -46,38 +42,56 @@ public class onMapButton : MonoBehaviour
         arePaused = true;
         mapCanvas.alpha = 1;
         mapCanvas.interactable = true;
-        
         pauseButton.interactable = false;
-        // leftButton.interactable = false;
-        // rightButton.interactable = false;
-        // upButton.interactable = false;
         leftButton.enabled = false;
         rightButton.enabled = false;
         upButton.enabled = false;
-
         oButton.interactable = false;
         attackButton.interactable = false;
-        
-        
+        right.interactable = true;
+        left.interactable = true;
+        GameObject.Find( "Quests" ).GetComponent< Canvas >( ).sortingOrder = 1;
+        GameObject.Find( "Map" ).GetComponent< Canvas >( ).sortingOrder = 0;
+        ColorUtility.TryParseHtmlString("#FFE9BD", out c);
+        leftImage.color = c;
+        ColorUtility.TryParseHtmlString("#6C614A", out c);
+        rightImage.color = c;
     }
 
     private void closeMap( )
     {
         mapCanvas.alpha = 0;
-        
         pauseButton.interactable = true;
-
-        // leftButton.interactable = true;
-        // rightButton.interactable = true;
-        // upButton.interactable = true;
         leftButton.enabled = true;
         rightButton.enabled = true;
         upButton.enabled = true;
-
         oButton.interactable = true;
         attackButton.interactable = true;
-
         arePaused = false;
         mapCanvas.interactable = false;
+        right.interactable = false;
+        left.interactable = false;
+    }
+
+    public void viewQuests( )
+    {
+        Debug.Log( "viewQuests is pressed" );
+        GameObject.Find( "Quests" ).GetComponent< Canvas >( ).sortingOrder = 1;
+        GameObject.Find( "Map" ).GetComponent< Canvas >( ).sortingOrder = 0;
+        ColorUtility.TryParseHtmlString("#FFE9BD", out c);
+        leftImage.color = c;
+        ColorUtility.TryParseHtmlString("#6C614A", out c);
+        rightImage.color = c;
+    }
+
+    public void viewMap( )
+    {
+        Debug.Log( "viewMap is pressed" );
+        GameObject.Find( "Quests" ).GetComponent< Canvas >( ).sortingOrder = 0;
+        GameObject.Find( "Map" ).GetComponent< Canvas >( ).sortingOrder = 1;
+        ColorUtility.TryParseHtmlString("#FFE9BD", out c);
+        rightImage.color = c;
+        ColorUtility.TryParseHtmlString("#6C614A", out c);
+        leftImage.color = c;
     }
 }
